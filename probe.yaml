@@ -1,0 +1,6 @@
+repositories:
+  awesome-gpt4o-images:
+    url: https://github.com/jamez-bondos/awesome-gpt4o-images
+    branch: main
+    paths:
+      - README.md

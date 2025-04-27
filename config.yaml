@@ -1,0 +1,14 @@
+enable_ai_summary: true
+github_token: ${GITHUB_TOKEN}
+update_frequency: daily
+readme_max_changes: 10
+history_format: markdown
+timezone: UTC
+show_diff: true
+
+# AI Summary settings
+openai_api_key: ${OPENAI_API_KEY}
+ai_model: o4-mini
+openai_api_base: https://api.openai.com/v1
+
+max_diff_lines: 100

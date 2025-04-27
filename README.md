@@ -1,0 +1,187 @@
+# Git Probe
+
+Git Probe is a tool that monitors changes to specified files and directories in GitHub repositories. It runs daily using GitHub Actions, extracting change information and maintaining a history of these changes.
+
+## Features
+
+- Monitor specific files and directories in GitHub repositories
+- Automatically check for updates daily via GitHub Actions
+- Display detailed daily changes including commits, file content changes, and AI summaries
+- Store historical changes in the `history/` directory with date-based naming
+- Maintain repository-specific AI summaries in the `summaries/` directory
+- Configurable monitoring via `probe.yaml`
+- Project settings in `config.yaml` or environment variables
+- Fast dependency management with UV
+
+## How It Works
+
+1. Each day, Git Probe checks the repositories specified in `probe.yaml`
+2. For each repository, it retrieves:
+   - Recent commits
+   - Actual file content changes (diffs)
+   - AI-generated summary of these changes (if enabled)
+3. This information is displayed in the README.md under "Latest Changes"
+4. Previous day's changes are archived to the `history/` directory with the format `repo_name_date.md`
+5. Repository-specific summaries are maintained in the `summaries/` directory
+
+## Configuration
+
+### probe.yaml
+
+This file specifies which GitHub repositories and files/directories to monitor:
+
+```yaml
+repositories:
+  repo-name:
+    url: https://github.com/owner/repo
+    branch: main
+    paths:
+      - specific/file/to/monitor.md
+      - directory/to/monitor/
+```
+
+If `paths` is empty (or contains an empty list), Git Probe will monitor the entire repository:
+
+```yaml
+repositories:
+  full-repo-monitor:
+    url: https://github.com/owner/repo
+    branch: main
+    paths: []  # Monitor the entire repository
+```
+
+### config.yaml
+
+This file contains project settings:
+
+```yaml
+enable_ai_summary: false   # Whether to use AI to summarize changes
+github_token: ${GITHUB_TOKEN}  # GitHub token for API access (can use env vars)
+update_frequency: daily    # How often to check for updates
+readme_max_changes: 10     # Maximum number of changes to display in README
+history_format: markdown   # Format for history files
+timezone: UTC             # Timezone for timestamps
+max_diff_lines: 30        # Maximum number of diff lines to display
+show_diff: true           # Whether to show file diffs in reports
+```
+
+### Environment Variables
+
+Sensitive values like API keys can be set using environment variables in a `.env` file:
+
+1. Copy the example file: `cp env.example .env`
+2. Edit `.env` and add your credentials
+3. Git Probe will automatically load values from this file
+
+Available environment variables:
+- `GITHUB_TOKEN`: Your GitHub API token
+- `OPENAI_API_KEY`: Your OpenAI API key (for AI summaries)
+- `OPENAI_API_BASE`: Custom base URL for OpenAI API
+- `OPENAI_MODEL`: AI model to use for summaries
+
+The `.env` file is gitignored by default for security.
+
+## Usage
+
+The project runs automatically via GitHub Actions. To run manually:
+
+1. Run the script: `./run.sh` (automatically installs dependencies using UV)
+
+### Dependencies
+
+This project uses [UV](https://github.com/astral-sh/uv) for fast dependency management. The run script will automatically install UV if it's not already available.
+
+To manually install dependencies:
+
+```bash
+# Install UV first if you don't have it
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Then install dependencies
+uv pip install -r requirements.txt
+```
+
+## Daily Report Format
+
+Each daily report consists of these sections for each monitored repository:
+
+1. **Commit Changes**: List of recent commits with authors and messages
+2. **File Content Changes**: Consolidated diff outputs organized by file, showing:
+   - File name and status (新增/修改/删除/重命名)
+   - Number of lines added/deleted
+   - Combined diff from all commits affecting that file
+   - All changes are grouped in a single diff block per file for better readability
+3. **AI Summary**: A concise summary of the changes and their impact (if enabled)
+
+This optimized format provides a clearer picture of what changed in each file, rather than fragmenting changes by individual commits.
+
+## Directory Structure
+
+- `history/`: Contains daily archives of changes for each repository
+  - Format: `repo_name_YYYY-MM-DD.md`
+  - Previous README changes: `readme_changes_YYYY-MM-DD.md`
+- `summaries/`: Contains AI-generated summaries for each repository (if enabled)
+  - Format: `repo_name_summary.md`
+
+## Latest Changes
+
+### 2025-04-28
+
+#### awesome-gpt4o-images
+
+##### Commit Changes
+
+- [bf8f67d](https://github.com/jamez-bondos/awesome-gpt4o-images/commit/bf8f67d54df92f53b7338c83fefe95f54a5cbd01) 案例 74：Logo 形状创意书架 (by @umesh_ai) (#33) - JamezBondos
+- [128a8c9](https://github.com/jamez-bondos/awesome-gpt4o-images/commit/128a8c94359ca23e524ee41b740d9f07130911fc) 案例 73：定制Q版钥匙串 (by @azed_ai) (#32) - JamezBondos
+- [7708b2c](https://github.com/jamez-bondos/awesome-gpt4o-images/commit/7708b2c605313fb852b0326bc43dadbe2c8736d8) 更新新模型介绍 - JamezBondos
+- [582c992](https://github.com/jamez-bondos/awesome-gpt4o-images/commit/582c992eef859d5d2a3f4c3447258bb2eacd39d3) 新增：OpenAI gpt-image-1：40 个精选图像案例及提示词 - JamezBondos
+
+
+##### File Content Changes
+
+**README.md** (修改, +54 -2行):
+
+```diff
+- *注：gpt‑image‑1 和 GPT‑4o 都是 OpenAI 的最新图像生成产品，背后的支持模型是大致相同的。不同的是前者仅提供 API 访问，后者仅提供官方产品访问，且 gpt‑image‑1 目前较新一些。*
+- <strong>OpenAI 最新发布的 gpt‑image‑1 图像生成模型，提供API访问，具备更高保真度、多样风格和精准编辑能力，详情见[🛠️ 工具介绍](#tools-toc)。</strong>
++ *   [案例 74：Logo 形状创意书架 (by @umesh_ai)](#examples-74)
++ <a id="examples-74"></a>
++ ## 案例 74：Logo 形状创意书架 (by [@umesh_ai](https://x.com/umesh_ai))
++ [原文链接](https://x.com/umesh_ai/status/1916517976414495161)
++ <img src="./examples/example_logo_bookshelves_composite.jpeg" width="300" alt="多个由著名公司 Logo 形状启发的现代书架（如 Apple, McDonald's, Google）">
++ **提示词：**
++ ```
++ 创建一张现代书架的照片，书架的造型灵感来自于【LOGO】的形状。
++ 书架由流畅、互相连接的曲线构成，形成多个大小不一的分区。
++ 整体材质为哑光黑色金属，曲线内部配有木质层板。
++ 柔和温暖的LED灯带沿着内侧曲线勾勒轮廓。
++ 书架安装在一个中性色调的墙面上，上面摆放着色彩丰富的书籍、小型绿植和极简风格的艺术摆件。
++ 整体氛围富有创意、优雅且略带未来感。
++ *注意：可替换提示词中的 `[LOGO]` 为具体品牌 Logo 描述（例如 "Apple logo", "McDonald's logo"）。*
++ [⬆️ 返回案例目录](#example-toc)
++ *   [案例 73：定制Q版钥匙串 (by @azed_ai)](#examples-73)
++ <a id="examples-73"></a>
++ ## 案例 73：定制Q版钥匙扣 (by [@azed_ai](https://x.com/azed_ai))
++ [原文链接](https://x.com/azed_ai/status/1916521742052503804)
++ <img src="./examples/example_keychain_chibi_composite.jpeg" width="300" alt="由手持有的可爱彩色软胶钥匙扣集合，带有不同人物的 Chibi 风格图案">
++ 一张特写照片，画面中一个人手里拿着一个可爱的、色彩鲜艳的钥匙扣。钥匙扣以 [参考图片] 的Q版形象为主题，采用软橡胶材质，轮廓用粗黑线勾勒，并连接着一个小巧的银色钥匙圈，背景为中性色调。
++ *注意：提示词中的 `[参考图片]` 部分需要与上传的图片配合使用。*
++ **需上传参考图片：** 需要上传一张人物或物体的照片作为钥匙串图案主体。
++ **案例提交：** [Kong-F](https://github.com/Kong-F)
++ *注：gpt‑image‑1 和 GPT‑4o 都是 OpenAI 的最新图像生成产品，背后的支持模型是大致相同的。不同的是 gpt‑image‑1 仅提供 API 访问，且 gpt‑image‑1 目前较新一些。*
++ OpenAI 最新尖端图像模型 gpt‑image‑1 已发布，图像生成能力更加强大，通过 API 调用提供服务。
++ <strong>下面的 40+ 精彩案例，由本项目精心整理和翻译，来自OpenAI官方，展示 gpt‑image‑1 的强大能力。请戳👇</strong>
++ - 中文版：[OpenAI gpt-image-1：40 个精选图像案例及提示词](./gpt-image-1/gpt-image-1.md)
++ - 英文版：[OpenAI gpt-image-1: 40 Curated Prompt & Image Examples](./gpt-image-1/gpt-image-1-en.md)
++ *注：gpt‑image‑1 和 GPT‑4o 都是 OpenAI 的最新图像生成产品，背后的支持模型是大致相同的。不同的是前者仅提供 API 访问，后者仅提供官方产品访问，且 gpt‑image‑1 目前较新一些。*
+```
+
+
+
+##### AI Summary
+
+1. Two new showcase entries were added: "案例 74：Logo 形状创意书架" and "案例 73：定制Q版钥匙扣," each with full prompt details, image previews, and author attributions.  
+2. The README's old note about gpt-image-1 vs. GPT-4o was removed and replaced with a refreshed introduction to OpenAI's new gpt-image-1 API, plus prominent links to a 40-case curated prompt gallery (in both Chinese and English).  
+3. In total, ~54 lines were added to README.md (and 2 lines removed), with no underlying code changes—this is purely documentation enhancement.  
+4. Overall, the project now offers richer, up-to-date examples and clear navigation to the expanded gpt-image-1 sample set, improving its value as a prompt-and-image reference.
+
