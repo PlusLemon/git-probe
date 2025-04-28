@@ -42,7 +42,7 @@ more detais: [usage.md](usage.md)
 
 ##### File Content Changes
 
-**README.md** (修改, +54 -2行):
+**README.md** (Modified, +54 -2 lines):
 
 ```diff
 - *注：gpt‑image‑1 和 GPT‑4o 都是 OpenAI 的最新图像生成产品，背后的支持模型是大致相同的。不同的是前者仅提供 API 访问，后者仅提供官方产品访问，且 gpt‑image‑1 目前较新一些。*
@@ -83,8 +83,9 @@ more detais: [usage.md](usage.md)
 
 ##### AI Summary
 
-1. Two new showcase entries were added: "案例 74：Logo 形状创意书架" and "案例 73：定制Q版钥匙扣," each with full prompt details, image previews, and author attributions.  
-2. The README's old note about gpt-image-1 vs. GPT-4o was removed and replaced with a refreshed introduction to OpenAI's new gpt-image-1 API, plus prominent links to a 40-case curated prompt gallery (in both Chinese and English).  
-3. In total, ~54 lines were added to README.md (and 2 lines removed), with no underlying code changes—this is purely documentation enhancement.  
-4. Overall, the project now offers richer, up-to-date examples and clear navigation to the expanded gpt-image-1 sample set, improving its value as a prompt-and-image reference.
+1. **Key Changes**: Two new GPT-4o image generation examples were added to the README - a logo-inspired bookshelf design (Case 74) and custom chibi keychains (Case 73), both with detailed prompts, sample images, and usage notes. The documentation around OpenAI's gpt-image-1 model was refined, clarifying its API-only access and relationship to GPT-4o.
+
+2. **Significant Additions**: +54 lines added showcasing new use cases with technical specifics like material specifications ("matte black metal with wooden shelves"), lighting details ("warm LED strips"), and prompt engineering tips. A new resource section links to 40 curated gpt-image-1 examples in Chinese/English.
+
+3. **Impact**: Enhances the repository's value as a prompt engineering reference, particularly for product design applications. The structured examples with composable prompts (+ replacement tags like [LOGO]) provide actionable templates for developers using OpenAI's image APIs.
 
