@@ -23,7 +23,7 @@ class GitProbe:
         self.probe_config = self.load_yaml('probe.yaml')
         
         # 优先使用环境变量，然后是配置文件
-        self.github_token = os.environ.get('GITHUB_TOKEN') or self.config.get('github_token')
+        self.github_token = os.environ.get('GH_TOKEN') or self.config.get('github_token')
         self.today = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d')
         self.yesterday = (datetime.datetime.now(datetime.timezone.utc) - 
                          datetime.timedelta(days=1)).strftime('%Y-%m-%d')

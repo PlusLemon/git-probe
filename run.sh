@@ -9,7 +9,7 @@ fi
 
 # 2. Check required environment variables
 missing_vars=()
-[ -z "$GITHUB_TOKEN" ] && missing_vars+=("GITHUB_TOKEN")
+[ -z "$GH_TOKEN" ] && missing_vars+=("GH_TOKEN")
 [ -z "$OPENAI_API_KEY" ] && missing_vars+=("OPENAI_API_KEY")
 [ -z "$OPENAI_API_BASE" ] && missing_vars+=("OPENAI_API_BASE")
 [ -z "$OPENAI_MODEL" ] && missing_vars+=("OPENAI_MODEL")

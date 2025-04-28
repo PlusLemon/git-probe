@@ -30,7 +30,7 @@ This file contains project settings:
 
 ```yaml
 enable_ai_summary: false   # Whether to use AI to summarize changes
-github_token: ${GITHUB_TOKEN}  # GitHub token for API access (can use env vars)
+github_token: ${GH_TOKEN}  # GitHub token for API access (can use env vars)
 update_frequency: daily    # How often to check for updates
 readme_max_changes: 10     # Maximum number of changes to display in README
 history_format: markdown   # Format for history files
@@ -48,7 +48,7 @@ Sensitive values like API keys can be set using environment variables in a `.env
 3. Git Probe will automatically load values from this file
 
 Available environment variables:
-- `GITHUB_TOKEN`: Your GitHub API token
+- `GH_TOKEN`: Your GitHub API token
 - `OPENAI_API_KEY`: Your OpenAI API key (for AI summaries)
 - `OPENAI_API_BASE`: Custom base URL for OpenAI API
 - `OPENAI_MODEL`: AI model to use for summaries

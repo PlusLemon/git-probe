@@ -1,5 +1,5 @@
 enable_ai_summary: true
-github_token: ${GITHUB_TOKEN}
+github_token: ${GH_TOKEN}
 update_frequency: daily
 readme_max_changes: 10
 history_format: markdown
