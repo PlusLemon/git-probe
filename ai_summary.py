@@ -11,7 +11,7 @@ class AISummary:
         self.config = self.load_yaml('config.yaml')
         self.enable_ai_summary = self.config.get('enable_ai_summary', False)
         
-        # OpenAI API settings - 优先使用环境变量，然后是配置文件
+        # OpenAI API settings - Prefer environment variables, then config file
         self.api_key = os.environ.get('OPENAI_API_KEY') or self.config.get('openai_api_key')
         self.model = os.environ.get('OPENAI_MODEL') or self.config.get('ai_model', 'gpt-3.5-turbo')
         
@@ -51,10 +51,10 @@ class AISummary:
         Focus on technical details when relevant. Limit your response to 3-5 sentences.
         """
         
-        # 确定是否使用的是OpenRouter API
+        # Determine if using OpenRouter API
         is_openrouter = 'openrouter.ai' in self.api_base
         
-        # 基本请求数据
+        # Basic request data
         data = {
             'model': self.model,
             'messages': [
@@ -74,7 +74,7 @@ class AISummary:
         print(f"Sending request to API at: {endpoint}")
         print(f"Using model: {self.model}")
         
-        # 最大重试次数
+        # Maximum retry attempts
         max_retries = 3
         retry_count = 0
         
@@ -90,13 +90,13 @@ class AISummary:
                 )                
                 if response.status_code == 200:
                     result = response.json()
-                    # 根据不同API服务提供商解析结果
+                    # Parse result according to different API providers
                     try:
                         if 'choices' in result and len(result['choices']) > 0:
                             if 'message' in result['choices'][0]:
                                 summary = result['choices'][0]['message']['content'].strip()
                                 return summary
-                            elif 'text' in result['choices'][0]:  # 某些API格式可能不同
+                            elif 'text' in result['choices'][0]:  # Some APIs may have different formats
                                 summary = result['choices'][0]['text'].strip()
                                 return summary
                         print(f"Unexpected result format: {result}")
@@ -106,31 +106,29 @@ class AISummary:
                         print(f"Response content: {result}")
                         return None
                 elif response.status_code == 429:
-                    # 速率限制，等待后重试
+                    # Rate limited, wait and retry
                     retry_count += 1
-                    wait_time = min(2 ** retry_count, 60)  # 指数退避，最多等待60秒
+                    wait_time = min(2 ** retry_count, 60)  # Exponential backoff, max 60 seconds
                     print(f"Rate limited. Waiting {wait_time} seconds before retry.")
                     import time
                     time.sleep(wait_time)
                 elif response.status_code >= 500:
-                    # 服务器错误，可以重试
+                    # Server error, can retry
                     retry_count += 1
                     wait_time = min(2 ** retry_count, 60)
                     print(f"Server error ({response.status_code}). Waiting {wait_time} seconds before retry.")
                     print(f"Error details: {response.text}")
-                    
-                    # 如果是OpenRouter且模型可能有问题，尝试使用兼容模型
+                    # If using OpenRouter and model may be problematic, try fallback model
                     if is_openrouter and retry_count == max_retries - 1:
-                        # 最后一次尝试使用更通用的模型
+                        # Last attempt use more general model
                         print("Trying with a fallback model...")
                         fallback_model = "openai/gpt-3.5-turbo"
                         data['model'] = fallback_model
                         print(f"Switched to fallback model: {fallback_model}")
-                    
                     import time
                     time.sleep(wait_time)
                 else:
-                    # 其他错误，打印详细信息并停止重试
+                    # Other errors, print details and stop retrying
                     print(f"Error generating AI summary: {response.status_code} - {response.text}")
                     print("Request data:", data)
                     return None

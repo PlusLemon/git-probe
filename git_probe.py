@@ -8,11 +8,11 @@ import re
 from pathlib import Path
 try:
     from dotenv import load_dotenv
-    # 加载.env文件中的环境变量
+    # Load environment variables from .env file
     load_dotenv()
 except ImportError:
     print("python-dotenv package not found. Environment variables from .env file will not be loaded.")
-    # 如果dotenv未安装，仍可继续，但不会从.env文件加载
+    # If dotenv is not installed, continue but do not load from .env
     pass
 
 from ai_summary import AISummary
@@ -22,7 +22,7 @@ class GitProbe:
         self.config = self.load_yaml('config.yaml')
         self.probe_config = self.load_yaml('probe.yaml')
         
-        # 优先使用环境变量，然后是配置文件
+        # Prefer environment variables, then config file
         self.github_token = os.environ.get('GH_TOKEN') or self.config.get('github_token')
         self.today = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d')
         self.yesterday = (datetime.datetime.now(datetime.timezone.utc) - 
@@ -197,39 +197,36 @@ class GitProbe:
     def archive_latest_changes(self):
         """Archive entire Latest Changes section to a single history file"""
         try:
-            # 按行读取README.md文件
+            # Read README.md file line by line
             with open('README.md', 'r') as f:
                 lines = f.readlines()
             
             latest_changes_content = []
             found_latest_changes = False
-            date_str = self.yesterday  # 默认使用昨天的日期
+            date_str = self.yesterday  # Default use yesterday's date
             
             for i, line in enumerate(lines):
-                # 找到Latest Changes部分
+                # Find the Latest Changes section
                 if line.strip() == "## Latest Changes":
                     found_latest_changes = True
                     continue
-                
-                # 如果已经找到Latest Changes部分
+                # If already found Latest Changes section
                 if found_latest_changes:
                     latest_changes_content.append(line)
             
-            # 如果找到了内容
+            # If content found
             if latest_changes_content:
-                # 移除开头和结尾的空行
+                # Remove leading and trailing blank lines
                 while latest_changes_content and latest_changes_content[0].strip() == "":
                     latest_changes_content.pop(0)
                 while latest_changes_content and latest_changes_content[-1].strip() == "":
                     latest_changes_content.pop()
-                
                 if latest_changes_content:
-                    # 保存到历史文件
+                    # Save to history file
                     archive_file = self.history_dir / f"changes_{self.yesterday}.md"
                     with open(archive_file, 'w') as f:
                         f.write(f"# Changes Summary for {date_str}\n\n")
                         f.writelines(latest_changes_content)
-                    
                     print(f"Archived Latest Changes to {archive_file}")
                 else:
                     print("No content found in Latest Changes section after date header")
@@ -300,7 +297,7 @@ class GitProbe:
             print(f"Error updating README: {str(e)}")
 
     def format_changes(self, repo_name, repo_url, commits, max_commits=10):
-        # 限制显示数量
+        # Limit display count
         display_commits = commits[:max_commits]
         
         # Format commits into markdown
@@ -310,7 +307,7 @@ class GitProbe:
             author = commit.get('commit', {}).get('author', {}).get('name', 'Unknown')
             message = commit.get('commit', {}).get('message', '').split('\n')[0]
             commit_url = commit.get('html_url', '')
-            sha = commit.get('sha', '')[:7]  # 可能是合并后的多个SHA
+            sha = commit.get('sha', '')[:7]  # May be multiple SHAs after merge
             
             changes += f"- [{sha}]({commit_url}) {message} - {author}\n"
             
@@ -363,13 +360,13 @@ class GitProbe:
                 
             # Create a header for the file
             status_text = {
-                'added': '新增',
-                'modified': '修改',
-                'removed': '删除',
-                'renamed': '重命名'
+                'added': 'Added',
+                'modified': 'Modified',
+                'removed': 'Deleted',
+                'renamed': 'Renamed'
             }.get(info['status'], info['status'])
             
-            formatted_changes += f"**{filename}** ({status_text}, +{info['additions']} -{info['deletions']}行):\n\n"
+            formatted_changes += f"**{filename}** ({status_text}, +{info['additions']} -{info['deletions']} lines):\n\n"
             
             # Always get combined diff content from all commits for processing
             # (needed for AI summary even if not displayed)
@@ -511,13 +508,13 @@ class GitProbe:
                                 
                             # Create a header for the file
                             status_text = {
-                                'added': '新增',
-                                'modified': '修改',
-                                'removed': '删除',
-                                'renamed': '重命名'
+                                'added': 'Added',
+                                'modified': 'Modified',
+                                'removed': 'Deleted',
+                                'renamed': 'Renamed'
                             }.get(info['status'], info['status'])
                             
-                            formatted_changes += f"**{filename}** ({status_text}, +{info['additions']} -{info['deletions']}行):\n\n"
+                            formatted_changes += f"**{filename}** ({status_text}, +{info['additions']} -{info['deletions']} lines):\n\n"
                             
                             # Always get combined diff content for processing (needed for AI summary)
                             all_additions = []
@@ -563,16 +560,16 @@ class GitProbe:
                     else:
                         # Check if the repository has any commits at all
                         if self.check_repo_has_any_commits(repo_url, branch, since_date=yesterday):
-                            repo_file_changes = "该仓库有变更，但变更不在监控的 paths 范围内。"
+                            repo_file_changes = "This repository has changes, but they are not within the monitored paths."
                         else:
                             repo_file_changes = "No file changes detected."
                 else:
                     # Check if the repository has any commits at all
                     if self.check_repo_has_any_commits(repo_url, branch, since_date=yesterday):
-                        repo_file_changes = "该仓库有变更，但变更不在监控的 paths 范围内。"
+                        repo_file_changes = "This repository has changes, but they are not within the monitored paths."
                         # Also add a note to the commit changes section
                         if not repo_changes:
-                            repo_changes = "该仓库有变更，但变更不在监控的 paths 范围内。"
+                            repo_changes = "This repository has changes, but they are not within the monitored paths."
                     else:
                         repo_file_changes = "No file changes detected."
             
