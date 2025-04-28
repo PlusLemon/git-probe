@@ -25,7 +25,7 @@ jobs:
         run: uv sync
         
       - name: Run Git Probe
-        run: python git_probe.py
+        run: uv run git_probe.py
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
