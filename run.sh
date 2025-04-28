@@ -1,36 +1,27 @@
 #!/bin/bash
 # Run Git Probe script
 
-# Set up environment variables from .env file if it exists
-if [ -f .env ]; then
-    echo "Loading environment variables from .env file"
-    export $(grep -v '^#' .env | xargs)
-fi
-
-# Check if GitHub token is set
-if [ -z "$GITHUB_TOKEN" ]; then
-    echo "Warning: GITHUB_TOKEN environment variable is not set."
-    echo "You can set it in a .env file or export it directly."
-fi
-
-# Check if OpenAI API key is set (only if AI summaries are enabled)
-if grep -q "enable_ai_summary: true" config.yaml; then
-    if [ -z "$OPENAI_API_KEY" ]; then
-        echo "Warning: OPENAI_API_KEY environment variable is not set but AI summaries are enabled."
-        echo "You can set it in a .env file or export it directly."
-    fi
-fi
-
-# Check if uv is installed
+# 1. Check if uv is installed
 if ! command -v uv &> /dev/null; then
-    echo "Installing uv package manager..."
-    curl -LsSf https://astral.sh/uv/install.sh | sh
-    export PATH="$HOME/.cargo/bin:$PATH"
+    echo "Error: uv is not installed. Please install uv (https://github.com/astral-sh/uv) before running this script."
+    exit 1
 fi
 
-# Install Python dependencies using uv
-echo "Installing dependencies with uv..."
-uv pip install -r requirements.txt
+# 2. Check required environment variables
+missing_vars=()
+[ -z "$GITHUB_TOKEN" ] && missing_vars+=("GITHUB_TOKEN")
+[ -z "$OPENAI_API_KEY" ] && missing_vars+=("OPENAI_API_KEY")
+[ -z "$OPENAI_API_BASE" ] && missing_vars+=("OPENAI_API_BASE")
+[ -z "$OPENAI_MODEL" ] && missing_vars+=("OPENAI_MODEL")
 
-# Run the script
-python git_probe.py
+if [ ${#missing_vars[@]} -ne 0 ]; then
+    echo "Error: The following environment variables are not set: ${missing_vars[*]}"
+    echo "Please set them in your environment or in a .env file."
+    exit 1
+fi
+
+# 3. Sync dependencies
+uv sync
+
+# 4. Run the script with uv
+uv python git_probe.py
