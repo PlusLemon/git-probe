@@ -298,102 +298,10 @@ class GitProbe:
                 f.write(readme_content)
         except Exception as e:
             print(f"Error updating README: {str(e)}")
-            
-    def merge_similar_commits(self, commits):
-        """将同一作者的、对相同文件的连续commit合并成一个"""
-        if not commits or len(commits) <= 1:
-            return commits
-            
-        # 复制一份commits以免修改原始数据
-        merged_commits = []
-        current_group = None
-        
-        for commit in commits:
-            author = commit.get('commit', {}).get('author', {}).get('name', 'Unknown')
-            sha = commit.get('sha', '')
-            message = commit.get('commit', {}).get('message', '').split('\n')[0]
-            
-            # 获取本次commit修改的文件列表
-            commit_details = self.get_commit_details(None, sha)
-            files = []
-            if commit_details and 'files' in commit_details:
-                files = [file_info.get('filename') for file_info in commit_details['files'] if file_info.get('filename')]
-                
-            # 如果没有当前组或者作者不同、文件不同，则创建新组
-            if (not current_group or 
-                current_group['author'] != author or 
-                not self.files_overlap(current_group['files'], files)):
-                
-                if current_group:
-                    merged_commits.append(current_group['commit'])
-                
-                # 创建新的合并组
-                current_group = {
-                    'author': author,
-                    'files': files,
-                    'commit': commit,
-                    'count': 1,
-                    'messages': [message],
-                    'shas': [sha[:7]]
-                }
-            else:
-                # 合并到当前组
-                current_group['count'] += 1
-                current_group['messages'].append(message)
-                current_group['shas'].append(sha[:7])
-                current_group['files'] = list(set(current_group['files'] + files))
-                
-                # 更新commit信息
-                if current_group['count'] > 1:
-                    combined_message = self.combine_commit_messages(current_group['messages'])
-                    combined_sha = "/".join(current_group['shas'])
-                    
-                    # 修改当前组的commit信息
-                    current_group['commit']['commit']['message'] = combined_message
-                    current_group['commit']['sha'] = combined_sha
-                    current_group['commit']['html_url'] = commit.get('html_url', '')  # 使用最新的URL
-        
-        # 添加最后一个组
-        if current_group:
-            merged_commits.append(current_group['commit'])
-            
-        return merged_commits
-        
-    def files_overlap(self, files1, files2):
-        """检查两个文件列表是否有重叠"""
-        if not files1 or not files2:
-            return False
-            
-        # 转换为集合以提高查找效率
-        set1 = set(files1)
-        set2 = set(files2)
-        
-        # 如果有共同文件，认为是重叠的
-        return len(set1.intersection(set2)) > 0
-    
-    def combine_commit_messages(self, messages):
-        """合并多个commit信息"""
-        if len(messages) <= 1:
-            return messages[0] if messages else ""
-            
-        # 移除重复消息
-        unique_messages = []
-        for msg in messages:
-            if msg not in unique_messages:
-                unique_messages.append(msg)
-                
-        if len(unique_messages) == 1:
-            return unique_messages[0]
-            
-        # 如果有多个不同消息，合并它们
-        return f"{unique_messages[0]} (+{len(unique_messages)-1} more commits)"
-        
-    def format_changes(self, repo_name, repo_url, commits, max_commits=5):
-        # 首先合并相似的commits
-        merged_commits = self.merge_similar_commits(commits)
-        
+
+    def format_changes(self, repo_name, repo_url, commits, max_commits=10):
         # 限制显示数量
-        display_commits = merged_commits[:max_commits]
+        display_commits = commits[:max_commits]
         
         # Format commits into markdown
         changes = ""
