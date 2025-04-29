@@ -81,7 +81,7 @@ Each daily report consists of these sections for each monitored repository:
 
 1. **Commit Changes**: List of recent commits with authors and messages
 2. **File Content Changes**: Consolidated diff outputs organized by file, showing:
-   - File name and status (新增/修改/删除/重命名)
+   - File name and status (Added/Modified/Deleted/Renamed)
    - Number of lines added/deleted
    - Combined diff from all commits affecting that file
    - All changes are grouped in a single diff block per file for better readability

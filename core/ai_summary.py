@@ -1,14 +1,14 @@
-#!/usr/bin/env python3
 import os
 import yaml
 import requests
 import datetime
-import re
 from pathlib import Path
 
 class AISummary:
     def __init__(self):
-        self.config = self.load_yaml('config.yaml')
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        yaml_dir = os.path.join(os.path.dirname(current_dir), 'yaml')
+        self.config = self.load_yaml(os.path.join(yaml_dir, 'config.yaml'))
         self.enable_ai_summary = self.config.get('enable_ai_summary', False)
         
         # OpenAI API settings - Prefer environment variables, then config file

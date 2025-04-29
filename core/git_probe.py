@@ -1,32 +1,40 @@
 #!/usr/bin/env python3
 import os
+import sys
 import yaml
 import datetime
 import requests
 import base64
 import re
 from pathlib import Path
+
+root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(root_dir)
+
+from core.ai_summary import AISummary
+
 try:
     from dotenv import load_dotenv
     # Load environment variables from .env file
-    load_dotenv()
+    load_dotenv(os.path.join(root_dir, '.env'))
 except ImportError:
     print("python-dotenv package not found. Environment variables from .env file will not be loaded.")
     # If dotenv is not installed, continue but do not load from .env
     pass
 
-from ai_summary import AISummary
-
 class GitProbe:
     def __init__(self):
-        self.config = self.load_yaml('config.yaml')
-        self.probe_config = self.load_yaml('probe.yaml')
-        
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        yaml_dir = os.path.join(os.path.dirname(current_dir), 'yaml')
+        self.config = self.load_yaml(os.path.join(yaml_dir, 'config.yaml'))
+        self.probe_config = self.load_yaml(os.path.join(yaml_dir, 'probe.yaml'))
+
         # Prefer environment variables, then config file
+        print(f"GH_TOKEN: {os.environ.get('GH_TOKEN')}")
         self.github_token = os.environ.get('GH_TOKEN') or self.config.get('github_token')
-        self.today = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d')
+        self.today = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%S')
         self.yesterday = (datetime.datetime.now(datetime.timezone.utc) - 
-                         datetime.timedelta(days=1)).strftime('%Y-%m-%d-%H-%M-%S')
+                         datetime.timedelta(days=1)).strftime('%Y-%m-%dT%H:%M:%S')
         
         # Create history directory if it doesn't exist
         self.history_dir = Path('history')
@@ -79,7 +87,7 @@ class GitProbe:
             params['since'] = since_date
             
         response = requests.get(api_url, headers=self.get_github_headers(), params=params)
-        
+        print(response.text)
         if response.status_code == 200:
             return response.json()
         return []

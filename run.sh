@@ -24,4 +24,4 @@ fi
 uv sync
 
 # 4. Run the script with uv
-uv python git_probe.py
+uv python core/git_probe.py
