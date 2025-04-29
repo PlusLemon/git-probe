@@ -39,7 +39,6 @@ class GitProbe:
         self.probe_config = self.load_yaml(os.path.join(yaml_dir, "probe.yaml"))
 
         # Prefer environment variables, then config file
-        print(f"GH_TOKEN: {os.environ.get('GH_TOKEN')}")
         self.github_token = os.environ.get("GH_TOKEN") or self.config.get(
             "github_token"
         )
@@ -269,7 +268,7 @@ class GitProbe:
         except Exception as e:
             print(f"Error archiving Latest Changes: {str(e)}")
 
-    def update_readme(self, all_changes, all_file_changes, all_summaries):
+    def update_readme(self, all_repo_urls, all_changes, all_file_changes, all_summaries):
         # Archive Latest Changes section as a daily history file
         self.archive_latest_changes()
 
@@ -306,7 +305,7 @@ class GitProbe:
 
             # Add each repository's changes with its own section
             for repo_name in all_changes.keys():
-                readme_content += f"#### {repo_name}\n\n"
+                readme_content += f"#### [{repo_name}]({all_repo_urls[repo_name]})\n\n"
 
                 # Add commit changes
                 readme_content += "##### Commit Changes\n\n"
@@ -461,10 +460,12 @@ class GitProbe:
         all_changes = {}
         all_file_changes = {}
         all_summaries = {}
+        all_repo_urls = {}
 
         # Process each repository in probe.yaml
         for repo_name, repo_config in self.probe_config.get("repositories", {}).items():
             repo_url = repo_config.get("url")
+            all_repo_urls[repo_name] = repo_url
             branch = repo_config.get("branch", "main")
             paths = repo_config.get("paths", [])
 
@@ -664,7 +665,7 @@ class GitProbe:
 
         # Update README with all changes
         if all_changes:
-            self.update_readme(all_changes, all_file_changes, all_summaries)
+            self.update_readme(all_repo_urls, all_changes, all_file_changes, all_summaries)
             print(f"Updated README.md with changes for {self.today}")
         else:
             print(f"No changes found for {self.today}")
