@@ -4,3 +4,18 @@ repositories:
     branch: main
     paths:
       - README.md
+  awesome-mcp-servers:
+    url: https://github.com/punkpeye/awesome-mcp-servers
+    branch: main
+    paths:
+      - README.md
+  Awesome-Dify-Workflow:
+    url: https://github.com/svcvit/Awesome-Dify-Workflow
+    branch: main
+    paths:
+      - README_EN.md
+  system-prompts-and-models-of-ai-tools:
+    url: https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools
+    branch: main
+    paths:
+      - README.md

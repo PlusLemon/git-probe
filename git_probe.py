@@ -26,7 +26,7 @@ class GitProbe:
         self.github_token = os.environ.get('GH_TOKEN') or self.config.get('github_token')
         self.today = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d')
         self.yesterday = (datetime.datetime.now(datetime.timezone.utc) - 
-                         datetime.timedelta(days=1)).strftime('%Y-%m-%d')
+                         datetime.timedelta(days=1)).strftime('%Y-%m-%d-%H-%M-%S')
         
         # Create history directory if it doesn't exist
         self.history_dir = Path('history')
