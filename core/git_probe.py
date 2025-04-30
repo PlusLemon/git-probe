@@ -662,6 +662,9 @@ class GitProbe:
                     all_summaries[repo_name] = self.ai_summary.generate_summary(
                         repo_changes, repo_file_changes, repo_name
                     )
+            else:
+                all_changes[repo_name] = NO_FILE_CHANGE
+                all_file_changes[repo_name] = NO_FILE_CHANGE
 
         # Update README with all changes
         if all_changes:
