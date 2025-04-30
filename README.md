@@ -26,6 +26,11 @@ Git Probe is a tool that monitors changes to specified files and directories in 
 
 more detais: [usage.md](usage.md)
 
+## Thanks
+
+If you find this project helpful, please consider giving it a star ⭐️. Thank you for your support!
+
+
 ## Latest Changes
 
 ### 2025-04-30T01:23:12

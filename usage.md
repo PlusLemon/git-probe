@@ -93,3 +93,7 @@ This optimized format provides a clearer picture of what changed in each file, r
 
 - `history/`: Contains daily archives of changes for each repository
   - Format: `repo_name_YYYY-MM-DD.md`
+
+## Thanks
+
+If you find this project helpful, please consider giving it a star ⭐️. Thank you for your support!
