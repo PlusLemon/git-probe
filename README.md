@@ -33,63 +33,115 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-04-30T01:23:12
+### 2025-05-01T01:38:45
 
 #### [awesome-gpt4o-images](https://github.com/jamez-bondos/awesome-gpt4o-images)
 
 ##### Commit Changes
 
-- [e8e25de](https://github.com/jamez-bondos/awesome-gpt4o-images/commit/e8e25de69f7a7bae2bd29132a094b341db95c5eb) 案例 76：怀旧动漫风格电影海报 (by photis (Sora)) (#36) - JamezBondos
-- [4f8768e](https://github.com/jamez-bondos/awesome-gpt4o-images/commit/4f8768e5727da5afc4c79a0dd38528d48762c2fa) 案例 75：社交媒体相框融合 (by @dotey) (#34) - JamezBondos
+- [434cfbf](https://github.com/jamez-bondos/awesome-gpt4o-images/commit/434cfbff4be734f8c17ce25fc43f6fa51eb23331) 介绍文字修改 - JamezBondos
+- [c4d6484](https://github.com/jamez-bondos/awesome-gpt4o-images/commit/c4d648479bc4e581b935b46d702e9eeb5c826e14) 案例 77：水晶球故事场景 (by @dotey) (#38) - JamezBondos
 
 
 ##### File Content Changes
 
-**README.md** (Modified, +41 -0 lines):
+**README.md** (Modified, +18 -2 lines):
 
 ```diff
-+ *   [案例 76：怀旧动漫风格电影海报 (by photis (Sora))](#examples-76)
-+ <a id="examples-76"></a>
-+ ## 案例 76：怀旧动漫风格电影海报 (by photis (Sora))
-+ [原文链接](https://sora.com/g/gen_01jsfxrdpjfpebnyed8yaz42nf)
-+ <img src="./examples/example_anime_nostalgic_poster.png" width="300" alt="High School DXD 风格怀旧动漫电影海报，带有折痕和磨损效果">
+- <strong>下面的 40+ 精彩案例，由本项目精心整理和翻译，来自OpenAI官方，展示 gpt‑image‑1 的强大能力。请戳👇</strong>
+- - 中文版：[OpenAI gpt-image-1：40 个精选图像案例及提示词](./gpt-image-1/gpt-image-1.md)
++ <strong>另外，来自OpenAI官方发布的 gpt‑image‑1 模型的数十个精彩案例，由本项目精心整理和翻译，查看请戳👇</strong>
++ - 中文版：[OpenAI gpt-image-1: 40 个精选图像案例及提示词](./gpt-image-1/gpt-image-1.md)
++ *   [案例 77：水晶球故事场景 (by @dotey)](#examples-77)
++ <a id="examples-77"></a>
++ ## 案例 77：水晶球故事场景 (by [@dotey](https://x.com/dotey))
++ [原文链接](https://x.com/dotey/status/1916530529324699858)
++ <img src="./examples/example_crystal_ball_chang_e.jpeg" width="300" alt="水晶球内呈现嫦娥奔月主题的迷你立体 Q 版世界">
 + **提示词：**
 + ```
-+ {The Lord of the Rings} 的动漫电影海报，这张动漫海报的风格参考了《恶魔高中DXD（High School DXD）》。
-+ 海报上可以清晰看到折叠的痕迹，因为长时间以来被反复折叠，导致在褶皱处出现了物理性的损伤和擦痕，颜色也在部分区域出现了褪色。
-+ 由于来回搬动，海报表面散布着无规律的折痕、翻折痕迹和细微划痕，这些微小但不断累积的损耗，正如无法逃避的熵增过程一样，渐渐扩展。
-+ 然而，留存在我们心中的美好回忆却始终完整无缺。
-+ 当你凝视这张充满怀旧气息的海报时，所能感受到的，正是那些随着岁月积累、变得无比珍贵的点点收藏物所承载的情感本质。
-+ *注意：可替换提示词中的电影名{The Lord of the Rings}为其他电影，某些电影可能会触发内容审核。参考的动漫风格也可以修改。*
++ 一枚精致的水晶球静静摆放在窗户旁温暖柔和的桌面上，背景虚化而朦胧，暖色调的阳光轻柔地穿透水晶球，折射出点点金光，温暖地照亮了四周的微暗空间。水晶球内部自然地呈现出一个以 {嫦娥奔月} 为主题的迷你立体世界，细腻精美而梦幻的3D景观，人物与物体皆是可爱的Q版造型，精致而美观，彼此之间充满灵动的情感互动。整体氛围充满了东亚奇幻色彩，细节极为丰富，呈现出魔幻现实主义般的奇妙质感。整个场景如诗如梦，华美而典雅，散发着温馨柔和的光芒，仿佛在温暖的光影中被赋予了生命。
++ *注意：可替换提示词中括号 {} 内文字为故事场景描述，成语、故事、小故事都可以。*
 + [⬆️ 返回案例目录](#example-toc)
-+ *   [photis (Sora Profile)](https://sora.com/explore?user=user-sydD5ZkXZsDaL0BriQa010dQ)
-+ *   [案例 75：社交媒体相框融合 (by @dotey)](#examples-75)
-+ <a id="examples-75"></a>
-+ ## 案例 75：社交媒体相框融合 (by [@dotey](https://x.com/dotey))
-+ [原文链接](https://x.com/dotey/status/1917042797506662560)
-+ <img src="./examples/example_instagram_frame_pearl_earring.png" width="300" alt="戴珍珠耳环的少女 Q版 3D 形象俏皮地坐在 Instagram 相框边缘比心">
-+ 根据所附照片创建一个风格化的3D Q版人物角色，准确保留人物的面部特征和服装细节。角色的左手比心（手指上方有红色爱心元素），姿势俏皮地坐在一个巨大的Instagram相框边缘，双腿悬挂在框外。相框顶部显示用户名『Beauty』，四周漂浮着社交媒体图标（点赞、评论、转发）。
-+ *注意：可替换提示词中的用户名『Beauty』及图标。原图由 Sora 生成。*
-+ **需上传参考图片：** 需要上传一张图片作为参考。
 ```
 
 
 
 ##### AI Summary
 
-1. **Key Changes**: Two new GPT-4 image generation examples were added - a nostalgic anime-style movie poster (Case 76) and a social media frame integration (Case 75), each with detailed prompts and implementation notes.
+1. The changes include an introductory text refinement and a new Case 77 addition featuring a Q版嫦娥奔月 (Chang'e flying to moon) scene in a crystal ball, demonstrating GPT-4's image generation capabilities for culturally themed fantasy scenes.
 
-2. **Code Changes**: No code modifications - all changes are documentation updates (+41 lines) in README.md adding structured example sections with markdown-formatted prompts, images, and attribution links.
+2. Significant additions include:
+- New anchor-linked section for Case 77
+- Example image reference (`example_crystal_ball_chang_e.jpeg`)
+- Detailed Chinese prompt template with placeholder {} syntax for scene customization
 
-3. **Impact**: Enhances the repository's utility as a prompt engineering reference, particularly for anime stylization and social media content creation use cases, while maintaining consistent documentation structure.
+3. These changes enhance the project's example gallery with a culturally relevant use case while maintaining the technical structure of prompt engineering documentation, though they don't affect core functionality.
+
+#### [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)
+
+##### Commit Changes
+
+- [605d2c8](https://github.com/punkpeye/awesome-mcp-servers/commit/605d2c87a8aeefea5f05998f05c6cb25471e47dd) Merge pull request #795 from xiaojxiao2021/main - Frank Fiegel
+- [d36cee0](https://github.com/punkpeye/awesome-mcp-servers/commit/d36cee0178f08bb41bc1cd0c19b6dfb05447e45a) Merge pull request #794 from dave-wind/add-mysql-mcp - Frank Fiegel
+- [962e6d8](https://github.com/punkpeye/awesome-mcp-servers/commit/962e6d8f2eb05c8e9a1ce050ffcae20098545fe8) Update README.md - Frank Fiegel
+- [737c7a3](https://github.com/punkpeye/awesome-mcp-servers/commit/737c7a3c70532b97485184b2e351fb71f17286b2) Merge pull request #793 from ttommyth/interactive-mcp - Frank Fiegel
+
+
+##### File Content Changes
+
+**README.md** (Modified, +5 -1 lines):
+
+```diff
+- - [davewind/mysql-mcp-server](https://github.com/dave-wind/mysql-mcp-server) 🏎️ 🏠 A user-friendly read-only mysql mcp server for cursor and n8n...
++ - [cantian-ai/bazi-mcp](https://github.com/cantian-ai/bazi-mcp) 📇 🏠 ☁️ 🍎 🪟 - Provides comprehensive and accurate Bazi (Chinese Astrology) charting and analysis
++ - [davewind/mysql-mcp-server](https://github.com/dave-wind/mysql-mcp-server) 🏎️ 🏠 A – user-friendly read-only mysql mcp server for cursor and n8n...
++ - [ttommyth/interactive-mcp](https://github.com/ttommyth/interactive-mcp) 📇 🏠 🍎 🪟 🐧 - Enables interactive LLM workflows by adding local user prompts and chat capabilities directly into the MCP loop.
+```
+
+
+
+##### AI Summary
+
+The awesome-mcp-servers repository added three new MCP server integrations through PR merges:  
+1. A Chinese Astrology (Bazi) analysis server (#795)  
+2. An interactive LLM workflow MCP (#793)  
+3. A MySQL read-only MCP server (#794)  
+
+The README.md was updated with these entries (+5 lines) featuring emoji-annotated descriptions for quick scanning. These changes expand the repository's coverage of specialized MCP implementations, particularly adding capabilities in astrology analysis and interactive LLM workflows. No code was removed - this is purely additive documentation for new integrations.
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
 ##### Commit Changes
 
-This repository has changes, but they are not within the monitored paths.
+No file changes detected.
 
 ##### File Content Changes
 
-This repository has changes, but they are not within the monitored paths.
+No file changes detected.
+
+#### [system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)
+
+##### Commit Changes
+
+- [e143600](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/e143600af39385896d118aa67faa3f8d0a24eda8) Update README.md - Lucas Valbuena
+
+
+##### File Content Changes
+
+**README.md** (Modified, +1 -1 lines):
+
+```diff
+- 🆕 **LATEST UPDATE:** 27/04/2025
++ 🆕 **LATEST UPDATE:** 30/04/2025
+```
+
+
+
+##### AI Summary
+
+1. The commit updates the README.md's "LATEST UPDATE" date from 27/04/2025 to 30/04/2025, maintaining documentation freshness while containing no functional code changes.  
+2. There are no code additions/deletions - only a single-line metadata modification in the project documentation.  
+3. This trivial change has minimal technical impact, simply reflecting recent maintenance activity in the repository's timeline.  
+
+The modification appears to be routine documentation upkeep rather than a substantive project update.
 
