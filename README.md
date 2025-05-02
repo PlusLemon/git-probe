@@ -33,81 +33,96 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-05-01T01:38:45
+### 2025-05-02T01:23:32
 
 #### [awesome-gpt4o-images](https://github.com/jamez-bondos/awesome-gpt4o-images)
 
 ##### Commit Changes
 
-- [434cfbf](https://github.com/jamez-bondos/awesome-gpt4o-images/commit/434cfbff4be734f8c17ce25fc43f6fa51eb23331) 介绍文字修改 - JamezBondos
-- [c4d6484](https://github.com/jamez-bondos/awesome-gpt4o-images/commit/c4d648479bc4e581b935b46d702e9eeb5c826e14) 案例 77：水晶球故事场景 (by @dotey) (#38) - JamezBondos
+- [eb6d8f5](https://github.com/jamez-bondos/awesome-gpt4o-images/commit/eb6d8f5e804f02d58f64066e3a357101f9c5d656) 案例 80：代码风格名片 (by @umesh_ai) (#41) - JamezBondos
+- [ca0060e](https://github.com/jamez-bondos/awesome-gpt4o-images/commit/ca0060e4e896a1132b90e1720f8b481ee5f2f68b) 案例 79：乐高城市景观 (by @dotey) (#40) - JamezBondos
+- [a5802e5](https://github.com/jamez-bondos/awesome-gpt4o-images/commit/a5802e51ce2ec05febf85e904a92b2977c8ff24e) 案例 78：玻璃材质重塑 (by @egeberkina) (#39) - JamezBondos
 
 
 ##### File Content Changes
 
-**README.md** (Modified, +18 -2 lines):
+**README.md** (Modified, +78 -0 lines):
 
 ```diff
-- <strong>下面的 40+ 精彩案例，由本项目精心整理和翻译，来自OpenAI官方，展示 gpt‑image‑1 的强大能力。请戳👇</strong>
-- - 中文版：[OpenAI gpt-image-1：40 个精选图像案例及提示词](./gpt-image-1/gpt-image-1.md)
-+ <strong>另外，来自OpenAI官方发布的 gpt‑image‑1 模型的数十个精彩案例，由本项目精心整理和翻译，查看请戳👇</strong>
-+ - 中文版：[OpenAI gpt-image-1: 40 个精选图像案例及提示词](./gpt-image-1/gpt-image-1.md)
-+ *   [案例 77：水晶球故事场景 (by @dotey)](#examples-77)
-+ <a id="examples-77"></a>
-+ ## 案例 77：水晶球故事场景 (by [@dotey](https://x.com/dotey))
-+ [原文链接](https://x.com/dotey/status/1916530529324699858)
-+ <img src="./examples/example_crystal_ball_chang_e.jpeg" width="300" alt="水晶球内呈现嫦娥奔月主题的迷你立体 Q 版世界">
-+ **提示词：**
++ *   [案例 80：代码风格名片 (by @umesh_ai)](#examples-80)
++ <a id="examples-80"></a>
++ ## 案例 80：代码风格名片 (by [@umesh_ai](https://x.com/umesh_ai))
++ [原文链接 1](https://x.com/umesh_ai/status/1915696926596415492)
++ [原文链接 2](https://x.com/fr0gger_/status/1916743281339498760)
++ [原文链接 3](https://x.com/dotey/status/1917412535130563006)
++ <img src="./examples/example_business_card_code_style.png" width="300" alt="代码风格名片">
++ **提示词模板：**
 + ```
-+ 一枚精致的水晶球静静摆放在窗户旁温暖柔和的桌面上，背景虚化而朦胧，暖色调的阳光轻柔地穿透水晶球，折射出点点金光，温暖地照亮了四周的微暗空间。水晶球内部自然地呈现出一个以 {嫦娥奔月} 为主题的迷你立体世界，细腻精美而梦幻的3D景观，人物与物体皆是可爱的Q版造型，精致而美观，彼此之间充满灵动的情感互动。整体氛围充满了东亚奇幻色彩，细节极为丰富，呈现出魔幻现实主义般的奇妙质感。整个场景如诗如梦，华美而典雅，散发着温馨柔和的光芒，仿佛在温暖的光影中被赋予了生命。
-+ *注意：可替换提示词中括号 {} 内文字为故事场景描述，成语、故事、小故事都可以。*
++ 特写镜头：一只手正拿着一张设计成 VS Code 中 JSON 文件外观的名片。名片上的代码以真实的 JSON 语法高亮格式呈现。窗口界面包含典型的工具栏图标和标题栏，标题显示为 Business Card.json，整体风格与 VS Code 界面完全一致。背景略微虚化，突出展示名片内容。
++ 名片上的 JSON 代码如下所示：
++ {
++ "name": "Jamez Bondos",
++ "title": "Your Title",
++ "email": "your@email.com",
++ "link": "yourwebsite"
++ }
++ *注意：替换最后的JSON代码中的name、title、email和link数据。提示词由原文链接中简化而来。*
 + [⬆️ 返回案例目录](#example-toc)
++ *   [案例 79：乐高城市景观 (by @dotey)](#examples-79)
++ <a id="examples-79"></a>
++ ## 案例 79：乐高城市景观 (by [@dotey](https://x.com/dotey))
++ [原文链接](https://x.com/dotey/status/1917713810346872902)
++ <img src="./examples/example_lego_shanghai_bund.jpeg" width="300" alt="用乐高积木搭建的上海外滩景观，包含外滩建筑群、浦东天际线和黄浦江">
++ **提示词：**
++ 创建一幅高度精细且色彩鲜艳的乐高版上海外滩景象。前景呈现经典的外滩历史建筑群，用乐高砖块精致还原西式与新古典主义风格的建筑立面，包括钟楼、穹顶、柱廊等细节。乐高小人们正在沿江漫步、拍照、观光，街道两旁停靠着经典样式的乐高汽车。背景是壮观的黄浦江，以蓝色半透明乐高砖拼接，江面上有乐高渡轮和游览船。对岸的浦东陆家嘴高楼林立，包括东方明珠塔、上海中心、金茂大厦和环球金融中心，这些超现代乐高摩天大楼色彩丰富、造型逼真。天空为乐高明亮蓝色，点缀少量白色乐高积木云朵，整体呈现充满活力与现代感的视觉效果。
++ *注意：可以用 AI 参考提示词示例生成其他城市景观。原图由 Sora 生成。*
++ *   [案例 78：玻璃材质重塑 (by @egeberkina)](#examples-78)
++ <a id="examples-78"></a>
++ ## 案例 78：玻璃材质重塑 (by [@egeberkina](https://x.com/egeberkina))
++ [原文链接](https://x.com/egeberkina/status/1917631056980721743)
++ <img src="./examples/example_retexture_glass_phone.jpeg" width="300" alt="老式旋转拨号电话被重塑为透明玻璃材质">
++ retexture the image attached based on the json below:
++ "style": "photorealistic",
++ "material": "glass",
++ "background": "plain white",
++ "object_position": "centered",
++ "lighting": "soft, diffused studio lighting",
++ "camera_angle": "eye-level, straight-on",
++ "resolution": "high",
++ "aspect_ratio": "2:3",
++ "details": {
++ "reflections": true,
++ "shadows": false,
++ "transparency": true
++ *注意：此提示词通过 JSON 结构精确控制输出风格，并将上传图片重塑为指定材质。*
++ **需上传参考图片：** 需要上传一张要进行材质重塑的物体图片。
 ```
 
 
 
 ##### AI Summary
 
-1. The changes include an introductory text refinement and a new Case 77 addition featuring a Q版嫦娥奔月 (Chang'e flying to moon) scene in a crystal ball, demonstrating GPT-4's image generation capabilities for culturally themed fantasy scenes.
+1. **Key Changes**: Three new GPT-4 image generation examples were added to the README:  
+   - A VS Code-themed JSON business card (with syntax highlighting)  
+   - A LEGO recreation of Shanghai's Bund skyline  
+   - A glass material transformation of a rotary phone using JSON-controlled parameters  
 
-2. Significant additions include:
-- New anchor-linked section for Case 77
-- Example image reference (`example_crystal_ball_chang_e.jpeg`)
-- Detailed Chinese prompt template with placeholder {} syntax for scene customization
+2. **Code Additions**: +78 lines in README.md with structured prompt templates, including:  
+   - JSON-formatted styling instructions for the glass phone  
+   - Detailed scene composition prompts for the LEGO landscape  
+   - Reproducible VS Code UI parameters for the business card  
 
-3. These changes enhance the project's example gallery with a culturally relevant use case while maintaining the technical structure of prompt engineering documentation, though they don't affect core functionality.
+3. **Impact**: Expands the project's showcase of technically precise AI image generation techniques, particularly demonstrating JSON-controlled styling and UI-inspired designs, while maintaining consistent documentation structure.
 
 #### [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)
 
 ##### Commit Changes
 
-- [605d2c8](https://github.com/punkpeye/awesome-mcp-servers/commit/605d2c87a8aeefea5f05998f05c6cb25471e47dd) Merge pull request #795 from xiaojxiao2021/main - Frank Fiegel
-- [d36cee0](https://github.com/punkpeye/awesome-mcp-servers/commit/d36cee0178f08bb41bc1cd0c19b6dfb05447e45a) Merge pull request #794 from dave-wind/add-mysql-mcp - Frank Fiegel
-- [962e6d8](https://github.com/punkpeye/awesome-mcp-servers/commit/962e6d8f2eb05c8e9a1ce050ffcae20098545fe8) Update README.md - Frank Fiegel
-- [737c7a3](https://github.com/punkpeye/awesome-mcp-servers/commit/737c7a3c70532b97485184b2e351fb71f17286b2) Merge pull request #793 from ttommyth/interactive-mcp - Frank Fiegel
-
+No file changes detected.
 
 ##### File Content Changes
 
-**README.md** (Modified, +5 -1 lines):
-
-```diff
-- - [davewind/mysql-mcp-server](https://github.com/dave-wind/mysql-mcp-server) 🏎️ 🏠 A user-friendly read-only mysql mcp server for cursor and n8n...
-+ - [cantian-ai/bazi-mcp](https://github.com/cantian-ai/bazi-mcp) 📇 🏠 ☁️ 🍎 🪟 - Provides comprehensive and accurate Bazi (Chinese Astrology) charting and analysis
-+ - [davewind/mysql-mcp-server](https://github.com/dave-wind/mysql-mcp-server) 🏎️ 🏠 A – user-friendly read-only mysql mcp server for cursor and n8n...
-+ - [ttommyth/interactive-mcp](https://github.com/ttommyth/interactive-mcp) 📇 🏠 🍎 🪟 🐧 - Enables interactive LLM workflows by adding local user prompts and chat capabilities directly into the MCP loop.
-```
-
-
-
-##### AI Summary
-
-The awesome-mcp-servers repository added three new MCP server integrations through PR merges:  
-1. A Chinese Astrology (Bazi) analysis server (#795)  
-2. An interactive LLM workflow MCP (#793)  
-3. A MySQL read-only MCP server (#794)  
-
-The README.md was updated with these entries (+5 lines) featuring emoji-annotated descriptions for quick scanning. These changes expand the repository's coverage of specialized MCP implementations, particularly adding capabilities in astrology analysis and interactive LLM workflows. No code was removed - this is purely additive documentation for new integrations.
+No file changes detected.
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
@@ -123,25 +138,9 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [e143600](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/e143600af39385896d118aa67faa3f8d0a24eda8) Update README.md - Lucas Valbuena
-
+No file changes detected.
 
 ##### File Content Changes
 
-**README.md** (Modified, +1 -1 lines):
-
-```diff
-- 🆕 **LATEST UPDATE:** 27/04/2025
-+ 🆕 **LATEST UPDATE:** 30/04/2025
-```
-
-
-
-##### AI Summary
-
-1. The commit updates the README.md's "LATEST UPDATE" date from 27/04/2025 to 30/04/2025, maintaining documentation freshness while containing no functional code changes.  
-2. There are no code additions/deletions - only a single-line metadata modification in the project documentation.  
-3. This trivial change has minimal technical impact, simply reflecting recent maintenance activity in the repository's timeline.  
-
-The modification appears to be routine documentation upkeep rather than a substantive project update.
+No file changes detected.
 
