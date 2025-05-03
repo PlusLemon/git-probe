@@ -33,96 +33,38 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-05-02T01:23:32
+### 2025-05-03T01:21:34
 
 #### [awesome-gpt4o-images](https://github.com/jamez-bondos/awesome-gpt4o-images)
 
 ##### Commit Changes
 
-- [eb6d8f5](https://github.com/jamez-bondos/awesome-gpt4o-images/commit/eb6d8f5e804f02d58f64066e3a357101f9c5d656) 案例 80：代码风格名片 (by @umesh_ai) (#41) - JamezBondos
-- [ca0060e](https://github.com/jamez-bondos/awesome-gpt4o-images/commit/ca0060e4e896a1132b90e1720f8b481ee5f2f68b) 案例 79：乐高城市景观 (by @dotey) (#40) - JamezBondos
-- [a5802e5](https://github.com/jamez-bondos/awesome-gpt4o-images/commit/a5802e51ce2ec05febf85e904a92b2977c8ff24e) 案例 78：玻璃材质重塑 (by @egeberkina) (#39) - JamezBondos
+No file changes detected.
+
+##### File Content Changes
+
+No file changes detected.
+
+#### [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)
+
+##### Commit Changes
+
+- [2dc5837](https://github.com/punkpeye/awesome-mcp-servers/commit/2dc583769050f46359b69993963e301ff5889d91) Add ROS MCP Server - Jungsoo Lee
 
 
 ##### File Content Changes
 
-**README.md** (Modified, +78 -0 lines):
+**README.md** (Modified, +1 -0 lines):
 
 ```diff
-+ *   [案例 80：代码风格名片 (by @umesh_ai)](#examples-80)
-+ <a id="examples-80"></a>
-+ ## 案例 80：代码风格名片 (by [@umesh_ai](https://x.com/umesh_ai))
-+ [原文链接 1](https://x.com/umesh_ai/status/1915696926596415492)
-+ [原文链接 2](https://x.com/fr0gger_/status/1916743281339498760)
-+ [原文链接 3](https://x.com/dotey/status/1917412535130563006)
-+ <img src="./examples/example_business_card_code_style.png" width="300" alt="代码风格名片">
-+ **提示词模板：**
-+ ```
-+ 特写镜头：一只手正拿着一张设计成 VS Code 中 JSON 文件外观的名片。名片上的代码以真实的 JSON 语法高亮格式呈现。窗口界面包含典型的工具栏图标和标题栏，标题显示为 Business Card.json，整体风格与 VS Code 界面完全一致。背景略微虚化，突出展示名片内容。
-+ 名片上的 JSON 代码如下所示：
-+ {
-+ "name": "Jamez Bondos",
-+ "title": "Your Title",
-+ "email": "your@email.com",
-+ "link": "yourwebsite"
-+ }
-+ *注意：替换最后的JSON代码中的name、title、email和link数据。提示词由原文链接中简化而来。*
-+ [⬆️ 返回案例目录](#example-toc)
-+ *   [案例 79：乐高城市景观 (by @dotey)](#examples-79)
-+ <a id="examples-79"></a>
-+ ## 案例 79：乐高城市景观 (by [@dotey](https://x.com/dotey))
-+ [原文链接](https://x.com/dotey/status/1917713810346872902)
-+ <img src="./examples/example_lego_shanghai_bund.jpeg" width="300" alt="用乐高积木搭建的上海外滩景观，包含外滩建筑群、浦东天际线和黄浦江">
-+ **提示词：**
-+ 创建一幅高度精细且色彩鲜艳的乐高版上海外滩景象。前景呈现经典的外滩历史建筑群，用乐高砖块精致还原西式与新古典主义风格的建筑立面，包括钟楼、穹顶、柱廊等细节。乐高小人们正在沿江漫步、拍照、观光，街道两旁停靠着经典样式的乐高汽车。背景是壮观的黄浦江，以蓝色半透明乐高砖拼接，江面上有乐高渡轮和游览船。对岸的浦东陆家嘴高楼林立，包括东方明珠塔、上海中心、金茂大厦和环球金融中心，这些超现代乐高摩天大楼色彩丰富、造型逼真。天空为乐高明亮蓝色，点缀少量白色乐高积木云朵，整体呈现充满活力与现代感的视觉效果。
-+ *注意：可以用 AI 参考提示词示例生成其他城市景观。原图由 Sora 生成。*
-+ *   [案例 78：玻璃材质重塑 (by @egeberkina)](#examples-78)
-+ <a id="examples-78"></a>
-+ ## 案例 78：玻璃材质重塑 (by [@egeberkina](https://x.com/egeberkina))
-+ [原文链接](https://x.com/egeberkina/status/1917631056980721743)
-+ <img src="./examples/example_retexture_glass_phone.jpeg" width="300" alt="老式旋转拨号电话被重塑为透明玻璃材质">
-+ retexture the image attached based on the json below:
-+ "style": "photorealistic",
-+ "material": "glass",
-+ "background": "plain white",
-+ "object_position": "centered",
-+ "lighting": "soft, diffused studio lighting",
-+ "camera_angle": "eye-level, straight-on",
-+ "resolution": "high",
-+ "aspect_ratio": "2:3",
-+ "details": {
-+ "reflections": true,
-+ "shadows": false,
-+ "transparency": true
-+ *注意：此提示词通过 JSON 结构精确控制输出风格，并将上传图片重塑为指定材质。*
-+ **需上传参考图片：** 需要上传一张要进行材质重塑的物体图片。
++ - [lpigeon/ros-mcp-server](https://github.com/lpigeon/ros-mcp-server) 🐍 🏠 🍎 🪟 🐧 - The ROS MCP Server supports robot control by converting user-issued natural language commands into ROS or ROS2 control commands.
 ```
 
 
 
 ##### AI Summary
 
-1. **Key Changes**: Three new GPT-4 image generation examples were added to the README:  
-   - A VS Code-themed JSON business card (with syntax highlighting)  
-   - A LEGO recreation of Shanghai's Bund skyline  
-   - A glass material transformation of a rotary phone using JSON-controlled parameters  
-
-2. **Code Additions**: +78 lines in README.md with structured prompt templates, including:  
-   - JSON-formatted styling instructions for the glass phone  
-   - Detailed scene composition prompts for the LEGO landscape  
-   - Reproducible VS Code UI parameters for the business card  
-
-3. **Impact**: Expands the project's showcase of technically precise AI image generation techniques, particularly demonstrating JSON-controlled styling and UI-inspired designs, while maintaining consistent documentation structure.
-
-#### [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)
-
-##### Commit Changes
-
-No file changes detected.
-
-##### File Content Changes
-
-No file changes detected.
+The GitHub repository `awesome-mcp-servers` added a new ROS MCP Server entry to its README (2dc5837), featuring a Python-based tool ([lpigeon/ros-mcp-server](https://github.com/lpigeon/ros-mcp-server)) that converts natural language commands into ROS/ROS2 control commands for robotics. This +1 line change expands the repository's catalog of MCP servers with a specialized solution for robot control systems. While no code was modified, the update enhances the resource list for developers working on language-to-robot command interfaces. The addition strengthens the repository's coverage of MCP server implementations across different domains.
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
