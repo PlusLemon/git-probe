@@ -71,7 +71,7 @@ class AISummary:
 
         # 使用自定义API base URL
         endpoint = f"{self.api_base.rstrip('/')}/chat/completions"
-        print(f"Sending request to API at: {endpoint}")
+        print(f"Sending request to API at: {endpoint}, repo_name: {repo_name}")
         print(f"Using model: {self.model}")
 
         # Maximum retry attempts

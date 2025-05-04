@@ -313,9 +313,10 @@ class GitProbe:
                 readme_content += "\n\n"
 
                 # Add file content changes
-                readme_content += "##### File Content Changes\n\n"
-                readme_content += all_file_changes[repo_name]
-                readme_content += "\n\n"
+                if all_file_changes[repo_name]:
+                    readme_content += "##### File Content Changes\n\n"
+                    readme_content += all_file_changes[repo_name]
+                    readme_content += "\n\n"
 
                 # Add AI summary if available
                 if repo_name in all_summaries:
@@ -651,20 +652,21 @@ class GitProbe:
             # Save changes to history and update all_changes
             if repo_changes:
                 all_changes[repo_name] = repo_changes
-                all_file_changes[repo_name] = repo_file_changes
+                no_changes = repo_file_changes == NO_FILE_CHANGE or repo_file_changes == IGNORE_FILE_CHANGE
+                if not no_changes:
+                    all_file_changes[repo_name] = repo_file_changes
 
                 # If AI summary is enabled, get the summary for this repo
                 if (
                     self.enable_ai_summary
-                    and repo_file_changes != NO_FILE_CHANGE
-                    and repo_file_changes != IGNORE_FILE_CHANGE
+                    and not no_changes
                 ):
                     all_summaries[repo_name] = self.ai_summary.generate_summary(
                         repo_changes, repo_file_changes, repo_name
                     )
             else:
                 all_changes[repo_name] = NO_FILE_CHANGE
-                all_file_changes[repo_name] = NO_FILE_CHANGE
+                all_file_changes[repo_name] = ""
 
         # Update README with all changes
         if all_changes:
