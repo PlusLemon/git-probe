@@ -1,0 +1,21 @@
+repositories:
+  GPT_API_free:
+    url: https://github.com/chatanywhere/GPT_API_free
+    branch: main
+    paths:
+      - README.md
+  Free-Programming-Books:
+    url: https://github.com/Rafiquzzaman420/Free-Programming-Books
+    branch: master
+    paths:
+      - README.md
+  free-programming-books:
+    url: https://github.com/EbookFoundation/free-programming-books
+    branch: main
+    paths:
+      - README.md
+  free-for-dev:
+    url: https://github.com/ripienaar/free-for-dev
+    branch: master
+    paths:
+      - README.md

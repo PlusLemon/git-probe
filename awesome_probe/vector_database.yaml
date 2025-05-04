@@ -1,0 +1,16 @@
+repositories:
+  milvus:
+    url: https://github.com/milvus-io/milvus
+    branch: master
+  qdrant:
+    url: https://github.com/qdrant/qdrant
+    branch: master
+  weaviate:
+    url: https://github.com/weaviate/weaviate
+    branch: main
+  lancedb:
+    url: https://github.com/lancedb/lancedb
+    branch: main
+  chromadb:
+    url: https://github.com/chroma-core/chroma
+    branch: main

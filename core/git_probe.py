@@ -268,22 +268,19 @@ class GitProbe:
         except Exception as e:
             print(f"Error archiving Latest Changes: {str(e)}")
 
-    def update_readme(self, all_repo_urls, all_changes, all_file_changes, all_summaries):
+    def update_readme(self, all_repo_urls, all_changes, all_file_changes, all_summaries, all_new_releases=None):
         # Archive Latest Changes section as a daily history file
         self.archive_latest_changes()
-
         # Update README with latest changes from all repositories
         try:
             with open("README.md", "r") as f:
                 readme_content = f.read()
-
             # Find and remove the entire "Latest Changes" section
             if "## Latest Changes" in readme_content:
                 # Split the content at the Latest Changes header
                 parts = readme_content.split("## Latest Changes")
                 # Keep the first part (content before Latest Changes)
                 first_part = parts[0]
-
                 # Check if there's another section after Latest Changes
                 remaining_content = parts[1]
                 next_section_match = re.search(r"\n##\s+", remaining_content)
@@ -293,37 +290,39 @@ class GitProbe:
                 else:
                     # If no next section, just use an empty string
                     remaining_part = ""
-
                 # Reconstruct with empty Latest Changes section
                 readme_content = first_part + "## Latest Changes\n\n" + remaining_part
             else:
                 # If section doesn't exist, add it at the end
                 readme_content += "\n\n## Latest Changes\n\n"
-
             # Add today's date and changes
             readme_content += f"### {self.today}\n\n"
-
             # Add each repository's changes with its own section
-            for repo_name in all_changes.keys():
+            for repo_name in all_repo_urls.keys():
                 readme_content += f"#### [{repo_name}]({all_repo_urls[repo_name]})\n\n"
-
+                # 新release提示
+                if all_new_releases and repo_name in all_new_releases:
+                    rel = all_new_releases[repo_name]
+                    readme_content += (
+                        f"##### New Release\n\n"
+                        f"**Tag:** [{rel['tag']}]({rel['url']})\n"
+                        f"**Name:** {rel['name']}\n"
+                        f"**Published:** {rel['published']}\n\n"
+                    )
                 # Add commit changes
                 readme_content += "##### Commit Changes\n\n"
                 readme_content += all_changes[repo_name]
                 readme_content += "\n\n"
-
                 # Add file content changes
                 if all_file_changes[repo_name]:
                     readme_content += "##### File Content Changes\n\n"
                     readme_content += all_file_changes[repo_name]
                     readme_content += "\n\n"
-
                 # Add AI summary if available
                 if repo_name in all_summaries:
                     readme_content += "##### AI Summary\n\n"
                     readme_content += all_summaries[repo_name]
                     readme_content += "\n\n"
-
             with open("README.md", "w") as f:
                 f.write(readme_content)
         except Exception as e:
@@ -457,25 +456,47 @@ class GitProbe:
                 return True
         return False
 
+    def get_latest_release(self, repo_url):
+        parts = repo_url.rstrip("/").split("/")
+        owner, repo = parts[-2], parts[-1]
+        api_url = f"https://api.github.com/repos/{owner}/{repo}/releases/latest"
+        response = requests.get(api_url, headers=self.get_github_headers())
+        if response.status_code == 200:
+            return response.json()
+        return None
+
     def run(self):
         all_changes = {}
         all_file_changes = {}
         all_summaries = {}
         all_repo_urls = {}
-
+        all_new_releases = {}
         # Process each repository in probe.yaml
         for repo_name, repo_config in self.probe_config.get("repositories", {}).items():
             repo_url = repo_config.get("url")
             all_repo_urls[repo_name] = repo_url
             branch = repo_config.get("branch", "main")
             paths = repo_config.get("paths", [])
-
-            # Get yesterday's date for filtering commits
-            yesterday = (
-                datetime.datetime.now(datetime.timezone.utc)
-                - datetime.timedelta(days=1)
-            ).isoformat()
-
+            # 检查新release
+            latest_release = self.get_latest_release(repo_url)
+            new_release_info = None
+            if latest_release and latest_release.get("published_at"):
+                published_at = datetime.datetime.strptime(latest_release["published_at"], "%Y-%m-%dT%H:%M:%SZ")
+                one_day_ago = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=1)
+                if published_at.replace(tzinfo=datetime.timezone.utc) >= one_day_ago:
+                    latest_release = None
+                    tag = latest_release.get("tag_name")
+                    name = latest_release.get("name") or tag
+                    published = latest_release.get("published_at")
+                    html_url = latest_release.get("html_url")
+                    new_release_info = {
+                        "tag": tag,
+                        "name": name,
+                        "published": published,
+                        "url": html_url,
+                    }
+            if new_release_info:
+                all_new_releases[repo_name] = new_release_info
             repo_changes = ""
 
             # If paths is empty, monitor the entire repository
@@ -484,7 +505,7 @@ class GitProbe:
                     f"No paths specified for {repo_name}, monitoring entire repository"
                 )
                 commits = self.get_commits_for_path(
-                    repo_url, branch, None, since_date=yesterday
+                    repo_url, branch, None, since_date=self.yesterday
                 )
 
                 if commits:
@@ -501,7 +522,7 @@ class GitProbe:
 
                 for path in paths:
                     commits = self.get_commits_for_path(
-                        repo_url, branch, path, since_date=yesterday
+                        repo_url, branch, path, since_date=self.yesterday
                     )
                     if commits:
                         # Format the commits
@@ -632,7 +653,7 @@ class GitProbe:
                     else:
                         # Check if the repository has any commits at all
                         if self.check_repo_has_any_commits(
-                            repo_url, branch, since_date=yesterday
+                            repo_url, branch, since_date=self.yesterday
                         ):
                             repo_file_changes = IGNORE_FILE_CHANGE
                         else:
@@ -640,7 +661,7 @@ class GitProbe:
                 else:
                     # Check if the repository has any commits at all
                     if self.check_repo_has_any_commits(
-                        repo_url, branch, since_date=yesterday
+                        repo_url, branch, since_date=self.yesterday
                     ):
                         repo_file_changes = IGNORE_FILE_CHANGE
                         # Also add a note to the commit changes section
@@ -661,16 +682,17 @@ class GitProbe:
                     self.enable_ai_summary
                     and not no_changes
                 ):
-                    all_summaries[repo_name] = self.ai_summary.generate_summary(
-                        repo_changes, repo_file_changes, repo_name
-                    )
+                    # all_summaries[repo_name] = self.ai_summary.generate_summary(
+                    #     repo_changes, repo_file_changes, repo_name
+                    # )
+                    print(f"Generating AI summary for {repo_name}")
             else:
                 all_changes[repo_name] = NO_FILE_CHANGE
                 all_file_changes[repo_name] = ""
 
         # Update README with all changes
         if all_changes:
-            self.update_readme(all_repo_urls, all_changes, all_file_changes, all_summaries)
+            self.update_readme(all_repo_urls, all_changes, all_file_changes, all_summaries, all_new_releases)
             print(f"Updated README.md with changes for {self.today}")
         else:
             print(f"No changes found for {self.today}")
