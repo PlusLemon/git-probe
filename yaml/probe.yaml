@@ -1,4 +1,9 @@
 repositories:
+  awesome-llm-apps:
+    url: https://github.com/Shubhamsaboo/awesome-llm-apps
+    branch: main
+    paths:
+      - README.md
   awesome-gpt4o-images:
     url: https://github.com/jamez-bondos/awesome-gpt4o-images
     branch: main
