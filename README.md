@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-05-12T01:27:26
+### 2025-05-14T01:24:27
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -45,23 +45,25 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [cf11a55](https://github.com/jamez-bondos/awesome-gpt4o-images/commit/cf11a55c353e728b88aa79bab684e06e0e5dc5e4) docs: update auto-generated README files - github-actions[bot]
+- [0ac12fa](https://github.com/jamez-bondos/awesome-gpt4o-images/commit/0ac12fa3d30cbe198099ad8c96c9e789caba2076) docs: update auto-generated README files - github-actions[bot]
 
 
 ##### File Content Changes
 
-**README.md** (Modified, +22 -0 lines):
+**README.md** (Modified, +27 -0 lines):
 
 ```diff
-+ *   [案例 97：可爱温馨针织玩偶 (by @ZHO_ZHO_ZHO)](#cases-97)
-+ <a id="cases-97"></a>
-+ ### 案例 97：可爱温馨针织玩偶 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
-+ [原文链接](https://x.com/ZHO_ZHO_ZHO/status/1921148024861938077)
-+ <img src="cases/97/cute_cozy_knitted_doll.png" width="300" alt="可爱温馨针织玩偶">
++ *   [案例 99：黑白肖像艺术 (by @ZHO_ZHO_ZHO)](#cases-99)
++ <a id="cases-99"></a>
++ ### 案例 99：黑白肖像艺术 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
++ [原文链接](https://x.com/ZHO_ZHO_ZHO/status/1922150692145283299)
++ <img src="cases/99/harry-potter-black-white-portrait-art.png" width="300" alt="黑白肖像艺术">
 + **提示词**
 + ```
-+ 一张特写、构图专业的照片，展示一个手工钩织的毛线玩偶被双手轻柔地托着。玩偶造型圆润，【上传图片】人物得可爱Q版形象，色彩对比鲜明，细节丰富。持玩偶的双手自然、温柔，手指姿态清晰可见，皮肤质感与光影过渡自然，展现出温暖且真实的触感。背景轻微虚化，表现为室内环境，有温暖的木质桌面和从窗户洒入的自然光，营造出舒适、亲密的氛围。整体画面传达出精湛的工艺感与被珍视的温馨情绪。
-+ **需上传参考图片：** 上传一张照片作为参考，生成其可爱Q版针织玩偶形象。
++ 高分辨率的黑白肖像艺术作品，采用编辑类和艺术摄影风格。背景呈现柔和渐变效果，从中灰过渡到近乎纯白，营造出层次感与寂静氛围。细腻的胶片颗粒质感为画面增添了一种可触摸的、模拟摄影般的柔和质地，让人联想到经典的黑白摄影。
++ 画面右侧，一个模糊却惊艳的哈利波特面容从阴影中隐约浮现，并非传统的摆拍，而像是被捕捉于思索或呼吸之间的瞬间。他的脸部只露出一部分：也许是一个眼睛、一块颧骨，还有唇角的轮廓，唤起神秘、亲密与优雅之感。他的五官精致而深刻，散发出忧郁与诗意之美，却不显矫饰。
++ 一束温柔的定向光，柔和地漫射开来，轻抚他的面颊曲线，或在眼中闪现光点——这是画面的情感核心。其余部分以大量负空间占据，刻意保持简洁，使画面自由呼吸。画面中没有文字、没有标志——只有光影与情绪交织。
++ 整体氛围抽象却深具人性，仿佛一瞥即逝的目光，或半梦半醒间的记忆：亲密、永恒、令人怅然的美。
 + ---
 + [⬆️ 返回案例目录](#cases-toc)
 ```
@@ -72,21 +74,7 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [ed357fb](https://github.com/punkpeye/awesome-mcp-servers/commit/ed357fb8d7682070924a27bf34a7ad4005e256f6) Update README.md - Frank Fiegel
-- [8a57494](https://github.com/punkpeye/awesome-mcp-servers/commit/8a57494bf10214438e39bebb3b6ce6c911f8ecbd) add mcp-js - r33drichards
-
-
-##### File Content Changes
-
-**README.md** (Modified, +2 -1 lines):
-
-```diff
-- - [r33drichards/mcp-js](https://github.com/r33drichards/mcp-js) 🦀 🏠 🐧 🍎 A Javascript code execution sandbox that uses v8 to isolate code to run AI generated javascript locally without fear. Supports heap snapshotting for persistent sessions.
-+ - [r33drichards/mcp-js](https://github.com/r33drichards/mcp-js) 🦀 🏠 🐧 🍎 - A Javascript code execution sandbox that uses v8 to isolate code to run AI generated javascript locally without fear. Supports heap snapshotting for persistent sessions.
-+ - [r33drichards/mcp-js](https://github.com/r33drichards/mcp-js) 🦀 🏠 🐧 🍎 A Javascript code execution sandbox that uses v8 to isolate code to run AI generated javascript locally without fear. Supports heap snapshotting for persistent sessions.
-```
-
-
+No file changes detected.
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
