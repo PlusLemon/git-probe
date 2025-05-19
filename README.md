@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-05-18T01:38:32
+### 2025-05-19T01:37:54
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -45,24 +45,40 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [0751543](https://github.com/jamez-bondos/awesome-gpt4o-images/commit/0751543d326a8d9e8e3beb7f6b005917ffa18b82) docs: update auto-generated README files - github-actions[bot]
+
+
+##### File Content Changes
+
+**README.md** (Modified, +28 -0 lines):
+
+```diff
++ *   [案例 100：实物与手绘涂鸦创意广告 (by @azed_ai)](#cases-100)
++ <a id="cases-100"></a>
++ ### 案例 100：实物与手绘涂鸦创意广告 (by [@azed_ai](https://x.com/azed_ai))
++ [原文链接](https://x.com/azed_ai/status/1923016036120658122)
++ <img src="cases/100/creative-ad-real-object-hand-drawn-doodle.png" width="300" alt="实物与手绘涂鸦创意广告">
++ **提示词**
++ ```
++ 一则简约且富有创意的广告，设置在纯白背景上。
++ 一个真实的 [真实物体] 与手绘黑色墨水涂鸦相结合，线条松散而俏皮。涂鸦描绘了：[涂鸦概念及交互：以巧妙、富有想象力的方式与物体互动]。在顶部或中部加入粗体黑色 [广告文案] 文字。在底部清晰放置 [品牌标志]。视觉效果应简洁、有趣、高对比度且构思巧妙。
++ *注意： 请将提示词中的 [真实物体]、[涂鸦概念及交互]、[广告文案] 和 [品牌标志] 替换为具体内容。
++ 例如：
++ [真实物体]：咖啡豆
++ [涂鸦概念及交互]：巨型咖啡豆变成一个太空行星，一个小宇航员站在其表面上，并插上旗帜
++ [广告文案]：“Explore Bold Flavor”
++ [品牌标志]：星巴克 Logo*
++ ---
++ [⬆️ 返回案例目录](#cases-toc)
+```
+
+
 
 #### [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)
 
 ##### Commit Changes
 
-- [06b9dcb](https://github.com/punkpeye/awesome-mcp-servers/commit/06b9dcbc2990f6ba50cceeb7a04b15a84a6cc320) Merge pull request #881 from kaiyuanxiaobing/add-new-server - TerminalMan
-
-
-##### File Content Changes
-
-**README.md** (Modified, +1 -0 lines):
-
-```diff
-+ - [kaiyuanxiaobing/atomgit-mcp-server](https://github.com/kaiyuanxiaobing/atomgit-mcp-server) 📇 ☁️ - Official AtomGit server for integration with repository management, PRs, issues, branches, labels, and more.
-```
-
-
+No file changes detected.
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
@@ -74,39 +90,5 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [421b73c](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/421b73c2cc2170210f7a3acdf25d30ebeb39fec6) Update README.md - Lucas Valbuena
-
-
-##### File Content Changes
-
-**README.md** (Modified, +19 -18 lines):
-
-```diff
-- ## 📊 **Star History**
-- <a href="https://www.star-history.com/#x1xhlol/system-prompts-and-models-of-ai-tools&Date">
-- <picture>
-- <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=x1xhlol/system-prompts-and-models-of-ai-tools&type=Date&theme=dark" />
-- <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=x1xhlol/system-prompts-and-models-of-ai-tools&type=Date" />
-- <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=x1xhlol/system-prompts-and-models-of-ai-tools&type=Date" />
-- </picture>
-- </a>
-- ## 🗓️ **Zero Calendar**
-- **An Open-Source AI-Powered Calendar for the Future of Scheduling**
-- Zero Calendar is an open-source AI calendar solution that gives users the power to manage their schedule intelligently while integrating with external services like Google Calendar and other calendar providers. Our goal is to modernize and improve scheduling through AI agents to truly revolutionize how we manage our time.
-- For more details, check out the [Zero Calendar repository](https://github.com/Zero-Calendar/zero-calendar).
-+ ## 📊 **Star History**
-+ <a href="https://www.star-history.com/#x1xhlol/system-prompts-and-models-of-ai-tools&Date">
-+ <picture>
-+ <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=x1xhlol/system-prompts-and-models-of-ai-tools&type=Date&theme=dark" />
-+ <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=x1xhlol/system-prompts-and-models-of-ai-tools&type=Date" />
-+ <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=x1xhlol/system-prompts-and-models-of-ai-tools&type=Date" />
-+ </picture>
-+ </a>
-+ ## 🗓️ **Zero Calendar**
-+ **An Open-Source AI-Powered Calendar for the Future of Scheduling**
-+ Zero Calendar is an open-source AI calendar solution that gives users the power to manage their schedule intelligently while integrating with external services like Google Calendar and other calendar providers. Our goal is to modernize and improve scheduling through AI agents to truly revolutionize how we manage our time.
-+ For more details, check out the [Zero Calendar repository](https://github.com/Zero-Calendar/zero-calendar).
-```
-
-
+No file changes detected.
 
