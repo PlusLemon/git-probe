@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-05-19T01:37:54
+### 2025-05-20T01:26:35
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -45,40 +45,27 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [0751543](https://github.com/jamez-bondos/awesome-gpt4o-images/commit/0751543d326a8d9e8e3beb7f6b005917ffa18b82) docs: update auto-generated README files - github-actions[bot]
-
-
-##### File Content Changes
-
-**README.md** (Modified, +28 -0 lines):
-
-```diff
-+ *   [案例 100：实物与手绘涂鸦创意广告 (by @azed_ai)](#cases-100)
-+ <a id="cases-100"></a>
-+ ### 案例 100：实物与手绘涂鸦创意广告 (by [@azed_ai](https://x.com/azed_ai))
-+ [原文链接](https://x.com/azed_ai/status/1923016036120658122)
-+ <img src="cases/100/creative-ad-real-object-hand-drawn-doodle.png" width="300" alt="实物与手绘涂鸦创意广告">
-+ **提示词**
-+ ```
-+ 一则简约且富有创意的广告，设置在纯白背景上。
-+ 一个真实的 [真实物体] 与手绘黑色墨水涂鸦相结合，线条松散而俏皮。涂鸦描绘了：[涂鸦概念及交互：以巧妙、富有想象力的方式与物体互动]。在顶部或中部加入粗体黑色 [广告文案] 文字。在底部清晰放置 [品牌标志]。视觉效果应简洁、有趣、高对比度且构思巧妙。
-+ *注意： 请将提示词中的 [真实物体]、[涂鸦概念及交互]、[广告文案] 和 [品牌标志] 替换为具体内容。
-+ 例如：
-+ [真实物体]：咖啡豆
-+ [涂鸦概念及交互]：巨型咖啡豆变成一个太空行星，一个小宇航员站在其表面上，并插上旗帜
-+ [广告文案]：“Explore Bold Flavor”
-+ [品牌标志]：星巴克 Logo*
-+ ---
-+ [⬆️ 返回案例目录](#cases-toc)
-```
-
-
+No file changes detected.
 
 #### [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)
 
 ##### Commit Changes
 
-No file changes detected.
+- [b1b75f3](https://github.com/punkpeye/awesome-mcp-servers/commit/b1b75f33ee3b55ad763b8c00ae93841b97ec5a38) YouTube MCP Server - Emils
+- [1ab4420](https://github.com/punkpeye/awesome-mcp-servers/commit/1ab442074c4e2f1ea4f02aacc5044e7db94c3700) Update README.md - Emils
+
+
+##### File Content Changes
+
+**README.md** (Modified, +2 -1 lines):
+
+```diff
+- - [Xyber-Labs/mcp-servers/tree/main/mcp-server-youtube](https://github.com/Xyber-Labs/mcp-servers/tree/main/mcp-server-youtube) 🐍 ☁️ - This repository implements an MCP (Model Context Protocol) server for YouTube search and transcript retrieval functionality. It allows language models or other agents to easily query YouTube content through a standardized protocol.
++ - [Xyber-Labs/mcp-server-youtube](https://github.com/Xyber-Labs/mcp-servers/tree/main/mcp-server-youtube) 🐍 ☁️ - This repository implements an MCP (Model Context Protocol) server for YouTube search and transcript retrieval functionality. It allows language models or other agents to easily query YouTube content through a standardized protocol.
++ - [Xyber-Labs/mcp-servers/tree/main/mcp-server-youtube](https://github.com/Xyber-Labs/mcp-servers/tree/main/mcp-server-youtube) 🐍 ☁️ - This repository implements an MCP (Model Context Protocol) server for YouTube search and transcript retrieval functionality. It allows language models or other agents to easily query YouTube content through a standardized protocol.
+```
+
+
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
