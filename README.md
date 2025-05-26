@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-05-25T01:40:43
+### 2025-05-26T01:27:35
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,18 +51,7 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [43c9ec5](https://github.com/punkpeye/awesome-mcp-servers/commit/43c9ec5e516fc45f7920a3948797acaf1392e2c5) Add ssh-mcp server to README.md for SSH control of Linux and Windows servers via Model Context Protocol. - Tufan Tunç
-
-
-##### File Content Changes
-
-**README.md** (Modified, +1 -0 lines):
-
-```diff
-+ - [tufantunc/ssh-mcp](https://github.com/tufantunc/ssh-mcp) 📇 🏠 🐧 🪟 - MCP server exposing SSH control for Linux and Windows servers via Model Context Protocol. Securely execute remote shell commands with password or SSH key authentication.
-```
-
-
+No file changes detected.
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
