@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-05-26T01:27:35
+### 2025-05-27T01:24:46
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,7 +51,20 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [2c3e647](https://github.com/punkpeye/awesome-mcp-servers/commit/2c3e64782ec2584f55ff8b0425cc212f51132a07) Merge pull request #909 from joshsny/patch-1 - Frank Fiegel
+- [090f38a](https://github.com/punkpeye/awesome-mcp-servers/commit/090f38afa0a4c2c1fbef5a6e9f164294ef6ac3b4) Update README.md - Frank Fiegel
+
+
+##### File Content Changes
+
+**README.md** (Modified, +3 -1 lines):
+
+```diff
+- - [posthog/mcp](https://github.com/posthog/mcp) 📇 ☁️ - An MCP server for interacting with PostHog analytics, feature flags, error tracking and more.
++ - [posthog/mcp](https://github.com/posthog/mcp) 🎖️ 📇 ☁️ - An MCP server for interacting with PostHog analytics, feature flags, error tracking and more.
+```
+
+
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
