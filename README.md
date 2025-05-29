@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-05-28T01:26:24
+### 2025-05-29T01:26:06
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,7 +51,7 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [64de782](https://github.com/punkpeye/awesome-mcp-servers/commit/64de7827aba17aa4a88c50166cd84d9b513b75d1) Add webpage screenshot mcp server - ananddtyagi
+- [bb08b28](https://github.com/punkpeye/awesome-mcp-servers/commit/bb08b28da12335cc2b50b5cb5f9e57f47c2057ee) Adding homebrew-mcp - Alex Jeannier
 
 
 ##### File Content Changes
@@ -59,7 +59,7 @@ No file changes detected.
 **README.md** (Modified, +1 -0 lines):
 
 ```diff
-+ - [ananddtyagi/webpage-screenshot-mcp](https://github.com/ananddtyagi/webpage-screenshot-mcp) 📇 🏠 - A MCP server for taking screenshots of webpages to use as feedback during UI developement.
++ - [jeannier/homebrew-mcp](https://github.com/jeannier/homebrew-mcp) 🐍 🏠 🍎 - Control your macOS Homebrew setup using natural language via this MCP server. Simply manage your packages, or ask for suggestions, troubleshoot brew issues etc.
 ```
 
 
