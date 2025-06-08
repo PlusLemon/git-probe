@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-06-06T01:26:11
+### 2025-06-08T01:42:36
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,7 +51,24 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [0f2eb4c](https://github.com/punkpeye/awesome-mcp-servers/commit/0f2eb4c764a8403d6379bff61b319102adfa360a) Update README.md - Frank Fiegel
+- [8447467](https://github.com/punkpeye/awesome-mcp-servers/commit/84474675c8764036fc9f28e53992479583a02582) MacroCosmos Social Media MCP - arrmlet
+- [0e3eac7](https://github.com/punkpeye/awesome-mcp-servers/commit/0e3eac7deb30c2b5e978b0034b64c4aed5a941e2) Update README.md - Frank Fiegel
+
+
+##### File Content Changes
+
+**README.md** (Modified, +4 -3 lines):
+
+```diff
+- - [macrocosm-os/macrocosmos-mcp](https://github.com/macrocosm-os/macrocosmos-mcp) - 🐍 ☁️ Access real-time X/Reddit/YouTube data directly in your LLM applications  with search phrases, users, and date filtering.
+- - [Netdata](https://github.com/netdata/netdata/blob/master/src/web/mcp/README.md) 🎖️ 🏠 ☁️ 📟 🍎 🪟 🐧 - Discovery, exploration, reporting and root cause analysis using all observability data, including metrics, logs, systems, containers, processes, and network connections
++ - [macrocosm-os/macrocosmos-mcp](https://github.com/macrocosm-os/macrocosmos-mcp) - 🎖️ 🐍 ☁️ Access real-time X/Reddit/YouTube data directly in your LLM applications  with search phrases, users, and date filtering.
++ - [macrocosm-os/macrocosmos-mcp](https://github.com/macrocosm-os/macrocosmos-mcp) - 🐍 ☁️ Access real-time X/Reddit/YouTube data directly in your LLM applications  with search phrases, users, and date filtering.
++ - [netdata/netdata#Netdata](https://github.com/netdata/netdata/blob/master/src/web/mcp/README.md) 🎖️ 🏠 ☁️ 📟 🍎 🪟 🐧 - Discovery, exploration, reporting and root cause analysis using all observability data, including metrics, logs, systems, containers, processes, and network connections
+```
+
+
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
