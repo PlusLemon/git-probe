@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-06-08T01:42:36
+### 2025-06-09T01:40:35
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,21 +51,16 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [0f2eb4c](https://github.com/punkpeye/awesome-mcp-servers/commit/0f2eb4c764a8403d6379bff61b319102adfa360a) Update README.md - Frank Fiegel
-- [8447467](https://github.com/punkpeye/awesome-mcp-servers/commit/84474675c8764036fc9f28e53992479583a02582) MacroCosmos Social Media MCP - arrmlet
-- [0e3eac7](https://github.com/punkpeye/awesome-mcp-servers/commit/0e3eac7deb30c2b5e978b0034b64c4aed5a941e2) Update README.md - Frank Fiegel
+- [51b6ea5](https://github.com/punkpeye/awesome-mcp-servers/commit/51b6ea57b0a0e876984eff198da326ae8af24876) Merge pull request #993 from ivnvxd/add-odoo-mcp-server - Frank Fiegel
+- [2c276a0](https://github.com/punkpeye/awesome-mcp-servers/commit/2c276a040690ce7677ef94cd5b0eb5640055d022) Add Odoo MCP Server - Andrey Ivanov
 
 
 ##### File Content Changes
 
-**README.md** (Modified, +4 -3 lines):
+**README.md** (Modified, +2 -0 lines):
 
 ```diff
-- - [macrocosm-os/macrocosmos-mcp](https://github.com/macrocosm-os/macrocosmos-mcp) - 🐍 ☁️ Access real-time X/Reddit/YouTube data directly in your LLM applications  with search phrases, users, and date filtering.
-- - [Netdata](https://github.com/netdata/netdata/blob/master/src/web/mcp/README.md) 🎖️ 🏠 ☁️ 📟 🍎 🪟 🐧 - Discovery, exploration, reporting and root cause analysis using all observability data, including metrics, logs, systems, containers, processes, and network connections
-+ - [macrocosm-os/macrocosmos-mcp](https://github.com/macrocosm-os/macrocosmos-mcp) - 🎖️ 🐍 ☁️ Access real-time X/Reddit/YouTube data directly in your LLM applications  with search phrases, users, and date filtering.
-+ - [macrocosm-os/macrocosmos-mcp](https://github.com/macrocosm-os/macrocosmos-mcp) - 🐍 ☁️ Access real-time X/Reddit/YouTube data directly in your LLM applications  with search phrases, users, and date filtering.
-+ - [netdata/netdata#Netdata](https://github.com/netdata/netdata/blob/master/src/web/mcp/README.md) 🎖️ 🏠 ☁️ 📟 🍎 🪟 🐧 - Discovery, exploration, reporting and root cause analysis using all observability data, including metrics, logs, systems, containers, processes, and network connections
++ - [ivnvxd/mcp-server-odoo](https://github.com/ivnvxd/mcp-server-odoo) 🐍 ☁️/🏠 - Connect AI assistants to Odoo ERP systems for business data access, record management, and workflow automation.
 ```
 
 
@@ -80,5 +75,17 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [5b6a82d](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/5b6a82d9b403d450905bdd8a1b92632085da291f) Update README.md - Lucas Valbuena
+
+
+##### File Content Changes
+
+**README.md** (Modified, +1 -1 lines):
+
+```diff
+- Check out **[ZeroLeaks](https://0leaks.vercel.app)**, a service designed to help startups **identify and secure** leaks in system instructions, internal tools, and model configurations. **Get a free AI security audit** to ensure your AI is protected from vulnerabilities.
++ Check out **[ZeroLeaks](https://zeroleaks.lucknite.lol/)**, a service designed to help startups **identify and secure** leaks in system instructions, internal tools, and model configurations. **Get a free AI security audit** to ensure your AI is protected from vulnerabilities.
+```
+
+
 
