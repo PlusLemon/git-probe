@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-06-11T01:28:12
+### 2025-06-15T01:44:24
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,7 +51,7 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [9f7d736](https://github.com/punkpeye/awesome-mcp-servers/commit/9f7d736c5aeb7a29505a078e4ad545144242ddbd) Add Wenyan MCP - Lei
+- [58738c9](https://github.com/punkpeye/awesome-mcp-servers/commit/58738c9e38dee86d93edadf6e1c079ca7f6d1ed9) Merge pull request #1015 from Kvintus/add-weblate-mcp-server - Frank Fiegel
 
 
 ##### File Content Changes
@@ -59,7 +59,7 @@ No file changes detected.
 **README.md** (Modified, +1 -0 lines):
 
 ```diff
-+ - [caol64/wenyan-mcp](https://github.com/caol64/wenyan-mcp) 📇 🏠 🍎 🪟 🐧 - Wenyan MCP Server, which lets AI automatically format Markdown articles and publish them to WeChat GZH.
++ - [mmntm/weblate-mcp](https://github.com/mmntm/weblate-mcp) 📇 ☁️ - Comprehensive Model Context Protocol server for Weblate translation management, enabling AI assistants to perform translation tasks, project management, and content discovery with smart format transformations.
 ```
 
 
