@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-06-15T01:44:24
+### 2025-06-17T01:28:10
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,18 +51,7 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [58738c9](https://github.com/punkpeye/awesome-mcp-servers/commit/58738c9e38dee86d93edadf6e1c079ca7f6d1ed9) Merge pull request #1015 from Kvintus/add-weblate-mcp-server - Frank Fiegel
-
-
-##### File Content Changes
-
-**README.md** (Modified, +1 -0 lines):
-
-```diff
-+ - [mmntm/weblate-mcp](https://github.com/mmntm/weblate-mcp) 📇 ☁️ - Comprehensive Model Context Protocol server for Weblate translation management, enabling AI assistants to perform translation tasks, project management, and content discovery with smart format transformations.
-```
-
-
+No file changes detected.
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
