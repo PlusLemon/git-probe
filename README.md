@@ -33,13 +33,47 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-06-18T01:27:19
+### 2025-06-21T01:26:35
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
 ##### Commit Changes
 
-No file changes detected.
+- [4b5161f](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/4b5161f2388cd25eadcb844a1ff2c613b76c18cb) Updated README.md - Amit Wani
+- [a955d2c](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/a955d2c92db90d436e8742aa330fdfbd93b11366) Updated README.md - Amit Wani
+
+
+##### File Content Changes
+
+**README.md** (Modified, +25 -24 lines):
+
+```diff
+- <a href="https://www.readme-i18n.com/Shubhamsaboo/awesome-llm-apps?lang=de">Deutsch</a> |
+- <a href="https://www.readme-i18n.com/Shubhamsaboo/awesome-llm-apps?lang=es">Español</a> |
+- <a href="https://www.readme-i18n.com/Shubhamsaboo/awesome-llm-apps?lang=fr">français</a> |
+- <a href="https://www.readme-i18n.com/Shubhamsaboo/awesome-llm-apps?lang=ja">日本語</a> |
+- <a href="https://www.readme-i18n.com/Shubhamsaboo/awesome-llm-apps?lang=ko">한국어</a> |
+- <a href="https://www.readme-i18n.com/Shubhamsaboo/awesome-llm-apps?lang=pt">Português</a> |
+- <a href="https://www.readme-i18n.com/Shubhamsaboo/awesome-llm-apps?lang=ru">Русский</a> |
+- *   [📑 Notion MCP Agent](mcp_ai_agents/notion_mcp_agent)
+- 1. **Clone the repository**
+- ```bash
+- git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
++ <a href="https://www.readme-i18n.com/Shubhamsaboo/awesome-llm-apps?lang=de">Deutsch</a> |
++ <a href="https://www.readme-i18n.com/Shubhamsaboo/awesome-llm-apps?lang=es">Español</a> |
++ <a href="https://www.readme-i18n.com/Shubhamsaboo/awesome-llm-apps?lang=fr">français</a> |
++ <a href="https://www.readme-i18n.com/Shubhamsaboo/awesome-llm-apps?lang=ja">日本語</a> |
++ <a href="https://www.readme-i18n.com/Shubhamsaboo/awesome-llm-apps?lang=ko">한국어</a> |
++ <a href="https://www.readme-i18n.com/Shubhamsaboo/awesome-llm-apps?lang=pt">Português</a> |
++ <a href="https://www.readme-i18n.com/Shubhamsaboo/awesome-llm-apps?lang=ru">Русский</a> |
++ *   [📑 Notion MCP Agent](mcp_ai_agents/notion_mcp_agent)
++ 1. **Clone the repository**
++ ```bash
++ git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
++ *   [🌏 AI Travel Planner Agent Team](/advanced_ai_agents/multi_agent_apps/agent_teams/ai_travel_planner_team/)
+```
+
+
 
 #### [awesome-gpt4o-images](https://github.com/jamez-bondos/awesome-gpt4o-images)
 
