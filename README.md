@@ -33,44 +33,27 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-06-21T01:26:35
+### 2025-06-22T01:43:51
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
 ##### Commit Changes
 
-- [4b5161f](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/4b5161f2388cd25eadcb844a1ff2c613b76c18cb) Updated README.md - Amit Wani
-- [a955d2c](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/a955d2c92db90d436e8742aa330fdfbd93b11366) Updated README.md - Amit Wani
+- [d8e5574](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/d8e5574bb8242d2f21e5e2f56cd28724a05df9c9) Update README.md - Arun
+- [eb3c89b](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/eb3c89b084cbd42f3febd5c42f7be6e00af76185) adding beifongai project - carlfeynman
+- [d986551](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/d986551e050afe5ed4c622f136e7c76fb4805040) adding beifongai project - carlfeynman
 
 
 ##### File Content Changes
 
-**README.md** (Modified, +25 -24 lines):
+**README.md** (Modified, +4 -3 lines):
 
 ```diff
-- <a href="https://www.readme-i18n.com/Shubhamsaboo/awesome-llm-apps?lang=de">Deutsch</a> |
-- <a href="https://www.readme-i18n.com/Shubhamsaboo/awesome-llm-apps?lang=es">Español</a> |
-- <a href="https://www.readme-i18n.com/Shubhamsaboo/awesome-llm-apps?lang=fr">français</a> |
-- <a href="https://www.readme-i18n.com/Shubhamsaboo/awesome-llm-apps?lang=ja">日本語</a> |
-- <a href="https://www.readme-i18n.com/Shubhamsaboo/awesome-llm-apps?lang=ko">한국어</a> |
-- <a href="https://www.readme-i18n.com/Shubhamsaboo/awesome-llm-apps?lang=pt">Português</a> |
-- <a href="https://www.readme-i18n.com/Shubhamsaboo/awesome-llm-apps?lang=ru">Русский</a> |
-- *   [📑 Notion MCP Agent](mcp_ai_agents/notion_mcp_agent)
-- 1. **Clone the repository**
-- ```bash
-- git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
-+ <a href="https://www.readme-i18n.com/Shubhamsaboo/awesome-llm-apps?lang=de">Deutsch</a> |
-+ <a href="https://www.readme-i18n.com/Shubhamsaboo/awesome-llm-apps?lang=es">Español</a> |
-+ <a href="https://www.readme-i18n.com/Shubhamsaboo/awesome-llm-apps?lang=fr">français</a> |
-+ <a href="https://www.readme-i18n.com/Shubhamsaboo/awesome-llm-apps?lang=ja">日本語</a> |
-+ <a href="https://www.readme-i18n.com/Shubhamsaboo/awesome-llm-apps?lang=ko">한국어</a> |
-+ <a href="https://www.readme-i18n.com/Shubhamsaboo/awesome-llm-apps?lang=pt">Português</a> |
-+ <a href="https://www.readme-i18n.com/Shubhamsaboo/awesome-llm-apps?lang=ru">Русский</a> |
-+ *   [📑 Notion MCP Agent](mcp_ai_agents/notion_mcp_agent)
-+ 1. **Clone the repository**
-+ ```bash
-+ git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
-+ *   [🌏 AI Travel Planner Agent Team](/advanced_ai_agents/multi_agent_apps/agent_teams/ai_travel_planner_team/)
+- advanced_ai_agents/multi_agent_apps
+- *   [🎧 AI Social Media News and Podcast Agent](advanced_ai_agents/multi_agent_apps/ai_news_and_podcast_agent/)
++ *   [🎧 AI Social Media News and Podcast Agent](advanced_ai_agents/multi_agent_apps/ai_news_and_podcast_agents/)
++ advanced_ai_agents/multi_agent_apps
++ *   [🎧 AI Social Media News and Podcast Agent](advanced_ai_agents/multi_agent_apps/ai_news_and_podcast_agent/)
 ```
 
 
@@ -97,5 +80,16 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [233cfd9](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/233cfd984700be6823ac61a3c88a2caacd3a959c) Update README.md - Lucas Valbuena
+
+
+##### File Content Changes
+
+**README.md** (Modified, +2 -0 lines):
+
+```diff
++ [![Build Status](https://app.cloudback.it/badge/x1xhlol/system-prompts-and-models-of-ai-tools)](https://cloudback.it)
+```
+
+
 
