@@ -33,13 +33,25 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-06-27T01:37:31
+### 2025-06-28T01:25:48
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
 ##### Commit Changes
 
-No file changes detected.
+- [a63bbb1](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/a63bbb11ac2407ac71cda692dbb037743c6f47fe) Update README.md - Shubham Saboo
+
+
+##### File Content Changes
+
+**README.md** (Modified, +1 -1 lines):
+
+```diff
+- *   [🌏 AI Travel Planner Agent Team](/advanced_ai_agents/multi_agent_apps/agent_teams/ai_travel_planner_team/)
++ *   [🌏 AI Travel Planner Agent Team](/advanced_ai_agents/multi_agent_apps/agent_teams/ai_travel_planner_agent_team/)
+```
+
+
 
 #### [awesome-gpt4o-images](https://github.com/jamez-bondos/awesome-gpt4o-images)
 
@@ -63,5 +75,124 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [aee79f4](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/aee79f497f15a123764afdaffd4e0852b995d76b) Update README.md - Lucas Valbuena
+- [133e14c](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/133e14c9d8c86df79e4667ed20b7691194202e97) Update README.md - Lucas Valbuena
+- [d3d027d](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/d3d027d07ebfd9e5e8f91c562444e6a44fc8dedf) Update README.md - Lucas Valbuena
+- [04f4192](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/04f41924d97c36543993207884aa2e0aa7628145) Update README.md - Lucas Valbuena
+- [352c928](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/352c9286cbd81fc15ff44f28469a488d156e93f3) Update README.md - Lucas Valbuena
+- [553f46f](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/553f46f89eab4f1fea1fa44912a57adc8adae749) Update README.md - Lucas Valbuena
+- [7a28de9](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/7a28de95429e0ff391278d6405a48e07766041d4) Update README.md - Lucas Valbuena
+- [3e83535](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/3e83535749f762f4f6008f9ff0f2c8ef3856109b) Update README.md - Lucas Valbuena
+
+
+##### File Content Changes
+
+**README.md** (Modified, +75 -53 lines):
+
+```diff
+- # **FULL v0, Cursor, Manus, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent, VSCode Agent, Dia Browser, Trae AI & Cluely (And other Open Sourced) System Prompts, Tools & AI Models**
+- - **v0 Folder**
+- 2. [Roadmap & Feedback](#roadmap--feedback)
+- 3. [Support the Project](#support-the-project)
+- 4. [Connect With Me](#connect-with-me)
+- 5. [Security Notice for AI Startups](#security-notice-for-ai-startups)
+- 6. [Star History](#star-history)
+- 1. [Available Files](#available-files)
+- > **Latest Update:** 24/06/2025
+- ## 📂 **Available Files**
+- - **Manus Folder**
+- - **Lovable Folder**
+- - **Devin Folder**
+- - **Same.dev Folder**
+- - **Replit Folder**
+- - **Windsurf Agent Folder**
+- - **VSCode (Copilot) Agent Folder**
+- - **Cursor Folder**
+- - **Dia Folder**
+- - **Trae AI Folder**
+- - **Cluely Folder**
+- - **Open Source prompts Folder**
+- - Codex CLI
+- - Cline
+- - Bolt
+- - RooCode
+- ## 🛠 **Roadmap & Feedback**
+- 🚨 **Note:** We no longer use GitHub issues for roadmap and feedback.
+- Please visit [System Prompts Roadmap & Feedback](https://systemprompts.featurebase.app/) to share your suggestions and track upcoming features.
+- 🆕 **LATEST UPDATE:** 24/06/2025
+- *   **PayPal:** `lucknitelol@proton.me`
+- *   **Cryptocurrency:**
+- *   **BTC:** `bc1q7zldmzjwspnaa48udvelwe6k3fef7xrrhg5625`
+- *   **LTC:** `LRWgqwEYDwqau1WeiTs6Mjg85NJ7m3fsdQ`
+- *   **ETH:** `0x3f844B2cc3c4b7242964373fB0A41C4fdffB192A`
+- Thank you for your support! 🙏
+- ## 🔗 **Connect With Me**
+- ✖ **X:** [NotLucknite](https://x.com/NotLucknite)
+- 💬 **Discord:** `x1xh`
+- ## 🛡️ **Security Notice for AI Startups***
+- ⚠️ **If you're an AI startup, make sure your data is secure.** Exposed prompts or AI models can easily become a target for hackers.
+- 🔐 **Interested in securing your AI systems?**
+- Check out **[ZeroLeaks](https://zeroleaks.lucknite.lol/)**, a service designed to help startups **identify and secure** leaks in system instructions, internal tools, and model configurations. **Get a free AI security audit** to ensure your AI is protected from vulnerabilities.
+- **The company is mine, this is NOT a 3rd party AD.*
+- ## 📊 **Star History**
+- <picture>
+- <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=x1xhlol/system-prompts-and-models-of-ai-tools&type=Date&theme=dark" />
+- <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=x1xhlol/system-prompts-and-models-of-ai-tools&type=Date" />
+- <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=x1xhlol/system-prompts-and-models-of-ai-tools&type=Date" />
+- </picture>
+- ... (2 more deletions)
++ # **FULL v0, Cursor, Manus, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent, VSCode Agent, Dia Browser, Trae AI, Cluely & Spawn (And other Open Sourced) System Prompts, Tools & AI Models**
++ - **v0 Folder**
++ - **Spawn Folder**
++ 2. [Roadmap & Feedback](#-roadmap--feedback)
++ 3. [Support the Project](#%EF%B8%8F-support-the-project)
++ 4. [Connect With Me](#-connect-with-me)
++ 5. [Security Notice for AI Startups](#%EF%B8%8F-security-notice-for-ai-startups)
++ 6. [Star History](#-star-history)
++ 1. [Available Files](#-available-files)
++ > **Latest Update:** 27/06/2025
++ ---
++ ## 📑 Table of Contents
++ 1. [Available Files](#available-files)
++ 2. [Roadmap & Feedback](#roadmap--feedback)
++ 3. [Support the Project](#support-the-project)
++ 4. [Connect With Me](#connect-with-me)
++ 5. [Security Notice for AI Startups](#security-notice-for-ai-startups)
++ 6. [Star History](#star-history)
++ ## 📂 Available Files
++ - **Manus Folder**
++ - **Lovable Folder**
++ - **Devin Folder**
++ - **Same.dev Folder**
++ - **Replit Folder**
++ - **Windsurf Agent Folder**
++ - **VSCode (Copilot) Agent Folder**
++ - **Cursor Folder**
++ - **Dia Folder**
++ - **Trae AI Folder**
++ - **Cluely Folder**
++ - **Open Source prompts Folder**
++ - Codex CLI
++ - Cline
++ - Bolt
++ - RooCode
++ ## 🛠 Roadmap & Feedback
++ > **Note:** We no longer use GitHub issues for roadmap and feedback.
++ > Please visit [System Prompts Roadmap & Feedback](https://systemprompts.featurebase.app/) to share your suggestions and track upcoming features.
++ > **Latest Update:** 24/06/2025
++ - **PayPal:** `lucknitelol@proton.me`
++ - **Cryptocurrency:**
++ - **BTC:** `bc1q7zldmzjwspnaa48udvelwe6k3fef7xrrhg5625`
++ - **LTC:** `LRWgqwEYDwqau1WeiTs6Mjg85NJ7m3fsdQ`
++ - **ETH:** `0x3f844B2cc3c4b7242964373fB0A41C4fdffB192A`
++ 🙏 Thank you for your support!
++ ## 🔗 Connect With Me
++ - **X:** [NotLucknite](https://x.com/NotLucknite)
++ - **Discord:** `x1xh`
++ ## 🛡️ Security Notice for AI Startups
++ > ⚠️ **Warning:** If you're an AI startup, make sure your data is secure. Exposed prompts or AI models can easily become a target for hackers.
++ ... (11 more additions)
+```
+
+
 
