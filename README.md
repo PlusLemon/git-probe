@@ -33,24 +33,13 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-07-05T01:25:22
+### 2025-07-07T01:42:17
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
 ##### Commit Changes
 
-- [292e02b](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/292e02bb979293dbb94fdda27a6bd3d55bdcbc16) Updated README - ShubhamSaboo
-
-
-##### File Content Changes
-
-**README.md** (Modified, +1 -0 lines):
-
-```diff
-+ *   [🤝 AI Consultant Agent](advanced_ai_agents/single_agent_apps/ai_consultant_agent)
-```
-
-
+No file changes detected.
 
 #### [awesome-gpt4o-images](https://github.com/jamez-bondos/awesome-gpt4o-images)
 
@@ -62,7 +51,44 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [4aa1949](https://github.com/punkpeye/awesome-mcp-servers/commit/4aa1949437a9ed2d72860f6125bcaab293f96cb9) Merge pull request #1100 from jacknagz/add-panther-mcp-server - Frank Fiegel
+- [b99de4b](https://github.com/punkpeye/awesome-mcp-servers/commit/b99de4b296399e6f4e22d7c6234d643cf9600281) Update README.md - Frank Fiegel
+- [0baf5e3](https://github.com/punkpeye/awesome-mcp-servers/commit/0baf5e3748cde2e37ee5df972711dd2cb9a44f35) Add new jupiter ultra mcp server on solana - Akshay
+- [fce9e4c](https://github.com/punkpeye/awesome-mcp-servers/commit/fce9e4c35fe0ef6e2ffc94a2012454c828681f4b) add official + macOS badges - Jack Naglieri
+- [c008cbb](https://github.com/punkpeye/awesome-mcp-servers/commit/c008cbb8e5fd9f5af4ff939031956d3a2818376b) Update README.md - Frank Fiegel
+- [1f89ee5](https://github.com/punkpeye/awesome-mcp-servers/commit/1f89ee51180b746e4f1fa1ca93d70c8aac842b23) Add new MCP Octocode server - bgauryy
+- [18748ab](https://github.com/punkpeye/awesome-mcp-servers/commit/18748abc6e89f869599b69a0d4e14f4b53bb9655) Merge pull request #1111 from kaeawc/patch-1 - Frank Fiegel
+- [8c507c8](https://github.com/punkpeye/awesome-mcp-servers/commit/8c507c88957692a334c43e08e4b0a14348ee1f4b) Merge pull request #1112 from imprvhub/main - Frank Fiegel
+- [fdad1db](https://github.com/punkpeye/awesome-mcp-servers/commit/fdad1db42b3edd5f93db7bf0d3f0bf0a219a52d2) Update README.md - Frank Fiegel
+- [a0d278b](https://github.com/punkpeye/awesome-mcp-servers/commit/a0d278baabff92b40087b994fb3a414af51701f0) Add notion-mcp-server - comprehensive Notion MCP integration - Ankit Malik
+
+
+##### File Content Changes
+
+**README.md** (Modified, +15 -4 lines):
+
+```diff
+- - [panther-labs/mcp-panther](https://github.com/panther-labs/mcp-panther)🎖️ 🐍 ☁️ 🍎 - MCP server that enables security professionals to interact with Panther's SIEM platform using natural language for writing detections, querying logs, and managing alerts.
+- - [panther-labs/mcp-panther](https://github.com/panther-labs/mcp-panther) 🐍 ☁️ - MCP server that enables security professionals to interact with Panther's SIEM platform using natural language for writing detections, querying logs, and managing alerts.
+- - [Octocode](https://github.com/bgauryy/octocode-mcp) ☁️ 🏠 📇  🍎 🪟 🐧 - AI-powered developer assistant that enables advanced research, analysis and discovery across GitHub and NPM realms in realtime.
+- - - [ankitmalik84/notion-mcp-server](https://github.com/ankitmalik84/Agentic_Longterm_Memory/tree/main/src/notion_mcp_server) 🐍 ☁ - A comprehensive Model Context Protocol (MCP) server for Notion integration with enhanced functionality, robust error handling, production-ready feature.
++ - [panther-labs/mcp-panther](https://github.com/panther-labs/mcp-panther) 🎖️ 🐍 ☁️ 🍎 - MCP server that enables security professionals to interact with Panther's SIEM platform using natural language for writing detections, querying logs, and managing alerts.
++ - [araa47/jupiter-ultra-mcp](https://github.com/araa47/jupiter-ultra-mcp) 🐍 ☁️ - Jupiter Ultra API Access (allow AI to Trade Tokens on Solana + Access Balances + Search Tokens)
++ - [panther-labs/mcp-panther](https://github.com/panther-labs/mcp-panther)🎖️ 🐍 ☁️ 🍎 - MCP server that enables security professionals to interact with Panther's SIEM platform using natural language for writing detections, querying logs, and managing alerts.
++ - [bgauryy/octocode-mcp](https://github.com/bgauryy/octocode-mcp) ☁️ 📇 🍎 🪟 🐧 - AI-powered developer assistant that enables advanced research, analysis and discovery across GitHub and NPM realms in realtime.
++ - [Octocode](https://github.com/bgauryy/octocode-mcp) ☁️ 🏠 📇  🍎 🪟 🐧 - AI-powered developer assistant that enables advanced research, analysis and discovery across GitHub and NPM realms in realtime.
++ - [zillow/auto-mobile](https://github.com/zillow/auto-mobile) 📇 🏠 🐧  - Tool suite built around an MCP server for Android automation for developer workflow and testing
++ - [imprvhub/mcp-browser-agent](https://github.com/imprvhub/mcp-browser-agent) 📇 🏠 - A Model Context Protocol (MCP) integration that provides Claude Desktop with autonomous browser automation capabilities.
++ - [imprvhub/mcp-status-observer](https://github.com/imprvhub/mcp-status-observer) 📇 ☁️ -  Model Context Protocol server for monitoring Operational Status of major digital platforms in Claude Desktop.
++ - [imprvhub/mcp-domain-availability](https://github.com/imprvhub/mcp-domain-availability) 🐍 ☁️ - A Model Context Protocol (MCP) server that enables Claude Desktop to check domain availability across 50+ TLDs. Features DNS/WHOIS verification, bulk checking, and smart suggestions. Zero-clone installation via uvx.
++ - [imprvhub/mcp-claude-hackernews](https://github.com/imprvhub/mcp-claude-hackernews) 📇 🏠 ☁️ - An integration that allows Claude Desktop to interact with Hacker News using the Model Context Protocol (MCP).
++ - [imprvhub/mcp-rss-aggregator](https://github.com/imprvhub/mcp-rss-aggregator) 📇 ☁️ 🏠 - Model Context Protocol Server for aggregating RSS feeds in Claude Desktop.
++ - [imprvhub/mcp-claude-spotify](https://github.com/imprvhub/mcp-claude-spotify) 📇 ☁️ 🏠 - An integration that allows Claude Desktop to interact with Spotify using the Model Context Protocol (MCP).
++ - [ankitmalik84/notion-mcp-server](https://github.com/ankitmalik84/Agentic_Longterm_Memory/tree/main/src/notion_mcp_server) 🐍 ☁️ - A comprehensive Model Context Protocol (MCP) server for Notion integration with enhanced functionality, robust error handling, production-ready feature.
++ - - [ankitmalik84/notion-mcp-server](https://github.com/ankitmalik84/Agentic_Longterm_Memory/tree/main/src/notion_mcp_server) 🐍 ☁ - A comprehensive Model Context Protocol (MCP) server for Notion integration with enhanced functionality, robust error handling, production-ready feature.
+```
+
+
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
@@ -74,17 +100,5 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [7200816](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/7200816e9e8460c40a4754d5feb0a2779cd16d62) Update README.md - Lucas Valbuena
-
-
-##### File Content Changes
-
-**README.md** (Modified, +1 -1 lines):
-
-```diff
-- > **Latest Update:** 02/07/2025
-+ > **Latest Update:** 04/07/2025
-```
-
-
+No file changes detected.
 
