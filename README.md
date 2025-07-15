@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-07-12T01:41:59
+### 2025-07-15T01:44:57
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,23 +51,7 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [1dcfdc4](https://github.com/punkpeye/awesome-mcp-servers/commit/1dcfdc43b4c860e4c79d9aae4ae28299caee3fa3) Merge pull request #1132 from tomholford/tic-tac-toe - Frank Fiegel
-- [7389dc4](https://github.com/punkpeye/awesome-mcp-servers/commit/7389dc4527937739fda7b0e0f51b33e764242b6c) Update README.md - Frank Fiegel
-- [57da579](https://github.com/punkpeye/awesome-mcp-servers/commit/57da579f125a5606979620df411aee576937d650) Update README.md - Frank Fiegel
-
-
-##### File Content Changes
-
-**README.md** (Modified, +3 -2 lines):
-
-```diff
-- - [tomholford/mcp-tic-tac-toe](https://github.com/tomholford/mcp-tic-tac-toe) - 🏎️ 🏠 - Play Tic Tac Toe against an AI opponent using this MCP server.
-- - [tomholford/mcp-tic-tac-toe](https://github.com/tomholford/mcp-tic-tac-toe) - 🏎️🏠 - Play Tic Tac Toe against an AI opponent using this MCP server.
-+ - [tomholford/mcp-tic-tac-toe](https://github.com/tomholford/mcp-tic-tac-toe) 🏎️ 🏠 - Play Tic Tac Toe against an AI opponent using this MCP server.
-+ - [tomholford/mcp-tic-tac-toe](https://github.com/tomholford/mcp-tic-tac-toe) - 🏎️ 🏠 - Play Tic Tac Toe against an AI opponent using this MCP server.
-```
-
-
+No file changes detected.
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
@@ -79,5 +63,41 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [7f10715](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/7f10715dc9ef830296ada1d2a39f7ac157094916) Update README.md - Lucas Valbuena
+
+
+##### File Content Changes
+
+**README.md** (Modified, +20 -20 lines):
+
+```diff
+- 3. [Support the Project](#%EF%B8%8F-support-the-project)
+- 4. [Connect With Me](#-connect-with-me)
+- 5. [Security Notice for AI Startups](#%EF%B8%8F-security-notice-for-ai-startups)
+- 6. [Star History](#-star-history)
+- ## ❤️ Support the Project
+- If you find this collection valuable and appreciate the effort involved in obtaining and sharing these insights, please consider supporting the project. Your contribution helps keep this resource updated and allows for further exploration.
+- You can show your support via:
+- - **PayPal:** `lucknitelol@proton.me`
+- - **Cryptocurrency:**
+- - **BTC:** `bc1q7zldmzjwspnaa48udvelwe6k3fef7xrrhg5625`
+- - **LTC:** `LRWgqwEYDwqau1WeiTs6Mjg85NJ7m3fsdQ`
+- - **ETH:** `0x3f844B2cc3c4b7242964373fB0A41C4fdffB192A`
+- 🙏 Thank you for your support!
++ ---
++ ## ❤️ Support the Project
++ If you find this collection valuable and appreciate the effort involved in obtaining and sharing these insights, please consider supporting the project. Your contribution helps keep this resource updated and allows for further exploration.
++ You can show your support via:
++ - **PayPal:** `lucknitelol@proton.me`
++ - **Cryptocurrency:**
++ - **BTC:** `bc1q7zldmzjwspnaa48udvelwe6k3fef7xrrhg5625`
++ - **LTC:** `LRWgqwEYDwqau1WeiTs6Mjg85NJ7m3fsdQ`
++ - **ETH:** `0x3f844B2cc3c4b7242964373fB0A41C4fdffB192A`
++ 🙏 Thank you for your support!
++ 3. [Connect With Me](#-connect-with-me)
++ 4. [Security Notice for AI Startups](#%EF%B8%8F-security-notice-for-ai-startups)
++ 5. [Star History](#-star-history)
+```
+
+
 
