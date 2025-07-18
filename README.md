@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-07-17T01:42:31
+### 2025-07-18T01:43:21
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -63,35 +63,5 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [86943b1](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/86943b19f4e5f81bcabc5bba8a0f5fdbce7373b9) Update README.md - Lucas Valbuena
-- [b012425](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/b012425c7d9612e2ff93be99dd1e857a86f9d71a) Update README.md - Lucas Valbuena
-- [e0ce74b](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/e0ce74bead81fcab19c1a8350abddcf465073649) Update README.md - Lucas Valbuena
-- [58de542](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/58de54233278a5dd5cb49550e02bcb531e647a22) Update README.md - Lucas Valbuena
-- [297b7c7](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/297b7c74de5ca1d435f805c822da443fe9304558) Update README.md - Lucas Valbuena
-
-
-##### File Content Changes
-
-**README.md** (Modified, +8 -8 lines):
-
-```diff
-- - **Patreon:** `https://patreon.com/lucknite`
-- - **PayPal:** `lucknitelol@proton.me`
-- > **Note:** We no longer use GitHub issues for roadmap and feedback.
-- > Please visit [System Prompts Roadmap & Feedback](https://systemprompts.featurebase.app/) to share your suggestions and track upcoming features.
-- > **Latest Update:** 04/07/2025
-- - **Discord:** `x1xh`
-- - **Trae AI Folder**
-- # **FULL v0, Cursor, Manus, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent, VSCode Agent, Dia Browser, Trae AI, Cluely, Xcode & Spawn (And other Open Sourced) System Prompts, Tools & AI Models**
-+ - **Patreon:** https://patreon.com/lucknite
-+ - **PayPal:** `lucknitelol@proton.me`
-+ - **Patreon:** `https://patreon.com/lucknite`
-+ > Open an issue.
-+ > **Latest Update:** 16/07/2025
-+ - **Trae AI Folder**
-+ - **Perplexity Folder**
-+ # **FULL v0, Cursor, Manus, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent, VSCode Agent, Dia Browser, Trae AI, Cluely, Perplexity, Xcode & Spawn (And other Open Sourced) System Prompts, Tools & AI Models**
-```
-
-
+No file changes detected.
 
