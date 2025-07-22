@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-07-21T01:47:53
+### 2025-07-22T01:42:44
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -63,24 +63,16 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [4274d6e](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/4274d6e3409d0ece2441c942e62bbf5fcd119a36) Update README.md - Lucas Valbuena
-- [5ecc7a7](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/5ecc7a724093e8d887769211af18dd78eae61321) Update README.md - Lucas Valbuena
+- [8009ec6](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/8009ec6ff5c95404885d336a30a7b61af4188a7d) Update README.md - Lucas Valbuena
 
 
 ##### File Content Changes
 
-**README.md** (Modified, +5 -4 lines):
+**README.md** (Modified, +1 -1 lines):
 
 ```diff
-- 📜 Over **7500+ lines** of insights into their structure and functionality.
-- # **FULL v0, Cursor, Manus, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent, VSCode Agent, Dia Browser, Trae AI, Cluely, Perplexity, Xcode & Spawn (And other Open Sourced) System Prompts, Tools & AI Models**
-- - **Xcode Folder**
-- > **Latest Update:** 16/07/2025
-+ 📜 Over **8000+ lines** of insights into their structure and functionality.
-+ # **FULL v0, Cursor, Manus, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent, VSCode Agent, Dia Browser, Trae AI, Cluely, Perplexity, Xcode, Spawn & Orchids.app (And other Open Sourced) System Prompts, Tools & AI Models**
-+ - **Xcode Folder**
-+ - **Orchids.app Folder**
-+ > **Latest Update:** 21/07/2025
+- 📜 Over **8000+ lines** of insights into their structure and functionality.
++ 📜 Over **8500+ lines** of insights into their structure and functionality.
 ```
 
 
