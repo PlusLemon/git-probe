@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-07-29T01:54:45
+### 2025-07-30T01:45:02
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,7 +51,18 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [8d369ac](https://github.com/punkpeye/awesome-mcp-servers/commit/8d369ac6668cefc6bdde41d43deb4e2d81937f0f) Merge pull request #1197 from ukkit/main - Frank Fiegel
+
+
+##### File Content Changes
+
+**README.md** (Modified, +1 -0 lines):
+
+```diff
++ - [ukkit/memcord](https://github.com/ukkit/memcord) 🐍 🏠 🐧 🍎 - A MCP server that keeps your chat history organized and searchable—with AI-powered summaries, secure memory, and full control.
+```
+
+
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
