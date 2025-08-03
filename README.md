@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-08-02T01:39:55
+### 2025-08-03T01:52:19
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,21 +51,7 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [654e8e3](https://github.com/punkpeye/awesome-mcp-servers/commit/654e8e36d4acca3358f474006ca699345120237c) Merge pull request #1195 from sanyambassi/main - Frank Fiegel
-
-
-##### File Content Changes
-
-**README.md** (Modified, +3 -1 lines):
-
-```diff
-- - [sanyambassi/ciphertrust-manager-mcp-server](https://github.com/sanyambassi/ciphertrust-manager-mcp-server) 🐍 ☁️ 🏠 - MCP server for Thales CipherTrust Manager integration, enabling secure key management, cryptographic operations, and compliance monitoring through AI assistants.
-+ - [sanyambassi/ciphertrust-manager-mcp-server](https://github.com/sanyambassi/ciphertrust-manager-mcp-server) 🐍 ☁️ 🏠 🐧 🪟 - MCP server for Thales CipherTrust Manager integration, enabling secure key management, cryptographic operations, and compliance monitoring through AI assistants.
-+ - [sanyambassi/thales-cdsp-cakm-mcp-server](https://github.com/sanyambassi/thales-cdsp-cakm-mcp-server) 🐍 ☁️ 🏠 🐧 🪟 - MCP server for Thales CDSP CAKM integration, enabling secure key management, cryptographic operations, and compliance monitoring through AI assistants for Ms SQL and Oracle Databases.
-+ - [sanyambassi/thales-cdsp-crdp-mcp-server](https://github.com/sanyambassi/thales-cdsp-crdp-mcp-server) 📇 ☁️ 🏠 🐧 🪟 - MCP server for Thales CipherTrust Manager RestFul Data Protection service.
-```
-
-
+No file changes detected.
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
@@ -77,5 +63,16 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [caa5c86](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/caa5c865284bee4a87c442fe84c9fe83587881f9) Update README.md - Lucas Valbuena
+
+
+##### File Content Changes
+
+**README.md** (Modified, +2 -0 lines):
+
+```diff
++ <!-- GitAds-Verify: 1XH3NPLCWBUSIAJ4V7BN4OSH4LXN21WW -->
+```
+
+
 
