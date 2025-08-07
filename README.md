@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-08-05T01:47:29
+### 2025-08-07T01:46:02
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -63,5 +63,25 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [b2d3598](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/b2d3598bccc3baba95aabfe3d95dfb57a0a673ff) Update README.md - Lucas Valbuena
+- [d1905fc](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/d1905fcf0517826470c08a8624fbb5464d34186d) Update README.md - Lucas Valbuena
+- [1f110f9](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/1f110f9c3a603c0763957a1bd58ad8d759f0e90f) Update README.md - Lucas Valbuena
+
+
+##### File Content Changes
+
+**README.md** (Modified, +8 -2 lines):
+
+```diff
+- > **Latest Update:** 31/07/2025
+- <img src="https://img.shields.io/discord/1240288268476575764?label=LeaksLab%20Discord&logo=discord&style=for-the-badge" alt="LeaksLab Discord" />
++ > **Latest Update:** 06/08/2025
++ <img src="https://img.shields.io/discord/1402660735833604126?label=LeaksLab%20Discord&logo=discord&style=for-the-badge" alt="LeaksLab Discord" />
++ <a href="https://discord.gg/NwzrWErdMU" target="_blank">
++ <img src="https://img.shields.io/discord/1240288268476575764?label=LeaksLab%20Discord&logo=discord&style=for-the-badge" alt="LeaksLab Discord" />
++ </a>
++ > **Join the Conversation:** New system instructions are released on Discord **before** they appear in this repository. Get early access and discuss them in real time.
+```
+
+
 
