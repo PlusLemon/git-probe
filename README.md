@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-08-17T01:43:22
+### 2025-08-18T01:43:36
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -63,5 +63,20 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [9fb62d6](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/9fb62d6439182cedc68ab3851902f0e7c3104f2d) Update README.md - Lucas Valbuena
+- [d2956e3](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/d2956e383986f5d05c279a45eb360f6f4b4debb6) Update README.md - Lucas Valbuena
+
+
+##### File Content Changes
+
+**README.md** (Modified, +2 -2 lines):
+
+```diff
+- > **Latest Update:** 11/08/2025
+- 📜 Over **9000+ lines** of insights into their structure and functionality.
++ > **Latest Update:** 17/08/2025
++ 📜 Over **10,000+ lines** of insights into their structure and functionality.
+```
+
+
 
