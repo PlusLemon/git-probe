@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-08-18T01:43:36
+### 2025-08-19T01:25:19
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -63,19 +63,23 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [9fb62d6](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/9fb62d6439182cedc68ab3851902f0e7c3104f2d) Update README.md - Lucas Valbuena
-- [d2956e3](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/d2956e383986f5d05c279a45eb360f6f4b4debb6) Update README.md - Lucas Valbuena
+- [e56c4bc](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/e56c4bcd5989956608edea636426d301ee4adc3c) Update README.md - Lucas Valbuena
+- [1a982f6](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/1a982f6086de6e6faa6220c3623d8049f99edcbb) Update README.md - Lucas Valbuena
+- [b6359f4](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/b6359f408ec85e0997bf1752a1840bf9f31c1bd9) Update README.md - Lucas Valbuena
 
 
 ##### File Content Changes
 
-**README.md** (Modified, +2 -2 lines):
+**README.md** (Modified, +4 -3 lines):
 
 ```diff
-- > **Latest Update:** 11/08/2025
-- 📜 Over **9000+ lines** of insights into their structure and functionality.
-+ > **Latest Update:** 17/08/2025
-+ 📜 Over **10,000+ lines** of insights into their structure and functionality.
+- # **FULL v0, Cursor, Manus, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent, VSCode Agent, Dia Browser, Trae AI, Cluely, Perplexity, Xcode, Augment Code, Spawn & Orchids.app (And other Open Sourced) System Prompts, Tools & AI Models**
+- # **FULL v0, Cursor, Manus, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent, VSCode Agent, Dia Browser, Trae AI, Cluely, Perplexity, Xcode, Spawn & Orchids.app (And other Open Sourced) System Prompts, Tools & AI Models**
+- > **Latest Update:** 17/08/2025
++ # **System Prompts and Models of AI Tools**
++ # **FULL v0, Cursor, Manus, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent, VSCode Agent, Dia Browser, Trae AI, Cluely, Perplexity, Xcode, Augment Code, Spawn & Orchids.app (And other Open Sourced) System Prompts, Tools & AI Models**
++ - [**Augment Code**](./Augment%20Code/)
++ > **Latest Update:** 18/08/2025
 ```
 
 
