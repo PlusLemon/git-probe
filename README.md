@@ -33,13 +33,43 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-08-23T01:20:34
+### 2025-08-24T01:39:55
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
 ##### Commit Changes
 
-No file changes detected.
+- [ba4a2d4](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/ba4a2d418347885cebfbffe7c25f9cdb873dd4e0) Change sponsor text to 'Become a Sponsor' - Shubham Saboo
+- [ce4500b](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/ce4500b0375bab6af33dd374db94c0ce6f6ea2ab) feat: Add sponsor section to README.md with links and images - Shubhamsaboo
+
+
+##### File Content Changes
+
+**README.md** (Modified, +28 -3 lines):
+
+```diff
+- Sponsor Awesome LLM Apps Repo
++ Become a Sponsor
++ ## 🙏 Thanks to our sponsors
++ <table align="center" cellpadding="16" cellspacing="12">
++ <tr>
++ <td align="center">
++ <a href="https://getunblocked.com/unblocked-mcp/?utm_source=oss&utm_medium=sponsorship&utm_campaign=awesome-llm-apps" target="_blank" rel="noopener" title="Unblocked">
++ <img src="docs/banner/sponsors/unblocked.png" alt="Unblocked" width="450">
++ </a>
++ <br>
++ <a href="https://getunblocked.com/unblocked-mcp/?utm_source=oss&utm_medium=sponsorship&utm_campaign=awesome-llm-apps" target="_blank" rel="noopener" style="text-decoration: none; color: #333; font-weight: bold; font-size: 18px;">
++ Unblocked
++ </td>
++ <a href="https://sponsorunwindai.com/" title="Sponsor Awesome LLM Apps Repo">
++ <img src="docs/banner/sponsor_awesome_llm_apps.png" alt="Sponsor Awesome LLM Apps Repo" width="450">
++ <a href="https://sponsorunwindai.com/" style="text-decoration: none; color: #333; font-weight: bold; font-size: 18px;">
++ Sponsor Awesome LLM Apps Repo
++ </tr>
++ </table>
+```
+
+
 
 #### [awesome-gpt4o-images](https://github.com/jamez-bondos/awesome-gpt4o-images)
 
@@ -51,16 +81,24 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [aba6172](https://github.com/punkpeye/awesome-mcp-servers/commit/aba61725d9b808140e0560e5d5a31be6e4969338) Update README.md - Frank Fiegel
+- [cf1f0ac](https://github.com/punkpeye/awesome-mcp-servers/commit/cf1f0ac61dfea727952e09b2ec2130355dde00d1) Merge pull request #1293 from wyattjoh/add-jsr-mcp - Frank Fiegel
+- [200b7e1](https://github.com/punkpeye/awesome-mcp-servers/commit/200b7e1dce01e301d33063c4fc13bd5d55bd9f9a) feat: add jsr-mcp to Developer Tools section - Wyatt Johnson
+- [55febb8](https://github.com/punkpeye/awesome-mcp-servers/commit/55febb8c60ba946993819c3786c63f0af8e8962d) feat: add imessage-mcp to Communication section - Wyatt Johnson
+- [75b09d2](https://github.com/punkpeye/awesome-mcp-servers/commit/75b09d2ae48f632b638eb4e13bdac4bb9a194283) Fix link to IO Aerospace MCP Server repository in Aerospace & Astrodynamics section - Sylvain Guillet
+- [483b415](https://github.com/punkpeye/awesome-mcp-servers/commit/483b415d6058bc8c6d14497f92c69b3beda462cf) Add Aerospace & Astrodynamics section with IO-Aerospace MCP server - Sylvain Guillet
 
 
 ##### File Content Changes
 
-**README.md** (Modified, +1 -1 lines):
+**README.md** (Modified, +8 -1 lines):
 
 ```diff
-- - [gerkensm/callcenter.js-mcp](https://github.com/gerkensm/callcenter.js-mcp) 📇 ☁️ An MCP server to make phone calls using VoIP/SIP and OpenAI's Realtime API and observe the transcript.
-+ - [gerkensm/callcenter.js-mcp](https://github.com/gerkensm/callcenter.js-mcp) 📇 ☁️ - An MCP server to make phone calls using VoIP/SIP and OpenAI's Realtime API and observe the transcript.
+- - [IO-Aerospace-software-engineering/mcp-server](https://github.com/IO-Aerospace-software-engineering/mcp-server) #️⃣ ☁️/🏠 🐧 - IO Aerospace MCP Server: a .NET-based MCP server for aerospace & astrodynamics — ephemeris, orbital conversions, DSS tools, time conversions, and unit/math utilities. Supports STDIO and SSE transports; Docker and native .NET deployment documented.
++ - [wyattjoh/jsr-mcp](https://github.com/wyattjoh/jsr-mcp) 📇 ☁️ - Model Context Protocol server for the JSR (JavaScript Registry)
++ - [wyattjoh/imessage-mcp](https://github.com/wyattjoh/imessage-mcp) 📇 🏠 🍎 - A Model Context Protocol server for reading iMessage data from macOS.
++ - [IO-Aerospace-software-community/mcp-server](https://github.com/IO-Aerospace-software-engineering/mcp-server) #️⃣ ☁️/🏠 🐧 - IO Aerospace MCP Server: a .NET-based MCP server for aerospace & astrodynamics — ephemeris, orbital conversions, DSS tools, time conversions, and unit/math utilities. Supports STDIO and SSE transports; Docker and native .NET deployment documented.
++ ### 🚀 <a name="aerospace-and-astrodynamics"></a>Aerospace & Astrodynamics
++ - [IO-Aerospace-software-engineering/mcp-server](https://github.com/IO-Aerospace-software-engineering/mcp-server) #️⃣ ☁️/🏠 🐧 - IO Aerospace MCP Server: a .NET-based MCP server for aerospace & astrodynamics — ephemeris, orbital conversions, DSS tools, time conversions, and unit/math utilities. Supports STDIO and SSE transports; Docker and native .NET deployment documented.
 ```
 
 
@@ -75,76 +113,16 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [73fc745](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/73fc74521ddcedba9a48b00f5a67b26c4d45ce3b) Update README.md - Lucas Valbuena
-- [ad4adbc](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/ad4adbcb693190cf185c48c323547f6d054e7578) Update README.md - Lucas Valbuena
-- [33ccaa5](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/33ccaa562d6672d8ed7bc0565df5797df50a0aef) Update README.md - Fromsko
-- [5bf7efa](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/5bf7efa4f719c8b23cecb81e03f52584fddb7380) Update README.md - Lucas Valbuena
-- [ae9d14c](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/ae9d14ca3e568823d52fcef40cfb312cee34465f) Merge branch 'main' into main - moqimoqidea
-- [156e376](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/156e3764330b596784a45218b9f1d71ac791481d) Rename system prompt files and update README.md to include new entries for Claude Code and Gemini CLI - moqi
-- [b892cb9](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/b892cb99b0dc62a53937e262387c5b5b44470f67) Update README.md - Lucas Valbuena
-- [9a9d07a](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/9a9d07a612e36bd38ceaf977ffe42399e586f486) Add Qoder AI Assistant system prompt and update README with Qoder link - 4regab
+- [c96561e](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/c96561e6938389e2b57f2c5188abb7e2ac7a9c19) Update README.md - Lucas Valbuena
 
 
 ##### File Content Changes
 
-**README.md** (Modified, +32 -26 lines):
+**README.md** (Modified, +1 -1 lines):
 
 ```diff
-- - [**Open Source prompts Folder**](./Open%20Source%20prompts/)
-- - [**System Prompts and Models of AI Tools**](#system-prompts-and-models-of-ai-tools)
-- 1. [Available Files](#-available-files)
-- 2. [Roadmap & Feedback](#-roadmap--feedback)
-- 3. [Connect With Me](#-connect-with-me)
-- 4. [Security Notice for AI Startups](#%EF%B8%8F-security-notice-for-ai-startups)
-- 5. [Star History](#-star-history)
-- - [**v0 Folder**](./v0%20Prompts%20and%20Tools/)
-- - [**Spawn Folder**](./-Spawn/)
-- - [**Manus Folder**](./Manus%20Agent%20Tools%20&%20Prompt/)
-- - [**Lovable Folder**](./Lovable/)
-- - [**Devin Folder**](./Devin%20AI/)
-- - [**Same.dev Folder**](./Same.dev/)
-- - [**Replit Folder**](./Replit/)
-- - [**Windsurf Agent Folder**](./Windsurf/)
-- - [**VSCode (Copilot) Agent Folder**](./VSCode%20Agent/)
-- - [**Cursor Folder**](./Cursor%20Prompts/)
-- - [**Dia Folder**](./dia/)
-- - [**Trae AI Folder**](./Trae/)
-- - [**Perplexity Folder**](./Perplexity/)
-- - [**Cluely Folder**](./Cluely/)
-- - [**Xcode Folder**](./Xcode/)
-- - [**Orchids.app Folder**](./Orchids.app/)
-- - [**Junie Folder**](./Junie/)
-- > **Latest Update:** 18/08/2025
-+ - [**Open Source prompts**](./Open%20Source%20prompts/)
-+ - [**System Prompts and Models of AI Tools**](#system-prompts-and-models-of-ai-tools)
-+ - [❤️ Support the Project](#️-support-the-project)
-+ - [📑 Table of Contents](#-table-of-contents)
-+ - [📂 Available Files](#-available-files)
-+ - [🛠 Roadmap \& Feedback](#-roadmap--feedback)
-+ - [🔗 Connect With Me](#-connect-with-me)
-+ - [🛡️ Security Notice for AI Startups](#️-security-notice-for-ai-startups)
-+ - [📊 Star History](#-star-history)
-+ - [**CodeBuddy**](./CodeBuddy%20Prompts/)
-+ - [**v0**](./v0%20Prompts%20and%20Tools/)
-+ - [**Manus**](./Manus%20Agent%20Tools%20&%20Prompt/)
-+ - [**Lovable**](./Lovable/)
-+ - [**Devin**](./Devin%20AI/)
-+ - [**Same.dev**](./Same.dev/)
-+ - [**Replit**](./Replit/)
-+ - [**Windsurf Agent**](./Windsurf/)
-+ - [**VSCode (Copilot) Agent**](./VSCode%20Agent/)
-+ - [**Cursor**](./Cursor%20Prompts/)
-+ - [**Dia**](./dia/)
-+ - [**Trae AI**](./Trae/)
-+ - [**Perplexity**](./Perplexity/)
-+ - [**Cluely**](./Cluely/)
-+ - [**Xcode**](./Xcode/)
-+ - [**Orchids.app**](./Orchids.app/)
-+ - [**Junie**](./Junie/)
-+ - [**Qoder**](./Qoder/)
-+ > **Latest Update:** 22/08/2025
-+ - [**Claude Code**](./Claude%20Code/)
-+ - [Gemini CLI](./Open%20Source%20prompts/Gemini%20CLI/)
+- > **Latest Update:** 22/08/2025
++ > **Latest Update:** 24/08/2025
 ```
 
 
