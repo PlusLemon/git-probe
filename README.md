@@ -33,13 +33,35 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-08-26T01:24:13
+### 2025-08-28T01:21:02
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
 ##### Commit Changes
 
-No file changes detected.
+- [1672412](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/1672412de025a99537e63c0c9428992050714204) feat: Add Gemma 3 fine-tuning tutorial - Shubhamsaboo
+- [edf042f](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/edf042f10b8dd0f8c95f96ecb59b37ddefcb4d68) feat: Add OpenAI Agents SDK Crash Course - Shubhamsaboo
+
+
+##### File Content Changes
+
+**README.md** (Modified, +11 -2 lines):
+
+```diff
+- <img src="docs/banner/sponsors/unblocked.png" alt="Unblocked" width="450">
+- <img src="docs/banner/sponsor_awesome_llm_apps.png" alt="Sponsor Awesome LLM Apps Repo" width="450">
++ *   [🔧 Gemma 3 Fine-tuning](advanced_llm_apps/llm_finetuning_tutorials/gemma3_finetuning/)
++ <img src="docs/banner/sponsors/unblocked.png" alt="Unblocked" width="6000">
++ <img src="docs/banner/sponsor_awesome_llm_apps.png" alt="Sponsor Awesome LLM Apps Repo" width="6000">
++ - [OpenAI Agents SDK Crash Course](ai_agent_framework_crash_course/openai_sdk_crash_course/)
++ - Starter agent; function calling; structured outputs
++ - Tools: built‑in, function, third‑party integrations
++ - Memory; callbacks; evaluation
++ - Multi‑agent patterns; agent handoffs
++ - Swarm orchestration; routing logic
+```
+
+
 
 #### [awesome-gpt4o-images](https://github.com/jamez-bondos/awesome-gpt4o-images)
 
@@ -63,16 +85,19 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [1e1f57c](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/1e1f57cc47247b6d93680fc7ffabb1b473b5b87d) Update README.md - Lucas Valbuena
+- [ab4ff61](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/ab4ff616e3a38eafd8da821d8bbf4c8fdc6d2963) Update README.md - Lucas Valbuena
+- [c93c021](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/c93c0210f77dc67fd1f012dbef0029a5603b3bb2) Update README.md - Lucas Valbuena
 
 
 ##### File Content Changes
 
-**README.md** (Modified, +1 -1 lines):
+**README.md** (Modified, +2 -2 lines):
 
 ```diff
-- 📜 Over **10,000+ lines** of insights into their structure and functionality.
-+ 📜 Over **12,000+ lines** of insights into their structure and functionality.
+- > **Latest Update:** 24/08/2025
+- 📜 Over **12,000+ lines** of insights into their structure and functionality.
++ > **Latest Update:** 27/08/2025
++ 📜 Over **20,000+ lines** of insights into their structure and functionality.
 ```
 
 
