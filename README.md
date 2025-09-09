@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-09-06T01:17:26
+### 2025-09-09T01:20:44
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -63,5 +63,22 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [f858e8c](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/f858e8ced62645326acd8bb97f77c89ee9df586c) Update README.md - Lucas Valbuena
+- [1775854](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/1775854913fd84636ec4f7013959f3a3fb09734d) Update README.md - Lucas Valbuena
+- [0572bc3](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/0572bc30265afd3657d538e806607c804e876897) Update README.md - ordinary-rope
+
+
+##### File Content Changes
+
+**README.md** (Modified, +3 -2 lines):
+
+```diff
+- > **Latest Update:** 03/09/2025
+- - [**NotionAi**](./NotionAi/)
++ > **Latest Update:** 08/09/2025
++ - [**Notion AI**](./NotionAi/)
++ - [**NotionAi**](./NotionAi/)
+```
+
+
 
