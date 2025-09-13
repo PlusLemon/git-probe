@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-09-12T01:16:55
+### 2025-09-13T01:14:03
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -63,5 +63,27 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [a51762d](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/a51762dfb22faae6c600b077cd0deb7fa481af58) Update README.md - Lucas Valbuena
+- [9749b01](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/9749b0162d5ad6a35c7e1306a353d4c5e22e3439) Update README.md - Lucas Valbuena
+
+
+##### File Content Changes
+
+**README.md** (Modified, +0 -18 lines):
+
+```diff
+- - [❤️ Support the Project](#️-support-the-project)
+- ## ❤️ Support the Project
+- If you find this collection valuable and appreciate the effort involved in obtaining and sharing these insights, please consider supporting the project. Your contribution helps keep this resource updated and allows for further exploration.
+- You can show your support via:
+- - **PayPal:** `lucknitelol@proton.me`
+- - **Cryptocurrency:**
+- - **BTC:** `bc1q7zldmzjwspnaa48udvelwe6k3fef7xrrhg5625`
+- - **LTC:** `LRWgqwEYDwqau1WeiTs6Mjg85NJ7m3fsdQ`
+- - **ETH:** `0x3f844B2cc3c4b7242964373fB0A41C4fdffB192A`
+- - **Patreon:** https://patreon.com/lucknite
+- 🙏 Thank you for your support!
+```
+
+
 
