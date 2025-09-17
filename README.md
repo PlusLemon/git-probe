@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-09-16T01:18:01
+### 2025-09-17T01:17:58
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -63,32 +63,16 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [f3ed650](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/f3ed650108d7affd6bdce6ccd4d9a5f7ddb75533) Update README.md - Lucas Valbuena
-- [f2331ec](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/f2331ecce25dc1be969acf752eb98302deb20172) Update README.md - Lucas Valbuena
-- [f17120c](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/f17120cf834044e5386beba7aab77caa85f38aca) Update README.md - Lucas Valbuena
-- [4c71add](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/4c71add8eacc02717a2e845cafc332157aae91a5) Merge pull request #224 from pricisTrail/main - Lucas Valbuena
+- [1f1bb9d](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/1f1bb9dc9f5005f6200e06a502060e1efe411036) Update README.md - Lucas Valbuena
 
 
 ##### File Content Changes
 
-**README.md** (Modified, +19 -1 lines):
+**README.md** (Modified, +1 -1 lines):
 
 ```diff
-- > **Latest Update:** 08/09/2025
-+ - **Ko-fi:** https://ko-fi.com/lucknite
-+ ---
-+ ## ❤️ Support the Project
-+ If you find this collection valuable and appreciate the effort involved in obtaining and sharing these insights, please consider supporting the project. Your contribution helps keep this resource updated and allows for further exploration.
-+ You can show your support via:
-+ - **PayPal:** `lucknitelol@proton.me`
-+ - **Cryptocurrency:**
-+ - **BTC:** `bc1q7zldmzjwspnaa48udvelwe6k3fef7xrrhg5625`
-+ - **LTC:** `LRWgqwEYDwqau1WeiTs6Mjg85NJ7m3fsdQ`
-+ - **ETH:** `0x3f844B2cc3c4b7242964373fB0A41C4fdffB192A`
-+ - **Patreon:** https://patreon.com/lucknite
-+ 🙏 Thank you for your support!
-+ > **Latest Update:** 15/09/2025
-+ - [**Leap.new**](./Leap.new/)
+- > **Latest Update:** 15/09/2025
++ > **Latest Update:** 16/09/2025
 ```
 
 
