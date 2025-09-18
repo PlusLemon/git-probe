@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-09-17T01:17:58
+### 2025-09-18T01:17:59
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -63,16 +63,31 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [1f1bb9d](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/1f1bb9dc9f5005f6200e06a502060e1efe411036) Update README.md - Lucas Valbuena
+- [037c0dc](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/037c0dc161e81c8318f65f7c876f10e55e771edb) Update README.md - Lucas Valbuena
+- [0928cfd](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/0928cfd1fe40b7667239a51844adf1d9d1896806) Update README.md - Paula Cavero
+- [f658499](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/f658499524e06bd935dc77cd20de83c52efc32dc) Update README.md - Paula Cavero
 
 
 ##### File Content Changes
 
-**README.md** (Modified, +1 -1 lines):
+**README.md** (Modified, +21 -2 lines):
 
 ```diff
-- > **Latest Update:** 15/09/2025
-+ > **Latest Update:** 16/09/2025
+- <sub>Sponsored by</sub>
+- ### [The tools you need for reliable Agents and Prompts](https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship)
++ <sub>Special thanks to</sub>
++ ### [The tools you need for building reliable Agents and Prompts](https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship)
++ ---
++ <p align="center">
++ <sub>Sponsored by</sub>
++ </p>
++ <a href="https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship">
++ <img src="assets/Latitude_logo.png" alt="Latitude Logo" width="700"/>
++ </a>
++ <div align="center" markdown="1">
++ ### [The tools you need for reliable Agents and Prompts](https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship)
++ [Open Source AI Engineering Platform](https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship)<br>
++ </div>
 ```
 
 
