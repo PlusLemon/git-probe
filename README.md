@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-09-20T01:16:36
+### 2025-09-21T01:26:23
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,7 +51,7 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [b53253c](https://github.com/punkpeye/awesome-mcp-servers/commit/b53253c07b353bcb7ff547fb3c017d4bb183986e) Add avisangle/calculator-server to Data Science Tools - Avinash Sangle
+- [73a8e8d](https://github.com/punkpeye/awesome-mcp-servers/commit/73a8e8dbb24eaaea3cbe51a3696a6d73064454fc) Merge pull request #1359 from phisanti/add-mcpr - Frank Fiegel
 
 
 ##### File Content Changes
@@ -59,7 +59,7 @@ No file changes detected.
 **README.md** (Modified, +1 -0 lines):
 
 ```diff
-+ - [avisangle/calculator-server](https://github.com/avisangle/calculator-server) 🏎️ 🏠 - A comprehensive Go-based MCP server for mathematical computations, implementing 13 mathematical tools across basic arithmetic, advanced functions, statistical analysis, unit conversions, and financial calculations.
++ - [phisanti/MCPR](https://github.com/phisanti/MCPR) 🏠 🍎 🪟 🐧 - Model Context Protocol for R: enables AI agents to participate in interactive live R sessions.
 ```
 
 
