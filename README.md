@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-09-21T01:26:23
+### 2025-09-22T01:25:26
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,7 +51,7 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [73a8e8d](https://github.com/punkpeye/awesome-mcp-servers/commit/73a8e8dbb24eaaea3cbe51a3696a6d73064454fc) Merge pull request #1359 from phisanti/add-mcpr - Frank Fiegel
+- [62e5eb1](https://github.com/punkpeye/awesome-mcp-servers/commit/62e5eb111df4363272c8f8b2ce69da4c82314d13) Merge pull request #1357 from cameronrye/add-gopher-mcp-server - Frank Fiegel
 
 
 ##### File Content Changes
@@ -59,7 +59,7 @@ No file changes detected.
 **README.md** (Modified, +1 -0 lines):
 
 ```diff
-+ - [phisanti/MCPR](https://github.com/phisanti/MCPR) 🏠 🍎 🪟 🐧 - Model Context Protocol for R: enables AI agents to participate in interactive live R sessions.
++ - [cameronrye/gopher-mcp](https://github.com/cameronrye/gopher-mcp) 🐍 🏠 - Modern, cross-platform MCP server enabling AI assistants to browse and interact with both Gopher protocol and Gemini protocol resources safely and efficiently. Features dual protocol support, TLS security, and structured content extraction.
 ```
 
 
