@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-09-22T01:25:26
+### 2025-09-23T01:18:43
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,15 +51,17 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [62e5eb1](https://github.com/punkpeye/awesome-mcp-servers/commit/62e5eb111df4363272c8f8b2ce69da4c82314d13) Merge pull request #1357 from cameronrye/add-gopher-mcp-server - Frank Fiegel
+- [eca1e46](https://github.com/punkpeye/awesome-mcp-servers/commit/eca1e463857c6e58150bf8857eaaf220ccbc60bc) Merge pull request #1356 from alexwebvizio/add-webvizio-server - Frank Fiegel
+- [4ca5c75](https://github.com/punkpeye/awesome-mcp-servers/commit/4ca5c758f6d97b2f22287c340686df0b77ae52f9) Fix emojis - Alex Malashkevych
 
 
 ##### File Content Changes
 
-**README.md** (Modified, +1 -0 lines):
+**README.md** (Modified, +2 -1 lines):
 
 ```diff
-+ - [cameronrye/gopher-mcp](https://github.com/cameronrye/gopher-mcp) 🐍 🏠 - Modern, cross-platform MCP server enabling AI assistants to browse and interact with both Gopher protocol and Gemini protocol resources safely and efficiently. Features dual protocol support, TLS security, and structured content extraction.
+- - [Webvizio/mcp](https://github.com/Webvizio/mcp) 🗄📋🚀 - Automatically converts feedback and bug reports from websites and web apps into actionable, context-enriched developer tasks. Delivered straight to your AI coding tools, the Webvizio MCP Server ensures your AI agent has all the data it needs to solve tasks with speed and accuracy.
++ - [Webvizio/mcp](https://github.com/Webvizio/mcp) 🎖️ 📇 - Automatically converts feedback and bug reports from websites and web apps into actionable, context-enriched developer tasks. Delivered straight to your AI coding tools, the Webvizio MCP Server ensures your AI agent has all the data it needs to solve tasks with speed and accuracy.
 ```
 
 
