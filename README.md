@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-09-23T01:18:43
+### 2025-09-24T01:19:19
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,17 +51,35 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [eca1e46](https://github.com/punkpeye/awesome-mcp-servers/commit/eca1e463857c6e58150bf8857eaaf220ccbc60bc) Merge pull request #1356 from alexwebvizio/add-webvizio-server - Frank Fiegel
-- [4ca5c75](https://github.com/punkpeye/awesome-mcp-servers/commit/4ca5c758f6d97b2f22287c340686df0b77ae52f9) Fix emojis - Alex Malashkevych
+- [8024a35](https://github.com/punkpeye/awesome-mcp-servers/commit/8024a3577626609f4865c3b69e8d282d586a9a5b) Merge pull request #1329 from choieastsea/main - Frank Fiegel
+- [d6b795f](https://github.com/punkpeye/awesome-mcp-servers/commit/d6b795f24d0a7175562883a608d16a43133f6ca5) Merge pull request #1342 from jjlabsio/add-korea-stock-mcp - Frank Fiegel
+- [28ecc45](https://github.com/punkpeye/awesome-mcp-servers/commit/28ecc452ca3d396dc83dc2a484d8f679adf4c666) Update README.md - Frank Fiegel
+- [52a06df](https://github.com/punkpeye/awesome-mcp-servers/commit/52a06df12a89affce6441e4223332a8e1aa57efa) Merge pull request #1343 from mzatolokin/fix-readme-duplicates - Frank Fiegel
+- [a57aa49](https://github.com/punkpeye/awesome-mcp-servers/commit/a57aa49e9faac4e29352a8f2a698248d2f41b2e9) Merge pull request #1344 from mattjegan/patch-1 - Frank Fiegel
+- [5cc7ebd](https://github.com/punkpeye/awesome-mcp-servers/commit/5cc7ebdbbbd8af4f9e54aac4b75fcd591004ca17) Merge pull request #1345 from elieteyssedou/patch-1 - Frank Fiegel
+- [225e1f7](https://github.com/punkpeye/awesome-mcp-servers/commit/225e1f7b1b95399377bcce20cb9a0cb8a1e2d524) Merge pull request #1346 from karanb192/add-reddit-buddy - Frank Fiegel
+- [8e59a41](https://github.com/punkpeye/awesome-mcp-servers/commit/8e59a414a42a4b6aad57d354f6617aa3f49247cd) Merge pull request #1347 from PhungXuanAnh/add-new-selenium-server - Frank Fiegel
+- [7e764d8](https://github.com/punkpeye/awesome-mcp-servers/commit/7e764d82e794383e1f4a3fbc76bd7518ff6a2434) Merge pull request #1348 from aurelienWls/main - Frank Fiegel
+- [17c6db4](https://github.com/punkpeye/awesome-mcp-servers/commit/17c6db45990ccf8f7492a6850618d88c0123a1f7) Merge pull request #1350 from serkan-ozal/add-driflyte-mcp-server - Frank Fiegel
 
 
 ##### File Content Changes
 
-**README.md** (Modified, +2 -1 lines):
+**README.md** (Modified, +10 -3 lines):
 
 ```diff
-- - [Webvizio/mcp](https://github.com/Webvizio/mcp) 🗄📋🚀 - Automatically converts feedback and bug reports from websites and web apps into actionable, context-enriched developer tasks. Delivered straight to your AI coding tools, the Webvizio MCP Server ensures your AI agent has all the data it needs to solve tasks with speed and accuracy.
-+ - [Webvizio/mcp](https://github.com/Webvizio/mcp) 🎖️ 📇 - Automatically converts feedback and bug reports from websites and web apps into actionable, context-enriched developer tasks. Delivered straight to your AI coding tools, the Webvizio MCP Server ensures your AI agent has all the data it needs to solve tasks with speed and accuracy.
+- - [jjlabsio/korea-stock-mcp](https://github.com/jjlabsio/korea-stock-mcp) 📇 ☁️ - An MCP  Server  for  Korean  stock  analysis using OPEN DART API and KRX API
+- - [StacklokLabs/mkp](https://github.com/StacklokLabs/mkp) 🏎️ ☁️/🏠 - Model Kontext Protocol Server for Kubernetes that allows LLM-powered applications to interact with Kubernetes clusters through native Go implementation with direct API integration and comprehensive resource management
+- - [coinpaprika/dexpaprika-mcp](https://github.com/chargebee/agentkit/tree/main/modelcontextprotocol) 🎖️ 📇 ☁️ 🍎 🪟 🐧 - Coinpaprika's DexPaprika MCP server exposes high-performance [DexPaprika API](https://docs.dexpaprika.com) covering 20+ chains and 5M+ tokens with real time pricing, liquidity pool data & historical OHLCV data, providing AI agents standardized access to comprehensive market data through Model Context Protocol.
++ - [openstack-kr/python-openstackmcp-server](https://github.com/openstack-kr/python-openstackmcp-server) 🐍 ☁️ - OpenStack MCP server for cloud infrastructure management based on openstacksdk.
++ - [jjlabsio/korea-stock-mcp](https://github.com/jjlabsio/korea-stock-mcp) 📇 ☁️ - An MCP Server for Korean stock analysis using OPEN DART API and KRX API
++ - [coinpaprika/dexpaprika-mcp](https://github.com/coinpaprika/dexpaprika-mcp) 🎖️ 📇 ☁️ 🍎 🪟 🐧 - Coinpaprika's DexPaprika MCP server exposes high-performance [DexPaprika API](https://docs.dexpaprika.com) covering 20+ chains and 5M+ tokens with real time pricing, liquidity pool data & historical OHLCV data, providing AI agents standardized access to comprehensive market data through Model Context Protocol.
++ - [mattjegan/swarmia-mcp](https://github.com/mattjegan/swarmia-mcp) 🐍 🏠 🍎 🐧 - Read-only MCP server to help gather metrics from [Swarmia](swarmia.com) for quick reporting.
++ - [etsd-tech/mcp-pointer](https://github.com/etsd-tech/mcp-pointer) 📇 🏠 🍎 🪟 🐧 - Visual DOM element selector for agentic coding tools. Chrome extension + MCP server bridge for Claude Code, Cursor, Windsurf etc. Option+Click to capture elements.
++ - [karanb192/reddit-buddy-mcp](https://github.com/karanb192/reddit-buddy-mcp) 📇 🏠 - Browse Reddit posts, search content, and analyze user activity without API keys. Works out-of-the-box with Claude Desktop.
++ - [PhungXuanAnh/selenium-mcp-server](https://github.com/PhungXuanAnh/selenium-mcp-server) 🐍 🏠 🍎 🪟 🐧 - A Model Context Protocol server providing web automation capabilities through Selenium WebDriver
++ - [kestra-io/mcp-server-python](https://github.com/kestra-io/mcp-server-python) 🐍 ☁️ - Implementation of MCP server for [Kestra](https://kestra.io) workflow orchestration platform.
++ - [serkan-ozal/driflyte-mcp-server](https://github.com/serkan-ozal/driflyte-mcp-server) 🎖️ 📇 ☁️ 🏠 - The Driflyte MCP Server exposes tools that allow AI assistants to query and retrieve topic-specific knowledge from recursively crawled and indexed web pages.
 ```
 
 
