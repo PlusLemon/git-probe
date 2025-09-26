@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-09-25T01:19:50
+### 2025-09-26T01:19:22
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,7 +51,19 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [f84eb8d](https://github.com/punkpeye/awesome-mcp-servers/commit/f84eb8d9ec5a1b9efe2572fd4757c1f0acdb6554) Update README.md - Frank Fiegel
+
+
+##### File Content Changes
+
+**README.md** (Modified, +1 -1 lines):
+
+```diff
+- - [box/mcp-server-box-remote](https://github.com/box/mcp-server-box-remote/) 🎖️ ☁️ - The Box MCP server allows third party AI agents to securely and seamlessly access Box content and use tools such as search, asking questions from files and folders, and data extraction. This hosted server complements the [local MCP server](https://github.com/box-community/mcp-server-box) which enables connections to desktop applications and systems running in your local environment.
++ - [box/mcp-server-box-remote](https://github.com/box/mcp-server-box-remote/) 🎖️ ☁️ - The Box MCP server allows third party AI agents to securely and seamlessly access Box content and use tools such as search, asking questions from files and folders, and data extraction.
+```
+
+
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
@@ -63,5 +75,18 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [8c0ce72](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/8c0ce729861bb1f196adfbaeaee5b7e8f4c5b553) Update README.md - Lucas Valbuena
+
+
+##### File Content Changes
+
+**README.md** (Modified, +2 -1 lines):
+
+```diff
+- > **Latest Update:** 16/09/2025
++ - [**Comet Assistant**](./Comet%20Assistant/)
++ > **Latest Update:** 25/09/2025
+```
+
+
 
