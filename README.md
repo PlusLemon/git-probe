@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-09-29T01:21:25
+### 2025-09-30T01:20:37
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -63,5 +63,18 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [3244f2d](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/3244f2d6f3af9ca2c73d9640f2b1556572a9a8ab) Update README.md - Lucas Valbuena
+
+
+##### File Content Changes
+
+**README.md** (Modified, +2 -1 lines):
+
+```diff
+- > **Latest Update:** 25/09/2025
++ - [**Anthropic**](./Anthropic/)
++ > **Latest Update:** 29/09/2025
+```
+
+
 
