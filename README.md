@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-10-01T01:27:57
+### 2025-10-02T01:17:58
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,23 +51,7 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [3784ff0](https://github.com/punkpeye/awesome-mcp-servers/commit/3784ff0a9d69890e6f0892fc13ff5cdd78f14c96) Add new tmdb server - Drakonkat
-- [6971d57](https://github.com/punkpeye/awesome-mcp-servers/commit/6971d578735175dc0bfb67691da0576847a3e6aa) Add new tmdb server - Drakonkat
-- [6fd8f95](https://github.com/punkpeye/awesome-mcp-servers/commit/6fd8f959a02d979092fde144aaca27d4719abea2) Add OneDev MCP server link to README - Robin Shen
-
-
-##### File Content Changes
-
-**README.md** (Modified, +3 -1 lines):
-
-```diff
-- - [drakonkat/wizzy-mcp-tmdb](https://github.com/drakonkat/wizzy-mcp-tmdb) 🎥 📺 - A MCP server for The Movie Database API that enables AI assistants to search and retrieve movie, TV show, and person information.
-+ - [drakonkat/wizzy-mcp-tmdb](https://github.com/drakonkat/wizzy-mcp-tmdb) 📇 ☁️ - A MCP server for The Movie Database API that enables AI assistants to search and retrieve movie, TV show, and person information.
-+ - [drakonkat/wizzy-mcp-tmdb](https://github.com/drakonkat/wizzy-mcp-tmdb) 🎥 📺 - A MCP server for The Movie Database API that enables AI assistants to search and retrieve movie, TV show, and person information.
-+ - [theonedev/tod](https://github.com/theonedev/tod/blob/main/mcp.md) 🏎️ 🏠 - A MCP server for OneDev for CI/CD pipeline editing, issue workflow automation, and pull request review
-```
-
-
+No file changes detected.
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
@@ -79,15 +63,18 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [2166f9b](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/2166f9bc7beb330eb900e403ed2e60c5f4c48a02) Update README.md - Lucas Valbuena
+- [7925623](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/79256238d6cd865da1d101ccc1da19a6a841f166) Update README.md - Lucas Valbuena
+- [5990774](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/5990774e6dbc466664fb22b585b20264f966f344) Update README.md - Lucas Valbuena
 
 
 ##### File Content Changes
 
-**README.md** (Modified, +1 -0 lines):
+**README.md** (Modified, +3 -1 lines):
 
 ```diff
-+ - [**Amp**](./AMp/)
+- ⭐**Star to follow updates**
++ ⭐ **Star to follow updates**
++ ⭐**Star to follow updates**
 ```
 
 
