@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-10-07T01:18:52
+### 2025-10-08T01:19:02
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,7 +51,18 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [4aa8548](https://github.com/punkpeye/awesome-mcp-servers/commit/4aa8548cdbf0560801c0aadf192282d24124761f) Merge pull request #1380 from kp-cat/main - Frank Fiegel
+
+
+##### File Content Changes
+
+**README.md** (Modified, +1 -0 lines):
+
+```diff
++ - [ConfigCat/mcp-server](https://github.com/configcat/mcp-server) 🎖️ 📇 ☁️ - MCP server for interacting with ConfigCat feature flag platform. Supports managing feature flags, configs, environments, products and organizations.
+```
+
+
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
