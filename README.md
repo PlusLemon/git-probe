@@ -33,24 +33,13 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-10-12T01:23:08
+### 2025-10-13T01:24:47
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
 ##### Commit Changes
 
-- [ec0990b](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/ec0990b29c57973688cc550255c8ab9ac1ecce62) feat: Add Multimodal UI/UX Feedback Agent Team - Shubhamsaboo
-
-
-##### File Content Changes
-
-**README.md** (Modified, +1 -0 lines):
-
-```diff
-+ *   [🎨 🍌 Multimodal UI/UX Feedback Agent Team with Nano Banana](advanced_ai_agents/multi_agent_apps/agent_teams/multimodal_uiux_feedback_agent_team/)
-```
-
-
+No file changes detected.
 
 #### [awesome-gpt4o-images](https://github.com/jamez-bondos/awesome-gpt4o-images)
 
@@ -62,7 +51,21 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [0f64297](https://github.com/punkpeye/awesome-mcp-servers/commit/0f64297bb004fe5f6369516f7f9ee655563b059e) Merge pull request #1411 from tonychang04/add-insforge-mcp-server - Frank Fiegel
+- [2be8a1c](https://github.com/punkpeye/awesome-mcp-servers/commit/2be8a1ca847f7fa39b38366b15ab3638352f5cba) Add Insforge MCP server to Developer Tools - yaowenc2
+- [6e61f18](https://github.com/punkpeye/awesome-mcp-servers/commit/6e61f184c23f77034a30d4d4b31d2034c91dabbe) Add Buildkite MCP server - Christian Nunciato
+
+
+##### File Content Changes
+
+**README.md** (Modified, +3 -0 lines):
+
+```diff
++ - [InsForge/insforge-mcp](https://github.com/InsForge/insforge-mcp) 📇 ☁️ - AI-native backend-as-a-service platform enabling AI agents to build and manage full-stack applications. Provides Auth, Database (PostgreSQL), Storage, and Functions as production-grade infrastructure, reducing MVP development time from weeks to hours.
++ - [buildkite/buildkite-mcp-server](https://github.com/buildkite/buildkite-mcp-server) 🎖️ 🏎️ 🏠 ☁️ 🍎 🪟 🐧 - Official MCP server for Buildkite. Create new pipelines, diagnose and fix failures, trigger builds, monitor job queues, and more.
+```
+
+
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
@@ -74,27 +77,5 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [e215c61](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/e215c619a1adbcc0e6dfa935e006593d5558aaa3) Update README.md - Lucas Valbuena
-- [7bcefc2](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/7bcefc20dc6615d1f972d6251e321b5fbfb49ee2) Update README.md - Lucas Valbuena
-
-
-##### File Content Changes
-
-**README.md** (Modified, +13 -3 lines):
-
-```diff
-- ## Sponsors
-- # Support the Future of AI Development
-- > **Latest Update:** 02/10/2025
-+ # Sponsors
-+ ## Support the Future of AI Development
-+ ## Sponsors
-+ # Support the Future of AI Development
-+ Sponsor the most comprehensive collection of AI system prompts and reach thousands of developers building the next generation of AI applications.
-+ [Get Started](https://www.promptleaks.dev/sponsor)
-+ ---
-+ > **Latest Update:** 12/10/2025
-```
-
-
+No file changes detected.
 
