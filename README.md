@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-10-13T01:24:47
+### 2025-10-14T01:19:26
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,21 +51,7 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [0f64297](https://github.com/punkpeye/awesome-mcp-servers/commit/0f64297bb004fe5f6369516f7f9ee655563b059e) Merge pull request #1411 from tonychang04/add-insforge-mcp-server - Frank Fiegel
-- [2be8a1c](https://github.com/punkpeye/awesome-mcp-servers/commit/2be8a1ca847f7fa39b38366b15ab3638352f5cba) Add Insforge MCP server to Developer Tools - yaowenc2
-- [6e61f18](https://github.com/punkpeye/awesome-mcp-servers/commit/6e61f184c23f77034a30d4d4b31d2034c91dabbe) Add Buildkite MCP server - Christian Nunciato
-
-
-##### File Content Changes
-
-**README.md** (Modified, +3 -0 lines):
-
-```diff
-+ - [InsForge/insforge-mcp](https://github.com/InsForge/insforge-mcp) 📇 ☁️ - AI-native backend-as-a-service platform enabling AI agents to build and manage full-stack applications. Provides Auth, Database (PostgreSQL), Storage, and Functions as production-grade infrastructure, reducing MVP development time from weeks to hours.
-+ - [buildkite/buildkite-mcp-server](https://github.com/buildkite/buildkite-mcp-server) 🎖️ 🏎️ 🏠 ☁️ 🍎 🪟 🐧 - Official MCP server for Buildkite. Create new pipelines, diagnose and fix failures, trigger builds, monitor job queues, and more.
-```
-
-
+No file changes detected.
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
