@@ -33,13 +33,36 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-10-14T01:19:26
+### 2025-10-15T01:21:35
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
 ##### Commit Changes
 
-No file changes detected.
+- [de6f0f3](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/de6f0f385b9f3d880d3d298fd8747d424ae24cfd) fix: Update sponsor section in README - Shubhamsaboo
+
+
+##### File Content Changes
+
+**README.md** (Modified, +4 -10 lines):
+
+```diff
+- <a href="https://github.com/emcie-co/parlant" title="Parlant">
+- <img src="docs/banner/sponsors/parlant.png" alt="Parlant" width="500">
+- <a href="https://github.com/emcie-co/parlant" style="text-decoration: none; color: #333; font-weight: bold; font-size: 18px;">
+- Parlant
+- <p align="center">
+- <a href="https://sponsorunwindai.com" target="_blank" rel="noopener">
+- <img src="https://img.shields.io/badge/_Sponsor_Us-FF69B4?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Sponsor Us">
+- </a>
+- </p>
++ <a href="https://sponsorunwindai.com/" title="Parlant">
++ <img src="docs/banner/sponsor_awesome_llm_apps.png" alt="Parlant" width="500">
++ <a href="https://sponsorunwindai.com/" style="text-decoration: none; color: #333; font-weight: bold; font-size: 18px;">
++ Become a Sponsor
+```
+
+
 
 #### [awesome-gpt4o-images](https://github.com/jamez-bondos/awesome-gpt4o-images)
 
