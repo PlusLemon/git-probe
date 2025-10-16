@@ -33,36 +33,13 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-10-15T01:21:35
+### 2025-10-16T01:21:02
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
 ##### Commit Changes
 
-- [de6f0f3](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/de6f0f385b9f3d880d3d298fd8747d424ae24cfd) fix: Update sponsor section in README - Shubhamsaboo
-
-
-##### File Content Changes
-
-**README.md** (Modified, +4 -10 lines):
-
-```diff
-- <a href="https://github.com/emcie-co/parlant" title="Parlant">
-- <img src="docs/banner/sponsors/parlant.png" alt="Parlant" width="500">
-- <a href="https://github.com/emcie-co/parlant" style="text-decoration: none; color: #333; font-weight: bold; font-size: 18px;">
-- Parlant
-- <p align="center">
-- <a href="https://sponsorunwindai.com" target="_blank" rel="noopener">
-- <img src="https://img.shields.io/badge/_Sponsor_Us-FF69B4?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Sponsor Us">
-- </a>
-- </p>
-+ <a href="https://sponsorunwindai.com/" title="Parlant">
-+ <img src="docs/banner/sponsor_awesome_llm_apps.png" alt="Parlant" width="500">
-+ <a href="https://sponsorunwindai.com/" style="text-decoration: none; color: #333; font-weight: bold; font-size: 18px;">
-+ Become a Sponsor
-```
-
-
+No file changes detected.
 
 #### [awesome-gpt4o-images](https://github.com/jamez-bondos/awesome-gpt4o-images)
 
@@ -86,5 +63,20 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [1344433](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/1344433f2f317f08e023630de4dd4bda5c582d78) Update README.md - Lucas Valbuena
+- [49283d9](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/49283d95b6ee69f70e18f2d29f8f5625d2fba202) Update README.md - Lucas Valbuena
+
+
+##### File Content Changes
+
+**README.md** (Modified, +2 -2 lines):
+
+```diff
+- - **Discord**: `x1xh`
+- > **Latest Update:** 12/10/2025
++ - **Discord**: `lucknite.`
++ > **Latest Update:** 15/10/2025
+```
+
+
 
