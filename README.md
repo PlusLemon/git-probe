@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-10-16T01:21:02
+### 2025-10-17T01:21:00
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -63,19 +63,40 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [1344433](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/1344433f2f317f08e023630de4dd4bda5c582d78) Update README.md - Lucas Valbuena
-- [49283d9](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/49283d95b6ee69f70e18f2d29f8f5625d2fba202) Update README.md - Lucas Valbuena
+- [d9bbe08](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/d9bbe08fb14c234d2a8bddf87ead113874fb7b09) Update README.md - Lucas Valbuena
+- [77ca45b](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/77ca45bbceb2519164370fdd5f417074d385ff48) Update README.md - Lucas Valbuena
+- [9ac30b5](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/9ac30b5a03e20d91280cdd8849161644b6fec7e6) Remove unnecessary div tag from README - Lucas Valbuena
+- [7658c38](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/7658c3888437b1122393acc77767aa92b1ac0c22) Update README.md - Lucas Valbuena
+- [962f44b](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/962f44bd8db90584d7633f9d2ed3c1fa2acbd455) Update README.md - Lucas Valbuena
+- [38ad815](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/38ad81548c481c13387ceefc745e876357559ddf) Convert links to anchor tags in README - Lucas Valbuena
+- [b4031c8](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/b4031c8f971ae870f9399ff1081f8d3c0bc6b4de) Update README.md - Lucas Valbuena
 
 
 ##### File Content Changes
 
-**README.md** (Modified, +2 -2 lines):
+**README.md** (Modified, +19 -20 lines):
 
 ```diff
-- - **Discord**: `x1xh`
-- > **Latest Update:** 12/10/2025
-+ - **Discord**: `lucknite.`
-+ > **Latest Update:** 15/10/2025
+- <a href="https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship">
+- ### [The tools you need for building reliable Agents and Prompts](https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship)
+- [Open Source AI Engineering Platform](https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship)<br>
+- <a href="https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship" target="_blank">
+- ### <a href="https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship" target="_blank">The tools you need for building reliable Agents and Prompts</a>
+- <a href="https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship" target="_blank">Open Source AI Engineering Platform</a><br>
+- <div>
+- </div>
+- ### <a href="https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship" target="_blank">[The tools you need for building reliable Agents and Prompts]</a>
+- <a href="https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship" target="_blank">[Open Source AI Engineering Platform]</a><br>
++ <a href="https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship" target="_blank">
++ ### <a href="https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship" target="_blank">The tools you need for building reliable Agents and Prompts</a>
++ <a href="https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship" target="_blank">Open Source AI Engineering Platform</a><br>
++ <a href="https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship">
++ ### [The tools you need for building reliable Agents and Prompts](https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship)
++ [Open Source AI Engineering Platform](https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship)<br>
++ </div>
++ <div>
++ ### <a href="https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship" target="_blank">[The tools you need for building reliable Agents and Prompts]</a>
++ <a href="https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship" target="_blank">[Open Source AI Engineering Platform]</a><br>
 ```
 
 
