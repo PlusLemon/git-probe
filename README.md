@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-11-01T01:27:56
+### 2025-11-02T01:36:38
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,7 +51,21 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [c99f64e](https://github.com/punkpeye/awesome-mcp-servers/commit/c99f64ea3013d776693d0ed323a686fd05b438ed) Merge pull request #1452 from Narasimhaponnada/add-mermaid-mcp-server - Frank Fiegel
+
+
+##### File Content Changes
+
+**README.md** (Modified, +8 -0 lines):
+
+```diff
++ * 📐 - [Architecture & Design](#architecture-and-design)
++ ### 📐 <a name="architecture-and-design"></a>Architecture & Design
++ Design and visualize software architecture, system diagrams, and technical documentation. Enables AI models to generate professional diagrams and architectural documentation.
++ - [Narasimhaponnada/mermaid-mcp](https://github.com/Narasimhaponnada/mermaid-mcp) 📇 ☁️ 🍎 🪟 🐧 - AI-powered Mermaid diagram generation with 22+ diagram types including flowcharts, sequence diagrams, class diagrams, ER diagrams, architecture diagrams, state machines, and more. Features 50+ pre-built templates, advanced layout engines, SVG/PNG/PDF exports, and seamless integration with GitHub Copilot, Claude, and any MCP-compatible client. Install via NPM: `npm install -g @narasimhaponnada/mermaid-mcp-server`
+```
+
+
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
@@ -63,5 +77,17 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [0d60d27](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/0d60d27a5589b79a2cdb6b73ed1f5c089c1bc4ad) Update PayPal contact email in README - Lucas Valbuena
+
+
+##### File Content Changes
+
+**README.md** (Modified, +1 -1 lines):
+
+```diff
+- - **PayPal:** `lucknitelol@proton.me`
++ - **PayPal:** `lucknitelol@pm.me`
+```
+
+
 
