@@ -33,42 +33,13 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-11-14T01:25:52
+### 2025-11-15T01:23:20
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
 ##### Commit Changes
 
-- [a7b7c64](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/a7b7c64015bab06a51b47bcc609d06ef2545f952) chore: Update README - Shubhamsaboo
-
-
-##### File Content Changes
-
-**README.md** (Modified, +20 -5 lines):
-
-```diff
-- <p align="center">
-- <a href="https://sponsorunwindai.com" target="_blank" rel="noopener">
-- <img src="https://img.shields.io/badge/_Sponsor_Us-FF69B4?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Sponsor Us">
-- </a>
-- </p>
-+ <tr>
-+ <td align="center">
-+ <a href="https://github.com/GibsonAI/Memori" target="_blank" rel="noopener" title="Memori">
-+ <img src="docs/banner/sponsors/memorilabs.png" alt="Memori" width="500">
-+ </a>
-+ <br>
-+ <a href="https://github.com/GibsonAI/Memori" target="_blank" rel="noopener" style="text-decoration: none; color: #333; font-weight: bold; font-size: 18px;">
-+ Memori
-+ </td>
-+ <a href="https://sponsorunwindai.com/" target="_blank" rel="noopener" title="Become a Sponsor">
-+ <img src="docs/banner/sponsor_awesome_llm_apps.png" alt="Become a Sponsor" width="500">
-+ <a href="https://sponsorunwindai.com/" target="_blank" rel="noopener" style="text-decoration: none; color: #333; font-weight: bold; font-size: 18px;">
-+ Become a Sponsor
-+ </tr>
-```
-
-
+No file changes detected.
 
 #### [awesome-gpt4o-images](https://github.com/jamez-bondos/awesome-gpt4o-images)
 
