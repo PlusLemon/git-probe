@@ -33,43 +33,13 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-11-20T01:23:52
+### 2025-11-21T01:24:29
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
 ##### Commit Changes
 
-- [a5d9589](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/a5d9589258831f8b97ccdb1c4ac7cb24d38860cd) fix: update sponsor name - Shubhamsaboo
-- [23114ce](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/23114ce01f3e00d4104e110328070791865fb5e2) feat: update sponsorship section in README - Shubhamsaboo
-
-
-##### File Content Changes
-
-**README.md** (Modified, +12 -7 lines):
-
-```diff
-- <a href="https://dimension.dev/" target="_blank" rel="noopener" title="Dimensions">
-- <img src="docs/banner/sponsors/dimensions.png" alt="Dimensions" width="500">
-- Dimensions
-- <a href="https://sponsorunwindai.com/" target="_blank" rel="noopener" title="Become a Sponsor">
-- <img src="docs/banner/sponsor_awesome_llm_apps.png" alt="Become a Sponsor" width="500">
-- <a href="https://sponsorunwindai.com/" target="_blank" rel="noopener" style="text-decoration: none; color: #333; font-weight: bold; font-size: 18px;">
-- Become a Sponsor
-+ <a href="https://dimension.dev/" target="_blank" rel="noopener" title="Dimension AI">
-+ <img src="docs/banner/sponsors/dimensions.png" alt="Dimension AI" width="500">
-+ Dimension AI
-+ <a href="https://dimension.dev/" target="_blank" rel="noopener" title="Dimensions">
-+ <img src="docs/banner/sponsors/dimensions.png" alt="Dimensions" width="500">
-+ <a href="https://dimension.dev/" target="_blank" rel="noopener" style="text-decoration: none; color: #333; font-weight: bold; font-size: 18px;">
-+ Dimensions
-+ <p align="center">
-+ <a href="https://sponsorunwindai.com" target="_blank" rel="noopener">
-+ <img src="https://img.shields.io/badge/_Sponsor_Us-FF69B4?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Sponsor Us">
-+ </a>
-+ </p>
-```
-
-
+No file changes detected.
 
 #### [awesome-gpt4o-images](https://github.com/jamez-bondos/awesome-gpt4o-images)
 
@@ -93,17 +63,5 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [b77ac4d](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/b77ac4ddea857a76929aa5c948bf4a7b33305047) Update README.md - Lucas Valbuena
-
-
-##### File Content Changes
-
-**README.md** (Modified, +1 -1 lines):
-
-```diff
-- > **Latest Update:** 18/11/2025
-+ > **Latest Update:** 19/11/2025
-```
-
-
+No file changes detected.
 
