@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-11-28T01:23:53
+### 2025-11-29T01:24:06
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,18 +51,7 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [25958d7](https://github.com/punkpeye/awesome-mcp-servers/commit/25958d7adcad8b5c5e95218927f2435b7e8c9d30) adding r2mcp - Axelle
-
-
-##### File Content Changes
-
-**README.md** (Modified, +1 -0 lines):
-
-```diff
-+ - [radareorg/r2mcp](https://github.com/radareorg/radare2-mcp) 🍎🪟🐧🏠🌊 - MCP server for Radare2 disassembler. Provides AI with capability to disassemble and look into binaries for reverse engineering.
-```
-
-
+No file changes detected.
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
