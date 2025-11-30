@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-11-29T01:24:06
+### 2025-11-30T01:43:53
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -63,5 +63,26 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [35b05e3](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/35b05e3e59a89c106d5d29b1501cfc344a1a5b74) Enhance README with Trendshift badge - Lucas Valbuena
+- [6368f9b](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/6368f9b040b00c5a63fc9866d84c5f072bb9f66a) Refactor README for clarity and update date - Lucas Valbuena
+
+
+##### File Content Changes
+
+**README.md** (Modified, +4 -11 lines):
+
+```diff
+- ⭐ **Star to follow updates**
+- > **Join the Conversation:** New system instructions are released on Discord **before** they appear in this repository. Get early access and discuss them in real time.
+- If you find this collection valuable and appreciate the effort involved in obtaining and sharing these insights, please consider supporting the project. Your contribution helps keep this resource updated and allows for further exploration.
+- ## Support the Future of AI Development
+- Sponsor the most comprehensive collection of AI system prompts and reach thousands of developers building the next generation of AI applications.
+- > **Latest Update:** 19/11/2025
+- *The company is mine, this is NOT a 3rd party AD.*
++ If you find this collection valuable and appreciate the effort involved in obtaining and sharing these insights, please consider supporting the project.
++ Sponsor the most comprehensive repository of AI system prompts and reach thousands of developers.
++ > **Latest Update:** 29/11/2025
+```
+
+
 
