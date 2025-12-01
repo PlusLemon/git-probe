@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-11-30T01:43:53
+### 2025-12-01T01:50:55
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,7 +51,18 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [712e182](https://github.com/punkpeye/awesome-mcp-servers/commit/712e1829c82c48bad1094f1d9169cc0eb4d093bb) Add kiarash-portfolio-mcp link to README - Kiarash Adl
+
+
+##### File Content Changes
+
+**README.md** (Modified, +1 -0 lines):
+
+```diff
++ - [kiarash-portfolio-mcp](https://kiarash-adl.pages.dev/.well-known/mcp.llmfeed.json) – WebMCP-enabled portfolio with Ed25519 signed discovery. AI agents can query projects, skills, and execute terminal commands. Built on Cloudflare Pages Functions.
+```
+
+
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
@@ -63,25 +74,18 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [35b05e3](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/35b05e3e59a89c106d5d29b1501cfc344a1a5b74) Enhance README with Trendshift badge - Lucas Valbuena
-- [6368f9b](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/6368f9b040b00c5a63fc9866d84c5f072bb9f66a) Refactor README for clarity and update date - Lucas Valbuena
+- [18cc134](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/18cc134e9125d3de1fb82ed6602978912aec1869) Fix typo in contact section of README - Lucas Valbuena
+- [1e62b95](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/1e62b959818065a7ef1b6af44d69ccd5010f9a09) Add email contact to README - Lucas Valbuena
 
 
 ##### File Content Changes
 
-**README.md** (Modified, +4 -11 lines):
+**README.md** (Modified, +2 -1 lines):
 
 ```diff
-- ⭐ **Star to follow updates**
-- > **Join the Conversation:** New system instructions are released on Discord **before** they appear in this repository. Get early access and discuss them in real time.
-- If you find this collection valuable and appreciate the effort involved in obtaining and sharing these insights, please consider supporting the project. Your contribution helps keep this resource updated and allows for further exploration.
-- ## Support the Future of AI Development
-- Sponsor the most comprehensive collection of AI system prompts and reach thousands of developers building the next generation of AI applications.
-- > **Latest Update:** 19/11/2025
-- *The company is mine, this is NOT a 3rd party AD.*
-+ If you find this collection valuable and appreciate the effort involved in obtaining and sharing these insights, please consider supporting the project.
-+ Sponsor the most comprehensive repository of AI system prompts and reach thousands of developers.
-+ > **Latest Update:** 29/11/2025
+- - **Mail**: `lucknitelol@pm.me`
++ - **Email**: `lucknitelol@pm.me`
++ - **Mail**: `lucknitelol@pm.me`
 ```
 
 
