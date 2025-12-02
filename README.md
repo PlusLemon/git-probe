@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-12-01T01:50:55
+### 2025-12-02T01:27:17
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,18 +51,7 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [712e182](https://github.com/punkpeye/awesome-mcp-servers/commit/712e1829c82c48bad1094f1d9169cc0eb4d093bb) Add kiarash-portfolio-mcp link to README - Kiarash Adl
-
-
-##### File Content Changes
-
-**README.md** (Modified, +1 -0 lines):
-
-```diff
-+ - [kiarash-portfolio-mcp](https://kiarash-adl.pages.dev/.well-known/mcp.llmfeed.json) – WebMCP-enabled portfolio with Ed25519 signed discovery. AI agents can query projects, skills, and execute terminal commands. Built on Cloudflare Pages Functions.
-```
-
-
+No file changes detected.
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
@@ -74,19 +63,5 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [18cc134](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/18cc134e9125d3de1fb82ed6602978912aec1869) Fix typo in contact section of README - Lucas Valbuena
-- [1e62b95](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/1e62b959818065a7ef1b6af44d69ccd5010f9a09) Add email contact to README - Lucas Valbuena
-
-
-##### File Content Changes
-
-**README.md** (Modified, +2 -1 lines):
-
-```diff
-- - **Mail**: `lucknitelol@pm.me`
-+ - **Email**: `lucknitelol@pm.me`
-+ - **Mail**: `lucknitelol@pm.me`
-```
-
-
+No file changes detected.
 
