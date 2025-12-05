@@ -33,13 +33,31 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-12-04T01:28:05
+### 2025-12-05T01:28:13
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
 ##### Commit Changes
 
-No file changes detected.
+- [ff75e62](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/ff75e62bd2716dd60d57eaee073c45236656b3c5) Update README - Shubhamsaboo
+
+
+##### File Content Changes
+
+**README.md** (Modified, +4 -4 lines):
+
+```diff
+- <a href="https://dimension.dev/" target="_blank" rel="noopener" title="Dimension AI">
+- <img src="docs/banner/sponsors/dimensions.png" alt="Dimension AI" width="500">
+- <a href="https://dimension.dev/" target="_blank" rel="noopener" style="text-decoration: none; color: #333; font-weight: bold; font-size: 18px;">
+- Dimension AI
++ <a href="https://tsdb.co/shubham-gh" target="_blank" rel="noopener" title="Tiger Data">
++ <img src="docs/banner/sponsors/tigerdata.png" alt="Tiger Data" width="500">
++ <a href="https://tsdb.co/shubham-gh" target="_blank" rel="noopener" style="text-decoration: none; color: #333; font-weight: bold; font-size: 18px;">
++ Tiger Data MCP
+```
+
+
 
 #### [awesome-gpt4o-images](https://github.com/jamez-bondos/awesome-gpt4o-images)
 
