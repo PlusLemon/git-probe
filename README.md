@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-12-07T01:44:15
+### 2025-12-08T01:28:19
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,7 +51,19 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [c630e97](https://github.com/punkpeye/awesome-mcp-servers/commit/c630e977909ef8b0b4aa7df1ea13c4ac4716526c) Add important note about MCP report in README - Frank Fiegel
+
+
+##### File Content Changes
+
+**README.md** (Modified, +3 -0 lines):
+
+```diff
++ > [!IMPORTANT]
++ > Read [The State of MCP in 2025](https://glama.ai/blog/2025-12-07-the-state-of-mcp-in-2025) report.
+```
+
+
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
