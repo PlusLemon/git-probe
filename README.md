@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-12-09T01:27:44
+### 2025-12-10T01:39:01
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,16 +51,15 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [0bfce9f](https://github.com/punkpeye/awesome-mcp-servers/commit/0bfce9fd5a8baf22bd988a432512d067067ae135) Update README.md - Frank Fiegel
+- [f2c328e](https://github.com/punkpeye/awesome-mcp-servers/commit/f2c328e80ef90f92d344af5f9ba1e4618c9369dc) Add mcp-server-terminal to Command Line category - Ayoub Belayoub
 
 
 ##### File Content Changes
 
-**README.md** (Modified, +3 -0 lines):
+**README.md** (Modified, +1 -0 lines):
 
 ```diff
-+ > [!IMPORTANT]
-+ > [Awesome MCP Servers](https://glama.ai/mcp/servers) web directory
++ - [aybelatchane/mcp-server-terminal](https://github.com/aybelatchane/mcp-server-terminal) 🦀 🏠 🍎 🪟 🐧 - Playwright for terminals - interact with TUI/CLI applications through structured Terminal State Tree representation with element detection.
 ```
 
 
