@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-12-12T01:39:00
+### 2025-12-13T01:25:18
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,7 +51,37 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [bdda02e](https://github.com/punkpeye/awesome-mcp-servers/commit/bdda02e36bd76b66db9f10bd45b711dddf5120cf) Merge pull request #1524 from bbonnin/add-new-server-openapi2mcp - Frank Fiegel
+- [e72c4ac](https://github.com/punkpeye/awesome-mcp-servers/commit/e72c4ac81fc46f316c834d44cc0e292ca8433e9c) Merge pull request #1525 from Smart-AI-Memory/add-empathy-framework - Frank Fiegel
+- [d674dac](https://github.com/punkpeye/awesome-mcp-servers/commit/d674dac68761c375930d1e6463da35ff95fcfe5f) Merge pull request #1526 from escott-/add-contextstream - Frank Fiegel
+- [e026806](https://github.com/punkpeye/awesome-mcp-servers/commit/e0268069f9fa4d4903136cecee9cce68b58a9e6d) Update README.md - Frank Fiegel
+- [33f1028](https://github.com/punkpeye/awesome-mcp-servers/commit/33f1028bb99881e108dcd6b481dd20921682ba1c) Merge pull request #1527 from Kindly-Software/add-kdb-debugger - Frank Fiegel
+- [abd6abd](https://github.com/punkpeye/awesome-mcp-servers/commit/abd6abda6b2feb8b9e074d26de22edac6556067d) Merge pull request #1528 from nonatofabio/add-local-faiss-mcp - Frank Fiegel
+- [dfbcd29](https://github.com/punkpeye/awesome-mcp-servers/commit/dfbcd29598f6d3d4e0bca466b74ed4ddf18562d2) Merge pull request #1529 from czoido/add-conan-cpp-pm-mcp-server - Frank Fiegel
+- [be2cba5](https://github.com/punkpeye/awesome-mcp-servers/commit/be2cba5f06beec61451fc7b461f7ac013f8b97c6) Merge pull request #1531 from holyfata/feature_mermaid_grammer_inspector_mcp_20251209 - Frank Fiegel
+- [b97f044](https://github.com/punkpeye/awesome-mcp-servers/commit/b97f044d928557fc01688a32887cabe535c276b6) Merge pull request #1532 from rosschurchill/add-pantheon-security-mcps - Frank Fiegel
+- [ac20a62](https://github.com/punkpeye/awesome-mcp-servers/commit/ac20a62822fe743514ca528c5a83a9b3db62930e) Merge pull request #1533 from king-of-the-grackles/add-reddit-research-mcp - Frank Fiegel
+
+
+##### File Content Changes
+
+**README.md** (Modified, +11 -1 lines):
+
+```diff
+- - [contextstream/mcp-server](https://www.npmjs.com/package/@contextstream/mcp-server) 📇 ☁️ 🍎 🪟 🐧 - Universal persistent memory for AI coding tools. Semantic code search, knowledge graphs, impact analysis, decision tracking, and 60+ MCP tools. Works across Cursor, Claude Code, Windsurf, and any MCP client. [Website](https://contextstream.io)
++ - [bbonnin/openapi-to-mcp](https://github.com/bbonnin/openapi-to-mcp) ☕ 🏠 🍎 🪟 🐧 - MCP server that automatically converts any OpenAPI/Swagger specification into a set of usable MCP tools. Unlike manual tool definition, this approach auto-generates tools directly from the Swagger spec, ensuring consistency, reducing maintenance effort, and preventing mismatches between the tools and the actual API.
++ - [Smart-AI-Memory/empathy-framework](https://github.com/Smart-AI-Memory/empathy-framework) 🐍 🏠 - Five-level AI collaboration system with persistent memory and anticipatory capabilities. MCP-native integration for Claude and other LLMs with local-first architecture via MemDocs.
++ - [contextstream/mcp-server](https://www.npmjs.com/package/@contextstream/mcp-server) 📇 ☁️ 🍎 🪟 🐧 - Universal persistent memory for AI coding tools. Semantic code search, knowledge graphs, impact analysis, decision tracking, and 60+ MCP tools. Works across Cursor, Claude Code, Windsurf, and any MCP client.
++ - [kindly-software/kdb](https://github.com/kindly-software/kdb) 🦀 ☁️ - AI-powered time-travel debugger with bidirectional execution replay, audit-compliant hash-chain logging, and SIMD-accelerated stack unwinding. Free Hobby tier available.
++ - [nonatofabio/local-faiss-mcp](https://github.com/nonatofabio/local_faiss_mcp) 🐍 🏠 🍎 🐧 - Local FAISS vector database for RAG with document ingestion (PDF/TXT/MD/DOCX), semantic search, re-ranking, and CLI tools for indexing and querying
++ - [conan-io/conan-mcp](https://github.com/conan-io/conan-mcp) 🎖️ 🐍 🏠 🍎 🪟 🐧 - Official MCP server for Conan C/C++ package manager. Create projects, manage dependencies, check licenses, and scan for security vulnerabilities.
++ - [betterhyq/mermaid-grammer-inspector-mcp](https://github.com/betterhyq/mermaid_grammer_inspector_mcp) 📇 🏠 🍎 🪟 🐧 - A Model Context Protocol (MCP) server for validating Mermaid diagram syntax and providing comprehensive grammar checking capabilities
++ - [Pantheon-Security/chrome-mcp-secure](https://github.com/Pantheon-Security/chrome-mcp-secure) 📇 🏠 🍎 🪟 🐧 - Security-hardened Chrome automation with post-quantum encryption (ML-KEM-768 + ChaCha20-Poly1305), secure credential vault, memory scrubbing, and audit logging. 22 tools for browser automation and secure logins.
++ - [Pantheon-Security/notebooklm-mcp-secure](https://github.com/Pantheon-Security/notebooklm-mcp-secure) 📇 🏠 🍎 🪟 🐧 - Query Google NotebookLM from Claude/AI agents with 14 security hardening layers. Session-based conversations, notebook library management, and source-grounded research responses.
++ - [king-of-the-grackles/reddit-research-mcp](https://github.com/king-of-the-grackles/reddit-research-mcp) 🐍 ☁️ - AI-powered Reddit intelligence for market research and competitive analysis. Discover subreddits via semantic search across 20k+ indexed communities, fetch posts/comments with full citations, and manage research feeds. No Reddit API credentials needed.
+```
+
+
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
