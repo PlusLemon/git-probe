@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-12-16T01:40:01
+### 2025-12-17T01:26:00
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,24 +51,7 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [9a34351](https://github.com/punkpeye/awesome-mcp-servers/commit/9a34351428cc5c1940304345cbcbbaf5d2dcef21) Update README.md - Nicolò Boschi
-- [8e97209](https://github.com/punkpeye/awesome-mcp-servers/commit/8e972090feb9b2fbd6a2694f3f217e8cae74c9fc) Update README.md - Nicolò Boschi
-- [212090a](https://github.com/punkpeye/awesome-mcp-servers/commit/212090a873920343f566e8f81657950526863aa1) Add Hindsight MCP server to README - Nicolò Boschi
-
-
-##### File Content Changes
-
-**README.md** (Modified, +3 -2 lines):
-
-```diff
-- - [Hindsight](https://github.com/vectorize-io/hindsight) 🐍 ☁️ 🏠 - Hindsight: Agent Memory That Works Like Human Memory - Built for AI Agents to manage Long Term Memory
-- - [Hindsight](https://github.com/vectorize-io/hindsight) - Hindsight: Agent Memory That Works Like Human Memory - Built for AI Agents to manage Long Term Memory
-+ - [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) 🐍 ☁️ 🏠 - Hindsight: Agent Memory That Works Like Human Memory - Built for AI Agents to manage Long Term Memory
-+ - [Hindsight](https://github.com/vectorize-io/hindsight) 🐍 ☁️ 🏠 - Hindsight: Agent Memory That Works Like Human Memory - Built for AI Agents to manage Long Term Memory
-+ - [Hindsight](https://github.com/vectorize-io/hindsight) - Hindsight: Agent Memory That Works Like Human Memory - Built for AI Agents to manage Long Term Memory
-```
-
-
+No file changes detected.
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
