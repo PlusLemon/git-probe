@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-12-20T01:26:01
+### 2025-12-21T01:44:30
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,7 +51,18 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [2ea0104](https://github.com/punkpeye/awesome-mcp-servers/commit/2ea010494ebe4591d067740e1c0c3883f6b1258e) Add Memora project link to README - spokV
+
+
+##### File Content Changes
+
+**README.md** (Modified, +1 -0 lines):
+
+```diff
++ - [agentic-mcp-tools/memora](https://github.com/agentic-mcp-tools/memora) 🐍 🏠 ☁️ - Persistent memory with knowledge graph visualization, semantic/hybrid search, cloud sync (S3/R2), and cross-session context management.
+```
+
+
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
@@ -63,17 +74,5 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [0abd7e7](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/0abd7e75b178d4f2c54b7adeea997e65bc17dd76) Update link text in README for clarity - Paula Cavero
-
-
-##### File Content Changes
-
-**README.md** (Modified, +1 -1 lines):
-
-```diff
-- ### <a href="https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship" target="_blank">The tools you need for building reliable Agents and Prompts</a>
-+ ### <a href="https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship" target="_blank">Make your LLM predictable in production</a>
-```
-
-
+No file changes detected.
 
