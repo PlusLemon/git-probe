@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-12-28T01:49:32
+### 2025-12-29T01:47:53
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,20 +51,7 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [a3e0336](https://github.com/punkpeye/awesome-mcp-servers/commit/a3e0336988e9ea7f97c9a26ebd20106768aeba0e) Adding Crawleo.dev Service - Crawleo
-- [f2fac20](https://github.com/punkpeye/awesome-mcp-servers/commit/f2fac20fadbe4a03f3cf018895db4a7b9825537b) Update README.md - Crawleo
-
-
-##### File Content Changes
-
-**README.md** (Modified, +2 -0 lines):
-
-```diff
-+ - [Crawleo/Crawleo-MCP](https://github.com/Crawleo/Crawleo-MCP) ☁️ 🐍 – Crawleo Search & Crawl API
-+ - [Crawleo/Crawleo-MCP](https://github.com/Crawleo/Crawleo-MCP) ☁️ 🐍 – Crawleo search & Crawling API
-```
-
-
+No file changes detected.
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
