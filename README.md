@@ -33,13 +33,28 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2025-12-31T01:41:12
+### 2026-01-01T01:50:17
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
 ##### Commit Changes
 
-No file changes detected.
+- [40ff2e3](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/40ff2e33583714d51978a37cce50df5ed514a962) Fix typo in OpenSource Voice Dictation link - Shubham Saboo
+- [6192cea](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/6192ceaf822ced424fc8c1d7ac386a8a3bdc7084) Revise Jarvis AI Assistant link description - Shubham Saboo
+
+
+##### File Content Changes
+
+**README.md** (Modified, +2 -3 lines):
+
+```diff
+- *   [🎙️ OpenSource Voice Dictation App (like Wispr Flow](https://github.com/akshayaggarwal99/jarvis-ai-assistant)
+- *   [🎙️ Jarvis AI Assistant](https://github.com/akshayaggarwal99/jarvis-ai-assistant) - Free, open-source voice dictation app (local Whisper + Ollama, zero telemetry)
++ *   [🎙️ OpenSource Voice Dictation Agent (like Wispr Flow](https://github.com/akshayaggarwal99/jarvis-ai-assistant)
++ *   [🎙️ OpenSource Voice Dictation App (like Wispr Flow](https://github.com/akshayaggarwal99/jarvis-ai-assistant)
+```
+
+
 
 #### [awesome-gpt4o-images](https://github.com/jamez-bondos/awesome-gpt4o-images)
 
@@ -63,17 +78,5 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [0dfdc72](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/0dfdc722bd3a4a7dcce51dc5faa33a2d25aa3549) Update latest update date in README - Lucas Valbuena
-
-
-##### File Content Changes
-
-**README.md** (Modified, +1 -1 lines):
-
-```diff
-- > **Latest Update:** 02/12/2025
-+ > **Latest Update:** 30/12/2025
-```
-
-
+No file changes detected.
 
