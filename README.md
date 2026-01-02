@@ -33,25 +33,24 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-01-01T01:50:17
+### 2026-01-02T01:42:06
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
 ##### Commit Changes
 
-- [40ff2e3](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/40ff2e33583714d51978a37cce50df5ed514a962) Fix typo in OpenSource Voice Dictation link - Shubham Saboo
-- [6192cea](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/6192ceaf822ced424fc8c1d7ac386a8a3bdc7084) Revise Jarvis AI Assistant link description - Shubham Saboo
+- [4b0f1b9](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/4b0f1b9e97c85cbc556ce72049f9fa13587f7696) Update AI Research Planner & Executor link in README to reflect new file path - Shubhamsaboo
+- [a2518bf](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/a2518bf4b5c7f398235626c2cd6301d7927e86cb) Add AI Research Planner & Executor with Gemini Interactions API - Shubhamsaboo
 
 
 ##### File Content Changes
 
-**README.md** (Modified, +2 -3 lines):
+**README.md** (Modified, +2 -1 lines):
 
 ```diff
-- *   [🎙️ OpenSource Voice Dictation App (like Wispr Flow](https://github.com/akshayaggarwal99/jarvis-ai-assistant)
-- *   [🎙️ Jarvis AI Assistant](https://github.com/akshayaggarwal99/jarvis-ai-assistant) - Free, open-source voice dictation app (local Whisper + Ollama, zero telemetry)
-+ *   [🎙️ OpenSource Voice Dictation Agent (like Wispr Flow](https://github.com/akshayaggarwal99/jarvis-ai-assistant)
-+ *   [🎙️ OpenSource Voice Dictation App (like Wispr Flow](https://github.com/akshayaggarwal99/jarvis-ai-assistant)
+- *   [🔬 AI Research Planner & Executor (Gemini Interactions API)](advanced_ai_agents/single_agent_apps/ai_research_planner_executor_interactions/)
++ *   [🔬 AI Research Planner & Executor (Gemini Interactions API)](advanced_ai_agents/single_agent_apps/research_agent_gemini_interaction_api)
++ *   [🔬 AI Research Planner & Executor (Gemini Interactions API)](advanced_ai_agents/single_agent_apps/ai_research_planner_executor_interactions/)
 ```
 
 
