@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-01-08T01:42:30
+### 2026-01-09T01:42:52
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -63,5 +63,118 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [6b2157c](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/6b2157ca3eaa6e562cd457a88770dc307c0933f1) Update README.md - Lucas Valbuena
+- [16baaa7](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/16baaa75d94da48d75caee9ae29f0a13ce2242eb) Update README.md - Lucas Valbuena
+- [363b655](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/363b655238f82d619c37cf54131474121fff50aa) Update README.md - Lucas Valbuena
+- [1a546d7](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/1a546d7cb43bd1e7242f46634f14eb313b0d4a16) Update README.md - Lucas Valbuena
+- [7fd7f6e](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/7fd7f6eb5103188dda68c9b6be112963dfe6820e) Update README.md - Lucas Valbuena
+- [7792d71](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/7792d71f270b2aa24bd52fb64c085f095988d0f7) Update README.md - Lucas Valbuena
+- [122a571](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/122a5714eb31f976c30f1c785b0b1988fbd83768) Update README.md - Lucas Valbuena
+- [634cb2f](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/634cb2fca1aded6bc3a68322df5adfe3aff64e13) Update README.md - Lucas Valbuena
+- [91f2bc8](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/91f2bc89dc46ae8f656b8dfb1bb7b45bcc501f2c) Update README.md - Lucas Valbuena
+- [44f9b92](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/44f9b9278a46f115f14a6953c2ae1ee3239a926f) Update README.md - Lucas Valbuena
+
+
+##### File Content Changes
+
+**README.md** (Modified, +75 -85 lines):
+
+```diff
+- > **Latest Update:** 30/12/2025
+- <img src="assets/tembo-dark.png#gh-light-mode-only" alt="Tembo Logo" width="650" height="180"/>
+- <img src="assets/tembo-light.png#gh-dark-mode-only" alt="Tembo Logo" width="650" height="180"/>
+- <img src="assets/Latitude_logo.png" alt="Latitude Logo" width="650" height="180"/>
+- <img src="assets/tembo-dark.png#gh-light-mode-only" alt="Tembo Logo" width="500" height="140"/>
+- <img src="assets/tembo-light.png#gh-dark-mode-only" alt="Tembo Logo" width="500" height="140"/>
+- <img src="assets/Latitude_logo.png" alt="Latitude Logo" width="500" height="140"/>
+- <table align="center">
+- <td align="center" width="50%" valign="top">
+- <img src="assets/tembo-dark.png#gh-light-mode-only" alt="Tembo Logo" width="350" height="100"/>
+- <img src="assets/tembo-light.png#gh-dark-mode-only" alt="Tembo Logo" width="350" height="100"/>
+- <img src="assets/Latitude_logo.png" alt="Latitude Logo" width="350" height="100"/>
+- <td align="center" width="50%">
+- <img src="assets/tembo-dark.png#gh-light-mode-only" alt="Tembo Logo" width="350"/>
+- <img src="assets/tembo-light.png#gh-dark-mode-only" alt="Tembo Logo" width="350"/>
+- <img src="assets/Latitude_logo.png" alt="Latitude Logo" width="350"/>
+- <p align="center"> <sub>Special thanks to</sub> </p> <p align="center"> <a href="https://www.tembo.io/?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship#gh-light-mode-only" target="_blank"> <img src="assets/tembo-dark.png#gh-light-mode-only" alt="Tembo Logo" width="700"/> </a> <a href="https://www.tembo.io/?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship#gh-dark-mode-only" target="_blank"> <img src="assets/tembo-light.png#gh-dark-mode-only" alt="Tembo Logo" width="700"/> </a> </p> <div align="center" markdown="1"> ### <a href="https://www.tembo.io/?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship" target="_blank">Put any coding agent to work while you sleep</a> <a href="https://www.tembo.io/?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship" target="_blank">Tembo – The Background Coding Agents Company</a><br><br> <a href="https://www.tembo.io/?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship" target="_blank">[Get started for free]</a><br> </div> --- <p align="center"> <a href="https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship" target="_blank"> <img src="assets/Latitude_logo.png" alt="Latitude Logo" width="700"/> </a> </p> <div align="center" markdown="1"> ### <a href="https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship" target="_blank">Make your LLM predictable in production</a> <a href="https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship" target="_blank">Open Source AI Engineering Platform</a><br> </div>
+- <p align="center">
+- <sub>Special thanks to</sub>
+- </p>
+- <tr>
+- <!-- Tembo -->
+- <td align="center" valign="top" width="50%">
+- <a href="https://www.tembo.io/?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship#gh-light-mode-only">
+- <img src="assets/tembo-dark.png#gh-light-mode-only" width="300" />
+- </a>
+- <a href="https://www.tembo.io/?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship#gh-dark-mode-only">
+- <img src="assets/tembo-light.png#gh-dark-mode-only" width="300" />
+- <br><br>
+- <h3>
+- <a href="https://www.tembo.io/?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship">
+- Put any coding agent to work while you sleep
+- </h3>
+- Tembo – The Background Coding Agents Company
+- Get started for free
+- </td>
+- <!-- Latitude -->
+- <a href="https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship">
+- <img src="assets/Latitude_logo.png" width="300" />
+- Make your LLM predictable in production
+- Open Source AI Engineering Platform
+- </tr>
+- </table>
+- <b>Put any coding agent to work while you sleep</b>
+- <br>
+- <b>Make your LLM predictable in production</b>
++ > **Latest Update:** 08/01/2026
++ <img src="assets/tembo-dark.png#gh-light-mode-only" alt="Tembo Logo" width="750" height="210"/>
++ <img src="assets/tembo-light.png#gh-dark-mode-only" alt="Tembo Logo" width="750" height="210"/>
++ <img src="assets/Latitude_logo.png" alt="Latitude Logo" width="750" height="210"/>
++ <img src="assets/tembo-dark.png#gh-light-mode-only" alt="Tembo Logo" width="650" height="180"/>
++ <img src="assets/tembo-light.png#gh-dark-mode-only" alt="Tembo Logo" width="650" height="180"/>
++ <img src="assets/Latitude_logo.png" alt="Latitude Logo" width="650" height="180"/>
++ ---
++ <table width="100%">
++ <td align="center" valign="top">
++ <img src="assets/tembo-dark.png#gh-light-mode-only" alt="Tembo Logo" width="500" height="140"/>
++ <img src="assets/tembo-light.png#gh-dark-mode-only" alt="Tembo Logo" width="500" height="140"/>
++ <img src="assets/Latitude_logo.png" alt="Latitude Logo" width="500" height="140"/>
++ <td align="center" width="50%" valign="top">
++ <img src="assets/tembo-dark.png#gh-light-mode-only" alt="Tembo Logo" width="350" height="100"/>
++ <img src="assets/tembo-light.png#gh-dark-mode-only" alt="Tembo Logo" width="350" height="100"/>
++ <img src="assets/Latitude_logo.png" alt="Latitude Logo" width="350" height="100"/>
++ <br><br>
++ &nbsp;
++ <p align="center">
++ <sub>Special thanks to</sub>
++ </p>
++ <table align="center">
++ <tr>
++ <td align="center" width="50%">
++ <a href="https://www.tembo.io/?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship#gh-light-mode-only" target="_blank">
++ <img src="assets/tembo-dark.png#gh-light-mode-only" alt="Tembo Logo" width="350"/>
++ </a>
++ <a href="https://www.tembo.io/?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship#gh-dark-mode-only" target="_blank">
++ <img src="assets/tembo-light.png#gh-dark-mode-only" alt="Tembo Logo" width="350"/>
++ <strong><a href="https://www.tembo.io/?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship" target="_blank">Put any coding agent to work while you sleep</a></strong>
++ <br>
++ <a href="https://www.tembo.io/?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship" target="_blank">Tembo – The Background Coding Agents Company</a>
++ <a href="https://www.tembo.io/?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship" target="_blank">[Get started for free]</a>
++ </td>
++ <a href="https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship" target="_blank">
++ <img src="assets/Latitude_logo.png" alt="Latitude Logo" width="350"/>
++ <strong><a href="https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship" target="_blank">Make your LLM predictable in production</a></strong>
++ <a href="https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship" target="_blank">Open Source AI Engineering Platform</a>
++ </tr>
++ </table>
++ <p align="center"> <sub>Special thanks to</sub> </p> <p align="center"> <a href="https://www.tembo.io/?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship#gh-light-mode-only" target="_blank"> <img src="assets/tembo-dark.png#gh-light-mode-only" alt="Tembo Logo" width="700"/> </a> <a href="https://www.tembo.io/?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship#gh-dark-mode-only" target="_blank"> <img src="assets/tembo-light.png#gh-dark-mode-only" alt="Tembo Logo" width="700"/> </a> </p> <div align="center" markdown="1"> ### <a href="https://www.tembo.io/?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship" target="_blank">Put any coding agent to work while you sleep</a> <a href="https://www.tembo.io/?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship" target="_blank">Tembo – The Background Coding Agents Company</a><br><br> <a href="https://www.tembo.io/?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship" target="_blank">[Get started for free]</a><br> </div> --- <p align="center"> <a href="https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship" target="_blank"> <img src="assets/Latitude_logo.png" alt="Latitude Logo" width="700"/> </a> </p> <div align="center" markdown="1"> ### <a href="https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship" target="_blank">Make your LLM predictable in production</a> <a href="https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship" target="_blank">Open Source AI Engineering Platform</a><br> </div>
++ <h3>
++ <a href="https://www.tembo.io/?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship">
++ Put any coding agent to work while you sleep
++ </h3>
++ <a href="https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship">
++ Make your LLM predictable in production
+```
+
+
 
