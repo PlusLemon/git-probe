@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-01-13T01:39:10
+### 2026-01-15T01:41:47
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,7 +51,23 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [c177376](https://github.com/punkpeye/awesome-mcp-servers/commit/c1773762b1e83dcd39f1ce5a33af047f9c59b8ab) Update README.md - Frank Fiegel
+- [3918107](https://github.com/punkpeye/awesome-mcp-servers/commit/3918107e6b7ca75af697f6a2f61da89cf286e57b) Add Lenny's Podcast Wisdom MCP server to Knowledge & Memory section - bluzername
+
+
+##### File Content Changes
+
+**README.md** (Modified, +5 -1 lines):
+
+```diff
+- > [Awesome MCP Servers](https://glama.ai/mcp/servers) web directory
++ > [Awesome MCP Servers](https://glama.ai/mcp/servers) web directory.
++ > [!IMPORTANT]
++ > Test servers using [MCP Inspector](https://glama.ai/mcp/inspector?servers=%5B%7B%22id%22%3A%22test%22%2C%22name%22%3A%22test%22%2C%22requestTimeout%22%3A10000%2C%22url%22%3A%22https%3A%2F%2Fmcp-test.glama.ai%2Fmcp%22%7D%5D).
++ - [bluzername/lennys-quotes](https://github.com/bluzername/lennys-quotes) 📇 🏠 - Query 269 episodes of Lenny's Podcast for product management wisdom. Search 51,000+ transcript segments with YouTube timestamps. Perfect for PRDs, strategy, and PM career advice.
+```
+
+
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
