@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-01-15T01:41:47
+### 2026-01-16T01:43:24
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,20 +51,17 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [c177376](https://github.com/punkpeye/awesome-mcp-servers/commit/c1773762b1e83dcd39f1ce5a33af047f9c59b8ab) Update README.md - Frank Fiegel
-- [3918107](https://github.com/punkpeye/awesome-mcp-servers/commit/3918107e6b7ca75af697f6a2f61da89cf286e57b) Add Lenny's Podcast Wisdom MCP server to Knowledge & Memory section - bluzername
+- [8a0bb23](https://github.com/punkpeye/awesome-mcp-servers/commit/8a0bb23d12a75c2daea2c479093a9f3521cd90f6) Add mcp-datalink server - Vladimir Urushev
+- [d07e2bb](https://github.com/punkpeye/awesome-mcp-servers/commit/d07e2bbbc74b5a785ba43214f7b9979dda393a09) Merge pull request #1680 from ericbrown/main - Frank Fiegel
 
 
 ##### File Content Changes
 
-**README.md** (Modified, +5 -1 lines):
+**README.md** (Modified, +2 -0 lines):
 
 ```diff
-- > [Awesome MCP Servers](https://glama.ai/mcp/servers) web directory
-+ > [Awesome MCP Servers](https://glama.ai/mcp/servers) web directory.
-+ > [!IMPORTANT]
-+ > Test servers using [MCP Inspector](https://glama.ai/mcp/inspector?servers=%5B%7B%22id%22%3A%22test%22%2C%22name%22%3A%22test%22%2C%22requestTimeout%22%3A10000%2C%22url%22%3A%22https%3A%2F%2Fmcp-test.glama.ai%2Fmcp%22%7D%5D).
-+ - [bluzername/lennys-quotes](https://github.com/bluzername/lennys-quotes) 📇 🏠 - Query 269 episodes of Lenny's Podcast for product management wisdom. Search 51,000+ transcript segments with YouTube timestamps. Perfect for PRDs, strategy, and PM career advice.
++ - [pilat/mcp-datalink](https://github.com/pilat/mcp-datalink) 📇 🏠 - MCP server for secure database access (PostgreSQL, MySQL, SQLite) with parameterized queries and schema inspection
++ - [ericbrown/project-context-mcp](https://github.com/ericbrown/project-context-mcp) 🐍 🏠 - Exposes `.context/` folder files as MCP resources, giving Claude Code instant access to project documentation via `@` mentions.
 ```
 
 
