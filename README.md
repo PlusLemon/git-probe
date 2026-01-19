@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-01-18T01:49:40
+### 2026-01-19T01:47:57
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,20 +51,7 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [508c4d2](https://github.com/punkpeye/awesome-mcp-servers/commit/508c4d2b8a7e97ae3ab8fd336fcbce95e60ee2ec) Add lightningfaucet/mcp-server - Bitcoin Lightning wallet for AI agents - Alex Sato
-- [a451dad](https://github.com/punkpeye/awesome-mcp-servers/commit/a451dadbf9eaf06abb0b6cccab1788f57911d64c) Add oci-pricing-mcp to Cloud Platforms section - Jason Wilbur
-
-
-##### File Content Changes
-
-**README.md** (Modified, +2 -0 lines):
-
-```diff
-+ - [lightningfaucet/mcp-server](https://github.com/lightningfaucet/mcp-server) 📇 ☁️ - AI Agent Bitcoin wallet with L402 payments - operators fund agents, agents make autonomous Lightning Network payments.
-+ - [jasonwilbur/oci-pricing-mcp](https://github.com/jasonwilbur/oci-pricing-mcp) 📇 ☁️ - Oracle Cloud Infrastructure pricing data with 602 products, cost calculators, and cross-provider comparisons. One-command install for Claude.
-```
-
-
+No file changes detected.
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
@@ -76,21 +63,5 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [aaafe4d](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/aaafe4d73995228420315aceb20bde8cc709594e) Update README.md - Lucas Valbuena
-- [0b30fc8](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/0b30fc82cb61041c3e80707e02fe2b0a3a9b5a08) Update README.md - Lucas Valbuena
-
-
-##### File Content Changes
-
-**README.md** (Modified, +4 -1 lines):
-
-```diff
-- <a href="https://bags.fm/DEffWzJyaFRNyA4ogUox631hfHuv3KLeCcpBh2ipBAGS">Bags.fm</a>
-+ <a href="https://bags.fm/DEffWzJyaFRNyA4ogUox631hfHuv3KLeCcpBh2ipBAGS">Bags.fm</a> •
-+ <a href="https://jup.ag/tokens/DEffWzJyaFRNyA4ogUox631hfHuv3KLeCcpBh2ipBAGS">Jupiter</a> •
-+ <a href="https://photon-sol.tinyastro.io/en/lp/Qa5ZCCwrWoPYckNXXMCAhCsw8gafgYFAu1Qes3Grgv5?handle=">Photon</a> •
-+ <a href="https://dexscreener.com/solana/qa5zccwrwopycknxxmcahcsw8gafgyfau1qes3grgv5">DEXScreener</a>
-```
-
-
+No file changes detected.
 
