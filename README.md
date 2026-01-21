@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-01-20T01:43:05
+### 2026-01-21T01:46:12
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,7 +51,7 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [ed62a56](https://github.com/punkpeye/awesome-mcp-servers/commit/ed62a568c15370b14031934fc6afb1ce09e13571) Add Voxie AI Directory MCP server - Es Lee
+- [a670b8d](https://github.com/punkpeye/awesome-mcp-servers/commit/a670b8d2f652defc04ff0ecfd861886b8d6765c3) Merge pull request #1641 from TamarEngel/add-my-mcp-jira-github-server - Frank Fiegel
 
 
 ##### File Content Changes
@@ -59,7 +59,7 @@ No file changes detected.
 **README.md** (Modified, +1 -0 lines):
 
 ```diff
-+ - [sonnyflylock/voxie-ai-directory-mcp](https://github.com/sonnyflylock/voxie-ai-directory-mcp) 📇 ☁️ - AI Phone Number Directory providing access to AI services via webchat. Query Voxie AI personas and third-party services like ChatGPT, with instant webchat URLs for free interactions.
++ - [TamarEngel/jira-github-mcp](https://github.com/TamarEngel/jira-github-mcp) - MCP server that integrates Jira and GitHub to automate end-to-end developer workflows, from issue tracking to branches, commits, pull requests, and merges inside the IDE.
 ```
 
 
