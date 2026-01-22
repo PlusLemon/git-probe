@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-01-21T01:46:12
+### 2026-01-22T01:45:59
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,18 +51,7 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [a670b8d](https://github.com/punkpeye/awesome-mcp-servers/commit/a670b8d2f652defc04ff0ecfd861886b8d6765c3) Merge pull request #1641 from TamarEngel/add-my-mcp-jira-github-server - Frank Fiegel
-
-
-##### File Content Changes
-
-**README.md** (Modified, +1 -0 lines):
-
-```diff
-+ - [TamarEngel/jira-github-mcp](https://github.com/TamarEngel/jira-github-mcp) - MCP server that integrates Jira and GitHub to automate end-to-end developer workflows, from issue tracking to branches, commits, pull requests, and merges inside the IDE.
-```
-
-
+No file changes detected.
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
@@ -74,5 +63,17 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [119b8ad](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/119b8ad7cedcd7737f696031a4e2f1efd3a8cb62) Update README.md - Lucas Valbuena
+
+
+##### File Content Changes
+
+**README.md** (Modified, +1 -1 lines):
+
+```diff
+- > Check out **[ZeroLeaks](https://zeroleaks.io/)**, a service designed to help startups **identify and secure** leaks in system instructions, internal tools, and model configurations. **Get a free AI security audit** to ensure your AI is protected from vulnerabilities.
++ > Check out **[ZeroLeaks](https://zeroleaks.ai/)**, a service designed to help startups **identify and secure** leaks in system instructions, internal tools, and model configurations. **Get a free AI security audit** to ensure your AI is protected from vulnerabilities.
+```
+
+
 
