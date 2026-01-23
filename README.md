@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-01-22T01:45:59
+### 2026-01-23T01:43:17
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -63,17 +63,5 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [119b8ad](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/119b8ad7cedcd7737f696031a4e2f1efd3a8cb62) Update README.md - Lucas Valbuena
-
-
-##### File Content Changes
-
-**README.md** (Modified, +1 -1 lines):
-
-```diff
-- > Check out **[ZeroLeaks](https://zeroleaks.io/)**, a service designed to help startups **identify and secure** leaks in system instructions, internal tools, and model configurations. **Get a free AI security audit** to ensure your AI is protected from vulnerabilities.
-+ > Check out **[ZeroLeaks](https://zeroleaks.ai/)**, a service designed to help startups **identify and secure** leaks in system instructions, internal tools, and model configurations. **Get a free AI security audit** to ensure your AI is protected from vulnerabilities.
-```
-
-
+No file changes detected.
 
