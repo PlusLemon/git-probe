@@ -33,13 +33,43 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-02-10T02:24:52
+### 2026-02-11T02:21:02
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
 ##### Commit Changes
 
-No file changes detected.
+- [a346cc8](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/a346cc8669a0350783e4c5070cd7a815976fd9b5) feat: add TinyFish banner and remove Okara AI - Shubhamsaboo
+
+
+##### File Content Changes
+
+**README.md** (Modified, +11 -11 lines):
+
+```diff
+- </tr>
+- <tr>
+- <td align="center">
+- <a href="https://okara.ai/?utm_source=oss&utm_medium=sponsorship&utm_campaign=awesome-llm-apps" title="Okara">
+- <img src="docs/banner/sponsors/okara.png" alt="Okara" width="500">
+- </a>
+- <br>
+- <a href="https://okara.ai/?utm_source=oss&utm_medium=sponsorship&utm_campaign=awesome-llm-apps" style="text-decoration: none; color: #333; font-weight: bold; font-size: 18px;">
+- Okara AI
+- </td>
++ <td align="center">
++ <a href="https://bit.ly/4ci0r4v" target="_blank" rel="noopener" title="TinyFish">
++ <img src="docs/banner/sponsors/tinyfish.png" alt="TinyFish" width="500">
++ </a>
++ <br>
++ <a href="https://bit.ly/4ci0r4v" target="_blank" rel="noopener" style="text-decoration: none; color: #333; font-weight: bold; font-size: 18px;">
++ TinyFish
++ </td>
++ </tr>
++ <tr>
+```
+
+
 
 #### [awesome-gpt4o-images](https://github.com/jamez-bondos/awesome-gpt4o-images)
 
