@@ -33,43 +33,13 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-02-11T02:21:02
+### 2026-02-12T02:07:42
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
 ##### Commit Changes
 
-- [a346cc8](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/a346cc8669a0350783e4c5070cd7a815976fd9b5) feat: add TinyFish banner and remove Okara AI - Shubhamsaboo
-
-
-##### File Content Changes
-
-**README.md** (Modified, +11 -11 lines):
-
-```diff
-- </tr>
-- <tr>
-- <td align="center">
-- <a href="https://okara.ai/?utm_source=oss&utm_medium=sponsorship&utm_campaign=awesome-llm-apps" title="Okara">
-- <img src="docs/banner/sponsors/okara.png" alt="Okara" width="500">
-- </a>
-- <br>
-- <a href="https://okara.ai/?utm_source=oss&utm_medium=sponsorship&utm_campaign=awesome-llm-apps" style="text-decoration: none; color: #333; font-weight: bold; font-size: 18px;">
-- Okara AI
-- </td>
-+ <td align="center">
-+ <a href="https://bit.ly/4ci0r4v" target="_blank" rel="noopener" title="TinyFish">
-+ <img src="docs/banner/sponsors/tinyfish.png" alt="TinyFish" width="500">
-+ </a>
-+ <br>
-+ <a href="https://bit.ly/4ci0r4v" target="_blank" rel="noopener" style="text-decoration: none; color: #333; font-weight: bold; font-size: 18px;">
-+ TinyFish
-+ </td>
-+ </tr>
-+ <tr>
-```
-
-
+No file changes detected.
 
 #### [awesome-gpt4o-images](https://github.com/jamez-bondos/awesome-gpt4o-images)
 
@@ -81,7 +51,18 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [ec67a87](https://github.com/punkpeye/awesome-mcp-servers/commit/ec67a870ffa5e7dedba4c9597f015a86143e40c6) Add Spaceship MCP server - Bart Waardenburg
+
+
+##### File Content Changes
+
+**README.md** (Modified, +1 -0 lines):
+
+```diff
++ - [Spaceship MCP](https://github.com/bartwaardenburg/spaceship-mcp) 📇 ☁️ - Manage domains, DNS records, contacts, marketplace listings, and more via the Spaceship API
+```
+
+
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
