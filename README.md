@@ -33,13 +33,27 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-02-12T02:07:42
+### 2026-02-13T02:10:08
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
 ##### Commit Changes
 
-No file changes detected.
+- [0d8454d](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/0d8454d99143d2c58326f67c1adc8fc7a46893d1) Update README.md - Shubham Saboo
+
+
+##### File Content Changes
+
+**README.md** (Modified, +2 -2 lines):
+
+```diff
+- <a href="https://bit.ly/4ci0r4v" target="_blank" rel="noopener" title="TinyFish">
+- <a href="https://bit.ly/4ci0r4v" target="_blank" rel="noopener" style="text-decoration: none; color: #333; font-weight: bold; font-size: 18px;">
++ <a href="https://github.com/tinyfish-io/tinyfish-cookbook" target="_blank" rel="noopener" title="TinyFish">
++ <a href="https://github.com/tinyfish-io/tinyfish-cookbook" target="_blank" rel="noopener" style="text-decoration: none; color: #333; font-weight: bold; font-size: 18px;">
+```
+
+
 
 #### [awesome-gpt4o-images](https://github.com/jamez-bondos/awesome-gpt4o-images)
 
@@ -51,18 +65,7 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [ec67a87](https://github.com/punkpeye/awesome-mcp-servers/commit/ec67a870ffa5e7dedba4c9597f015a86143e40c6) Add Spaceship MCP server - Bart Waardenburg
-
-
-##### File Content Changes
-
-**README.md** (Modified, +1 -0 lines):
-
-```diff
-+ - [Spaceship MCP](https://github.com/bartwaardenburg/spaceship-mcp) 📇 ☁️ - Manage domains, DNS records, contacts, marketplace listings, and more via the Spaceship API
-```
-
-
+No file changes detected.
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
