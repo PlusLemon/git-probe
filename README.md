@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-02-23T02:06:22
+### 2026-02-24T02:02:56
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,23 +51,7 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [8953e54](https://github.com/punkpeye/awesome-mcp-servers/commit/8953e5467bc18c27965e80aaa7c4d34a8a4b60ef) fix: correct several typos from 'MPC' to 'MCP' - Ename7
-- [1b6465c](https://github.com/punkpeye/awesome-mcp-servers/commit/1b6465cddb64acfd2f0944d8b0e37c581293f78f) Add japan-corporate-mcp to Finance & Fintech - yamariki-hub
-
-
-##### File Content Changes
-
-**README.md** (Modified, +3 -2 lines):
-
-```diff
-- - [zhsama/duckduckgo-mcp-server](https://github.com/zhsama/duckduckgo-mpc-server/) 📇 🏠 ☁️ - This is a TypeScript-based MCP server that provides DuckDuckGo search functionality.
-- - [rae-api-com/rae-mcp](https://github.com/rae-api-com/rae-mcp) - 🏎️ ☁️ 🍎 🪟 🐧 MPC Server to connect your preferred model with https://rae-api.com, Roya Academy of Spanish Dictionary
-+ - [zhsama/duckduckgo-mcp-server](https://github.com/zhsama/duckduckgo-mcp-server/) 📇 🏠 ☁️ - This is a TypeScript-based MCP server that provides DuckDuckGo search functionality.
-+ - [rae-api-com/rae-mcp](https://github.com/rae-api-com/rae-mcp) - 🏎️ ☁️ 🍎 🪟 🐧 MCP Server to connect your preferred model with https://rae-api.com, Roya Academy of Spanish Dictionary
-+ - [yamariki-hub/japan-corporate-mcp](https://github.com/yamariki-hub/japan-corporate-mcp) 🐍 ☁️ - Japanese corporate data via government APIs (gBizINFO, EDINET, e-Stat). Search companies, financials, patents, subsidies, procurement, and government statistics.
-```
-
-
+No file changes detected.
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
