@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-03-06T02:01:31
+### 2026-03-07T01:54:10
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,32 +51,78 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [bc51fe0](https://github.com/punkpeye/awesome-mcp-servers/commit/bc51fe0af7d4f5f2c656ce46e8f04d8e694e3a92) Merge pull request #2164 from ChesterHsu/add-flyto-core - Frank Fiegel
-- [83ef475](https://github.com/punkpeye/awesome-mcp-servers/commit/83ef475f8f21bc5fac0c0933fc90fb7fd58c427b) Merge pull request #2413 from rplryan/add-x402-discovery-mcp - Frank Fiegel
-- [64926f2](https://github.com/punkpeye/awesome-mcp-servers/commit/64926f2f8a9bd11f90976b5f35f99a9b583821f7) Merge pull request #2748 from meetclawdius/add-measure-events - Frank Fiegel
-- [d358e12](https://github.com/punkpeye/awesome-mcp-servers/commit/d358e129341e1ca90b27ebd3da358372073d5bda) Add Glama link for pmptwiki/pmpt-cli - raunplaymore
-- [eb82e4a](https://github.com/punkpeye/awesome-mcp-servers/commit/eb82e4aacf6a6f30634e0515d438c9418bebfd73) Revert: remove Glama link from README entry - raunplaymore
-- [07e1820](https://github.com/punkpeye/awesome-mcp-servers/commit/07e1820f00384702eae0815536c881fa83d7377d) Add Glama link for pmptwiki/pmpt-cli - raunplaymore
-- [075cb67](https://github.com/punkpeye/awesome-mcp-servers/commit/075cb6708f3355a0a075e5d5a019047cb78c6a13) Add Glama listing link for flyto-core - Chester
-- [e5f6872](https://github.com/punkpeye/awesome-mcp-servers/commit/e5f6872826123822e648b847797b38ed8a16bb84) Add pmptwiki/pmpt-cli to Developer Tools - raunplaymore
-- [5e3233d](https://github.com/punkpeye/awesome-mcp-servers/commit/5e3233d1bdfe8adef82afe685b3ad7d2c4064c8c) Add Measure.events MCP Server with glama link - EC2 Default User
-- [04229f1](https://github.com/punkpeye/awesome-mcp-servers/commit/04229f16c3a541b59f8afe734ed7f5e4e2437b59) fix: update entry with correct GitHub URL and add Glama badge - rplryan
+- [d6ad44e](https://github.com/punkpeye/awesome-mcp-servers/commit/d6ad44e13cf0ff595003ed831c2396a9139cd293) Merge pull request #2467 from roomi-fields/add-notebooklm-mcp - Frank Fiegel
+- [8e269cd](https://github.com/punkpeye/awesome-mcp-servers/commit/8e269cd9ed332e8e40a28aeedeb4189b44dddcc3) Merge pull request #2403 from bncbodrogi/add-vesselapi-mcp - Frank Fiegel
+- [955f13b](https://github.com/punkpeye/awesome-mcp-servers/commit/955f13b91be7bd769cb291825e48b1febe1fae1f) Merge branch 'main' into add-notebooklm-mcp - Frank Fiegel
+- [80c523f](https://github.com/punkpeye/awesome-mcp-servers/commit/80c523f922c20e84530e889d3c16eda5cd24425a) Merge pull request #2779 from 0xtus/add-azeth-mcp-server - Frank Fiegel
+- [681537b](https://github.com/punkpeye/awesome-mcp-servers/commit/681537b2bc64a44a3431914103cee54895431aaf) Merge pull request #2800 from PatrickSys/add-codebase-context - Frank Fiegel
+- [092efdc](https://github.com/punkpeye/awesome-mcp-servers/commit/092efdc463a58b2041c70a55c51e72318504b6f3) Merge pull request #2806 from duriantaco/duriantaco-patch-1-1 - Frank Fiegel
+- [52ead89](https://github.com/punkpeye/awesome-mcp-servers/commit/52ead89dd9e55c5e76235d7b8949fa306e6ad468) add Glama listing link - Bence Bodrogi
+- [d3c3a89](https://github.com/punkpeye/awesome-mcp-servers/commit/d3c3a89c33b2b12399b71615dda0ae3447e302a9) Update Skylos link with Glama integration - oha
+- [ff537d1](https://github.com/punkpeye/awesome-mcp-servers/commit/ff537d19b5fb0d02822f03b02c2355928a12bfeb) Add Glama verification link for azeth-protocol/mcp-server - RF31
+- [e995ccd](https://github.com/punkpeye/awesome-mcp-servers/commit/e995ccd388b322cea548f3d2ee2f235de1cc5357) Add glama listing link - PatrickSys
 
 
 ##### File Content Changes
 
-**README.md** (Modified, +10 -5 lines):
+**README.md** (Modified, +101 -6 lines):
 
 ```diff
-- - [pmptwiki/pmpt-cli](https://github.com/pmptwiki/pmpt-cli) 📇 🏠 - Record and share your AI-driven development journey. Auto-saves project milestones with summaries, generates structured AI prompts via 5-question planning, and publishes to [pmptwiki.com](https://pmptwiki.com) community platform.
-- - [pmptwiki/pmpt-cli](https://github.com/pmptwiki/pmpt-cli) [glama](https://glama.ai/mcp/servers/@pmptwiki/pmpt-mcp) 📇 🏠 - Record and share your AI-driven development journey. Auto-saves project milestones with summaries, generates structured AI prompts via 5-question planning, and publishes to [pmptwiki.com](https://pmptwiki.com) community platform.
-- - [flytohub/flyto-core](https://github.com/flytohub/flyto-core) 🐍 🏠 - Deterministic execution engine for AI agents with 412 modules across 78 categories (browser, file, Docker, data, crypto, scheduling). Features execution trace, evidence snapshots, replay from any step, and supports both STDIO and Streamable HTTP transport.
-- - [rplryan/x402-discovery](https://github.com/rplryan/ouroboros/tree/ouroboros/agent_economy/discovery_api) 🐍 ☁️ - Runtime discovery layer for x402-payable APIs. Agents query to find pay-per-call endpoints by capability, get quality-ranked results (uptime%, latency, health), and pay $0.005 USDC per query via x402 — the discovery itself is x402-gated. Includes Python SDK, LangChain/LlamaIndex/AutoGen/CrewAI plugins on PyPI.
-+ - [flytohub/flyto-core](https://github.com/flytohub/flyto-core) [glama](https://glama.ai/mcp/servers/@flytohub/flyto-core) 🐍 🏠 - Deterministic execution engine for AI agents with 412 modules across 78 categories (browser, file, Docker, data, crypto, scheduling). Features execution trace, evidence snapshots, replay from any step, and supports both STDIO and Streamable HTTP transport.
-+ - [rplryan/x402-discovery-mcp](https://github.com/rplryan/x402-discovery-mcp) [glama](https://glama.ai/mcp/servers/@rplryan/x402-discovery-mcp) 🐍 ☁️ - Runtime discovery layer for x402-payable APIs. Agents discover and route to pay-per-call x402 endpoints by capability, get quality-ranked results with trust scores (0-100), and pay per query via x402. Includes MCP server, Python SDK, and CLI (npm install -g x402scout).
-+ - [Turbo-Puffin/measure-mcp-server](https://github.com/Turbo-Puffin/measure-mcp-server) [glama](https://glama.ai/mcp/servers/@Turbo-Puffin/measure-mcp-server) ☁️ - Privacy-first web analytics with native MCP server. Query pageviews, referrers, trends, and AI-generated insights for your sites.
-+ - [pmptwiki/pmpt-cli](https://github.com/pmptwiki/pmpt-cli) [glama](https://glama.ai/mcp/servers/@pmptwiki/pmpt-mcp) 📇 🏠 - Record and share your AI-driven development journey. Auto-saves project milestones with summaries, generates structured AI prompts via 5-question planning, and publishes to [pmptwiki.com](https://pmptwiki.com) community platform.
-+ - [pmptwiki/pmpt-cli](https://github.com/pmptwiki/pmpt-cli) 📇 🏠 - Record and share your AI-driven development journey. Auto-saves project milestones with summaries, generates structured AI prompts via 5-question planning, and publishes to [pmptwiki.com](https://pmptwiki.com) community platform.
+- - [vessel-api/vesselapi-mcp](https://github.com/vessel-api/vesselapi-mcp) 📇 ☁️ - Maritime vessel tracking via VesselAPI. Search vessels, get real-time positions, ETAs, port events, emissions, inspections, and NAVTEX safety messages.
+- - [duriantaco/skylos](https://github.com/duriantaco/skylos) 🐍 🏠 🍎 🪟  🐧 - Dead code detection, security scanning, and code quality      analysis for Python, TypeScript, and Go. 98% recall with fewer false positives than Vulture. Includes AI-powered remediation.
+- - [azeth-protocol/mcp-server](https://github.com/azeth-protocol/mcp-server) 📇 ☁️ - Trust infrastructure for the machine economy — non-custodial ERC-4337 smart accounts, x402 payments, on-chain reputation via ERC-8004, and service discovery for AI agents.
+- - [PatrickSys/codebase-context](https://github.com/PatrickSys/codebase-context) 📇 🏠 🍎 🪟 🐧 - Local MCP server that shows AI agents which patterns your team actually uses, what files a change will affect, and when there is not enough context to trust an edit. 30+ languages, fully local.
++ - [roomi-fields/notebooklm-mcp](https://github.com/roomi-fields/notebooklm-mcp) ([glama](https://glama.ai/mcp/servers/@roomi-fields/notebooklm-mcp)) 📇 🏠 🍎 🪟 🐧 - Full automation of Google NotebookLM — Q&A with citations, audio podcasts, video, content generation, source management, and notebook library. MCP + HTTP REST API.
++ - [vessel-api/vesselapi-mcp](https://github.com/vessel-api/vesselapi-mcp) [glama](https://glama.ai/mcp/servers/@vessel-api/vessel-api-mcp-server) 📇 ☁️ - Maritime vessel tracking via VesselAPI. Search vessels, get real-time positions, ETAs, port events, emissions, inspections, and NAVTEX safety messages.
++ name: Check Glama Link
++ on:
++ pull_request_target:
++ types: [opened, edited, synchronize, closed]
++ permissions:
++ contents: read
++ pull-requests: write
++ issues: write
++ jobs:
++ # Post-merge welcome comment
++ welcome:
++ if: github.event.action == 'closed' && github.event.pull_request.merged == true
++ runs-on: ubuntu-latest
++ steps:
++ - name: Post welcome comment
++ uses: actions/github-script@v7
++ with:
++ script: |
++ const { owner, repo } = context.repo;
++ const pr_number = context.payload.pull_request.number;
++ const marker = '<!-- welcome-comment -->';
++ const { data: comments } = await github.rest.issues.listComments({
++ owner,
++ repo,
++ issue_number: pr_number,
++ per_page: 100,
++ });
++ if (!comments.some(c => c.body.includes(marker))) {
++ await github.rest.issues.createComment({
++ body: `${marker}\nThank you for your contribution! Your server has been merged.
++ Are you in the MCP [Discord](https://glama.ai/mcp/discord)? Let me know your Discord username and I will give you a **server-author** flair.
++ If you also have a remote server, you can list it under https://glama.ai/mcp/connectors`
++ }
++ # Validation checks (only on open PRs)
++ check-submission:
++ if: github.event.action != 'closed'
++ - name: Checkout base branch
++ uses: actions/checkout@v4
++ ref: ${{ github.event.pull_request.base.ref }}
++ - name: Validate PR submission
++ const fs = require('fs');
++ // Read existing README to check for duplicates
++ const readme = fs.readFileSync('README.md', 'utf8');
++ const existingUrls = new Set();
++ const urlRegex = /\(https:\/\/github\.com\/[^)]+\)/gi;
++ for (const match of readme.matchAll(urlRegex)) {
++ existingUrls.add(match[0].toLowerCase());
++ // Get the PR diff
++ ... (164 more additions)
 ```
 
 
@@ -91,42 +137,5 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [dae78f5](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/dae78f56b04b760003f0cf83ce73908985bbe810) Update README.md - Lucas Valbuena
-
-
-##### File Content Changes
-
-**README.md** (Modified, +17 -17 lines):
-
-```diff
-- <sub>Special thanks to</sub>
-- <td align="center" valign="top">
-- <a href="https://www.tembo.io/?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship#gh-light-mode-only" target="_blank">
-- <img src="assets/tembo-dark.png#gh-light-mode-only" alt="Tembo Logo" width="750" height="210"/>
-- </a>
-- <a href="https://www.tembo.io/?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship#gh-dark-mode-only" target="_blank">
-- <img src="assets/tembo-light.png#gh-dark-mode-only" alt="Tembo Logo" width="750" height="210"/>
-- <br><br>
-- <strong><a href="https://www.tembo.io/?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship" target="_blank">Put any coding agent to work while you sleep</a></strong>
-- <br>
-- <a href="https://www.tembo.io/?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship" target="_blank">Tembo – The Background Coding Agents Company</a>
-- <a href="https://www.tembo.io/?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship" target="_blank">[Get started for free]</a>
-- </td>
-- <strong><a href="https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship" target="_blank">Make your LLM predictable in production</a></strong>
-- <a href="https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship" target="_blank">Open Source AI Engineering Platform</a>
-+ <p align="center">
-+ ❤️ Love when open-source tools give back to open-source repos. Kilo Code is an AI coding agent with the system prompt, source code, and agent architecture all in the open on their GitHub repo.
-+ <a href="https://github.com/Kilo-Org/kilocode">Let’s show them some love</a> ❤️
-+ </p>
-+ ---
-+ <sub>Special thanks to</sub>
-+ <strong>
-+ <a href="https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship" target="_blank">
-+ Make your LLM predictable in production
-+ </a>
-+ </strong>
-+ Open Source AI Engineering Platform
-```
-
-
+No file changes detected.
 
