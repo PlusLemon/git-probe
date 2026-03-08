@@ -33,13 +33,24 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-03-07T01:54:10
+### 2026-03-08T02:03:13
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
 ##### Commit Changes
 
-No file changes detected.
+- [8ae5a86](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/8ae5a86236fb172acc5e055333d55cafe3b1255c) rename: multi_mcp_agent_forge -> multi_mcp_agent_router - awesomekoder
+
+
+##### File Content Changes
+
+**README.md** (Modified, +1 -0 lines):
+
+```diff
++ *   [🔀 Multi-MCP Agent Router](mcp_ai_agents/multi_mcp_agent_router/)
+```
+
+
 
 #### [awesome-gpt4o-images](https://github.com/jamez-bondos/awesome-gpt4o-images)
 
@@ -51,29 +62,32 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [d6ad44e](https://github.com/punkpeye/awesome-mcp-servers/commit/d6ad44e13cf0ff595003ed831c2396a9139cd293) Merge pull request #2467 from roomi-fields/add-notebooklm-mcp - Frank Fiegel
-- [8e269cd](https://github.com/punkpeye/awesome-mcp-servers/commit/8e269cd9ed332e8e40a28aeedeb4189b44dddcc3) Merge pull request #2403 from bncbodrogi/add-vesselapi-mcp - Frank Fiegel
-- [955f13b](https://github.com/punkpeye/awesome-mcp-servers/commit/955f13b91be7bd769cb291825e48b1febe1fae1f) Merge branch 'main' into add-notebooklm-mcp - Frank Fiegel
-- [80c523f](https://github.com/punkpeye/awesome-mcp-servers/commit/80c523f922c20e84530e889d3c16eda5cd24425a) Merge pull request #2779 from 0xtus/add-azeth-mcp-server - Frank Fiegel
-- [681537b](https://github.com/punkpeye/awesome-mcp-servers/commit/681537b2bc64a44a3431914103cee54895431aaf) Merge pull request #2800 from PatrickSys/add-codebase-context - Frank Fiegel
-- [092efdc](https://github.com/punkpeye/awesome-mcp-servers/commit/092efdc463a58b2041c70a55c51e72318504b6f3) Merge pull request #2806 from duriantaco/duriantaco-patch-1-1 - Frank Fiegel
-- [52ead89](https://github.com/punkpeye/awesome-mcp-servers/commit/52ead89dd9e55c5e76235d7b8949fa306e6ad468) add Glama listing link - Bence Bodrogi
-- [d3c3a89](https://github.com/punkpeye/awesome-mcp-servers/commit/d3c3a89c33b2b12399b71615dda0ae3447e302a9) Update Skylos link with Glama integration - oha
-- [ff537d1](https://github.com/punkpeye/awesome-mcp-servers/commit/ff537d19b5fb0d02822f03b02c2355928a12bfeb) Add Glama verification link for azeth-protocol/mcp-server - RF31
-- [e995ccd](https://github.com/punkpeye/awesome-mcp-servers/commit/e995ccd388b322cea548f3d2ee2f235de1cc5357) Add glama listing link - PatrickSys
+- [e83a94f](https://github.com/punkpeye/awesome-mcp-servers/commit/e83a94fdc670b2bfb2be87da6896f902e8e2d7f5) Merge pull request #2636 from ckanthony/main - Frank Fiegel
+- [b8a9f55](https://github.com/punkpeye/awesome-mcp-servers/commit/b8a9f55c7cda5419a392cdafc017c343588b58df) Merge pull request #2732 from zach-snell/add-bbkt - Frank Fiegel
+- [5cf1c68](https://github.com/punkpeye/awesome-mcp-servers/commit/5cf1c6876e3e8bf3db53e77feb3db5c05062dca5) Update README.md - Frank Fiegel
+- [ba8cd2f](https://github.com/punkpeye/awesome-mcp-servers/commit/ba8cd2f21208efe70620dba29521b157dfceb4b6) Merge pull request #2754 from joergmichno/add-clawguard-mcp - Frank Fiegel
+- [67bbda1](https://github.com/punkpeye/awesome-mcp-servers/commit/67bbda177a469ee5d3c387b997c5dca2a7488bdd) Merge pull request #2840 from Mani87-nq/add-remembra - Frank Fiegel
+- [7de54b7](https://github.com/punkpeye/awesome-mcp-servers/commit/7de54b7621eb1a2476de843f97d2ff2f4ae5bba8) Add Glama listing link for clawguard-mcp - Jörg Michno
+- [87656cf](https://github.com/punkpeye/awesome-mcp-servers/commit/87656cf79771b622f1a68b79284c020795b76039) docs: add Glama listing link for bbkt - Zach Snell
+- [e56a2be](https://github.com/punkpeye/awesome-mcp-servers/commit/e56a2be0c2857b816a22fde6bee4e8bc72460aef) Add Glama listing link to Chisel entry - Anthony Chan
+- [45a4891](https://github.com/punkpeye/awesome-mcp-servers/commit/45a4891b92400da6974a45c0d0828570e5462c05) Merge branch 'punkpeye:main' into main - Anthony Chan
+- [aaee3a0](https://github.com/punkpeye/awesome-mcp-servers/commit/aaee3a0bb084a6b0b9b4ea7d395f25ce69d65784) Merge pull request #2839 from arthurpanhku/patch-2 - Frank Fiegel
 
 
 ##### File Content Changes
 
-**README.md** (Modified, +101 -6 lines):
+**README.md** (Modified, +134 -6 lines):
 
 ```diff
-- - [vessel-api/vesselapi-mcp](https://github.com/vessel-api/vesselapi-mcp) 📇 ☁️ - Maritime vessel tracking via VesselAPI. Search vessels, get real-time positions, ETAs, port events, emissions, inspections, and NAVTEX safety messages.
-- - [duriantaco/skylos](https://github.com/duriantaco/skylos) 🐍 🏠 🍎 🪟  🐧 - Dead code detection, security scanning, and code quality      analysis for Python, TypeScript, and Go. 98% recall with fewer false positives than Vulture. Includes AI-powered remediation.
-- - [azeth-protocol/mcp-server](https://github.com/azeth-protocol/mcp-server) 📇 ☁️ - Trust infrastructure for the machine economy — non-custodial ERC-4337 smart accounts, x402 payments, on-chain reputation via ERC-8004, and service discovery for AI agents.
-- - [PatrickSys/codebase-context](https://github.com/PatrickSys/codebase-context) 📇 🏠 🍎 🪟 🐧 - Local MCP server that shows AI agents which patterns your team actually uses, what files a change will affect, and when there is not enough context to trust an edit. 30+ languages, fully local.
-+ - [roomi-fields/notebooklm-mcp](https://github.com/roomi-fields/notebooklm-mcp) ([glama](https://glama.ai/mcp/servers/@roomi-fields/notebooklm-mcp)) 📇 🏠 🍎 🪟 🐧 - Full automation of Google NotebookLM — Q&A with citations, audio podcasts, video, content generation, source management, and notebook library. MCP + HTTP REST API.
-+ - [vessel-api/vesselapi-mcp](https://github.com/vessel-api/vesselapi-mcp) [glama](https://glama.ai/mcp/servers/@vessel-api/vessel-api-mcp-server) 📇 ☁️ - Maritime vessel tracking via VesselAPI. Search vessels, get real-time positions, ETAs, port events, emissions, inspections, and NAVTEX safety messages.
+- - [zach-snell/bbkt](https://github.com/zach-snell/bbkt) ([glama](https://glama.ai/mcp/servers/zach-snell/bbkt)) 🏎️ ☁️ 🍎 🪟 🐧 - Bitbucket Cloud CLI and MCP server. Manages workspaces, repos, PRs, pipelines, issues, and source code. Token introspection hides tools the API key can't use.
+- - [joergmichno/clawguard-mcp](https://github.com/joergmichno/clawguard-mcp) 🐍 🏠 - Security scanner for AI agents that detects prompt injections using 42+ regex patterns
+- - [zach-snell/bbkt](https://github.com/zach-snell/bbkt) 🏎️ ☁️ 🍎 🪟 🐧 - Bitbucket Cloud CLI and MCP server. Manages workspaces, repos, PRs, pipelines, issues, and source code. Token introspection hides tools the API key can't use.
+- - [ckanthony/Chisel](https://github.com/ckanthony/Chisel) 🦀 🏠 🍎 🐧 ☁️ - Reduce context usage on file use. Send only unified diffs instead of full files (up to 20-100× fewer tokens), and read large files with targeted `grep`/`sed` instead of full reads (up to 500×). Kernel-enforced path confinement hard-locks the agent to a configured root: no accidental reads or writes outside scope. Standalone for your file access or embed in any MCP server (Rust, Node.js, Python via WASM).
++ - [ckanthony/Chisel](https://github.com/ckanthony/Chisel) [glama](https://glama.ai/mcp/servers/@ckanthony/chisel) 🦀 🏠 🍎 🐧 ☁️ - Reduce context usage on file use. Send only unified diffs instead of full files (up to 20-100× fewer tokens), and read large files with targeted `grep`/`sed` instead of full reads (up to 500×). Kernel-enforced path confinement hard-locks the agent to a configured root: no accidental reads or writes outside scope. Standalone for your file access or embed in any MCP server (Rust, Node.js, Python via WASM).
++ - [zach-snell/bbkt](https://github.com/zach-snell/bbkt) [glama](https://glama.ai/mcp/servers/zach-snell/bbkt) 🏎️ ☁️ 🍎 🪟 🐧 - Bitbucket Cloud CLI and MCP server. Manages workspaces, repos, PRs, pipelines, issues, and source code. Token introspection hides tools the API key can't use.
++ - [joergmichno/clawguard-mcp](https://github.com/joergmichno/clawguard-mcp) ([glama](https://glama.ai/mcp/servers/joergmichno/clawguard-mcp)) 🐍 🏠 - Security scanner for AI agents that detects prompt injections using 42+ regex patterns
++ - [remembra-ai/remembra](https://github.com/remembra-ai/remembra) ([glama](https://glama.ai/mcp/servers/remembra-ai/remembra)) 🐍 📇 🏠 ☁️ 🍎 🪟 🐧 - Persistent memory layer for AI agents with entity resolution, PII detection, AES-256-GCM encryption at rest, and hybrid search. 100% on LoCoMo benchmark. Self-hosted.
++ - [zach-snell/bbkt](https://github.com/zach-snell/bbkt) ([glama](https://glama.ai/mcp/servers/zach-snell/bbkt)) 🏎️ ☁️ 🍎 🪟 🐧 - Bitbucket Cloud CLI and MCP server. Manages workspaces, repos, PRs, pipelines, issues, and source code. Token introspection hides tools the API key can't use.
 + name: Check Glama Link
 + on:
 + pull_request_target:
@@ -119,10 +133,7 @@ No file changes detected.
 + const readme = fs.readFileSync('README.md', 'utf8');
 + const existingUrls = new Set();
 + const urlRegex = /\(https:\/\/github\.com\/[^)]+\)/gi;
-+ for (const match of readme.matchAll(urlRegex)) {
-+ existingUrls.add(match[0].toLowerCase());
-+ // Get the PR diff
-+ ... (164 more additions)
++ ... (165 more additions)
 ```
 
 
