@@ -33,24 +33,13 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-03-08T02:03:13
+### 2026-03-09T02:04:42
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
 ##### Commit Changes
 
-- [8ae5a86](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/8ae5a86236fb172acc5e055333d55cafe3b1255c) rename: multi_mcp_agent_forge -> multi_mcp_agent_router - awesomekoder
-
-
-##### File Content Changes
-
-**README.md** (Modified, +1 -0 lines):
-
-```diff
-+ *   [🔀 Multi-MCP Agent Router](mcp_ai_agents/multi_mcp_agent_router/)
-```
-
-
+No file changes detected.
 
 #### [awesome-gpt4o-images](https://github.com/jamez-bondos/awesome-gpt4o-images)
 
@@ -62,81 +51,7 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [e83a94f](https://github.com/punkpeye/awesome-mcp-servers/commit/e83a94fdc670b2bfb2be87da6896f902e8e2d7f5) Merge pull request #2636 from ckanthony/main - Frank Fiegel
-- [b8a9f55](https://github.com/punkpeye/awesome-mcp-servers/commit/b8a9f55c7cda5419a392cdafc017c343588b58df) Merge pull request #2732 from zach-snell/add-bbkt - Frank Fiegel
-- [5cf1c68](https://github.com/punkpeye/awesome-mcp-servers/commit/5cf1c6876e3e8bf3db53e77feb3db5c05062dca5) Update README.md - Frank Fiegel
-- [ba8cd2f](https://github.com/punkpeye/awesome-mcp-servers/commit/ba8cd2f21208efe70620dba29521b157dfceb4b6) Merge pull request #2754 from joergmichno/add-clawguard-mcp - Frank Fiegel
-- [67bbda1](https://github.com/punkpeye/awesome-mcp-servers/commit/67bbda177a469ee5d3c387b997c5dca2a7488bdd) Merge pull request #2840 from Mani87-nq/add-remembra - Frank Fiegel
-- [7de54b7](https://github.com/punkpeye/awesome-mcp-servers/commit/7de54b7621eb1a2476de843f97d2ff2f4ae5bba8) Add Glama listing link for clawguard-mcp - Jörg Michno
-- [87656cf](https://github.com/punkpeye/awesome-mcp-servers/commit/87656cf79771b622f1a68b79284c020795b76039) docs: add Glama listing link for bbkt - Zach Snell
-- [e56a2be](https://github.com/punkpeye/awesome-mcp-servers/commit/e56a2be0c2857b816a22fde6bee4e8bc72460aef) Add Glama listing link to Chisel entry - Anthony Chan
-- [45a4891](https://github.com/punkpeye/awesome-mcp-servers/commit/45a4891b92400da6974a45c0d0828570e5462c05) Merge branch 'punkpeye:main' into main - Anthony Chan
-- [aaee3a0](https://github.com/punkpeye/awesome-mcp-servers/commit/aaee3a0bb084a6b0b9b4ea7d395f25ce69d65784) Merge pull request #2839 from arthurpanhku/patch-2 - Frank Fiegel
-
-
-##### File Content Changes
-
-**README.md** (Modified, +134 -6 lines):
-
-```diff
-- - [zach-snell/bbkt](https://github.com/zach-snell/bbkt) ([glama](https://glama.ai/mcp/servers/zach-snell/bbkt)) 🏎️ ☁️ 🍎 🪟 🐧 - Bitbucket Cloud CLI and MCP server. Manages workspaces, repos, PRs, pipelines, issues, and source code. Token introspection hides tools the API key can't use.
-- - [joergmichno/clawguard-mcp](https://github.com/joergmichno/clawguard-mcp) 🐍 🏠 - Security scanner for AI agents that detects prompt injections using 42+ regex patterns
-- - [zach-snell/bbkt](https://github.com/zach-snell/bbkt) 🏎️ ☁️ 🍎 🪟 🐧 - Bitbucket Cloud CLI and MCP server. Manages workspaces, repos, PRs, pipelines, issues, and source code. Token introspection hides tools the API key can't use.
-- - [ckanthony/Chisel](https://github.com/ckanthony/Chisel) 🦀 🏠 🍎 🐧 ☁️ - Reduce context usage on file use. Send only unified diffs instead of full files (up to 20-100× fewer tokens), and read large files with targeted `grep`/`sed` instead of full reads (up to 500×). Kernel-enforced path confinement hard-locks the agent to a configured root: no accidental reads or writes outside scope. Standalone for your file access or embed in any MCP server (Rust, Node.js, Python via WASM).
-+ - [ckanthony/Chisel](https://github.com/ckanthony/Chisel) [glama](https://glama.ai/mcp/servers/@ckanthony/chisel) 🦀 🏠 🍎 🐧 ☁️ - Reduce context usage on file use. Send only unified diffs instead of full files (up to 20-100× fewer tokens), and read large files with targeted `grep`/`sed` instead of full reads (up to 500×). Kernel-enforced path confinement hard-locks the agent to a configured root: no accidental reads or writes outside scope. Standalone for your file access or embed in any MCP server (Rust, Node.js, Python via WASM).
-+ - [zach-snell/bbkt](https://github.com/zach-snell/bbkt) [glama](https://glama.ai/mcp/servers/zach-snell/bbkt) 🏎️ ☁️ 🍎 🪟 🐧 - Bitbucket Cloud CLI and MCP server. Manages workspaces, repos, PRs, pipelines, issues, and source code. Token introspection hides tools the API key can't use.
-+ - [joergmichno/clawguard-mcp](https://github.com/joergmichno/clawguard-mcp) ([glama](https://glama.ai/mcp/servers/joergmichno/clawguard-mcp)) 🐍 🏠 - Security scanner for AI agents that detects prompt injections using 42+ regex patterns
-+ - [remembra-ai/remembra](https://github.com/remembra-ai/remembra) ([glama](https://glama.ai/mcp/servers/remembra-ai/remembra)) 🐍 📇 🏠 ☁️ 🍎 🪟 🐧 - Persistent memory layer for AI agents with entity resolution, PII detection, AES-256-GCM encryption at rest, and hybrid search. 100% on LoCoMo benchmark. Self-hosted.
-+ - [zach-snell/bbkt](https://github.com/zach-snell/bbkt) ([glama](https://glama.ai/mcp/servers/zach-snell/bbkt)) 🏎️ ☁️ 🍎 🪟 🐧 - Bitbucket Cloud CLI and MCP server. Manages workspaces, repos, PRs, pipelines, issues, and source code. Token introspection hides tools the API key can't use.
-+ name: Check Glama Link
-+ on:
-+ pull_request_target:
-+ types: [opened, edited, synchronize, closed]
-+ permissions:
-+ contents: read
-+ pull-requests: write
-+ issues: write
-+ jobs:
-+ # Post-merge welcome comment
-+ welcome:
-+ if: github.event.action == 'closed' && github.event.pull_request.merged == true
-+ runs-on: ubuntu-latest
-+ steps:
-+ - name: Post welcome comment
-+ uses: actions/github-script@v7
-+ with:
-+ script: |
-+ const { owner, repo } = context.repo;
-+ const pr_number = context.payload.pull_request.number;
-+ const marker = '<!-- welcome-comment -->';
-+ const { data: comments } = await github.rest.issues.listComments({
-+ owner,
-+ repo,
-+ issue_number: pr_number,
-+ per_page: 100,
-+ });
-+ if (!comments.some(c => c.body.includes(marker))) {
-+ await github.rest.issues.createComment({
-+ body: `${marker}\nThank you for your contribution! Your server has been merged.
-+ Are you in the MCP [Discord](https://glama.ai/mcp/discord)? Let me know your Discord username and I will give you a **server-author** flair.
-+ If you also have a remote server, you can list it under https://glama.ai/mcp/connectors`
-+ }
-+ # Validation checks (only on open PRs)
-+ check-submission:
-+ if: github.event.action != 'closed'
-+ - name: Checkout base branch
-+ uses: actions/checkout@v4
-+ ref: ${{ github.event.pull_request.base.ref }}
-+ - name: Validate PR submission
-+ const fs = require('fs');
-+ // Read existing README to check for duplicates
-+ const readme = fs.readFileSync('README.md', 'utf8');
-+ const existingUrls = new Set();
-+ const urlRegex = /\(https:\/\/github\.com\/[^)]+\)/gi;
-+ ... (165 more additions)
-```
-
-
+No file changes detected.
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
@@ -148,5 +63,17 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [48f777a](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/48f777a2214c00c4b0020b290a2e1dfea08fe145) Update latest update date in README - Lucas Valbuena
+
+
+##### File Content Changes
+
+**README.md** (Modified, +1 -1 lines):
+
+```diff
+- > **Latest Update:** 04/03/2026
++ > **Latest Update:** 08/03/2026
+```
+
+
 
