@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-03-12T02:03:09
+### 2026-03-14T01:58:13
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,7 +51,19 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [166d4f4](https://github.com/punkpeye/awesome-mcp-servers/commit/166d4f43b038e0e9a295386ae8d073ca5532cab2) Merge pull request #3161 from TerminalGravity/add-preflight - Frank Fiegel
+- [cb4624a](https://github.com/punkpeye/awesome-mcp-servers/commit/cb4624a6334dc342e713eda016bd9ec6afd1ca7b) Add preflight-dev/preflight to Coding Agents - Jack Felke
+
+
+##### File Content Changes
+
+**README.md** (Modified, +2 -0 lines):
+
+```diff
++ - [preflight-dev/preflight](https://github.com/preflight-dev/preflight) 📇 🏠 🍎 🪟 🐧 - 24-tool MCP server for Claude Code that catches vague prompts before they waste tokens. Includes 12-category prompt scorecards, session history search with LanceDB vectors, cross-service contract awareness, correction pattern learning, and cost estimation.
+```
+
+
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
