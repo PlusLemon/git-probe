@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-03-28T02:05:35
+### 2026-03-29T02:24:49
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -63,5 +63,37 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [db9f7d8](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/db9f7d8b9f36ea384bcaad298e231cdbc688dd8d) Update contact email in README - Lucas Valbuena
+- [5bc553f](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/5bc553f065fd82d86c053e8b07e3cd0b61a58808) Update README.md - Lucas Valbuena
+
+
+##### File Content Changes
+
+**README.md** (Modified, +1 -29 lines):
+
+```diff
+- [Get Started](mailto:lucknitelol@proton.me)
+- <p align="center">
+- <sub>Special thanks to</sub>
+- </p>
+- <table width="100%">
+- <tr>
+- <td align="center" valign="top">
+- <a href="https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship" target="_blank">
+- <img src="assets/Latitude_logo.png" alt="Latitude Logo" width="750" height="210"/>
+- </a>
+- <br><br>
+- <strong>
+- Make your LLM predictable in production
+- </strong>
+- <br>
+- Open Source AI Engineering Platform
+- &nbsp;
+- </td>
+- </tr>
+- </table>
++ [Get Started](mailto:lucknitelol@pm.me)
+```
+
+
 
