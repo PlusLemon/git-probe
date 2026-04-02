@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-04-01T02:32:26
+### 2026-04-02T02:11:13
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,7 +51,24 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [1e8f925](https://github.com/punkpeye/awesome-mcp-servers/commit/1e8f9250f5850984395b28aa2e17b1967e339e03) Merge pull request #2358 from Higangssh/add-homebutler - Frank Fiegel
+- [456bb74](https://github.com/punkpeye/awesome-mcp-servers/commit/456bb74ff3b835fae814513393fe1b91566d60b0) Merge pull request #2431 from davidsimoes/add-digisign-mcp - Frank Fiegel
+- [ec6c61f](https://github.com/punkpeye/awesome-mcp-servers/commit/ec6c61f1a5a0cd26e207b78e2532f35b6bff4ec3) Merge pull request #2444 from jonradoff/add-lightcms - Frank Fiegel
+- [b82367c](https://github.com/punkpeye/awesome-mcp-servers/commit/b82367c50879a5b2b4cda68e23c382bf326df401) Update README.md - Frank Fiegel
+
+
+##### File Content Changes
+
+**README.md** (Modified, +4 -1 lines):
+
+```diff
+- - [jonradoff/lightcms](https://github.com/jonradoff/lightcms) 🏎️ ☁️ - AI-native CMS with 72 MCP tools for managing websites through natural language. Create and publish content, manage templates, assets, snippets, themes, collections, redirects, and multi-site forks — with full content versioning and semantic search. [![jonradoff/lightcms MCP server](https://glama.ai/mcp/servers/jonradoff/lightcms/badges/score.svg)](https://glama.ai/mcp/servers/jonradoff/lightcms)
++ - [Higangssh/homebutler](https://github.com/Higangssh/homebutler) [![homebutler MCP server](https://glama.ai/mcp/servers/Higangssh/homebutler/badges/score.svg)](https://glama.ai/mcp/servers/Higangssh/homebutler) 🏎️ 🏠 - All-in-one homelab management MCP server. Monitor system resources, manage Docker containers, Wake-on-LAN, scan networks, check open ports, and run alerts — across multiple servers via SSH. Single 10MB binary, zero dependencies.
++ - [davidsimoes/digisign-mcp](https://github.com/davidsimoes/digisign-mcp) [![davidsimoes/digisign-mcp MCP server](https://glama.ai/mcp/servers/davidsimoes/digisign-mcp/badges/score.svg)](https://glama.ai/mcp/servers/davidsimoes/digisign-mcp) 📇 ☁️ - MCP server for DigiSign.cz digital signature API — create, send, and manage digital signature envelopes.
++ - [jonradoff/lightcms](https://github.com/jonradoff/lightcms) [![jonradoff/lightcms MCP server](https://glama.ai/mcp/servers/jonradoff/lightcms/badges/score.svg)](https://glama.ai/mcp/servers/jonradoff/lightcms) 🏎️ ☁️ - AI-native CMS with 72 MCP tools for managing websites through natural language. Create and publish content, manage templates, assets, snippets, themes, collections, redirects, and multi-site forks — with full content versioning and semantic search.
+```
+
+
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
