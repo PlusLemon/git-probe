@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-04-03T02:12:52
+### 2026-04-04T02:05:40
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,33 +51,35 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [9fb2f7d](https://github.com/punkpeye/awesome-mcp-servers/commit/9fb2f7d654e3cdfd2be8a1a0b40f03b62a9c155c) Merge pull request #3709 from eyloni/add-pythia-oracle - Frank Fiegel
-- [0232c37](https://github.com/punkpeye/awesome-mcp-servers/commit/0232c3761cdce40aade1336f6bab08ed4658fc82) Merge pull request #3834 from ndjordjevic/add-ndjordjevic-pinrag - Frank Fiegel
-- [113071d](https://github.com/punkpeye/awesome-mcp-servers/commit/113071d8d580fb236d78b0f0365773aba26f9e0b) Merge pull request #3845 from kimimgo/add-viznoir - Frank Fiegel
-- [5df6251](https://github.com/punkpeye/awesome-mcp-servers/commit/5df62510ea4760a6047010c1969a1acff99c580a) Merge pull request #3877 from paladini/add-devutils-mcp-server - Frank Fiegel
-- [066d217](https://github.com/punkpeye/awesome-mcp-servers/commit/066d217a43d7276f5b503fbf620e490a9c584da5) Merge pull request #3400 from fjnunezp75/add-gpu-bridge - Frank Fiegel
-- [73c6115](https://github.com/punkpeye/awesome-mcp-servers/commit/73c6115620df41d51c5c3955074483bfd4e4b3df) Merge pull request #3850 from runtimeguard/add-runtime-guard - Frank Fiegel
-- [7756542](https://github.com/punkpeye/awesome-mcp-servers/commit/77565421fb47d756d94fa3f5c7c5e56fb32eb41b) Merge pull request #3832 from AceDataCloud/add-mcp-shorturl - Frank Fiegel
-- [18c217a](https://github.com/punkpeye/awesome-mcp-servers/commit/18c217a2708329bb234649e8a7f4c7ce250acf45) Merge pull request #4027 from achiya-automation/add-safari-mcp - Frank Fiegel
-- [8dd7d3f](https://github.com/punkpeye/awesome-mcp-servers/commit/8dd7d3f16b96094517a17fca805291b41f18a161) Merge pull request #2347 from benswel/add-qr-for-agent - Frank Fiegel
-- [5e75b74](https://github.com/punkpeye/awesome-mcp-servers/commit/5e75b7403f1d77b1c8f1beba1bfff2f3686ac677) Merge pull request #4031 from nk3750/add-jitapi - Frank Fiegel
+- [b8250e9](https://github.com/punkpeye/awesome-mcp-servers/commit/b8250e9d94e5c7495466bea4296607ce12a5aa4b) Fix entry formatting - Frank Fiegel
+- [da80b12](https://github.com/punkpeye/awesome-mcp-servers/commit/da80b121369b1d703ad790a71f2ddb7f47273a04) Add VerdictSwarm MCP server - shane
+- [2756431](https://github.com/punkpeye/awesome-mcp-servers/commit/2756431d0a104f1ae3fe84f29429d5c201b9ca65) Merge pull request #4098 from lanchuske/patch-1 - Frank Fiegel
+- [4c4e8c6](https://github.com/punkpeye/awesome-mcp-servers/commit/4c4e8c63ef65a6eeb7eb2865bb8adb9978ee60a1) Merge pull request #3830 from AceDataCloud/add-mcp-nanobanana - Frank Fiegel
+- [524187f](https://github.com/punkpeye/awesome-mcp-servers/commit/524187f06fc8fb5b26bfea458ddeda56b11a061e) Merge pull request #4014 from cmcgrabby-hue/add-syndicate-links-mcp - Frank Fiegel
+- [193f5e6](https://github.com/punkpeye/awesome-mcp-servers/commit/193f5e678d4235b182c651c4705290a9db2379e5) Merge pull request #3483 from Adityaaery20/main - Frank Fiegel
+- [c211ded](https://github.com/punkpeye/awesome-mcp-servers/commit/c211dedc1059913af19afc3a5763afe929a0a08f) Merge pull request #4093 from Zk-nd3r/add-zcash-mcp - Frank Fiegel
+- [7de4036](https://github.com/punkpeye/awesome-mcp-servers/commit/7de40360b978a9be91936a5778ea9e0bad73976d) add glama score badge - Zk-nd3r
+- [735e0ac](https://github.com/punkpeye/awesome-mcp-servers/commit/735e0ac1506b59a50e25d9b2bcdfb75ed70f3fe3) Fix entry formatting - Frank Fiegel
+- [0673edf](https://github.com/punkpeye/awesome-mcp-servers/commit/0673edf0844e78e036cb9a94f79d219e72e8f51b) Merge pull request #3879 from nach-dakwale/add-instadomain-mcp - Frank Fiegel
 
 
 ##### File Content Changes
 
-**README.md** (Modified, +10 -0 lines):
+**README.md** (Modified, +10 -3 lines):
 
 ```diff
-+ - [eyloni/pythia-oracle](https://github.com/eyloni/pythia-oracle) [![pythia-oracle MCP server](https://glama.ai/mcp/servers/eyloni/pythia-oracle/badges/score.svg)](https://glama.ai/mcp/servers/eyloni/pythia-oracle) 🐍 ☁️ - Oracle for AI agents that need to think past obvious answers. One tool, one reading. Free tier included.
-+ - [ndjordjevic/pinrag](https://github.com/ndjordjevic/pinrag) [![ndjordjevic/pinrag MCP server](https://glama.ai/mcp/servers/ndjordjevic/pinrag/badges/score.svg)](https://glama.ai/mcp/servers/ndjordjevic/pinrag) 🐍 🏠 - RAG for PDFs, YouTube, GitHub repos, Discord exports; index documents and query with citations.
-+ - [kimimgo/viznoir](https://github.com/kimimgo/viznoir) [![viznoir MCP server](https://glama.ai/mcp/servers/kimimgo/viznoir/badges/score.svg)](https://glama.ai/mcp/servers/kimimgo/viznoir) 🐍 🏠 🐧 - Cinema-quality science visualization MCP server for CFD/FEA/SPH. 22 tools for rendering, slicing, contouring, volume rendering, and animating OpenFOAM/VTK/CGNS data. Headless EGL/OSMesa.
-+ - [paladini/devutils-mcp-server](https://github.com/paladini/devutils-mcp-server) [![paladini/devutils-mcp-server MCP server](https://glama.ai/mcp/servers/paladini/devutils-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/paladini/devutils-mcp-server) 📇 🏠 🍎 🪟 🐧 - 36 zero-auth developer utilities: MD5/SHA/bcrypt hashing, Base64/hex/URL encoding, UUID/password/passphrase generation, JWT decoding, JSON/YAML/XML formatting, timestamp conversion, CIDR calculator, and text tools.
-+ - [gpu-bridge/mcp-server](https://github.com/gpu-bridge/mcp-server) [![gpu-bridge-mcp-server MCP server](https://glama.ai/mcp/servers/gpu-bridge/mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/gpu-bridge/mcp-server) 📇 ☁️ 🍎 🪟 🐧 - Unified GPU inference API with 30 AI services (LLM, image gen, video, TTS, whisper, embeddings, reranking, OCR) as MCP tools. Pay-per-use via x402 USDC or API key credits.
-+ - [jimmyracheta/AI-Runtime-Guard](https://github.com/runtimeguard/runtime-guard)[![runtime-guard MCP server](https://glama.ai/mcp/servers/runtimeguard/runtime-guard/badges/score.svg)](https://glama.ai/mcp/servers/runtimeguard/runtime-guard)🐍 🏠🍎 🪟 - Runtime policy enforcement for AI agents - prevents accidental damage to your systems, unauthorized agent access and automates backup-before-write for any touched files.
-+ - [AceDataCloud/MCPShortURL](https://github.com/AceDataCloud/MCPShortURL) [![AceDataCloud/MCPShortURL MCP server](https://glama.ai/mcp/servers/AceDataCloud/MCPShortURL/badges/score.svg)](https://glama.ai/mcp/servers/AceDataCloud/MCPShortURL) 🐍 ☁️ - Free URL shortening with batch support (up to 10 URLs), permanent `surl.id` short links, zero credit consumption.
-+ - [achiya-automation/safari-mcp](https://github.com/achiya-automation/safari-mcp) [![safari-mcp MCP server](https://glama.ai/mcp/servers/achiya-automation/safari-mcp/badges/score.svg)](https://glama.ai/mcp/servers/achiya-automation/safari-mcp) 📇 🏠 🍎 - Native Safari browser automation for AI agents with 80+ tools. No Chrome dependency, optimized for Apple Silicon with 60% less CPU overhead.
-+ - [benswel/qr-agent-core](https://github.com/benswel/qr-agent-core) [![benswel/qr-agent-core MCP server](https://glama.ai/mcp/servers/benswel/qr-agent-core/badges/score.svg)](https://glama.ai/mcp/servers/benswel/qr-agent-core) 📇 ☁️ - Dynamic QR code service for AI agents. Create, update, track, and retarget QR codes without regenerating images. 37 tools covering 11 QR types, one-command install via `npx qr-for-agent`.
-+ - [nk3750/jitapi](https://github.com/nk3750/jitapi) [![nk3750/jitapi MCP server](https://glama.ai/mcp/servers/nk3750/jitapi/badges/score.svg)](https://glama.ai/mcp/servers/nk3750/jitapi) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Dynamic API discovery and execution from OpenAPI specs. Uses semantic search and dependency graphs to find relevant endpoints across multiple registered APIs, plan multi-step workflows, and execute API calls — without dumping entire specs into context.
+- - [sentien-labs/verdictswarm-mcp](https://github.com/sentien-labs/verdictswarm-mcp) 📇 🏠 - Multi-AI crypto token scanner. 6 AI agents independently analyze and debate token risk on Solana, Base, and Ethereum. Detects rug pulls, honeypots, holder concentration, and wash trading through adversarial consensus.
+- - [Frontier-Compute/zcash-mcp](https://github.com/Frontier-Compute/zcash-mcp) 📇 ☁️ - Zcash shielded operations for AI agents. Chain queries, memo decoding, on-chain attestation, and proof verification.
+- - [nach-dakwale/instadomain-mcp](https://github.com/nach-dakwale/instadomain-mcp) [![nach-dakwale/instadomain-mcp MCP server](https://glama.ai/mcp/servers/nach-dakwale/instadomain-mcp/badge)](https://glama.ai/mcp/servers/nach-dakwale/instadomain-mcp) 🐍 ☁️ - Domain registration for AI agents. Check availability, buy domains (Stripe or x402 crypto), and auto-configure Cloudflare DNS. Zero setup required.
++ - [sentien-labs/verdictswarm-mcp](https://github.com/sentien-labs/verdictswarm-mcp) [![sentien-labs/verdictswarm-mcp MCP server](https://glama.ai/mcp/servers/sentien-labs/verdictswarm-mcp/badges/score.svg)](https://glama.ai/mcp/servers/sentien-labs/verdictswarm-mcp) 📇 🏠 - Multi-AI crypto token scanner. 6 AI agents independently analyze and debate token risk on Solana, Base, and Ethereum. Detects rug pulls, honeypots, holder concentration, and wash trading through adversarial consensus.
++ - [sentien-labs/verdictswarm-mcp](https://github.com/sentien-labs/verdictswarm-mcp) 📇 🏠 - Multi-AI crypto token scanner. 6 AI agents independently analyze and debate token risk on Solana, Base, and Ethereum. Detects rug pulls, honeypots, holder concentration, and wash trading through adversarial consensus.
++ - [lanchuske/local-mcp](https://github.com/lanchuske/local-mcp-releases) [![lanchuske/local-mcp-releases MCP server](https://glama.ai/mcp/servers/lanchuske/local-mcp-releases/badges/score.svg)](https://glama.ai/mcp/servers/lanchuske/local-mcp-releases) 📇 🏠 🍎 - Connect Claude, Cursor, Windsurf and other AI agents to macOS native apps: Mail, Calendar, Contacts, Reminders, Notes, iMessage, Finder, Safari, OmniFocus, Microsoft Teams, Outlook, OneDrive, and Office documents. 82 tools. Runs entirely on your Mac — no cloud, no tokens, no API keys.
++ - [AceDataCloud/MCPNanoBanana](https://github.com/AceDataCloud/MCPNanoBanana) [![AceDataCloud/MCPNanoBanana MCP server](https://glama.ai/mcp/servers/AceDataCloud/MCPNanoBanana/badges/score.svg)](https://glama.ai/mcp/servers/AceDataCloud/MCPNanoBanana) 🐍 ☁️ - NanoBanana AI image generation and editing with virtual try-on and product placement in realistic scenes.
++ - [cmcgrabby-hue/syndicate-links](https://github.com/cmcgrabby-hue/syndicate-links/tree/master/mcp) [![cmcgrabby-hue/syndicate-links MCP server](https://glama.ai/mcp/servers/cmcgrabby-hue/syndicate-links/badges/score.svg)](https://glama.ai/mcp/servers/cmcgrabby-hue/syndicate-links) 📇 🏠 🍎 🪟 🐧 - Affiliate commission infrastructure for AI agents. 7 tools for program discovery, attribution tracking, commission status, and payouts. Search programs, get details, track conversions with signed attribution tokens, and trigger settlement cycles. Install via `npx syndicate-links-mcp`.
++ - [Adityaaery20/media-mcp](https://github.com/Adityaaery20/media-mcp) 🐍 🏠 🍎 🪟 🐧 - Local image and video processing MCP server with 13 tools for resize, convert, compress, crop, thumbnail, metadata extraction, rotate, flip, filters, and ffmpeg-based video operations. No API keys required.
++ - [Frontier-Compute/zcash-mcp](https://github.com/Frontier-Compute/zcash-mcp) [![Frontier-Compute/zcash-mcp MCP server](https://glama.ai/mcp/servers/Frontier-Compute/zcash-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Frontier-Compute/zcash-mcp) 📇 ☁️ - Zcash shielded operations for AI agents. Chain queries, memo decoding, on-chain attestation, and proof verification.
++ - [nach-dakwale/instadomain-mcp](https://github.com/nach-dakwale/instadomain-mcp) [![nach-dakwale/instadomain-mcp MCP server](https://glama.ai/mcp/servers/nach-dakwale/instadomain-mcp/badges/score.svg)](https://glama.ai/mcp/servers/nach-dakwale/instadomain-mcp) 🐍 ☁️ - Domain registration for AI agents. Check availability, buy domains (Stripe or x402 crypto), and auto-configure Cloudflare DNS. Zero setup required.
++ - [nach-dakwale/instadomain-mcp](https://github.com/nach-dakwale/instadomain-mcp) [![nach-dakwale/instadomain-mcp MCP server](https://glama.ai/mcp/servers/nach-dakwale/instadomain-mcp/badge)](https://glama.ai/mcp/servers/nach-dakwale/instadomain-mcp) 🐍 ☁️ - Domain registration for AI agents. Check availability, buy domains (Stripe or x402 crypto), and auto-configure Cloudflare DNS. Zero setup required.
 ```
 
 
