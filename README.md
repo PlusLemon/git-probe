@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-04-06T02:28:23
+### 2026-04-07T02:23:35
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,18 +51,7 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [958a878](https://github.com/punkpeye/awesome-mcp-servers/commit/958a878ec14c47e5622a521c18d90d6217f6e529) Add photopea-mcp-server - attalla
-
-
-##### File Content Changes
-
-**README.md** (Modified, +1 -0 lines):
-
-```diff
-+ - [attalla1/photopea-mcp-server](https://github.com/attalla1/photopea-mcp-server) [![attalla1/photopea-mcp-server MCP server](https://glama.ai/mcp/servers/attalla1/photopea-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/attalla1/photopea-mcp-server) 📇 🏠 🍎 🪟 🐧 - AI-powered image editing through Photopea with 34 tools for documents, layers, text, shapes, filters, effects, and export. `npx photopea-mcp-server`
-```
-
-
+No file changes detected.
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
