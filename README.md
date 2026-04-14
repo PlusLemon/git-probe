@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-04-13T02:36:33
+### 2026-04-14T02:30:18
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,125 +51,34 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [18fba3b](https://github.com/punkpeye/awesome-mcp-servers/commit/18fba3ba5514399510158de7fa2bcb8c22dabda5) Fix entry formatting - Frank Fiegel
-- [6d09b25](https://github.com/punkpeye/awesome-mcp-servers/commit/6d09b2537eb45564ebd4aa77351ca8e330833a69) Merge pull request #4470 from 3aKHP/main - Frank Fiegel
-- [f2c7fa0](https://github.com/punkpeye/awesome-mcp-servers/commit/f2c7fa088377f45a484ba0b026bcd61fb412ffad) feat(gaming): add Glama badge to prts-mcp entry; sync with upstream main - 3aKHP
-- [4e28758](https://github.com/punkpeye/awesome-mcp-servers/commit/4e287584fe30356b6378edd568db1d105f3ca067) Fix entry formatting - Frank Fiegel
-- [1607dde](https://github.com/punkpeye/awesome-mcp-servers/commit/1607dde31a3c7987602ed3f20a421e7dd820a496) Merge pull request #4351 from sunsiyuan/add-humansurvey-mcp - Frank Fiegel
-- [aa29361](https://github.com/punkpeye/awesome-mcp-servers/commit/aa293610566b09574451baa5bee8de6fa7964f59) feat(gaming): add Glama badge to prts-mcp entry - 3aKHP
-- [f3940e0](https://github.com/punkpeye/awesome-mcp-servers/commit/f3940e0f1f0b8b18ee72a9ad2f33b1e9d6520ab8) Fix entry formatting - Frank Fiegel
-- [3941c03](https://github.com/punkpeye/awesome-mcp-servers/commit/3941c0314335fd1b8e6d0929280d972a6ba52929) Merge pull request #4490 from baphometnxg/add-aloha-fyi - Frank Fiegel
-- [1beb21c](https://github.com/punkpeye/awesome-mcp-servers/commit/1beb21c949214c784e94e049a91ec8904f88b1cd) Merge pull request #4337 from persaples/add-fundzwatch-mcp-server-v2 - Frank Fiegel
-- [d7e60a8](https://github.com/punkpeye/awesome-mcp-servers/commit/d7e60a817b035a58ec1f145fec24abd3478021a8) Merge pull request #4533 from ONE8943/add-ai-furniture-hub - Frank Fiegel
+- [b2d99d4](https://github.com/punkpeye/awesome-mcp-servers/commit/b2d99d4ef0a3a90d4c3e995698ecc8d18dd06275) Fix entry formatting - Frank Fiegel
+- [14bafa2](https://github.com/punkpeye/awesome-mcp-servers/commit/14bafa2e44f0f313dc09275bed8b0485b544430b) Merge pull request #4460 from rkocosmergon/add-cosmergon - Frank Fiegel
+- [6e1f3d8](https://github.com/punkpeye/awesome-mcp-servers/commit/6e1f3d8560ef3b3d0b9091d9cfd079832eb16cf3) Merge pull request #4583 from LuizEduPP/add-rememb-memory-server - Frank Fiegel
+- [c8cb805](https://github.com/punkpeye/awesome-mcp-servers/commit/c8cb805f149f2d8ccec40698423ad6cfc2278263) Merge pull request #4314 from yeick010/add-agentshield-mcp - Frank Fiegel
+- [b3bf8e8](https://github.com/punkpeye/awesome-mcp-servers/commit/b3bf8e875cbbb70c98b0c4c346d2a87bf406998d) Merge pull request #2157 from connerlambden/add-bgpt-mcp - Frank Fiegel
+- [b519ce3](https://github.com/punkpeye/awesome-mcp-servers/commit/b519ce39509b648a5f5b9b05d758ebc6914c5abd) Merge pull request #4258 from giskard09/add-giskard-oasis - Frank Fiegel
+- [79c08e2](https://github.com/punkpeye/awesome-mcp-servers/commit/79c08e228f7517b7c2a2e1b732c52904dd9e0292) Merge pull request #4393 from PostalDataPI/ThomIves-patch-1 - Frank Fiegel
+- [a218537](https://github.com/punkpeye/awesome-mcp-servers/commit/a218537fbfbbc515dd327c2c3c3a9f5546d9c4e0) Merge pull request #4558 from 123Ergo/add-unphurl - Frank Fiegel
+- [c5863fa](https://github.com/punkpeye/awesome-mcp-servers/commit/c5863fa70784359c4f423b033ffbec9f6bb84b4c) Merge pull request #4588 from TempDev123/patch-1 - Frank Fiegel
+- [b271a78](https://github.com/punkpeye/awesome-mcp-servers/commit/b271a780473ee8a5788831daa330578196f5804c) Merge pull request #4660 from AlainDor/add-wick - Frank Fiegel
 
 
 ##### File Content Changes
 
-**README.md** (Modified, +2316 -2287 lines):
+**README.md** (Modified, +10 -2 lines):
 
 ```diff
-- - [3aKHP/prts-mcp](https://github.com/3aKHP/prts-mcp) [![MCP Server](https://glama.ai/mcp/servers/3aKHP/prts-mcp/badge)](https://glama.ai/mcp/servers/3aKHP/prts-mcp) 🐍 📇 ☁️ 🏠 - MCP Server for [Arknights](https://www.arknights.global/), querying the [PRTS Wiki](https://prts.wiki) API and serving auto-synced operator archives and voice lines from game data. Designed for fan-creation (同人創作) AI agents. Python (stdio/Docker) and TypeScript (Streamable HTTP) implementations.
-- placeholder
-- - [sunsiyuan/human-survey](https://github.com/sunsiyuan/human-survey) 📇 ☁️ 🍎 🪟 🐧 - Feedback collection for AI agents. Create surveys from JSON schema, collect structured responses from groups of people, and retrieve aggregated results. 4 MCP tools for long-horizon agent workflows: post-event feedback, product launches, team health checks.
-- [Resource from github at repo://punkpeye/awesome-mcp-servers/sha/9735596a41dd921a321314d6b66e68b2cb89488b/contents/README.md] [![ไทย](https://img.shields.io/badge/Thai-Click-blue)](README-th.md)
-- [![English](https://img.shields.io/badge/English-Click-yellow)](README.md)
-- [![繁體中文](https://img.shields.io/badge/繁體中文-點擊查看-orange)](README-zh_TW.md)
-- [![简体中文](https://img.shields.io/badge/简体中文-点击查看-orange)](README-zh.md)
-- [![日本語](https://img.shields.io/badge/日本語-クリック-青)](README-ja.md)
-- [![한국어](https://img.shields.io/badge/한국어-클릭-yellow)](README-ko.md)
-- [![Português Brasileiro](https://img.shields.io/badge/Português_Brasileiro-Clique-green)](README-pt_BR.md)
-- [![Discord](https://img.shields.io/discord/1312302100125843476?logo=discord&label=discord)](https://glama.ai/mcp/discord)
-- [![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/mcp?style=flat&logo=reddit&label=subreddit)](https://www.reddit.com/r/mcp/)
-- > [!IMPORTANT]
-- > Read [The State of MCP in 2025](https://glama.ai/blog/2025-12-07-the-state-of-mcp-in-2025) report.
-- > [Awesome MCP Servers](https://glama.ai/mcp/servers) web directory.
-- A curated list of awesome Model Context Protocol (MCP) servers.
-- * [What is MCP?](#what-is-mcp)
-- * [Clients](#clients)
-- * [Tutorials](#tutorials)
-- * [Community](#community)
-- * [Legend](#legend)
-- * [Server Implementations](#server-implementations)
-- * [Frameworks](#frameworks)
-- * [Tips & Tricks](#tips-and-tricks)
-- ## What is MCP?
-- [MCP](https://modelcontextprotocol.io/) is an open protocol that enables AI models to securely interact with local and remote resources through standardized server implementations. This list focuses on production-ready and experimental MCP servers that extend AI capabilities through file access, database connections, API integrations, and other contextual services.
-- ## Clients
-- Checkout [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients/) and [glama.ai/mcp/clients](https://glama.ai/mcp/clients).
-- > [!TIP]
-- > [Glama Chat](https://glama.ai/chat) is a multi-modal AI client with MCP support & [AI gateway](https://glama.ai/gateway).
-- ## Tutorials
-- * [Model Context Protocol (MCP) Quickstart](https://glama.ai/blog/2024-11-25-model-context-protocol-quickstart)
-- * [Setup Claude Desktop App to Use a SQLite Database](https://youtu.be/wxCCzo9dGj0)
-- ## Community
-- * [r/mcp Reddit](https://www.reddit.com/r/mcp)
-- * [Discord Server](https://glama.ai/mcp/discord)
-- ## Legend
-- * 🎖️ – official implementation
-- * programming language
-- * 🐍 – Python codebase
-- * 📇 – TypeScript (or JavaScript) codebase
-- * 🏎️ – Go codebase
-- * 🦀 – Rust codebase
-- * #️⃣ - C# Codebase
-- * ☕ - Java codebase
-- * 🌊 – C/C++ codebase
-- * 💎 - Ruby codebase
-- * scope
-- * ☁️ - Cloud Service
-- * 🏠 - Local Service
-- ... (2070 more deletions)
-+ - [3aKHP/prts-mcp](https://github.com/3aKHP/prts-mcp) [![3aKHP/prts-mcp MCP server](https://glama.ai/mcp/servers/3aKHP/prts-mcp/badges/score.svg)](https://glama.ai/mcp/servers/3aKHP/prts-mcp) 🐍 📇 ☁️ 🏠 - MCP Server for [Arknights](https://www.arknights.global/), querying the [PRTS Wiki](https://prts.wiki) API and serving auto-synced operator archives and voice lines from game data. Designed for fan-creation (同人創作) AI agents. Python (stdio/Docker) and TypeScript (Streamable HTTP) implementations.
-+ - [3aKHP/prts-mcp](https://github.com/3aKHP/prts-mcp) [![MCP Server](https://glama.ai/mcp/servers/3aKHP/prts-mcp/badge)](https://glama.ai/mcp/servers/3aKHP/prts-mcp) 🐍 📇 ☁️ 🏠 - MCP Server for [Arknights](https://www.arknights.global/), querying the [PRTS Wiki](https://prts.wiki) API and serving auto-synced operator archives and voice lines from game data. Designed for fan-creation (同人創作) AI agents. Python (stdio/Docker) and TypeScript (Streamable HTTP) implementations.
-+ [![ไทย](https://img.shields.io/badge/Thai-Click-blue)](README-th.md)
-+ [![English](https://img.shields.io/badge/English-Click-yellow)](README.md)
-+ [![繁體中文](https://img.shields.io/badge/繁體中文-點擊查看-orange)](README-zh_TW.md)
-+ [![简体中文](https://img.shields.io/badge/简体中文-点击查看-orange)](README-zh.md)
-+ [![日本語](https://img.shields.io/badge/日本語-クリック-青)](README-ja.md)
-+ [![한국어](https://img.shields.io/badge/한국어-클릭-yellow)](README-ko.md)
-+ [![Português Brasileiro](https://img.shields.io/badge/Português_Brasileiro-Clique-green)](README-pt_BR.md)
-+ [![Discord](https://img.shields.io/discord/1312302100125843476?logo=discord&label=discord)](https://glama.ai/mcp/discord)
-+ [![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/mcp?style=flat&logo=reddit&label=subreddit)](https://www.reddit.com/r/mcp/)
-+ > [!IMPORTANT]
-+ > Read [The State of MCP in 2025](https://glama.ai/blog/2025-12-07-the-state-of-mcp-in-2025) report.
-+ > [Awesome MCP Servers](https://glama.ai/mcp/servers) web directory.
-+ A curated list of awesome Model Context Protocol (MCP) servers.
-+ * [What is MCP?](#what-is-mcp)
-+ * [Clients](#clients)
-+ * [Tutorials](#tutorials)
-+ * [Community](#community)
-+ * [Legend](#legend)
-+ * [Server Implementations](#server-implementations)
-+ * [Frameworks](#frameworks)
-+ * [Tips & Tricks](#tips-and-tricks)
-+ ## What is MCP?
-+ [MCP](https://modelcontextprotocol.io/) is an open protocol that enables AI models to securely interact with local and remote resources through standardized server implementations. This list focuses on production-ready and experimental MCP servers that extend AI capabilities through file access, database connections, API integrations, and other contextual services.
-+ ## Clients
-+ Checkout [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients/) and [glama.ai/mcp/clients](https://glama.ai/mcp/clients).
-+ > [!TIP]
-+ > [Glama Chat](https://glama.ai/chat) is a multi-modal AI client with MCP support & [AI gateway](https://glama.ai/gateway).
-+ ## Tutorials
-+ * [Model Context Protocol (MCP) Quickstart](https://glama.ai/blog/2024-11-25-model-context-protocol-quickstart)
-+ * [Setup Claude Desktop App to Use a SQLite Database](https://youtu.be/wxCCzo9dGj0)
-+ ## Community
-+ * [r/mcp Reddit](https://www.reddit.com/r/mcp)
-+ * [Discord Server](https://glama.ai/mcp/discord)
-+ ## Legend
-+ * 🎖️ – official implementation
-+ * programming language
-+ * 🐍 – Python codebase
-+ * 📇 – TypeScript (or JavaScript) codebase
-+ * 🏎️ – Go codebase
-+ * 🦀 – Rust codebase
-+ * #️⃣ - C# Codebase
-+ * ☕ - Java codebase
-+ * 🌊 – C/C++ codebase
-+ * 💎 - Ruby codebase
-+ * scope
-+ * ☁️ - Cloud Service
-+ * 🏠 - Local Service
-+ * 📟 - Embedded Systems
-+ ... (2095 more additions)
+- - [rkocosmergon/cosmergon-agent](https://github.com/rkocosmergon/cosmergon-agent) [![badge](https://glama.ai/mcp/servers/rkocosmergon%2Fcosmergon-agent/badge?type=score)](https://glama.ai/mcp/servers/rkocosmergon/cosmergon-agent) 🐍 ☁️ - Living economy for AI agents — Conway's Game of Life physics, energy currency, marketplace. 4 tools: observe state, execute actions, benchmark reports, game rules. Auto-registers, no API key needed.
++ - [rkocosmergon/cosmergon-agent](https://github.com/rkocosmergon/cosmergon-agent) [![rkocosmergon/cosmergon-agent MCP server](https://glama.ai/mcp/servers/rkocosmergon/cosmergon-agent/badges/score.svg)](https://glama.ai/mcp/servers/rkocosmergon/cosmergon-agent) 🐍 ☁️ - Living economy for AI agents — Conway's Game of Life physics, energy currency, marketplace. 4 tools: observe state, execute actions, benchmark reports, game rules. Auto-registers, no API key needed.
++ - [rkocosmergon/cosmergon-agent](https://github.com/rkocosmergon/cosmergon-agent) [![badge](https://glama.ai/mcp/servers/rkocosmergon%2Fcosmergon-agent/badge?type=score)](https://glama.ai/mcp/servers/rkocosmergon/cosmergon-agent) 🐍 ☁️ - Living economy for AI agents — Conway's Game of Life physics, energy currency, marketplace. 4 tools: observe state, execute actions, benchmark reports, game rules. Auto-registers, no API key needed.
++ - [LuizEduPP/rememb](https://github.com/LuizEduPP/Rememb) [![rememb MCP server](https://glama.ai/mcp/servers/LuizEduPP/Rememb/badges/score.svg)](https://glama.ai/mcp/servers/LuizEduPP/Rememb) 🐍 🏠 🍎 🪟 🐧 - Persistent memory for AI agents with sectioned entries (project/user/context/etc), semantic search, CLI, and per-project scope. Local JSON, zero config, no server required.
++ - [yeick010/agentshield-mcp](https://github.com/yeick010/agentshield-mcp) [![yeick010/agentshield-mcp MCP server](https://glama.ai/mcp/servers/yeick010/agentshield-mcp/badges/score.svg)](https://glama.ai/mcp/servers/yeick010/agentshield-mcp) 📇 ☁️ - DeFi tools for AI agents on Base. Live Uniswap V3 prices (slot0), on-chain agent scoring, and DeFi knowledge base. Pay-per-query via x402 micropayments in USDC.
++ - [connerlambden/bgpt-mcp](https://github.com/connerlambden/bgpt-mcp) [![bgpt-mcp MCP server](https://glama.ai/mcp/servers/@connerlambden/bgpt-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@connerlambden/bgpt-mcp) 📇 ☁️ - Search scientific papers with structured experimental data extracted from full-text studies. Returns 25+ fields per paper including methods, results, sample sizes, and quality scores. 50 free searches, then $0.01/result.
++ - [giskard09/giskard-oasis](https://github.com/giskard09/giskard-oasis) [![giskard09/giskard-oasis MCP server](https://glama.ai/mcp/servers/giskard09/giskard-oasis/badges/score.svg)](https://glama.ai/mcp/servers/giskard09/giskard-oasis) 🐍 🏠 - A still point for AI agents in fog. When an agent loses its thread, Oasis distills its original purpose and returns clarity. Pay-per-use with Lightning or Arbitrum — karma discounts via ARGENTUM reputation. Self-hosted with phoenixd.
++ - [PostalDataPI/postaldatapi-mcp](https://github.com/PostalDataPI/postaldatapi-mcp) [![PostalDataPI/postaldatapi-mcp MCP server](https://glama.ai/mcp/servers/PostalDataPI/postaldatapi-mcp/badges/score.svg)](https://glama.ai/mcp/servers/PostalDataPI/postaldatapi-mcp) 🐍 ☁️ - Global postal code lookups, validation, and city search for 240+ countries with timezone, admin region, and elevation metadata. Sub-10ms responses at $0.000028/query with 1,000 free queries on signup.
++ - [123Ergo/unphurl-mcp](https://github.com/123Ergo/unphurl-mcp) [![unphurl-mcp MCP server](https://glama.ai/mcp/servers/123Ergo/unphurl-mcp/badges/score.svg)](https://glama.ai/mcp/servers/123Ergo/unphurl-mcp) 📇 ☁️ - URL intelligence for AI agents. 13 tools for security signals and data quality: redirect behaviour, brand impersonation detection, domain age, SSL validation, parked detection, URL structural analysis, DNS enrichment.
++ - [platfone-com/mcp](https://github.com/platfone-com/mcp) [![platfone-com/mcp MCP server](https://glama.ai/mcp/servers/platfone-com/mcp/badges/score.svg)](https://glama.ai/mcp/servers/platfone-com/mcp) 📇 ☁️ 🏠 - Virtual phone number platform for AI agents — rent numbers across 200+ countries, receive SMS, and manage the full activation lifecycle. Supports stdio and HTTP transport.
++ - [buildepicshit/Wick](https://github.com/buildepicshit/Wick) [![buildepicshit/Wick MCP server](https://glama.ai/mcp/servers/buildepicshit/Wick/badges/score.svg)](https://glama.ai/mcp/servers/buildepicshit/Wick) #️⃣ 🏠 🍎 🪟 🐧 - Native C# MCP server for Godot Engine — 53 tools across 5 pillars: Roslyn-enriched exception telemetry, scene tree inspection, C# symbol navigation, MSBuild orchestration, and GDScript analysis. .NET 10, TCP JSON-RPC bridge, 219 tests.
 ```
 
 
