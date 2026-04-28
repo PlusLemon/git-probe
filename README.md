@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-04-27T02:42:08
+### 2026-04-28T02:50:02
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,33 +51,16 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [776a65f](https://github.com/punkpeye/awesome-mcp-servers/commit/776a65fde8a221e344cea0a828b81aed37d1e025) Merge pull request #5183 from cuttalo/add-depscope - Frank Fiegel
-- [4f05fb6](https://github.com/punkpeye/awesome-mcp-servers/commit/4f05fb64b8d752c326fe3b36d67d5ecc351303d3) Merge pull request #5472 from partymola/add-monzo-mcp - Frank Fiegel
-- [2b5882d](https://github.com/punkpeye/awesome-mcp-servers/commit/2b5882de6dfd4cb4abc344412a32ade06d5fbe84) Add partymola/withings-mcp - Juan Jose del Rio Holgado
-- [508e716](https://github.com/punkpeye/awesome-mcp-servers/commit/508e716d8cb6f41a8b381ca5e3ffd9e718630ae3) Add partymola/monzo-mcp - Juan Jose del Rio Holgado
-- [f9d18c3](https://github.com/punkpeye/awesome-mcp-servers/commit/f9d18c392d74bc2d69b330d01d50f4953dd9936a) Merge pull request #5019 from flowzap-xyz/add-flowzap-mcp-server - Frank Fiegel
-- [da1d6dd](https://github.com/punkpeye/awesome-mcp-servers/commit/da1d6dde41e16c4b5b2a34063f16148605138ed5) Merge pull request #5416 from prosperkartik/add-hostaway-mcp - Frank Fiegel
-- [fda9784](https://github.com/punkpeye/awesome-mcp-servers/commit/fda9784025a4132a0168e46849c82ce50c43121f) Add Glama score badge for prosperkartik/hostaway-mcp - Kartik Vats
-- [7233c0c](https://github.com/punkpeye/awesome-mcp-servers/commit/7233c0c4ee08a924f6ac9fe087128aecd02d07c8) Fix entry formatting - Frank Fiegel
-- [1d63a41](https://github.com/punkpeye/awesome-mcp-servers/commit/1d63a418a6762b8d692a3ae8bda556aea9024f1b) Merge pull request #4564 from Zacccck/patch-1 - Frank Fiegel
-- [1d2adc3](https://github.com/punkpeye/awesome-mcp-servers/commit/1d2adc37c0438eea46d33051454ae23e0752cefc) Merge pull request #5294 from rubenayla/add-partle-mcp-v2 - Frank Fiegel
+- [d16b464](https://github.com/punkpeye/awesome-mcp-servers/commit/d16b4648b32909b344dc7c2d3f8aa46c44a7b683) Update README.md - Frank Fiegel
 
 
 ##### File Content Changes
 
-**README.md** (Modified, +10 -2 lines):
+**README.md** (Modified, +0 -3 lines):
 
 ```diff
-- - [prosperkartik/hostaway-mcp](https://github.com/prosperkartik/hostaway-mcp) 📇 ☁️ - MCP server for the Hostaway property management system (vacation rentals & short-term rentals). 10 read-only tools across listings, reservations, calendar availability, guest conversations, and owner financials.
-- - [Zacccck/Claude-MCP-Read-Email-Attachments](https://github.com/Zacccck/Claude-MCP-Read-Email-Attachments) 📇 ☁️ 🏠 🪟 - Remote HTTP MCP server that reads Outlook email attachments via Microsoft Graph. Parses PDF, Word (with embedded image extraction for multimodal analysis), Excel, and text files in-memory and returns structured content directly to Claude.
-+ - [cuttalo/depscope](https://github.com/cuttalo/depscope) [![cuttalo/depscope MCP server](https://glama.ai/mcp/servers/cuttalo/depscope/badges/score.svg)](https://glama.ai/mcp/servers/cuttalo/depscope) 📇 ☁️ 🏠 - Package Intelligence for AI agents. 22 tools across 17 ecosystems (npm/pypi/cargo/go/maven/nuget/rubygems/composer/pub/hex/swift/cocoapods/cpan/hackage/cran/conda/homebrew) — check health, vulnerabilities (OSV + CISA KEV + EPSS), typosquats, malicious flags, alternatives, known bugs, breaking changes, stack compatibility and error-to-fix. 31k+ packages, 2.2k+ CVEs enriched. Zero auth, MIT. Remote URL https://mcp.depscope.dev/mcp or stdio `npx depscope-mcp`.
-+ - [partymola/monzo-mcp](https://github.com/partymola/monzo-mcp) [![partymola/monzo-mcp MCP server](https://glama.ai/mcp/servers/partymola/monzo-mcp/badges/score.svg)](https://glama.ai/mcp/servers/partymola/monzo-mcp) 🐍 ☁️ 🏠 - Read-only MCP server for the Monzo banking API (UK). OAuth with auto-refresh, local SQLite transaction cache, full-text search, and spending analysis with category breakdowns.
-+ - [partymola/withings-mcp](https://github.com/partymola/withings-mcp) [![partymola/withings-mcp MCP server](https://glama.ai/mcp/servers/partymola/withings-mcp/badges/score.svg)](https://glama.ai/mcp/servers/partymola/withings-mcp) 🐍 ☁️ 🏠 - MCP server for the Withings Health API. OAuth, local SQLite cache, and trend analysis. Tools for body composition, sleep, activity, workouts, ECG, and connected devices.
-+ - [flowzap-xyz/flowzap-mcp](https://github.com/flowzap-xyz/flowzap-mcp) [![flowzap-xyz/flowzap-mcp MCP server](https://glama.ai/mcp/servers/flowzap-xyz/flowzap-mcp/badges/score.svg)](https://glama.ai/mcp/servers/flowzap-xyz/flowzap-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - Create workflow, sequence, and architecture diagrams using FlowZap Code DSL. 7 tools for validation, playground URL generation, syntax docs, graph export, artifact parsing, diffing, and patching. No API key required. Install via NPM: `npx -y flowzap-mcp`
-+ - [prosperkartik/hostaway-mcp](https://github.com/prosperkartik/hostaway-mcp) [![prosperkartik/hostaway-mcp MCP server](https://glama.ai/mcp/servers/prosperkartik/hostaway-mcp/badges/score.svg)](https://glama.ai/mcp/servers/prosperkartik/hostaway-mcp) 📇 ☁️ - MCP server for the Hostaway property management system (vacation rentals & short-term rentals). 10 read-only tools across listings, reservations, calendar availability, guest conversations, and owner financials.
-+ - [Zacccck/Claude-MCP-Read-Email-Attachments](https://github.com/Zacccck/Claude-MCP-Read-Email-Attachments) [![Zacccck/Claude-MCP-Read-Email-Attachments MCP server](https://glama.ai/mcp/servers/Zacccck/Claude-MCP-Read-Email-Attachments/badges/score.svg)](https://glama.ai/mcp/servers/Zacccck/Claude-MCP-Read-Email-Attachments) 📇 ☁️ 🏠 🪟 - Remote HTTP MCP server that reads Outlook email attachments via Microsoft Graph. Parses PDF, Word (with embedded image extraction for multimodal analysis), Excel, and text files in-memory and returns structured content directly to Claude.
-+ - [Zacccck/Claude-MCP-Read-Email-Attachments](https://github.com/Zacccck/Claude-MCP-Read-Email-Attachments) 📇 ☁️ 🏠 🪟 - Remote HTTP MCP server that reads Outlook email attachments via Microsoft Graph. Parses PDF, Word (with embedded image extraction for multimodal analysis), Excel, and text files in-memory and returns structured content directly to Claude.
-+ - [rubenayla/partle-mcp](https://github.com/rubenayla/partle-mcp) [![rubenayla/partle-mcp MCP server](https://glama.ai/mcp/servers/@rubenayla/partle/badges/score.svg)](https://glama.ai/mcp/servers/@rubenayla/partle) 🐍 ☁️ - Search products and stores in nearby physical stores. Find what you need locally instead of waiting for delivery. Remote MCP server (Streamable HTTP, no API key required).
+- > [!TIP]
+- > [Glama Chat](https://glama.ai/chat) is a multi-modal AI client with MCP support & [AI gateway](https://glama.ai/gateway).
 ```
 
 
