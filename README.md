@@ -33,13 +33,27 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-05-02T02:38:01
+### 2026-05-03T02:49:59
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
 ##### Commit Changes
 
-No file changes detected.
+- [373c4eb](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/373c4eb22d1e9e7948bbc6c023a98507daff8756) Feature insurance claim live agent in README - Shubhamsaboo
+- [76eb3bc](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/76eb3bc9bbc319f53db158abccab1b7d3d4974b2) Add insurance claim live agent to README - Shubhamsaboo
+
+
+##### File Content Changes
+
+**README.md** (Modified, +2 -1 lines):
+
+```diff
+- | [🧠 DevPulse AI](advanced_ai_agents/multi_agent_apps/devpulse_ai/) | Multi-agent signal intelligence for dev teams | Multi-agent |
++ | [🛡️ Insurance Claim Live Agent Team](voice_ai_agents/insurance_claim_live_agent_team/) | Real-time voice claim intake with Gemini Live and ADK | Voice + ADK |
++ *   [🛡️ Insurance Claim Live Agent Team](voice_ai_agents/insurance_claim_live_agent_team/)
+```
+
+
 
 #### [awesome-gpt4o-images](https://github.com/jamez-bondos/awesome-gpt4o-images)
 
@@ -51,7 +65,38 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [39b5e99](https://github.com/punkpeye/awesome-mcp-servers/commit/39b5e990fe94734de271a2b13ec1513811da9cdd) Merge pull request #5176 from sgclasher/add-agent-blueprint - Frank Fiegel
+- [70effb4](https://github.com/punkpeye/awesome-mcp-servers/commit/70effb42e693c45a0776b80140ec302fee21a3fb) Merge pull request #5199 from 06ketan/add-substack-ops - Frank Fiegel
+- [b54b7f8](https://github.com/punkpeye/awesome-mcp-servers/commit/b54b7f8e93bd85a63f5562f42355c19bb874aa91) Merge pull request #4540 from ethicalvats/add-gapbase-mcp - Frank Fiegel
+- [2079b10](https://github.com/punkpeye/awesome-mcp-servers/commit/2079b1088ba81887b49a17702fe4f58090649758) Merge pull request #5722 from Davison-Francis/add-deliveriq-mcp - Frank Fiegel
+- [3cd24ab](https://github.com/punkpeye/awesome-mcp-servers/commit/3cd24ab0136917ec8d8865575bf08d8861aef22b) Fix entry formatting - Frank Fiegel
+- [d0abcee](https://github.com/punkpeye/awesome-mcp-servers/commit/d0abceeddf0929b0ea501b9c7cc94bfc682b3aab) Merge pull request #4836 from IgorGanapolsky/add-thumbgate-mcp - Frank Fiegel
+- [9d7ea80](https://github.com/punkpeye/awesome-mcp-servers/commit/9d7ea80cc1200453ec989c3bd397391ae2d3ca7e) Fix entry formatting - Frank Fiegel
+- [8d967d0](https://github.com/punkpeye/awesome-mcp-servers/commit/8d967d0a8f6831dcd25cdc884f6e2cbd152eee04) Merge pull request #5509 from andrealufino/aapl-ads-mcp - Frank Fiegel
+- [c949773](https://github.com/punkpeye/awesome-mcp-servers/commit/c949773a066de1dd82814b65eada470d16b1218d) Merge pull request #5530 from googlarz/add-suunto-mcp - Frank Fiegel
+- [dcf10f0](https://github.com/punkpeye/awesome-mcp-servers/commit/dcf10f01d5717874e9dfa7ce372b31ce99020e96) Merge pull request #1872 from Dumbris/add-mcpproxy - Frank Fiegel
+
+
+##### File Content Changes
+
+**README.md** (Modified, +10 -2 lines):
+
+```diff
+- - [IgorGanapolsky/ThumbGate](https://github.com/IgorGanapolsky/ThumbGate) 📇 🏠 - MCP server that blocks AI coding agents from repeating mistakes — turns thumbs-up/down feedback into enforced pre-action gates via PreToolUse hooks. Install: `npx thumbgate`.
+- - [andrealufino/aapl-ads-mcp](https://github.com/andrealufino/aapl-ads-mcp) — 📇 Apple Search Ads API v5 (read-only). Campaigns, ad groups, keywords, performance reports.
++ - [agent-blueprint/mcp-server](https://github.com/agent-blueprint/mcp-server) [![agent-blueprint/mcp-server MCP server](https://glama.ai/mcp/servers/agent-blueprint/mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/agent-blueprint/mcp-server) 📇 ☁️ - 8 MCP tools for exploring and downloading AI agent blueprints. List blueprints, get summaries, download full Agent Skills directories for implementation by coding agents. Vendor-agnostic output works with any enterprise platform. Install: `npx agentblueprint`.
++ - [06ketan/substack-ops](https://github.com/06ketan/substack-ops) [![06ketan/substack-ops MCP server](https://glama.ai/mcp/servers/06ketan/substack-ops/badges/score.svg)](https://glama.ai/mcp/servers/06ketan/substack-ops) 🐍 🏠 - Substack with **zero AI API keys**. 26 tools (posts, notes, comments, replies, reactions, restacks). Host LLM drafts via `propose_reply` → `confirm_reply` tokens. SQLite dedup, JSONL audit, dry-run default. Install: `uvx substack-ops mcp install cursor`.
++ - [thevibepreneur/gapbase-mcp](https://github.com/thevibepreneur/gapbase-mcp) [![thevibepreneur/gapbase-mcp MCP server](https://glama.ai/mcp/servers/thevibepreneur/gapbase-mcp/badges/score.svg)](https://glama.ai/mcp/servers/thevibepreneur/gapbase-mcp) 📇 🏠 - Search 474 validated startup gaps from your AI editor. Find unsolved business problems by industry, role, or keyword — each with pain point, solution direction, and link to full blueprint. Zero API keys, works offline.
++ - [Davison-Francis/min8t-sdks](https://github.com/Davison-Francis/min8t-sdks/tree/main/deliveriq-mcp) [![Davison-Francis/min8t-sdks MCP server](https://glama.ai/mcp/servers/Davison-Francis/min8t-sdks/badges/score.svg)](https://glama.ai/mcp/servers/Davison-Francis/min8t-sdks) 📇 ☁️ - `@deliveriq/mcp` — email-deliverability tools for AI agents. 12 tools: single + batch verification, email finder, DNSBL across 50 zones, SPF/DKIM/DMARC/MTA-STS/BIMI infrastructure analysis, spam-trap scoring on 13 weighted signals, composite domain trust report, account credits. 5-stage / 21-check pipeline under the hood. Free tier, no card. Install: `npx -y @deliveriq/mcp`.
++ - [IgorGanapolsky/ThumbGate](https://github.com/IgorGanapolsky/ThumbGate) [![IgorGanapolsky/ThumbGate MCP server](https://glama.ai/mcp/servers/IgorGanapolsky/ThumbGate/badges/score.svg)](https://glama.ai/mcp/servers/IgorGanapolsky/ThumbGate) 📇 🏠 - MCP server that blocks AI coding agents from repeating mistakes — turns thumbs-up/down feedback into enforced pre-action gates via PreToolUse hooks. Install: `npx thumbgate`.
++ - [IgorGanapolsky/ThumbGate](https://github.com/IgorGanapolsky/ThumbGate) 📇 🏠 - MCP server that blocks AI coding agents from repeating mistakes — turns thumbs-up/down feedback into enforced pre-action gates via PreToolUse hooks. Install: `npx thumbgate`.
++ - [andrealufino/aapl-ads-mcp](https://github.com/andrealufino/aapl-ads-mcp) [![andrealufino/aapl-ads-mcp MCP server](https://glama.ai/mcp/servers/andrealufino/aapl-ads-mcp/badges/score.svg)](https://glama.ai/mcp/servers/andrealufino/aapl-ads-mcp) 📇 -
++ - [andrealufino/aapl-ads-mcp](https://github.com/andrealufino/aapl-ads-mcp) — 📇 Apple Search Ads API v5 (read-only). Campaigns, ad groups, keywords, performance reports.
++ - [googlarz/suunto-mcp](https://github.com/googlarz/suunto-mcp) [![googlarz/suunto-mcp MCP server](https://glama.ai/mcp/servers/googlarz/suunto-mcp/badges/score.svg)](https://glama.ai/mcp/servers/googlarz/suunto-mcp) 📇 ☁️ 🍎 🪟 🐧 - MCP server for Suunto watches via the official apizone API. OAuth2 pairing, list/get workouts, time-series samples, FIT-file decoding, GPX export, plus 24/7 activity, sleep, and recovery/HRV. Resources expose today's recovery and the week's training summary as ambient context.
++ - [smart-mcp-proxy/mcpproxy-go](https://github.com/smart-mcp-proxy/mcpproxy-go) [![smart-mcp-proxy/mcpproxy-go MCP server](https://glama.ai/mcp/servers/smart-mcp-proxy/mcpproxy-go/badges/score.svg)](https://glama.ai/mcp/servers/smart-mcp-proxy/mcpproxy-go) 🏎️ 🏠 🍎 🪟 🐧 - Local MCP proxy with BM25 tool filtering, quarantine security, activity logging, and web UI. Routes multiple servers through a single endpoint.
+```
+
+
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
