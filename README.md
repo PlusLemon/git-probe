@@ -33,35 +33,13 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-05-08T02:50:48
+### 2026-05-11T03:27:30
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
 ##### Commit Changes
 
-- [18454ec](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/18454ecfd628fae20039bd0ba09bc0c4d39fd77e) Use signal emoji for earnings call analyst - Shubhamsaboo
-- [b463ffc](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/b463ffc974e09e0fce1fd39f1b78351a5cae7677) Polish earnings call analyst entry - Shubhamsaboo
-- [854f521](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/854f521186089273bfda0480a27524396bb0d612) Add earnings call analyst agent - Shubhamsaboo
-
-
-##### File Content Changes
-
-**README.md** (Modified, +6 -4 lines):
-
-```diff
-- | [🧾 Earnings Call Analyst Agent](advanced_ai_agents/single_agent_apps/earnings_call_analyst_agent/) | YouTube earnings calls become quote-synced analyst cards with ADK, Gemini, filings, and grounded market news | ADK + Gemini |
-- *   [🧾 Earnings Call Analyst Agent](advanced_ai_agents/single_agent_apps/earnings_call_analyst_agent/)
-- | [📈 Earnings Call Analyst Agent](advanced_ai_agents/single_agent_apps/earnings_call_analyst_agent/) | YouTube earnings calls become quote-synced analyst cards with ADK, Gemini, filings, and grounded market news | ADK + Gemini |
-- *   [📈 Earnings Call Analyst Agent](advanced_ai_agents/single_agent_apps/earnings_call_analyst_agent/)
-+ | [📡 Earnings Call Analyst Agent](advanced_ai_agents/single_agent_apps/earnings_call_analyst_agent/) | YouTube earnings calls become quote-synced analyst cards with ADK, Gemini, filings, and grounded market news | ADK + Gemini |
-+ *   [📡 Earnings Call Analyst Agent](advanced_ai_agents/single_agent_apps/earnings_call_analyst_agent/)
-+ | [🧾 Earnings Call Analyst Agent](advanced_ai_agents/single_agent_apps/earnings_call_analyst_agent/) | YouTube earnings calls become quote-synced analyst cards with ADK, Gemini, filings, and grounded market news | ADK + Gemini |
-+ *   [🧾 Earnings Call Analyst Agent](advanced_ai_agents/single_agent_apps/earnings_call_analyst_agent/)
-+ | [📈 Earnings Call Analyst Agent](advanced_ai_agents/single_agent_apps/earnings_call_analyst_agent/) | YouTube earnings calls become quote-synced analyst cards with ADK, Gemini, filings, and grounded market news | ADK + Gemini |
-+ *   [📈 Earnings Call Analyst Agent](advanced_ai_agents/single_agent_apps/earnings_call_analyst_agent/)
-```
-
-
+No file changes detected.
 
 #### [awesome-gpt4o-images](https://github.com/jamez-bondos/awesome-gpt4o-images)
 
@@ -85,7 +63,7 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [b4adf2b](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/b4adf2bce980a19a9f81bcd951902fa93010f1dd) Update Latitude links to new landing page with UTMs - Paula Cavero
+- [0c512ba](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/0c512ba76692c14cb2bd2f46e8322e7752673d38) Update README.md - Lucas Valbuena
 
 
 ##### File Content Changes
@@ -93,12 +71,12 @@ No file changes detected.
 **README.md** (Modified, +3 -3 lines):
 
 ```diff
-- <a href="https://github.com/latitude-dev/latitude-llm">
-- ### [Issue Tracking for AI Agents](https://github.com/latitude-dev/latitude-llm)
-- [Open Source Monitoring platform](https://github.com/latitude-dev/latitude-llm)
-+ <a href="https://latitude.so/?utm_source=github&utm_medium=readme&utm_campaign=sponsorship">
-+ ### [Issue Tracking for AI Agents](https://latitude.so/?utm_source=github&utm_medium=readme&utm_campaign=sponsorship)
-+ [Open Source Monitoring platform](https://latitude.so/?utm_source=github&utm_medium=readme&utm_campaign=sponsorship)
+- [Get Started](mailto:lucknitelol@pm.me)
+- > **Latest Update:** 08/03/2026
+- - **Email**: `lucknitelol@pm.me`
++ [Get Started](mailto:lucasvalbuena@pm.me)
++ > **Latest Update:** 10/05/2026
++ - **Email**: `lucasvalbuena@pm.me`
 ```
 
 
