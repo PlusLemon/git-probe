@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-05-25T03:42:28
+### 2026-05-26T03:28:20
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,7 +51,21 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [0be8257](https://github.com/punkpeye/awesome-mcp-servers/commit/0be8257c3992868a08b1b55f0c0bec30f2d708a1) docs: add Glama score badge for pg-mnemosyne-mcp - JanadaSroor
+- [e07fea1](https://github.com/punkpeye/awesome-mcp-servers/commit/e07fea1da585467317f5a784be2f7a665e05c83e) add Janadasroor/pg-mnemosyne-mcp to Databases - JanadaSroor
+
+
+##### File Content Changes
+
+**README.md** (Modified, +2 -1 lines):
+
+```diff
+- - [Janadasroor/pg-mnemosyne-mcp](https://github.com/Janadasroor/pg-mnemosyne-mcp) 🐍 🏠 - A PostgreSQL Model Context Protocol (MCP) server acting as a robust persistent super memory, task tracker, and multi-agent coordination hub for AI assistants.
++ - [Janadasroor/pg-mnemosyne-mcp](https://github.com/Janadasroor/pg-mnemosyne-mcp) [![Janadasroor/pg-mnemosyne-mcp MCP server](https://glama.ai/mcp/servers/Janadasroor/pg-mnemosyne-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Janadasroor/pg-mnemosyne-mcp) 🐍 🏠 - A PostgreSQL Model Context Protocol (MCP) server acting as a robust persistent super memory, task tracker, and multi-agent coordination hub for AI assistants.
++ - [Janadasroor/pg-mnemosyne-mcp](https://github.com/Janadasroor/pg-mnemosyne-mcp) 🐍 🏠 - A PostgreSQL Model Context Protocol (MCP) server acting as a robust persistent super memory, task tracker, and multi-agent coordination hub for AI assistants.
+```
+
+
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
