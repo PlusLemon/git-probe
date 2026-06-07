@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-06-06T03:23:52
+### 2026-06-07T03:51:15
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,7 +51,34 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [c2bb5cf](https://github.com/punkpeye/awesome-mcp-servers/commit/c2bb5cfed301e3fe39ca1ba530dabb752f122b4b) Merge pull request #7541 from clawdbotworker/add-forgemesh-travel-mcp - Frank Fiegel
+- [9398967](https://github.com/punkpeye/awesome-mcp-servers/commit/939896799dfc6d27464d3f77189ce3377e27007c) Add ForgeMesh travel MCP listing - Clawdbotworker
+- [459f78f](https://github.com/punkpeye/awesome-mcp-servers/commit/459f78f5373d5c11772b2e0af5b8cdccbd49d328) Update ForgeMesh imagegen MCP listing - Clawdbotworker
+- [a52e1f6](https://github.com/punkpeye/awesome-mcp-servers/commit/a52e1f68ba1dd3036760aa4579629a081a00b65e) Merge pull request #7536 from simongonzalezdc/codex/add-epoch-mcp-server - Frank Fiegel
+- [cf0d6c3](https://github.com/punkpeye/awesome-mcp-servers/commit/cf0d6c356975eee2b59f5e71896cc4dafba0b65c) Merge pull request #7537 from simongonzalezdc/codex/add-dialectos-mcp-server - Frank Fiegel
+- [1d51689](https://github.com/punkpeye/awesome-mcp-servers/commit/1d51689e15f24136f6810d63b166faa8d412715f) Add KyaniteLabs/DialectOS MCP server - Simon
+- [76e5bf5](https://github.com/punkpeye/awesome-mcp-servers/commit/76e5bf55513630c3833fb59818368c99a7790f51) Add KyaniteLabs/Epoch MCP server - Simon
+- [23e2d33](https://github.com/punkpeye/awesome-mcp-servers/commit/23e2d336722e0e7ce8b894d0343a5baeb26e59ce) Add KyaniteLabs/checkyourself MCP server - Simon
+- [ef0dabb](https://github.com/punkpeye/awesome-mcp-servers/commit/ef0dabb4fc9f29674bbd1bdd4435e5d3845af65f) Merge pull request #5020 from michaelcutajar1995/add-openaccountants - Frank Fiegel
+- [c476aed](https://github.com/punkpeye/awesome-mcp-servers/commit/c476aed9579344c52d144219449425bec3cd59c5) Merge pull request #5491 from rosenvladimirov/add-odoo-claude-mcp - Frank Fiegel
+
+
+##### File Content Changes
+
+**README.md** (Modified, +10 -1 lines):
+
+```diff
+- - [clawdbotworker/imagegen-mcp](https://github.com/clawdbotworker/imagegen-mcp) [![clawdbotworker/imagegen-mcp MCP server](https://glama.ai/mcp/servers/clawdbotworker/imagegen-mcp/badges/score.svg)](https://glama.ai/mcp/servers/clawdbotworker/imagegen-mcp) 📇 🏠 🍎 🪟 🐧 - AI image generation from text prompts via x402 micropayments on Base. $0.10 USDC per image, paid automatically from your wallet. No API key required. `npx coinopai-imagegen`
++ - [forgemeshlabs/travel-mcp](https://github.com/forgemeshlabs/travel-mcp) [![forgemeshlabs/travel-mcp MCP server](https://glama.ai/mcp/servers/forgemeshlabs/travel-mcp/badges/score.svg)](https://glama.ai/mcp/servers/forgemeshlabs/travel-mcp) 📇 ☁️ - Public travel search workflow MCP server for airport lookup, route comparison, timing guidance, and external booking links through generic travel search providers.
++ - [forgemeshlabs/imagegen-mcp](https://github.com/forgemeshlabs/imagegen-mcp) [![forgemeshlabs/imagegen-mcp MCP server](https://glama.ai/mcp/servers/forgemeshlabs/imagegen-mcp/badges/score.svg)](https://glama.ai/mcp/servers/forgemeshlabs/imagegen-mcp) 📇 ☁️ - AI image generation MCP server with generate, background removal, 4x HD upscale, and full pro pipeline tools. Pay per image in USDC on Base mainnet via x402; no API key or subscription required.
++ - [KyaniteLabs/Epoch](https://github.com/KyaniteLabs/Epoch) [![KyaniteLabs/Epoch MCP server](https://glama.ai/mcp/servers/KyaniteLabs/Epoch/badges/score.svg)](https://glama.ai/mcp/servers/KyaniteLabs/Epoch) 📇 🏠 - Software estimation server for AI agents: PERT, COCOMO II, Monte Carlo, sprint forecasting, token-to-time and cost mapping, and schedule-risk tools.
++ - [KyaniteLabs/DialectOS](https://github.com/KyaniteLabs/DialectOS) [![KyaniteLabs/DialectOS MCP server](https://glama.ai/mcp/servers/KyaniteLabs/DialectOS/badges/score.svg)](https://glama.ai/mcp/servers/KyaniteLabs/DialectOS) 📇 🏠 - Spanish dialect localization server and CLI. Translates and QA-checks across 25 regional variants with register control, structure preservation, and adversarial quality gates.
++ - [KyaniteLabs/checkyourself](https://github.com/KyaniteLabs/checkyourself) [![KyaniteLabs/checkyourself MCP server](https://glama.ai/mcp/servers/KyaniteLabs/checkyourself/badges/score.svg)](https://glama.ai/mcp/servers/KyaniteLabs/checkyourself) 🐍 🏠 - Local-first production-readiness audit for AI-built apps: read-only checks, an evidence-based 0-100 score, and guided fixes before launch.
++ - [openaccountants/openaccountants](https://github.com/openaccountants/openaccountants) [![openaccountants/openaccountants MCP server](https://glama.ai/mcp/servers/openaccountants/openaccountants/badges/score.svg)](https://glama.ai/mcp/servers/openaccountants/openaccountants) 📇 ☁️ - Open-source AI accounting skills, checked by licensed accountants jurisdiction by jurisdiction. 3 tools: list skills by country/category, get full skill content, and get individual sections. Skills teach AI agents tax computations (income tax, VAT, payroll) across 134 countries plus US states and Canadian provinces. Hosted at `https://www.openaccountants.com/api/mcp`.
++ - [rosenvladimirov/odoo-claude-mcp](https://github.com/rosenvladimirov/odoo-claude-mcp) [![rosenvladimirov/odoo-claude-mcp MCP server](https://glama.ai/mcp/servers/rosenvladimirov/odoo-claude-mcp/badges/score.svg)](https://glama.ai/mcp/servers/rosenvladimirov/odoo-claude-mcp) 🐍 🏠 🐧 🍎 🪟 - Self-hosted MCP server suite for Odoo ERP (versions 15-19). 197+ tools across 8 federated MCP servers (odoo-rpc, GitHub, Portainer, OCA, Teams, filesystem). Multi-tenant Claude/Claude Code integration, browser-based xterm.js + tmux terminal, Qdrant + Ollama memory layer, Bulgaria localization (НАП, ДДС, ЕИК). Docker Compose + K3s/Kustomize deployment.
+```
+
+
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
