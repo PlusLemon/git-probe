@@ -33,39 +33,13 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-06-15T04:11:55
+### 2026-06-16T04:01:12
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
 ##### Commit Changes
 
-- [0192b6e](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/0192b6e8076c5c53179e88dc64bd09f527608649) Update HN agent featured stack - Shubhamsaboo
-- [e08698b](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/e08698be9e4fd4f475e4b76de91b39bfdf85c11e) Feature always-on Hacker News agent - Shubhamsaboo
-- [6c94188](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/6c941880313d872da3681dccc77b958234091f8c) Add always-on Hacker News briefing agent - Shubhamsaboo
-
-
-##### File Content Changes
-
-**README.md** (Modified, +11 -5 lines):
-
-```diff
-- | [📰 Always-on Hacker News Briefing Agent](always_on_agents/always_on_hn_briefing_agent/) | Scheduled Hacker News scout that filters AI agent and LLM app signals into a delivery-ready daily brief | ADK + FastAPI |
-- | [📡 Earnings Call Analyst Agent](advanced_ai_agents/single_agent_apps/earnings_call_analyst_agent/) | YouTube earnings calls become quote-synced analyst cards with ADK, Gemini, filings, and grounded market news | ADK + Gemini |
-- AI Agents · Multi-agent Teams · MCP Agents · RAG · Voice Agents · Agent Skills · Fine-tuning</p>
-- - 🧠 **Covers the modern AI stack** - AI Agents, Multi-agent Teams, MCP Agents, Voice AI Agents, RAG, Agent Skills, Fine-tuning.
-- <summary><strong>14 categories · Click to expand</strong></summary>
-+ | [📰 Always-on Hacker News Briefing Agent](always_on_agents/always_on_hn_briefing_agent/) | Scheduled Hacker News scout that filters AI agent and LLM app signals into a delivery-ready daily brief | ADK + Agent Runtime |
-+ | [📰 Always-on Hacker News Briefing Agent](always_on_agents/always_on_hn_briefing_agent/) | Scheduled Hacker News scout that filters AI agent and LLM app signals into a delivery-ready daily brief | ADK + FastAPI |
-+ AI Agents · Always-on Agents · Multi-agent Teams · MCP Agents · RAG · Voice Agents · Agent Skills · Fine-tuning</p>
-+ - 🧠 **Covers the modern AI stack** - AI Agents, Always-on Agents, Multi-agent Teams, MCP Agents, Voice AI Agents, RAG, Agent Skills, Fine-tuning.
-+ <summary><strong>15 categories · Click to expand</strong></summary>
-+ - [🛰️ Always-on Agents](#️-always-on-agents)
-+ ### 🛰️ Always-on Agents
-+ *Background agents that run on schedules or events, monitor changing context, decide what needs attention, and proactively deliver updates, artifacts, or actions.*
-+ *   [📰 Always-on Hacker News Briefing Agent](always_on_agents/always_on_hn_briefing_agent/)
-```
-
-
+No file changes detected.
 
 #### [awesome-gpt4o-images](https://github.com/jamez-bondos/awesome-gpt4o-images)
 
@@ -77,35 +51,33 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [0ea5e49](https://github.com/punkpeye/awesome-mcp-servers/commit/0ea5e4944398d9c43a93577b9a2a0cb63e8d0a88) Update README.md - Frank Fiegel
-- [5217cf3](https://github.com/punkpeye/awesome-mcp-servers/commit/5217cf3864f8caf38561993db5db63bd1147f4af) Update README.md - Frank Fiegel
-- [63d7a9a](https://github.com/punkpeye/awesome-mcp-servers/commit/63d7a9a5a5441ae82885440a2d47a3116f36c075) Merge pull request #7519 from Lyosis/fix/resolve-readme-conflict - Frank Fiegel
-- [1ec6c6f](https://github.com/punkpeye/awesome-mcp-servers/commit/1ec6c6fe88636ca55ee789466a0863cfe545ce12) Merge pull request #7847 from DeusData/add-codebase-memory-mcp - Frank Fiegel
-- [569e8a7](https://github.com/punkpeye/awesome-mcp-servers/commit/569e8a7f259c2efeb2f31d3b7ace72eddfcb0078) Fix entry formatting - Frank Fiegel
-- [5377df4](https://github.com/punkpeye/awesome-mcp-servers/commit/5377df4eed91807c631b257f6b8e1d2a14c38874) Merge pull request #7987 from velyan/add-pdf-card-mcp - Frank Fiegel
-- [dd63da9](https://github.com/punkpeye/awesome-mcp-servers/commit/dd63da98d9bbfad0b669bf102c07fbca3fe0c534) Fix entry formatting - Frank Fiegel
-- [0e1ee3b](https://github.com/punkpeye/awesome-mcp-servers/commit/0e1ee3bc5b5683882a81054b3985cecf5e1764a6) Merge pull request #7894 from OrygnsCode/add-omnicord - Frank Fiegel
-- [07de969](https://github.com/punkpeye/awesome-mcp-servers/commit/07de9691ea8b7397c5385d2b4ef4ccaa021be179) Merge pull request #4246 from KK6BZB/add-signallord - Frank Fiegel
-- [4f8cc34](https://github.com/punkpeye/awesome-mcp-servers/commit/4f8cc34edfe065c00436d904a5c456443f002e19) Merge pull request #7955 from rajdeepmondaldotcom/add-whoop-mcp-server - Frank Fiegel
+- [ebcd710](https://github.com/punkpeye/awesome-mcp-servers/commit/ebcd710fa1f4dc5cdd450a3f3faef0dd5d796f5e) Fix entry formatting - Frank Fiegel
+- [9123559](https://github.com/punkpeye/awesome-mcp-servers/commit/9123559bf41a743276c09ee5430d251663f80d9d) Merge pull request #6255 from 0rkz/add-byte-protocol - Frank Fiegel
+- [959b107](https://github.com/punkpeye/awesome-mcp-servers/commit/959b1076947290069466fe18b14903afc7d656bf) Merge pull request #8085 from laszlopere/add-mcp-abacus - Frank Fiegel
+- [b0aa20a](https://github.com/punkpeye/awesome-mcp-servers/commit/b0aa20a7095f51aa77d3bff84e58f4d8014a5282) Merge pull request #7895 from contradictory-body/main - Frank Fiegel
+- [cbe2e78](https://github.com/punkpeye/awesome-mcp-servers/commit/cbe2e78562e7aa51b76ebf8b5c733c725ed0a163) Merge pull request #7972 from Partridge12/add-posteverywhere-mcp - Frank Fiegel
+- [e3653f0](https://github.com/punkpeye/awesome-mcp-servers/commit/e3653f0db53091a17311e151784bedfecfd2daad) Merge pull request #8083 from laszlopere/add-mcp-tmux - Frank Fiegel
+- [b1ab908](https://github.com/punkpeye/awesome-mcp-servers/commit/b1ab9087972c6c34d87c6c62983177c074cb4ef1) Merge pull request #8073 from luiscosio/add-agentmetal - Frank Fiegel
+- [cb565a4](https://github.com/punkpeye/awesome-mcp-servers/commit/cb565a48fed28a8a367493cdf06c4b42c1e93b71) Merge pull request #7935 from tatavarthitarun/add-nowsecure-mcp - Frank Fiegel
+- [44666b3](https://github.com/punkpeye/awesome-mcp-servers/commit/44666b3e6b255522bf312c7c24148e5af41c4416) Merge pull request #8008 from adanb13/add-cirdan - Frank Fiegel
+- [bba6d8b](https://github.com/punkpeye/awesome-mcp-servers/commit/bba6d8b4c40bce2976d814dbfc69f0f85b53a9c0) Add 0rkz/byte-mcp-server to Finance & Fintech - 0rkz
 
 
 ##### File Content Changes
 
-**README.md** (Modified, +9 -3 lines):
+**README.md** (Modified, +10 -1 lines):
 
 ```diff
-- - [zafronix/wc-mcp](https://github.com/zafronix/wc-mcp) [![World Cup History MCP server](https://glama.ai/mcp/servers/zafronix/wc-mcp/badges/score.svg)](https://glama.ai/mcp/servers/zafronix/wc-mcp) 📇 🏠 ☁️ 🍎 🪟 🐧 - Every FIFA World Cup since 1930. 23 tournaments, full squads, knockout brackets, stadium altitudes, hat-tricks. Free tier API.
-- - [velyan/pdf-card-mcp](https://github.com/velyan/pdf-card-mcp) 🐍 🏠 🍎 🪟 🐧 - Converts local PDFs into source-linked, card-based standalone HTML readers with notes, highlights, and static publishing. [![velyan/pdf-card-mcp MCP server](https://glama.ai/mcp/servers/velyan/pdf-card-mcp/badges/score.svg)](https://glama.ai/mcp/servers/velyan/pdf-card-mcp)
-- - [OrygnsCode/Omnicord](https://github.com/OrygnsCode/Omnicord) 📇 🏠 🍎 🪟 🐧 - Hands your AI an entire Discord server: 148 tools covering chat, moderation, automod, events, and full administration, up to building a complete community server from one paragraph. One-command guided setup, and every destructive action previews and waits for your confirmation.
-+ * [Tool Definition Quality Score (TDQS)](https://github.com/glama-ai/tool-definition-quality-score)
-+ - [Lyosis/claudeForSafari](https://github.com/Lyosis/claudeForSafari) [![Lyosis/claudeForSafari MCP server](https://glama.ai/mcp/servers/Lyosis/claudeForSafari/badges/score.svg)](https://glama.ai/mcp/servers/Lyosis/claudeForSafari) 📇 🏠 🍎 - Safari Web Extension + Node.js MCP bridge giving Claude Desktop full control over Safari — navigate, read pages, click elements, fill forms, and manage tabs. No Playwright or WebDriver dependency.
-+ - [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) [![DeusData/codebase-memory-mcp MCP server](https://glama.ai/mcp/servers/DeusData/codebase-memory-mcp/badges/score.svg)](https://glama.ai/mcp/servers/DeusData/codebase-memory-mcp) 🌊 🏠 🍎 🪟 🐧 - Code-intelligence engine that indexes a repo into a persistent knowledge graph — functions, classes, call chains, HTTP routes, cross-service links. 159 languages via tree-sitter + Hybrid LSP, sub-ms structural queries, ~99% fewer tokens than grep. Single static binary, zero dependencies, 100% local. `npx codebase-memory-mcp`
-+ - [velyan/pdf-card-mcp](https://github.com/velyan/pdf-card-mcp) [![velyan/pdf-card-mcp MCP server](https://glama.ai/mcp/servers/velyan/pdf-card-mcp/badges/score.svg)](https://glama.ai/mcp/servers/velyan/pdf-card-mcp) 🐍 🏠 🍎 🪟 🐧 - Converts local PDFs into source-linked, card-based standalone HTML readers with notes, highlights, and static publishing.
-+ - [velyan/pdf-card-mcp](https://github.com/velyan/pdf-card-mcp) 🐍 🏠 🍎 🪟 🐧 - Converts local PDFs into source-linked, card-based standalone HTML readers with notes, highlights, and static publishing. [![velyan/pdf-card-mcp MCP server](https://glama.ai/mcp/servers/velyan/pdf-card-mcp/badges/score.svg)](https://glama.ai/mcp/servers/velyan/pdf-card-mcp)
-+ - [OrygnsCode/Omnicord](https://github.com/OrygnsCode/Omnicord) [![OrygnsCode/Omnicord MCP server](https://glama.ai/mcp/servers/OrygnsCode/Omnicord/badges/score.svg)](https://glama.ai/mcp/servers/OrygnsCode/Omnicord) 📇 🏠 🍎 🪟 🐧 - Hands your AI an entire Discord server: 148 tools covering chat, moderation, automod, events, and full administration, up to building a complete community server from one paragraph. One-command guided setup, and every destructive action previews and waits for your confirmation.
-+ - [OrygnsCode/Omnicord](https://github.com/OrygnsCode/Omnicord) 📇 🏠 🍎 🪟 🐧 - Hands your AI an entire Discord server: 148 tools covering chat, moderation, automod, events, and full administration, up to building a complete community server from one paragraph. One-command guided setup, and every destructive action previews and waits for your confirmation.
-+ - [KK6BZB/signallord-mcp-server](https://github.com/KK6BZB/signallord-mcp-server) 🐍 ☁️ - Bitcoin regime detection intelligence — know which market regime you are in and the probabilities of what happens next. 17 tools with historical pattern matching, Odin AI analysis, composite gauges, and real-time macro/institutional/on-chain data.
-+ - [rajdeepmondaldotcom/whoop-mcp-server](https://github.com/rajdeepmondaldotcom/whoop-mcp-server) [![rajdeepmondaldotcom/whoop-mcp-server MCP server](https://glama.ai/mcp/servers/rajdeepmondaldotcom/whoop-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/rajdeepmondaldotcom/whoop-mcp-server) 🐍 🏠 🍎 🪟 🐧 - WHOOP recovery, sleep, strain, and workouts with server-side analysis: trends, lag-aware correlations, training load, and full-history export. Demo mode needs no WHOOP account; one-command setup for Claude, Cursor, and VS Code.
+- - [0rkz/byte-mcp-server](https://github.com/0rkz/byte-mcp-server) [![0rkz/byte-mcp-server MCP server](https://glama.ai/mcp/servers/0rkz%2Fbyte-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/0rkz%2Fbyte-mcp-server) 📇 ☁️ 🏠 🍎 🪟 🐧 - PayPerByte — per-byte data marketplace for AI agents on Arbitrum. Discover publishers, evaluate on-chain Proof-of-Quality Score (PQS), subscribe + pay per request in USDC via x402 gateway. 15 tools, zero API keys.
++ - [0rkz/byte-mcp-server](https://github.com/0rkz/byte-mcp-server) [![0rkz/byte-mcp-server MCP server](https://glama.ai/mcp/servers/0rkz/byte-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/0rkz/byte-mcp-server) 📇 ☁️ 🏠 🍎 🪟 🐧 - PayPerByte — per-byte data marketplace for AI agents on Arbitrum. Discover publishers, evaluate on-chain Proof-of-Quality Score (PQS), subscribe + pay per request in USDC via x402 gateway. 15 tools, zero API keys.
++ - [0rkz/byte-mcp-server](https://github.com/0rkz/byte-mcp-server) [![0rkz/byte-mcp-server MCP server](https://glama.ai/mcp/servers/0rkz%2Fbyte-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/0rkz%2Fbyte-mcp-server) 📇 ☁️ 🏠 🍎 🪟 🐧 - PayPerByte — per-byte data marketplace for AI agents on Arbitrum. Discover publishers, evaluate on-chain Proof-of-Quality Score (PQS), subscribe + pay per request in USDC via x402 gateway. 15 tools, zero API keys.
++ - [laszlopere/mcp-abacus](https://github.com/laszlopere/mcp-abacus) [![laszlopere/mcp-abacus MCP server](https://glama.ai/mcp/servers/laszlopere/mcp-abacus/badges/score.svg)](https://glama.ai/mcp/servers/laszlopere/mcp-abacus) 🐍 🏠 🍎 🐧 - Type-faithful calculator: evaluate expressions under fixed-point, IEEE-754 double, or exact rational arithmetic, with every answer labelled exact vs inexact. Tools: calculate, analyze, solver, help, info. Offline, no network. `uvx mcp-abacus`.
++ - [contradictory-body/cc-sensei](https://github.com/contradictory-body/cc-sensei) [![contradictory-body/cc-sensei MCP server](https://glama.ai/mcp/servers/contradictory-body/cc-sensei/badges/score.svg)](https://glama.ai/mcp/servers/contradictory-body/cc-sensei) 📇 🏠 🍎 🪟 🐧 - Distills Claude Code's 310K LoC source into 32 queryable architecture modules via MCP. 6 tools: list modules, query architecture, trace cross-cutting concerns, search patterns, and read source code. Sub-120ms p95, fully local, zero network deps.
++ - [posteverywhere/mcp](https://github.com/posteverywhere/mcp) [![posteverywhere/mcp MCP server](https://glama.ai/mcp/servers/posteverywhere/mcp/badges/score.svg)](https://glama.ai/mcp/servers/posteverywhere/mcp) 📇 ☁️ 🏠 - Hosted MCP server to schedule and publish across 11 social platforms (Instagram, LinkedIn, TikTok, X, YouTube, Facebook, Threads, Pinterest, Bluesky, Discord, Telegram). 32 tools covering posts, campaigns, bulk operations, media, analytics, webhooks, and AI captions. Connect with one URL, or run locally via `npx -y @posteverywhere/mcp`.
++ - [laszlopere/mcp-tmux](https://github.com/laszlopere/mcp-tmux) [![laszlopere/mcp-tmux MCP server](https://glama.ai/mcp/servers/laszlopere/mcp-tmux/badges/score.svg)](https://glama.ai/mcp/servers/laszlopere/mcp-tmux) 🐍 🏠 🐧 🍎 - Universal tmux driver: sessions, windows, panes, keystrokes, and pane capture — local or remote over SSH. Curated tools plus a raw `tmux_command` passthrough; works against tmux 1.8+. Shared, visible sessions for pair-programming with the agent. `uvx mcp-tmux`.
++ - [agentmetal/mcp](https://github.com/agentmetal/mcp) [![agentmetal/mcp MCP server](https://glama.ai/mcp/servers/agentmetal/mcp/badges/score.svg)](https://glama.ai/mcp/servers/agentmetal/mcp) 🎖️ 📇 ☁️ - Provision, SSH into, run commands on, and manage Linux VPSes from an agent — pay USDC over x402 or by card over HTTP 402, a running box in under 60s. No signup, no API key to buy.
++ - [tatavarthitarun/nowsecure-mcp-server](https://github.com/tatavarthitarun/nowsecure-mcp-server) [![tatavarthitarun/nowsecure-mcp-server MCP server](https://glama.ai/mcp/servers/tatavarthitarun/nowsecure-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/tatavarthitarun/nowsecure-mcp-server) 📇 ☁️ 🍎 🪟 🐧 - MCP server for NowSecure Platform mobile security testing. List applications, pull remediation findings via GraphQL, and generate PDF reports locally (bypasses broken UI export). Published as `nowsecure-mcp-server`. `npx -y nowsecure-mcp-server`
++ - [adanb13/cirdan](https://github.com/adanb13/cirdan) [![adanb13/cirdan MCP server](https://glama.ai/mcp/servers/adanb13/cirdan/badges/score.svg)](https://glama.ai/mcp/servers/adanb13/cirdan) 🐍 🏠 🍎 🪟 🐧 - AI infrastructure cartographer & MCP server: fingerprints, graphs, and watches the live infrastructure an agent can reach (Docker, Kubernetes, cloud, IaC) and detects incidents.
 ```
 
 
