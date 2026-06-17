@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-06-16T04:01:12
+### 2026-06-17T04:02:32
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,36 +51,7 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [ebcd710](https://github.com/punkpeye/awesome-mcp-servers/commit/ebcd710fa1f4dc5cdd450a3f3faef0dd5d796f5e) Fix entry formatting - Frank Fiegel
-- [9123559](https://github.com/punkpeye/awesome-mcp-servers/commit/9123559bf41a743276c09ee5430d251663f80d9d) Merge pull request #6255 from 0rkz/add-byte-protocol - Frank Fiegel
-- [959b107](https://github.com/punkpeye/awesome-mcp-servers/commit/959b1076947290069466fe18b14903afc7d656bf) Merge pull request #8085 from laszlopere/add-mcp-abacus - Frank Fiegel
-- [b0aa20a](https://github.com/punkpeye/awesome-mcp-servers/commit/b0aa20a7095f51aa77d3bff84e58f4d8014a5282) Merge pull request #7895 from contradictory-body/main - Frank Fiegel
-- [cbe2e78](https://github.com/punkpeye/awesome-mcp-servers/commit/cbe2e78562e7aa51b76ebf8b5c733c725ed0a163) Merge pull request #7972 from Partridge12/add-posteverywhere-mcp - Frank Fiegel
-- [e3653f0](https://github.com/punkpeye/awesome-mcp-servers/commit/e3653f0db53091a17311e151784bedfecfd2daad) Merge pull request #8083 from laszlopere/add-mcp-tmux - Frank Fiegel
-- [b1ab908](https://github.com/punkpeye/awesome-mcp-servers/commit/b1ab9087972c6c34d87c6c62983177c074cb4ef1) Merge pull request #8073 from luiscosio/add-agentmetal - Frank Fiegel
-- [cb565a4](https://github.com/punkpeye/awesome-mcp-servers/commit/cb565a48fed28a8a367493cdf06c4b42c1e93b71) Merge pull request #7935 from tatavarthitarun/add-nowsecure-mcp - Frank Fiegel
-- [44666b3](https://github.com/punkpeye/awesome-mcp-servers/commit/44666b3e6b255522bf312c7c24148e5af41c4416) Merge pull request #8008 from adanb13/add-cirdan - Frank Fiegel
-- [bba6d8b](https://github.com/punkpeye/awesome-mcp-servers/commit/bba6d8b4c40bce2976d814dbfc69f0f85b53a9c0) Add 0rkz/byte-mcp-server to Finance & Fintech - 0rkz
-
-
-##### File Content Changes
-
-**README.md** (Modified, +10 -1 lines):
-
-```diff
-- - [0rkz/byte-mcp-server](https://github.com/0rkz/byte-mcp-server) [![0rkz/byte-mcp-server MCP server](https://glama.ai/mcp/servers/0rkz%2Fbyte-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/0rkz%2Fbyte-mcp-server) 📇 ☁️ 🏠 🍎 🪟 🐧 - PayPerByte — per-byte data marketplace for AI agents on Arbitrum. Discover publishers, evaluate on-chain Proof-of-Quality Score (PQS), subscribe + pay per request in USDC via x402 gateway. 15 tools, zero API keys.
-+ - [0rkz/byte-mcp-server](https://github.com/0rkz/byte-mcp-server) [![0rkz/byte-mcp-server MCP server](https://glama.ai/mcp/servers/0rkz/byte-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/0rkz/byte-mcp-server) 📇 ☁️ 🏠 🍎 🪟 🐧 - PayPerByte — per-byte data marketplace for AI agents on Arbitrum. Discover publishers, evaluate on-chain Proof-of-Quality Score (PQS), subscribe + pay per request in USDC via x402 gateway. 15 tools, zero API keys.
-+ - [0rkz/byte-mcp-server](https://github.com/0rkz/byte-mcp-server) [![0rkz/byte-mcp-server MCP server](https://glama.ai/mcp/servers/0rkz%2Fbyte-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/0rkz%2Fbyte-mcp-server) 📇 ☁️ 🏠 🍎 🪟 🐧 - PayPerByte — per-byte data marketplace for AI agents on Arbitrum. Discover publishers, evaluate on-chain Proof-of-Quality Score (PQS), subscribe + pay per request in USDC via x402 gateway. 15 tools, zero API keys.
-+ - [laszlopere/mcp-abacus](https://github.com/laszlopere/mcp-abacus) [![laszlopere/mcp-abacus MCP server](https://glama.ai/mcp/servers/laszlopere/mcp-abacus/badges/score.svg)](https://glama.ai/mcp/servers/laszlopere/mcp-abacus) 🐍 🏠 🍎 🐧 - Type-faithful calculator: evaluate expressions under fixed-point, IEEE-754 double, or exact rational arithmetic, with every answer labelled exact vs inexact. Tools: calculate, analyze, solver, help, info. Offline, no network. `uvx mcp-abacus`.
-+ - [contradictory-body/cc-sensei](https://github.com/contradictory-body/cc-sensei) [![contradictory-body/cc-sensei MCP server](https://glama.ai/mcp/servers/contradictory-body/cc-sensei/badges/score.svg)](https://glama.ai/mcp/servers/contradictory-body/cc-sensei) 📇 🏠 🍎 🪟 🐧 - Distills Claude Code's 310K LoC source into 32 queryable architecture modules via MCP. 6 tools: list modules, query architecture, trace cross-cutting concerns, search patterns, and read source code. Sub-120ms p95, fully local, zero network deps.
-+ - [posteverywhere/mcp](https://github.com/posteverywhere/mcp) [![posteverywhere/mcp MCP server](https://glama.ai/mcp/servers/posteverywhere/mcp/badges/score.svg)](https://glama.ai/mcp/servers/posteverywhere/mcp) 📇 ☁️ 🏠 - Hosted MCP server to schedule and publish across 11 social platforms (Instagram, LinkedIn, TikTok, X, YouTube, Facebook, Threads, Pinterest, Bluesky, Discord, Telegram). 32 tools covering posts, campaigns, bulk operations, media, analytics, webhooks, and AI captions. Connect with one URL, or run locally via `npx -y @posteverywhere/mcp`.
-+ - [laszlopere/mcp-tmux](https://github.com/laszlopere/mcp-tmux) [![laszlopere/mcp-tmux MCP server](https://glama.ai/mcp/servers/laszlopere/mcp-tmux/badges/score.svg)](https://glama.ai/mcp/servers/laszlopere/mcp-tmux) 🐍 🏠 🐧 🍎 - Universal tmux driver: sessions, windows, panes, keystrokes, and pane capture — local or remote over SSH. Curated tools plus a raw `tmux_command` passthrough; works against tmux 1.8+. Shared, visible sessions for pair-programming with the agent. `uvx mcp-tmux`.
-+ - [agentmetal/mcp](https://github.com/agentmetal/mcp) [![agentmetal/mcp MCP server](https://glama.ai/mcp/servers/agentmetal/mcp/badges/score.svg)](https://glama.ai/mcp/servers/agentmetal/mcp) 🎖️ 📇 ☁️ - Provision, SSH into, run commands on, and manage Linux VPSes from an agent — pay USDC over x402 or by card over HTTP 402, a running box in under 60s. No signup, no API key to buy.
-+ - [tatavarthitarun/nowsecure-mcp-server](https://github.com/tatavarthitarun/nowsecure-mcp-server) [![tatavarthitarun/nowsecure-mcp-server MCP server](https://glama.ai/mcp/servers/tatavarthitarun/nowsecure-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/tatavarthitarun/nowsecure-mcp-server) 📇 ☁️ 🍎 🪟 🐧 - MCP server for NowSecure Platform mobile security testing. List applications, pull remediation findings via GraphQL, and generate PDF reports locally (bypasses broken UI export). Published as `nowsecure-mcp-server`. `npx -y nowsecure-mcp-server`
-+ - [adanb13/cirdan](https://github.com/adanb13/cirdan) [![adanb13/cirdan MCP server](https://glama.ai/mcp/servers/adanb13/cirdan/badges/score.svg)](https://glama.ai/mcp/servers/adanb13/cirdan) 🐍 🏠 🍎 🪟 🐧 - AI infrastructure cartographer & MCP server: fingerprints, graphs, and watches the live infrastructure an agent can reach (Docker, Kubernetes, cloud, IaC) and detects incidents.
-```
-
-
+No file changes detected.
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
