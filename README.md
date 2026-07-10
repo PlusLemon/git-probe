@@ -33,13 +33,25 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-07-08T02:34:49
+### 2026-07-10T02:55:45
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
 ##### Commit Changes
 
-No file changes detected.
+- [213f00b](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/213f00bf2464e8beed64d1ad27434a684f5d24da) Revise Advisor Orchestrator Worker skill details - Shubham Saboo
+
+
+##### File Content Changes
+
+**README.md** (Modified, +1 -1 lines):
+
+```diff
+- *   [🧠 Advisor Orchestrator Worker](agent_skills/advisor-orchestrator-worker/) - Your agent runs a model team: cheap models do the work in parallel, a stronger model reviews the plan, your agent manages it all
++ *   [🧠 Advisor Orchestrator Worker](agent_skills/advisor-orchestrator-worker/) - Meta Loop with Claude Flabe 5 as advisor, GPT-5.6 as orchestrator, and Gemini 3.5 Flash as worker
+```
+
+
 
 #### [awesome-gpt4o-images](https://github.com/jamez-bondos/awesome-gpt4o-images)
 
