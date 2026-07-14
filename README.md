@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-07-13T02:40:45
+### 2026-07-14T02:24:15
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,36 +51,34 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [712ef1c](https://github.com/punkpeye/awesome-mcp-servers/commit/712ef1ca9b83679cfd2fc05466549ae9c717dd75) Merge pull request #9071 from hassan-bazzi/add-hostodo-mcp-v2 - Frank Fiegel
-- [e574b44](https://github.com/punkpeye/awesome-mcp-servers/commit/e574b44aff5137c96e05fd42a274342de84cf969) Merge pull request #7708 from bodyegypt/add-lobbyvoices-receptionist-toolkit - Frank Fiegel
-- [3d3e4de](https://github.com/punkpeye/awesome-mcp-servers/commit/3d3e4de0b7410f2b81104784119bb9fec821cbc5) Merge pull request #9199 from joshseane/patch-1 - Frank Fiegel
-- [9ce193d](https://github.com/punkpeye/awesome-mcp-servers/commit/9ce193d0616e9258a44c570294e5922fee7bdc14) Merge pull request #8799 from john-broadway/add-proximo - Frank Fiegel
-- [c4e2a3f](https://github.com/punkpeye/awesome-mcp-servers/commit/c4e2a3f80975d975018a494fa26bf9dcfcb08553) Merge pull request #9195 from liu1700/add-plori - Frank Fiegel
-- [89bf028](https://github.com/punkpeye/awesome-mcp-servers/commit/89bf028a60d64fbd53ecddf017a4e90bc3bc47ec) Merge pull request #9848 from businesstalksnetwork/add-aioproductos-studio - Frank Fiegel
-- [a714838](https://github.com/punkpeye/awesome-mcp-servers/commit/a71483876629e491aba378e8ae6115d4cb109048) Merge pull request #9693 from edithatogo/add-edithatogo-fyi-mcp - Frank Fiegel
-- [c58a31a](https://github.com/punkpeye/awesome-mcp-servers/commit/c58a31a5c709f2e1b11c92827cbb046a06ebb8a4) Merge pull request #9767 from enieuwy/add-zotio - Frank Fiegel
-- [949df36](https://github.com/punkpeye/awesome-mcp-servers/commit/949df3685e45ab363d3f29f6546537c6b892519a) Merge pull request #8553 from Yomiracle/add-trinity-lite - Frank Fiegel
-- [b701b15](https://github.com/punkpeye/awesome-mcp-servers/commit/b701b1571fc3e431c9dda54da3b6183bdd355396) Merge pull request #8947 from mulligan-madness/add-shodai-agreements-mcp - Frank Fiegel
+- [79cca3e](https://github.com/punkpeye/awesome-mcp-servers/commit/79cca3e78c9f501fdb4925b907c04c0c4f68735d) Merge pull request #9293 from danfleser/add-memeboat-mcp - Frank Fiegel
+- [45d3cc4](https://github.com/punkpeye/awesome-mcp-servers/commit/45d3cc4a3b322fe1ab95fc17e617033df4d10161) Merge pull request #8911 from HarperZ9/add-project-telos-mcp - Frank Fiegel
+- [d15a136](https://github.com/punkpeye/awesome-mcp-servers/commit/d15a1364bc433efe7b7b82f45a25e0bceb8de1fa) Fix entry formatting - Frank Fiegel
+- [797635b](https://github.com/punkpeye/awesome-mcp-servers/commit/797635bd06785b2c3890466f5aef4c9503fd1f13) Merge pull request #8861 from us/add-fastcrw-server - Frank Fiegel
+- [56afff2](https://github.com/punkpeye/awesome-mcp-servers/commit/56afff21b630894d265f5d7f01a0d4497754051c) Merge pull request #9048 from jors7/add-kadenzo-mcp - Frank Fiegel
+- [cc58db7](https://github.com/punkpeye/awesome-mcp-servers/commit/cc58db74c79bf46c53d3b1818d9cec7d5cf15a1a) Merge pull request #9807 from rwnalds/add-engram - Frank Fiegel
+- [233b3cd](https://github.com/punkpeye/awesome-mcp-servers/commit/233b3cdaa2ad8675193e8255956f695c8e0577d4) Merge pull request #8386 from tsouth89/add-conduit-aggregator - Frank Fiegel
+- [4b5aa1c](https://github.com/punkpeye/awesome-mcp-servers/commit/4b5aa1ce34b451fec6fbb0c4779eda7e0ef5e3e7) Merge pull request #8961 from IcanBENCHurCAT/add-rustchain-mcp - Frank Fiegel
+- [6bc0955](https://github.com/punkpeye/awesome-mcp-servers/commit/6bc0955149ddaedfd3d045810b3418242978110c) Use score.svg badge for engram entry - Ronalds Palacis
+- [b42fbdd](https://github.com/punkpeye/awesome-mcp-servers/commit/b42fbdd1b616d39ee2ca7902115511ce9e0b8697) Merge pull request #9896 from iFan6oy/add-flash-props - Frank Fiegel
 
 
 ##### File Content Changes
 
-**README.md** (Modified, +17 -0 lines):
+**README.md** (Modified, +10 -2 lines):
 
 ```diff
-+ - [hostodo/hostodo-mcp](https://github.com/hostodo/hostodo-mcp) [![hostodo/hostodo-mcp MCP server](https://glama.ai/mcp/servers/hostodo/hostodo-mcp/badges/score.svg)](https://glama.ai/mcp/servers/hostodo/hostodo-mcp) 📇 ☁️ - Hosted MCP endpoint for Hostodo VPS management: list VM details, power-control, rename, reinstall from OS templates, toggle per-VM exec, run bounded/async guest-agent commands, and upload/install artifacts with scoped tokens and audit logs.
-+ - [bodyegypt/lobbyvoices-mcp](https://github.com/bodyegypt/lobbyvoices-mcp) [![bodyegypt/lobbyvoices-mcp MCP server](https://glama.ai/mcp/servers/bodyegypt/lobbyvoices-mcp/badges/score.svg)](https://glama.ai/mcp/servers/bodyegypt/lobbyvoices-mcp) 🎖️ ☁️ - Official remote MCP server for [Lobby](https://lobbyvoices.com/developers), an AI receptionist for small businesses. Seven free no-auth tools: write business phone scripts and IVR menus (English + Mexican Spanish), generate ElevenLabs agent system prompts, calculate missed-call cost, get a hire-a-receptionist verdict, role-play a call against the live receptionist engine, and get a real demo number to call. Typed structured outputs.
-+ - [joshseane/-nmlp-mcp](https://github.com/joshseane/-nmlp-mcp) [![-nmlp-mcp MCP server](https://glama.ai/mcp/servers/joshseane/-nmlp-mcp/badges/score.svg)](https://glama.ai/mcp/servers/joshseane/-nmlp-mcp) 📇 ☁️ - First-edition identification — points of issue, number-line decoding, and publisher rules over a CC-BY, DOI-cited dataset of 6,717 titles — plus New Mexico book-donation logistics. Hosted remote server, no auth. Endpoint: https://newmexicoliteracyproject.org/api/mcp · Registry: `org.newmexicoliteracyproject/nmlp-mcp`
-+ - [john-broadway/proximo](https://github.com/john-broadway/proximo) [![john-broadway/proximo MCP server](https://glama.ai/mcp/servers/john-broadway/proximo/badges/score.svg)](https://glama.ai/mcp/servers/john-broadway/proximo) 🐍 🏠 - All four Proxmox surfaces — VE, Backup Server, Mail Gateway, Datacenter Manager — plus in-container exec on one audited control plane. Every mutation dry-runs to a PLAN with its blast radius named, snapshots first where the platform can, and lands in a hash-chained tamper-evident audit ledger. 365 tools, read-only by default. `uvx proximo-proxmox`
-+ - [plori-ai/plori](https://github.com/plori-ai/plori) [![plori-ai/plori MCP server](https://glama.ai/mcp/servers/plori-ai/plori/badges/score.svg)](https://glama.ai/mcp/servers/plori-ai/plori) 🎖️ 🏎️ ☁️ - Give your AI agent its own cloud computer. Create and drive hosted plori agents (persistent disk, real tools, memory that survives between sessions) over a remote MCP server: invoke an agent and read its reply, manage the human-in-the-loop queue, and schedule deferred runs. OAuth 2.1 sign-in or API key.
-+ - [AIOProductOS/studio-mcp](https://github.com/AIOProductOS/studio-mcp) [![AIOProductOS/studio-mcp MCP server](https://glama.ai/mcp/servers/AIOProductOS/studio-mcp/badges/score.svg)](https://glama.ai/mcp/servers/AIOProductOS/studio-mcp) 🎖️ 📇 🏠 🍎 🪟 🐧 - Turns your AI host into a product videographer: scripted screen recordings of your own web app with a visible gliding cursor, camera zooms, highlight callouts, captions, and designed scene transitions, plus marketing-grade screenshots; deterministic dark-frame cleanup and MP4/GIF export. Free and fully local. `npx -y @aioproductoscom/mcp-studio`
-+ - [edithatogo/fyi-cli](https://github.com/edithatogo/fyi-cli) [![edithatogo/fyi-cli MCP server](https://glama.ai/mcp/servers/edithatogo/fyi-cli/badges/score.svg)](https://glama.ai/mcp/servers/edithatogo/fyi-cli) 🦀 🏠 🪟 - Multi-jurisdiction Freedom of Information / Official Information request tracker (`fyi-mcp`) for Alaveteli platforms (FYI.org.nz, WhatDoTheyKnow, RightToKnow, and more). Local SQLite storage with tools for requests, authorities, correspondence, offline sync, and health checks. Official MCP Registry: `io.github.edithatogo/fyi-mcp`.
-+ - [OrgMentem/zotio](https://github.com/OrgMentem/zotio) [![OrgMentem/zotio MCP server](https://glama.ai/mcp/servers/OrgMentem/zotio/badges/score.svg)](https://glama.ai/mcp/servers/OrgMentem/zotio) 🏎️ 🏠 ☁️ 🍎 🪟 🐧 - Zotero MCP server (`zotio-mcp`) with a capability-tagged tool registry and preview-first, journaled writes (an agent can't silently mutate or delete your library). Reads work keyless against the local Zotero desktop API; writes route to the Web API. Ships an MCPB bundle for one-click Claude Desktop install.
-+ - [Yomiracle/trinity-lite](https://github.com/Yomiracle/trinity-lite) [![Yomiracle/trinity-lite MCP server](https://glama.ai/mcp/servers/Yomiracle/trinity-lite/badges/score.svg)](https://glama.ai/mcp/servers/Yomiracle/trinity-lite) 🐍 🏠 - Local-first task bus for CLI-based AI agents. Route work, persist state in SQLite, and let Codex, Claude Code, and other agents collaborate through a shared MCP server.
-+ * 🤝 - [Agreements & Coordination](#agreements--coordination)
-+ ### 🤝 <a name="agreements--coordination"></a>Agreements & Coordination
-+ MCP servers for creating, coordinating, and executing agreements: commitments, escrow, and multi-party decision workflows across humans, agents, and organizations.
-+ - [CNSLabs/agreements-api-sdk](https://github.com/CNSLabs/agreements-api-sdk) [![CNSLabs/agreements-api-sdk MCP server](https://glama.ai/mcp/servers/CNSLabs/agreements-api-sdk/badges/score.svg)](https://glama.ai/mcp/servers/CNSLabs/agreements-api-sdk) 📇 ☁️ 🏠 - Remote Streamable HTTP and local stdio MCP server for defining, validating, deploying, and operating machine-readable agreements with EIP-712 permit preparation, signed participant inputs, state reads, and input history.
+- - [us/crw](https://github.com/us/crw) 🎖️ 🦀 🏠 ☁️ 🍎 🪟 🐧 - fastCRW — open-source (AGPL-3.0), self-hostable Rust web crawler & search API for AI agents. Tools: `scrape`, `crawl`, `map`, and SearXNG-backed `search`. Single ~6MB static binary; reproducible 1K-URL benchmarks faster than hosted alternatives. Hosted MCP at [fastcrw.com/mcp](https://fastcrw.com/mcp) (Streamable HTTP, OAuth) or self-host.
+- - [rwnalds/engram](https://github.com/rwnalds/engram) [![rwnalds/engram MCP server](https://glama.ai/mcp/servers/rwnalds/engram/badges/card.svg)](https://glama.ai/mcp/servers/rwnalds/engram) 📇 🏠 - Second brain your agents read and write, over a git-backed markdown vault. Authority-aware search ranks superseded and archived notes below live ones (from frontmatter, no vector DB), so agents quote the current doc, not the dead one. Per-agent read-only or write tokens, a git audit trail of every change with diffs, a knowledge-graph dashboard, and Obsidian compatibility.
++ - [memebo-at/memeboat-mcp](https://github.com/memebo-at/memeboat-mcp) [![memebo-at/memeboat-mcp MCP server](https://glama.ai/mcp/servers/memebo-at/memeboat-mcp/badges/score.svg)](https://glama.ai/mcp/servers/memebo-at/memeboat-mcp) 🎖️ 📇 ☁️ 🏠 🍎 🪟 🐧 - Create real, shareable memes from 25,000+ templates on [memebo.at](https://memebo.at). Search the catalog, caption a template, get a live meme URL back. Free, anonymous, no API key. Remote server at `https://memebo.at/mcp` or `npx -y memeboat-mcp`.
++ - [HarperZ9/telos](https://github.com/HarperZ9/telos) [![HarperZ9/telos MCP server](https://glama.ai/mcp/servers/HarperZ9/telos/badges/score.svg)](https://glama.ai/mcp/servers/HarperZ9/telos) 🐍 📇 🏠 🍎 🪟 🐧 - Local-first Project Telos MCP tool line for inspectable AI work: source intake, workspace context, routing ledgers, action receipts, and MATCH / DRIFT / UNVERIFIABLE verification packets across 5 stdio servers.
++ - [us/crw](https://github.com/us/crw) [![us/crw MCP server](https://glama.ai/mcp/servers/us/crw/badges/score.svg)](https://glama.ai/mcp/servers/us/crw) 🎖️ 🦀 🏠 ☁️ 🍎 🪟 🐧 - fastCRW — open-source (AGPL-3.0), self-hostable Rust web crawler & search API for AI agents. Tools: `scrape`, `crawl`, `map`, and SearXNG-backed `search`. Single ~6MB static binary; reproducible 1K-URL benchmarks faster than hosted alternatives. Hosted MCP at [fastcrw.com/mcp](https://fastcrw.com/mcp) (Streamable HTTP, OAuth) or self-host.
++ - [us/crw](https://github.com/us/crw) 🎖️ 🦀 🏠 ☁️ 🍎 🪟 🐧 - fastCRW — open-source (AGPL-3.0), self-hostable Rust web crawler & search API for AI agents. Tools: `scrape`, `crawl`, `map`, and SearXNG-backed `search`. Single ~6MB static binary; reproducible 1K-URL benchmarks faster than hosted alternatives. Hosted MCP at [fastcrw.com/mcp](https://fastcrw.com/mcp) (Streamable HTTP, OAuth) or self-host.
++ - [Kadenzo/kadenzo-mcp](https://github.com/Kadenzo/kadenzo-mcp) [![Kadenzo/kadenzo-mcp MCP server](https://glama.ai/mcp/servers/Kadenzo/kadenzo-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Kadenzo/kadenzo-mcp) 📇 ☁️ - Schedule, manage, generate, and analyze social posts across 11 networks (Instagram, TikTok, X, LinkedIn, YouTube, Facebook, Pinterest, Threads, Bluesky, Mastodon, Telegram) — 13 tools for scheduling, media upload, AI caption generation, best-times, analytics, listening, and comments. `npx -y kadenzo-mcp`.
++ - [rwnalds/engram](https://github.com/rwnalds/engram) [![rwnalds/engram MCP server](https://glama.ai/mcp/servers/rwnalds/engram/badges/score.svg)](https://glama.ai/mcp/servers/rwnalds/engram) 📇 🏠 - Second brain your agents read and write, over a git-backed markdown vault. Authority-aware search ranks superseded and archived notes below live ones (from frontmatter, no vector DB), so agents quote the current doc, not the dead one. Per-agent read-only or write tokens, a git audit trail of every change with diffs, a knowledge-graph dashboard, and Obsidian compatibility.
++ - [tsouth89/toolport](https://github.com/tsouth89/toolport) [![tsouth89/toolport MCP server](https://glama.ai/mcp/servers/tsouth89/toolport/badges/score.svg)](https://glama.ai/mcp/servers/tsouth89/toolport) 🦀 🏠 🍎 🪟 🐧 - One local gateway and manager for all your MCP servers, shared across every AI coding tool (Claude, Cursor, VS Code, Codex, and more). Set up and authenticate each server once; lazy discovery keeps each agent's context small, and keys stay in your OS keychain. No Docker, no cloud.
++ - [Scottcjn/rustchain-mcp](https://github.com/Scottcjn/rustchain-mcp) [![Scottcjn/rustchain-mcp MCP server](https://glama.ai/mcp/servers/Scottcjn/rustchain-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Scottcjn/rustchain-mcp) 🐍 ☁️ - MCP server for RustChain blockchain, BoTTube video platform, and Beacon agent messaging. Wallet management, mining queries, bounties, video search/upload, and agent messaging tools. Install via `pip install rustchain-mcp`.
++ - [iFan6oy/flash-props-mcp](https://github.com/iFan6oy/flash-props-mcp) [![iFan6oy/flash-props-mcp MCP server](https://glama.ai/mcp/servers/iFan6oy/flash-props-mcp/badges/score.svg)](https://glama.ai/mcp/servers/iFan6oy/flash-props-mcp) 📇 ☁️ - Live sports betting player props (NBA, MLB, NFL, NHL, NCAA, soccer) unified from real books over one REST API and a real MCP server. American odds, pre-game and live. Free tier, no card.
 ```
 
 
@@ -95,37 +93,5 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [2054f58](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/2054f580b1203da061e8e3df3c6449de2ad7c322) Update README.md - Lucas Valbuena
-- [a6d1e21](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/commit/a6d1e2162bedc4af49d0c9453185cce806a5a04a) Update README.md - Lucas Valbuena
-
-
-##### File Content Changes
-
-**README.md** (Modified, +11 -22 lines):
-
-```diff
-- > **Latest Update:** 10/05/2026
-- - **Email**: `lucasvalbuena@pm.me`
-- ## Star History
-- <a href="https://www.star-history.com/#x1xhlol/system-prompts-and-models-of-ai-tools&Date">
-- <picture>
-- <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=x1xhlol/system-prompts-and-models-of-ai-tools&type=Date&theme=dark" />
-- <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=x1xhlol/system-prompts-and-models-of-ai-tools&type=Date" />
-- <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=x1xhlol/system-prompts-and-models-of-ai-tools&type=Date" />
-- </picture>
-- </a>
-- ## Security Notice for AI Startups
-- > **Warning:** If you're an AI startup, make sure your data is secure. Exposed prompts or AI models can easily become a target for hackers.
-- > **Important:** Interested in securing your AI systems?
-- > Check out **[ZeroLeaks](https://zeroleaks.ai/)**, a service designed to help startups **identify and secure** prompt injection and system prompt extraction risks.
-+ > **Latest Update:** 12/07/2026
-+ - **Email**: `lucasvalbuena@pm.me
-+ ## Security Notice for AI Startups
-+ > **Warning:** If you're an AI startup, make sure your data is secure. Exposed prompts or AI models can easily become a target for hackers.
-+ > **Important:** Interested in securing your AI systems?
-+ > Check out **[ZeroLeaks](https://zeroleaks.ai/)**, a service designed to help startups **identify and secure** prompt injection and system prompt extraction risks.
-+ ---
-```
-
-
+No file changes detected.
 
