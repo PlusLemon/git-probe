@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-07-14T02:24:15
+### 2026-07-15T02:22:16
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,37 +51,7 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [79cca3e](https://github.com/punkpeye/awesome-mcp-servers/commit/79cca3e78c9f501fdb4925b907c04c0c4f68735d) Merge pull request #9293 from danfleser/add-memeboat-mcp - Frank Fiegel
-- [45d3cc4](https://github.com/punkpeye/awesome-mcp-servers/commit/45d3cc4a3b322fe1ab95fc17e617033df4d10161) Merge pull request #8911 from HarperZ9/add-project-telos-mcp - Frank Fiegel
-- [d15a136](https://github.com/punkpeye/awesome-mcp-servers/commit/d15a1364bc433efe7b7b82f45a25e0bceb8de1fa) Fix entry formatting - Frank Fiegel
-- [797635b](https://github.com/punkpeye/awesome-mcp-servers/commit/797635bd06785b2c3890466f5aef4c9503fd1f13) Merge pull request #8861 from us/add-fastcrw-server - Frank Fiegel
-- [56afff2](https://github.com/punkpeye/awesome-mcp-servers/commit/56afff21b630894d265f5d7f01a0d4497754051c) Merge pull request #9048 from jors7/add-kadenzo-mcp - Frank Fiegel
-- [cc58db7](https://github.com/punkpeye/awesome-mcp-servers/commit/cc58db74c79bf46c53d3b1818d9cec7d5cf15a1a) Merge pull request #9807 from rwnalds/add-engram - Frank Fiegel
-- [233b3cd](https://github.com/punkpeye/awesome-mcp-servers/commit/233b3cdaa2ad8675193e8255956f695c8e0577d4) Merge pull request #8386 from tsouth89/add-conduit-aggregator - Frank Fiegel
-- [4b5aa1c](https://github.com/punkpeye/awesome-mcp-servers/commit/4b5aa1ce34b451fec6fbb0c4779eda7e0ef5e3e7) Merge pull request #8961 from IcanBENCHurCAT/add-rustchain-mcp - Frank Fiegel
-- [6bc0955](https://github.com/punkpeye/awesome-mcp-servers/commit/6bc0955149ddaedfd3d045810b3418242978110c) Use score.svg badge for engram entry - Ronalds Palacis
-- [b42fbdd](https://github.com/punkpeye/awesome-mcp-servers/commit/b42fbdd1b616d39ee2ca7902115511ce9e0b8697) Merge pull request #9896 from iFan6oy/add-flash-props - Frank Fiegel
-
-
-##### File Content Changes
-
-**README.md** (Modified, +10 -2 lines):
-
-```diff
-- - [us/crw](https://github.com/us/crw) 🎖️ 🦀 🏠 ☁️ 🍎 🪟 🐧 - fastCRW — open-source (AGPL-3.0), self-hostable Rust web crawler & search API for AI agents. Tools: `scrape`, `crawl`, `map`, and SearXNG-backed `search`. Single ~6MB static binary; reproducible 1K-URL benchmarks faster than hosted alternatives. Hosted MCP at [fastcrw.com/mcp](https://fastcrw.com/mcp) (Streamable HTTP, OAuth) or self-host.
-- - [rwnalds/engram](https://github.com/rwnalds/engram) [![rwnalds/engram MCP server](https://glama.ai/mcp/servers/rwnalds/engram/badges/card.svg)](https://glama.ai/mcp/servers/rwnalds/engram) 📇 🏠 - Second brain your agents read and write, over a git-backed markdown vault. Authority-aware search ranks superseded and archived notes below live ones (from frontmatter, no vector DB), so agents quote the current doc, not the dead one. Per-agent read-only or write tokens, a git audit trail of every change with diffs, a knowledge-graph dashboard, and Obsidian compatibility.
-+ - [memebo-at/memeboat-mcp](https://github.com/memebo-at/memeboat-mcp) [![memebo-at/memeboat-mcp MCP server](https://glama.ai/mcp/servers/memebo-at/memeboat-mcp/badges/score.svg)](https://glama.ai/mcp/servers/memebo-at/memeboat-mcp) 🎖️ 📇 ☁️ 🏠 🍎 🪟 🐧 - Create real, shareable memes from 25,000+ templates on [memebo.at](https://memebo.at). Search the catalog, caption a template, get a live meme URL back. Free, anonymous, no API key. Remote server at `https://memebo.at/mcp` or `npx -y memeboat-mcp`.
-+ - [HarperZ9/telos](https://github.com/HarperZ9/telos) [![HarperZ9/telos MCP server](https://glama.ai/mcp/servers/HarperZ9/telos/badges/score.svg)](https://glama.ai/mcp/servers/HarperZ9/telos) 🐍 📇 🏠 🍎 🪟 🐧 - Local-first Project Telos MCP tool line for inspectable AI work: source intake, workspace context, routing ledgers, action receipts, and MATCH / DRIFT / UNVERIFIABLE verification packets across 5 stdio servers.
-+ - [us/crw](https://github.com/us/crw) [![us/crw MCP server](https://glama.ai/mcp/servers/us/crw/badges/score.svg)](https://glama.ai/mcp/servers/us/crw) 🎖️ 🦀 🏠 ☁️ 🍎 🪟 🐧 - fastCRW — open-source (AGPL-3.0), self-hostable Rust web crawler & search API for AI agents. Tools: `scrape`, `crawl`, `map`, and SearXNG-backed `search`. Single ~6MB static binary; reproducible 1K-URL benchmarks faster than hosted alternatives. Hosted MCP at [fastcrw.com/mcp](https://fastcrw.com/mcp) (Streamable HTTP, OAuth) or self-host.
-+ - [us/crw](https://github.com/us/crw) 🎖️ 🦀 🏠 ☁️ 🍎 🪟 🐧 - fastCRW — open-source (AGPL-3.0), self-hostable Rust web crawler & search API for AI agents. Tools: `scrape`, `crawl`, `map`, and SearXNG-backed `search`. Single ~6MB static binary; reproducible 1K-URL benchmarks faster than hosted alternatives. Hosted MCP at [fastcrw.com/mcp](https://fastcrw.com/mcp) (Streamable HTTP, OAuth) or self-host.
-+ - [Kadenzo/kadenzo-mcp](https://github.com/Kadenzo/kadenzo-mcp) [![Kadenzo/kadenzo-mcp MCP server](https://glama.ai/mcp/servers/Kadenzo/kadenzo-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Kadenzo/kadenzo-mcp) 📇 ☁️ - Schedule, manage, generate, and analyze social posts across 11 networks (Instagram, TikTok, X, LinkedIn, YouTube, Facebook, Pinterest, Threads, Bluesky, Mastodon, Telegram) — 13 tools for scheduling, media upload, AI caption generation, best-times, analytics, listening, and comments. `npx -y kadenzo-mcp`.
-+ - [rwnalds/engram](https://github.com/rwnalds/engram) [![rwnalds/engram MCP server](https://glama.ai/mcp/servers/rwnalds/engram/badges/score.svg)](https://glama.ai/mcp/servers/rwnalds/engram) 📇 🏠 - Second brain your agents read and write, over a git-backed markdown vault. Authority-aware search ranks superseded and archived notes below live ones (from frontmatter, no vector DB), so agents quote the current doc, not the dead one. Per-agent read-only or write tokens, a git audit trail of every change with diffs, a knowledge-graph dashboard, and Obsidian compatibility.
-+ - [tsouth89/toolport](https://github.com/tsouth89/toolport) [![tsouth89/toolport MCP server](https://glama.ai/mcp/servers/tsouth89/toolport/badges/score.svg)](https://glama.ai/mcp/servers/tsouth89/toolport) 🦀 🏠 🍎 🪟 🐧 - One local gateway and manager for all your MCP servers, shared across every AI coding tool (Claude, Cursor, VS Code, Codex, and more). Set up and authenticate each server once; lazy discovery keeps each agent's context small, and keys stay in your OS keychain. No Docker, no cloud.
-+ - [Scottcjn/rustchain-mcp](https://github.com/Scottcjn/rustchain-mcp) [![Scottcjn/rustchain-mcp MCP server](https://glama.ai/mcp/servers/Scottcjn/rustchain-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Scottcjn/rustchain-mcp) 🐍 ☁️ - MCP server for RustChain blockchain, BoTTube video platform, and Beacon agent messaging. Wallet management, mining queries, bounties, video search/upload, and agent messaging tools. Install via `pip install rustchain-mcp`.
-+ - [iFan6oy/flash-props-mcp](https://github.com/iFan6oy/flash-props-mcp) [![iFan6oy/flash-props-mcp MCP server](https://glama.ai/mcp/servers/iFan6oy/flash-props-mcp/badges/score.svg)](https://glama.ai/mcp/servers/iFan6oy/flash-props-mcp) 📇 ☁️ - Live sports betting player props (NBA, MLB, NFL, NHL, NCAA, soccer) unified from real books over one REST API and a real MCP server. American odds, pre-game and live. Free tier, no card.
-```
-
-
+No file changes detected.
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
