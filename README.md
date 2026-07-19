@@ -33,13 +33,24 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-07-17T02:32:14
+### 2026-07-19T02:35:40
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
 ##### Commit Changes
 
-No file changes detected.
+- [76b63f6](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/76b63f64f044556c9fedd68e698cf5bfaeca1d0c) Add commit-archaeologist skill: reconstruct the why behind code from git history (#974) - Matt Van Horn
+
+
+##### File Content Changes
+
+**README.md** (Modified, +1 -0 lines):
+
+```diff
++ *   [🏺 Commit Archaeologist](agent_skills/commit-archaeologist/) - Reconstructs why a file or code region exists from its introducing commit, later edits, co-changes, and intent clues
+```
+
+
 
 #### [awesome-gpt4o-images](https://github.com/jamez-bondos/awesome-gpt4o-images)
 
