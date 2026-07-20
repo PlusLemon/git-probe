@@ -33,21 +33,22 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-07-19T02:35:40
+### 2026-07-20T03:19:05
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
 ##### Commit Changes
 
-- [76b63f6](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/76b63f64f044556c9fedd68e698cf5bfaeca1d0c) Add commit-archaeologist skill: reconstruct the why behind code from git history (#974) - Matt Van Horn
+- [c315825](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/c315825e55f223050d87656759824a27add9a58f) spelling correction: Fable - Phill Zarfos
 
 
 ##### File Content Changes
 
-**README.md** (Modified, +1 -0 lines):
+**README.md** (Modified, +1 -1 lines):
 
 ```diff
-+ *   [🏺 Commit Archaeologist](agent_skills/commit-archaeologist/) - Reconstructs why a file or code region exists from its introducing commit, later edits, co-changes, and intent clues
+- *   [🧠 Advisor Orchestrator Worker](agent_skills/advisor-orchestrator-worker/) - Meta Loop with Claude Flabe 5 as advisor, GPT-5.6 as orchestrator, and Gemini 3.5 Flash as worker
++ *   [🧠 Advisor Orchestrator Worker](agent_skills/advisor-orchestrator-worker/) - Meta Loop with Claude Fable 5 as advisor, GPT-5.6 as orchestrator, and Gemini 3.5 Flash as worker
 ```
 
 
