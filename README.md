@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-08-17T01:09:50
+### 2026-08-18T01:07:34
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,7 +51,18 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [6c929cd](https://github.com/punkpeye/awesome-mcp-servers/commit/6c929cdf022f57cf954ab1b504cc266c0908373b) Merge pull request #10100 from casualpenguin/add-catchall-mcp - Frank Fiegel
+
+
+##### File Content Changes
+
+**README.md** (Modified, +1 -0 lines):
+
+```diff
++ - [Newscatcher/catchall-mcp](https://github.com/Newscatcher/catchall-mcp) [![Newscatcher/catchall-mcp MCP server](https://glama.ai/mcp/servers/Newscatcher/catchall-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Newscatcher/catchall-mcp) 🐍 ☁️ - Recall-first web search: finds every relevant event across the open web, not just the top results.
+```
+
+
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
