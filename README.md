@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-08-26T01:12:02
+### 2026-08-27T07:26:05
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,7 +51,18 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [a523ec6](https://github.com/punkpeye/awesome-mcp-servers/commit/a523ec62dad3a5e2b4575f45a89489fe239ce102) Merge pull request #11168 from browserless/add-browserless - Frank Fiegel
+
+
+##### File Content Changes
+
+**README.md** (Modified, +1 -0 lines):
+
+```diff
++ - [browserless/browserless-mcp](https://github.com/browserless/browserless-mcp) [![browserless/browserless-mcp MCP server](https://glama.ai/mcp/servers/browserless/browserless-mcp/badges/score.svg)](https://glama.ai/mcp/servers/browserless/browserless-mcp) 🎖️ ☁️ - Headless browser automation and web scraping infrastructure. Exposes the Browserless smart scraper API to LLM clients over MCP.
+```
+
+
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
