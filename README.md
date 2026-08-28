@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-08-27T07:26:05
+### 2026-08-28T09:40:58
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,7 +51,7 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [a523ec6](https://github.com/punkpeye/awesome-mcp-servers/commit/a523ec62dad3a5e2b4575f45a89489fe239ce102) Merge pull request #11168 from browserless/add-browserless - Frank Fiegel
+- [c1e7bae](https://github.com/punkpeye/awesome-mcp-servers/commit/c1e7baea0df1d6dbb01c142bc3c5cf3887c28f21) Merge pull request #12919 from parasxos/add-apple-mail-mcp - Frank Fiegel
 
 
 ##### File Content Changes
@@ -59,7 +59,7 @@ No file changes detected.
 **README.md** (Modified, +1 -0 lines):
 
 ```diff
-+ - [browserless/browserless-mcp](https://github.com/browserless/browserless-mcp) [![browserless/browserless-mcp MCP server](https://glama.ai/mcp/servers/browserless/browserless-mcp/badges/score.svg)](https://glama.ai/mcp/servers/browserless/browserless-mcp) 🎖️ ☁️ - Headless browser automation and web scraping infrastructure. Exposes the Browserless smart scraper API to LLM clients over MCP.
++ - [parasxos/apple-mail-mcp](https://github.com/parasxos/apple-mail-mcp) [![parasxos/apple-mail-mcp MCP server](https://glama.ai/mcp/servers/parasxos/apple-mail-mcp/badges/score.svg)](https://glama.ai/mcp/servers/parasxos/apple-mail-mcp) 🐍 🏠 🍎 - Full-featured MCP server for Apple Mail. Indexed search over 300k+ message mailboxes in milliseconds, full-text body search with Exchange backfill, verified multi-identity sending (SMTP/Keychain, SSH bastion, pipe), server-side scheduled sends with cancel, reviewed plan-then-apply triage, and a local audit ledger. 21 tools, frozen v1 wire contract.
 ```
 
 
