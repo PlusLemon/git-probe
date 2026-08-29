@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-08-28T09:40:58
+### 2026-08-29T05:44:41
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,18 +51,7 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [c1e7bae](https://github.com/punkpeye/awesome-mcp-servers/commit/c1e7baea0df1d6dbb01c142bc3c5cf3887c28f21) Merge pull request #12919 from parasxos/add-apple-mail-mcp - Frank Fiegel
-
-
-##### File Content Changes
-
-**README.md** (Modified, +1 -0 lines):
-
-```diff
-+ - [parasxos/apple-mail-mcp](https://github.com/parasxos/apple-mail-mcp) [![parasxos/apple-mail-mcp MCP server](https://glama.ai/mcp/servers/parasxos/apple-mail-mcp/badges/score.svg)](https://glama.ai/mcp/servers/parasxos/apple-mail-mcp) 🐍 🏠 🍎 - Full-featured MCP server for Apple Mail. Indexed search over 300k+ message mailboxes in milliseconds, full-text body search with Exchange backfill, verified multi-identity sending (SMTP/Keychain, SSH bastion, pipe), server-side scheduled sends with cancel, reviewed plan-then-apply triage, and a local audit ledger. 21 tools, frozen v1 wire contract.
-```
-
-
+No file changes detected.
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
