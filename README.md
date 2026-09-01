@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-08-30T03:47:18
+### 2026-09-01T03:41:53
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,37 +51,7 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [8dc0383](https://github.com/punkpeye/awesome-mcp-servers/commit/8dc03837219136b92eb7a4a5d0713806109a9f1a) Merge pull request #12160 from ni-c/add-hetzner-dns-mcp - Frank Fiegel
-- [29bd7ea](https://github.com/punkpeye/awesome-mcp-servers/commit/29bd7ea842170fc187905fdc104705b72fcd8ec3) Merge pull request #12556 from kyisaiah47/add-kynth-mcp - Frank Fiegel
-- [6d5f27f](https://github.com/punkpeye/awesome-mcp-servers/commit/6d5f27f785abd8b97754e52d3a75c833b0b2bd3a) Merge pull request #13032 from findsaunaplunge/add-findsaunaplunge - Frank Fiegel
-- [88ca903](https://github.com/punkpeye/awesome-mcp-servers/commit/88ca903ba8b26623759f2f1e1085f0b5fd4f476d) Merge pull request #11425 from BenyD/add-haypile - Frank Fiegel
-- [7a2661e](https://github.com/punkpeye/awesome-mcp-servers/commit/7a2661e2c4ddf2deb80e1aea5ddc494def9a9bdf) Merge pull request #12830 from aliasunder/update-vault-cortex-aug-2026 - Frank Fiegel
-- [817378c](https://github.com/punkpeye/awesome-mcp-servers/commit/817378c25d4a337547c5b93f06a20e29b640f597) Merge pull request #12568 from astradivari/patch-1 - Frank Fiegel
-- [326c62e](https://github.com/punkpeye/awesome-mcp-servers/commit/326c62e6986a5288dd5ea4d88b619b4987b964f4) Merge pull request #11759 from belcairn/add-editmamei - Frank Fiegel
-- [88607ee](https://github.com/punkpeye/awesome-mcp-servers/commit/88607eef6a552c757bd9f48a43f5df0ad464c74d) Merge pull request #11084 from drpancake/patch-2 - Frank Fiegel
-- [5905e48](https://github.com/punkpeye/awesome-mcp-servers/commit/5905e4880d5aec5a3247db7cecd3aa6156ecb115) Merge pull request #11446 from oleveldev/add-screenshot-scout-mcp - Frank Fiegel
-- [65b5ed0](https://github.com/punkpeye/awesome-mcp-servers/commit/65b5ed04c2138e6363851fae7e9fa5141a25ec93) Merge pull request #12970 from rsiva2294/add-madurai-transit-mcp - Frank Fiegel
-
-
-##### File Content Changes
-
-**README.md** (Modified, +10 -1 lines):
-
-```diff
-- - [aliasunder/vault-cortex](https://github.com/aliasunder/vault-cortex/) [![vault-cortex MCP server](https://glama.ai/mcp/servers/aliasunder/vault-cortex/badges/score.svg)](https://glama.ai/mcp/servers/aliasunder/vault-cortex) 📇 🏠 ☁️ - MCP server for Obsidian vaults — hybrid search, notes & files, memory, tasks, link graph, OAuth-protected.
-+ - [ni-c/hetzner-dns-mcp](https://github.com/ni-c/hetzner-dns-mcp) [![ni-c/hetzner-dns-mcp MCP server](https://glama.ai/mcp/servers/ni-c/hetzner-dns-mcp/badges/score.svg)](https://glama.ai/mcp/servers/ni-c/hetzner-dns-mcp) 📇 ☁️ 🍎 🪟 🐧 - Manage Hetzner DNS zones and records through the current Hetzner Cloud API (the legacy `dns.hetzner.com` API was shut down in May 2026). 22 tools: zone and RRSet CRUD, zonefile import/export, TTL and protection changes, primary nameservers, and async action tracking. Every destructive tool requires an explicit `confirm`. `npx -y hetzner-dns-mcp`
-+ - [kyisaiah47/kynth-mcp](https://github.com/kyisaiah47/kynth-mcp) [![kyisaiah47/kynth-mcp MCP server](https://glama.ai/mcp/servers/kyisaiah47/kynth-mcp/badges/score.svg)](https://glama.ai/mcp/servers/kyisaiah47/kynth-mcp) 📇 ☁️ - Eleven keyless read-only lookups for questions a model cannot answer from a training cutoff, because the fact changed after it: what a given AI model costs today, whether a dependency is still maintained, what a SaaS stack costs per month, item-level search across public shadcn registries, published agent skills and configs, AI app-builder App Store readiness, ADA Title II accessibility reports for US .gov sites, and nonprofit good-standing. No API key, no signup. `npx -y kynth-mcp`
-+ - [findsaunaplunge/mcp](https://github.com/findsaunaplunge/mcp) [![findsaunaplunge/mcp MCP server](https://glama.ai/mcp/servers/findsaunaplunge/mcp/badges/score.svg)](https://glama.ai/mcp/servers/findsaunaplunge/mcp) 🎖️ 📇 ☁️ - Cold plunge, sauna and contrast-therapy venues across 23 US metros, with published temperatures and prices quoted from each venue's own pages and dated. Hosted at https://findsaunaplunge.com/mcp (Streamable HTTP, no auth); tools: search_venues, get_venue, list_cities, get_city_stats, get_data_freshness.
-+ - [BenyD/haypile](https://github.com/BenyD/haypile) [![BenyD/haypile MCP server](https://glama.ai/mcp/servers/BenyD/haypile/badges/score.svg)](https://glama.ai/mcp/servers/BenyD/haypile) 🏎️ 🏠 🍎 🪟 🐧 - Hybrid semantic and keyword search over local documents (PDF, docx, pptx, markdown, HTML) with file and page citations. Single binary with the embedding model inside; the index never leaves the machine.
-+ - [aliasunder/vault-cortex](https://github.com/aliasunder/vault-cortex) [![vault-cortex MCP server](https://glama.ai/mcp/servers/aliasunder/vault-cortex/badges/score.svg)](https://glama.ai/mcp/servers/aliasunder/vault-cortex) 📇 🏠 ☁️ - Standalone MCP server for Obsidian vaults — hybrid search, notes & files, memory, tasks, OAuth 2.1. Run locally, self-host, or one-click deploy for remote access.
-+ - [hypawave/mcp](https://github.com/hypawave/mcp) [![hypawave/mcp MCP server](https://glama.ai/mcp/servers/hypawave/mcp/badges/score.svg)](https://glama.ai/mcp/servers/hypawave/mcp) 🎖️ 📇 ☁️ 🍎 🪟 🐧 - Non-custodial Bitcoin Lightning commerce for agents: browse a public offer marketplace, buy and sell files, data, APIs and compute where verified settlement proof releases the content, plus free ECIES-encrypted agent-to-agent messaging and file handoffs in private waves. No accounts — agents authenticate with a secp256k1 keypair. `npx -y @hypawave/mcp`
-+ - [editmamei/editmamei](https://github.com/editmamei/editmamei) [![editmamei/editmamei MCP server](https://glama.ai/mcp/servers/editmamei/editmamei/badges/score.svg)](https://glama.ai/mcp/servers/editmamei/editmamei) 📇 🏠 🍎 🪟 - Natural-language interface for Adobe Photoshop, running as a local MCP server. Rather than focusing on generative AI, it acts as an AI orchestration layer that plans edits and executes them with native Photoshop tools. `npm install -g editmamei`
-+ - [getrephonic/rephonic-mcp](https://github.com/getrephonic/rephonic-mcp) [![getrephonic/rephonic-mcp MCP server](https://glama.ai/mcp/servers/getrephonic/rephonic-mcp/badges/score.svg)](https://glama.ai/mcp/servers/getrephonic/rephonic-mcp) 🎖️ 📇 ☁️ - Search 3M+ podcasts and 170M+ episodes, with listener estimates, audience demographics, contacts, transcripts, chart rankings, sponsors, reviews, and audience-overlap data. Hosted by [Rephonic](https://rephonic.com).
-+ - [screenshotscout/screenshotscout-mcp](https://github.com/screenshotscout/screenshotscout-mcp) [![screenshotscout/screenshotscout-mcp MCP server](https://glama.ai/mcp/servers/screenshotscout/screenshotscout-mcp/badges/score.svg)](https://glama.ai/mcp/servers/screenshotscout/screenshotscout-mcp) 📇 ☁️ - Capture webpages as images or PDFs with full-page and element targeting, device and viewport controls, location selection, page interactions, blocking options, and configurable output.
-+ - [rsiva2294/madurai-transit-mcp](https://github.com/rsiva2294/madurai-transit-mcp) [![rsiva2294/madurai-transit-mcp MCP server](https://glama.ai/mcp/servers/rsiva2294/madurai-transit-mcp/badges/score.svg)](https://glama.ai/mcp/servers/rsiva2294/madurai-transit-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - Model Context Protocol (MCP) server for Madurai CityBus public transit: direct and 1-transfer route planning across 966 bus routes and 3,000 stops, official TNSTC stage fare breakdowns, platform bay departures, and bilingual stop search. Install: `npx -y madurai-transit-mcp`.
-```
-
-
+No file changes detected.
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
