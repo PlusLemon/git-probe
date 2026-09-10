@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-09-09T03:13:20
+### 2026-09-10T03:12:57
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,20 +51,7 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [5c2e35e](https://github.com/punkpeye/awesome-mcp-servers/commit/5c2e35ed712c636672a7d69a186f6d791f5cf66d) docs: link to awesome-remote-mcp-servers - Frank Fiegel
-
-
-##### File Content Changes
-
-**README.md** (Modified, +5 -0 lines):
-
-```diff
-+ * [Remote Servers](#remote-servers)
-+ ## Remote Servers
-+ This list is for servers with a GitHub repo you install and run yourself. Looking for a hosted server you just connect to over a URL? See [awesome-remote-mcp-servers](https://github.com/punkpeye/awesome-remote-mcp-servers).
-```
-
-
+No file changes detected.
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
