@@ -33,13 +33,37 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-09-20T03:32:25
+### 2026-09-22T03:26:23
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
 ##### Commit Changes
 
-No file changes detected.
+- [c622878](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/c62287849378babe255ebc4d8d76862389e3af3b) CI: agent-skills registry.json and listing check (#1195) - Matt Van Horn
+
+
+##### File Content Changes
+
+**README.md** (Modified, +1 -0 lines):
+
+```diff
++ - "README.md"
++ registry:
++ name: skill registry
++ runs-on: ubuntu-latest
++ steps:
++ - uses: actions/checkout@v4
++ - uses: actions/setup-python@v5
++ with:
++ python-version: "3.11"
++ - name: Check registry membership and README listings
++ run: |
++ set -e
++ python3 agent_skills/evals/tools/test_registry_lint.py
++ python3 agent_skills/evals/tools/registry_lint.py --check
+```
+
+
 
 #### [awesome-gpt4o-images](https://github.com/jamez-bondos/awesome-gpt4o-images)
 
