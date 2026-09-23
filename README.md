@@ -33,37 +33,13 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-09-22T03:26:23
+### 2026-09-23T03:27:18
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
 ##### Commit Changes
 
-- [c622878](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/c62287849378babe255ebc4d8d76862389e3af3b) CI: agent-skills registry.json and listing check (#1195) - Matt Van Horn
-
-
-##### File Content Changes
-
-**README.md** (Modified, +1 -0 lines):
-
-```diff
-+ - "README.md"
-+ registry:
-+ name: skill registry
-+ runs-on: ubuntu-latest
-+ steps:
-+ - uses: actions/checkout@v4
-+ - uses: actions/setup-python@v5
-+ with:
-+ python-version: "3.11"
-+ - name: Check registry membership and README listings
-+ run: |
-+ set -e
-+ python3 agent_skills/evals/tools/test_registry_lint.py
-+ python3 agent_skills/evals/tools/registry_lint.py --check
-```
-
-
+No file changes detected.
 
 #### [awesome-gpt4o-images](https://github.com/jamez-bondos/awesome-gpt4o-images)
 
@@ -75,7 +51,27 @@ No file changes detected.
 
 ##### Commit Changes
 
-No file changes detected.
+- [fbc52bc](https://github.com/punkpeye/awesome-mcp-servers/commit/fbc52bcf301a3468954f6ee4fd12b75b853c93cf) Merge pull request #14766 from bricelancasterwcp-sudo/add-sensorium - Frank Fiegel
+- [85e7914](https://github.com/punkpeye/awesome-mcp-servers/commit/85e7914d973bcfeb4fcd2987a864bbf6059424fc) Merge pull request #14361 from sergey-ermakovich/add-hasdata-facebook - Frank Fiegel
+- [978a2f3](https://github.com/punkpeye/awesome-mcp-servers/commit/978a2f38d219cfd31a6f058922500f6f2023fec7) Merge pull request #14788 from TheoV823/codex/add-mneme-decision-mcp - Frank Fiegel
+- [d1f4202](https://github.com/punkpeye/awesome-mcp-servers/commit/d1f4202d5b7df67582f105415b71cd59e40f6ce0) Merge pull request #14871 from mambabuilt/add-mcp-review-platform-reputation-enricher - Frank Fiegel
+- [35adbef](https://github.com/punkpeye/awesome-mcp-servers/commit/35adbef9c5a86737e52c26d78f38fafb538d7d9d) Merge pull request #14779 from dhawalshah/add-dhawalshah-tiktok-ads-mcp - Frank Fiegel
+- [f4fb6cd](https://github.com/punkpeye/awesome-mcp-servers/commit/f4fb6cd586c3a93af4c0295399d323951db65dda) Add mambalabsdev/mcp-review-platform-reputation-enricher - Mamba Labs
+
+
+##### File Content Changes
+
+**README.md** (Modified, +6 -0 lines):
+
+```diff
++ - [bricelancasterwcp-sudo/sensorium](https://github.com/bricelancasterwcp-sudo/sensorium) [![bricelancasterwcp-sudo/sensorium MCP server](https://glama.ai/mcp/servers/bricelancasterwcp-sudo/sensorium/badges/score.svg)](https://glama.ai/mcp/servers/bricelancasterwcp-sudo/sensorium) 🐍 🦀 📇 🏠 🐧 - Record Python/Rust/TypeScript program runs to local SQLite; query call trees, exceptions, and value flow over MCP (refuses rather than guesses). Local-first for coding agents — not LLM-prompt tracing; not the unrelated Telegram `sensorium-mcp`.
++ - [HasData/facebook-mcp](https://github.com/HasData/facebook-mcp) [![HasData/facebook-mcp MCP server](https://glama.ai/mcp/servers/HasData/facebook-mcp/badges/score.svg)](https://glama.ai/mcp/servers/HasData/facebook-mcp) 📇 ☁️ - Remote MCP server for public Facebook pages and profiles: likes, followers, talking-about counts, contact details and the post feed with reactions, as JSON.
++ - [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) [![Mneme Decision MCP server](https://glama.ai/mcp/servers/MnemeHQ/mneme/badges/score.svg)](https://glama.ai/mcp/servers/MnemeHQ/mneme) 🐍 📇 🏠 🍎 🪟 🐧 - Deterministic architectural decision governance for agentic software development. Six local stdio tools let agents submit non-authoritative proposals and query canonical decisions, applicability, and lineage while human acceptance and enforcement authority remain outside the MCP surface. `uvx --from "mneme-hq[mcp]==0.9.1" mneme decision-mcp`
++ - [mambalabsdev/mcp-review-platform-reputation-enricher](https://github.com/mambalabsdev/mcp-review-platform-reputation-enricher) [![mambalabsdev/mcp-review-platform-reputation-enricher MCP server](https://glama.ai/mcp/servers/mambalabsdev/mcp-review-platform-reputation-enricher/badges/score.svg)](https://glama.ai/mcp/servers/mambalabsdev/mcp-review-platform-reputation-enricher) 📇 ☁️ - Resolves a company domain to its Trustpilot rating, review count, and claimed status.
++ - [dhawalshah/tiktok-ads-mcp](https://github.com/dhawalshah/tiktok-ads-mcp) [![dhawalshah/tiktok-ads-mcp MCP server](https://glama.ai/mcp/servers/dhawalshah/tiktok-ads-mcp/badges/score.svg)](https://glama.ai/mcp/servers/dhawalshah/tiktok-ads-mcp) 🐍 ☁️ - TikTok Ads MCP server with video performance metrics, creative fatigue scoring, industry benchmarks, and Smart+ campaign support.
+```
+
+
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
