@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-10-24T03:23:46
+### 2026-10-25T03:19:25
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,38 +51,7 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [f225f11](https://github.com/punkpeye/awesome-mcp-servers/commit/f225f117f92626e6b7d5d2912746d9269e3d037b) Update README.md - Frank Fiegel
-- [b10e8f4](https://github.com/punkpeye/awesome-mcp-servers/commit/b10e8f4d6a8dd36f01054325b1304bb0af3da6f6) Fix entry formatting - Frank Fiegel
-- [e1ff16e](https://github.com/punkpeye/awesome-mcp-servers/commit/e1ff16ecb4e0d8a2eca5580540abc693b22cbd33) Merge pull request #16015 from zeitcow/codex/add-implicit-core - Frank Fiegel
-- [e37d7be](https://github.com/punkpeye/awesome-mcp-servers/commit/e37d7be2fce6b16ae3e9548eb06f04c927144227) Fix entry formatting - Frank Fiegel
-- [f78c5f9](https://github.com/punkpeye/awesome-mcp-servers/commit/f78c5f9f2f02b3b4fd44f0be4dfb490856c0707c) Merge pull request #16883 from multiassist/add-nakamotonotes-barometer - Frank Fiegel
-- [f5ecf23](https://github.com/punkpeye/awesome-mcp-servers/commit/f5ecf233588d62d34151c18d385de66763d0d576) Merge pull request #16021 from brianbooms/add-steward-mcp - Frank Fiegel
-- [0d3e0a5](https://github.com/punkpeye/awesome-mcp-servers/commit/0d3e0a563fb989072e193487a5eb8c073dd2840f) Merge pull request #17150 from s17sh70x2jfl031ag/add-selfhost-remote-mail-mcp - Frank Fiegel
-- [6f04325](https://github.com/punkpeye/awesome-mcp-servers/commit/6f0432510a3fa6f9c6fad55faf341c552ecce02e) Merge pull request #16685 from Ktryberceo/add-groundmail - Frank Fiegel
-- [c210eda](https://github.com/punkpeye/awesome-mcp-servers/commit/c210edab61644f9b6c5dbdf79f3e31e55629bf82) Merge pull request #16476 from matebenyovszky/codex/add-agentplaybooks-verified - Frank Fiegel
-- [18e7f52](https://github.com/punkpeye/awesome-mcp-servers/commit/18e7f52416480d5f1d6935dae8777704b42e5798) Merge pull request #16929 from castovdev/add-castov-mcp - Frank Fiegel
-
-
-##### File Content Changes
-
-**README.md** (Modified, +11 -2 lines):
-
-```diff
-- - [zeitcow/implicit-core](https://github.com/zeitcow/implicit-core) 🐍 🏠 🍎 🪟 🐧 - Bounded synthetic experience addressing, selective state materialization, provenance and fixed benchmark/adapter rehearsal over local stdio. Real environment adapters use the Python SDK. [![Glama](https://glama.ai/mcp/servers/zeitcow/implicit-core/badges/score.svg)](https://glama.ai/mcp/servers/zeitcow/implicit-core)
-- - [multiassist/nakamotonotes-mcp](https://github.com/multiassist/nakamotonotes-mcp) 📇 ☁️ 🏠 - Bitcoin Barometer: a 0–100 market heat score, BTC price, the underlying on-chain and sentiment indicators (MVRV Z-Score, NUPL, Puell, Mayer Multiple, Fear & Greed and more) and daily history since 2014. Read-only, no API key; also hosted at `https://nakamotonotes.com/mcp`. [![multiassist/nakamotonotes-mcp MCP server](https://glama.ai/mcp/servers/multiassist/nakamotonotes-mcp/badges/score.svg)](https://glama.ai/mcp/servers/multiassist/nakamotonotes-mcp)
-+ # Awesome MCP Servers
-+ - [zeitcow/implicit-core](https://github.com/zeitcow/implicit-core) [![Glama](https://glama.ai/mcp/servers/zeitcow/implicit-core/badges/score.svg)](https://glama.ai/mcp/servers/zeitcow/implicit-core) 🐍 🏠 🍎 🪟 🐧 - Bounded synthetic experience addressing, selective state materialization, provenance and fixed benchmark/adapter rehearsal over local stdio. Real environment adapters use the Python SDK.
-+ - [zeitcow/implicit-core](https://github.com/zeitcow/implicit-core) 🐍 🏠 🍎 🪟 🐧 - Bounded synthetic experience addressing, selective state materialization, provenance and fixed benchmark/adapter rehearsal over local stdio. Real environment adapters use the Python SDK. [![Glama](https://glama.ai/mcp/servers/zeitcow/implicit-core/badges/score.svg)](https://glama.ai/mcp/servers/zeitcow/implicit-core)
-+ - [multiassist/nakamotonotes-mcp](https://github.com/multiassist/nakamotonotes-mcp) [![multiassist/nakamotonotes-mcp MCP server](https://glama.ai/mcp/servers/multiassist/nakamotonotes-mcp/badges/score.svg)](https://glama.ai/mcp/servers/multiassist/nakamotonotes-mcp) 📇 ☁️ 🏠 - Bitcoin Barometer: a 0–100 market heat score, BTC price, the underlying on-chain and sentiment indicators (MVRV Z-Score, NUPL, Puell, Mayer Multiple, Fear & Greed and more) and daily history since 2014. Read-only, no API key; also hosted at `https://nakamotonotes.com/mcp`.
-+ - [multiassist/nakamotonotes-mcp](https://github.com/multiassist/nakamotonotes-mcp) 📇 ☁️ 🏠 - Bitcoin Barometer: a 0–100 market heat score, BTC price, the underlying on-chain and sentiment indicators (MVRV Z-Score, NUPL, Puell, Mayer Multiple, Fear & Greed and more) and daily history since 2014. Read-only, no API key; also hosted at `https://nakamotonotes.com/mcp`. [![multiassist/nakamotonotes-mcp MCP server](https://glama.ai/mcp/servers/multiassist/nakamotonotes-mcp/badges/score.svg)](https://glama.ai/mcp/servers/multiassist/nakamotonotes-mcp)
-+ - [brianbooms/steward-mcp](https://github.com/brianbooms/steward-mcp) [![brianbooms/steward-mcp MCP server](https://glama.ai/mcp/servers/brianbooms/steward-mcp/badges/score.svg)](https://glama.ai/mcp/servers/brianbooms/steward-mcp) 📇 ☁️ - Buy music, data APIs, and sync licenses via x402 micropayments (USDC on Base): 24 tools with operator-set spend caps, pre-purchase quotes, and an on-chain receipt for every call.
-+ - [Self-hosted-MCP/Selfhost-Remote-Mail-MCP](https://github.com/Self-hosted-MCP/Selfhost-Remote-Mail-MCP) [![Self-hosted-MCP/Selfhost-Remote-Mail-MCP MCP server](https://glama.ai/mcp/servers/Self-hosted-MCP/Selfhost-Remote-Mail-MCP/badges/score.svg)](https://glama.ai/mcp/servers/Self-hosted-MCP/Selfhost-Remote-Mail-MCP) 🐍 ☁️ 🏠 - Self-hosted IMAP/SMTP email for Claude, ChatGPT and other AI apps on desktop and phone: up to 5 mailboxes, drafts by default, sends only when you ask, file attachments from chat.
-+ - [Groundmail/groundmail-mcp](https://github.com/Groundmail/groundmail-mcp) [![Groundmail/groundmail-mcp MCP server](https://glama.ai/mcp/servers/Groundmail/groundmail-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Groundmail/groundmail-mcp) 📇 ☁️ 🍎 🪟 🐧 - Send and schedule transactional email, check delivery, and set up sending domains, templates, webhooks and suppressions with Groundmail. Runs locally over stdio or hosted with OAuth at `https://mcp.groundmail.dev/mcp`.
-+ - [matebenyovszky/agentplaybooks](https://github.com/matebenyovszky/agentplaybooks) [![matebenyovszky/agentplaybooks MCP server](https://glama.ai/mcp/servers/matebenyovszky/agentplaybooks/badges/score.svg)](https://glama.ai/mcp/servers/matebenyovszky/agentplaybooks) 📇 ☁️ 🏠 - Portable playbooks for agent skills, MCP servers, personas, instructions, and memory. Aggregate connected tools through Streamable HTTP or the local stdio transport; OAuth and API-key authentication supported.
-+ - [castovdev/castov](https://github.com/castovdev/castov) [![castovdev/castov MCP server](https://glama.ai/mcp/servers/castovdev/castov/badges/score.svg)](https://glama.ai/mcp/servers/castovdev/castov) 📇 🏠 🍎 🪟 🐧 - Deterministic local developer utilities for coding agents: inspect listening ports and processes, compute IPv4 CIDR subnet ranges, decode creation timestamps from UUIDv7, ULID, Snowflake and MongoDB ObjectId, and convert Unix epochs with zero telemetry.
-```
-
-
+No file changes detected.
 
 #### [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
 
