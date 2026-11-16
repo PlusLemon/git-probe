@@ -33,13 +33,29 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-11-14T05:01:27
+### 2026-11-16T04:52:15
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
 ##### Commit Changes
 
-No file changes detected.
+- [c115355](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/c11535552cfdcd8d3528577d7d5b9a9f27cd10fe) docs(take-back-your-tv): shorten the index entry and the README - Shubham Saboo
+- [3d2821c](https://github.com/Shubhamsaboo/awesome-llm-apps/commit/3d2821c4159a5755b82200523233c923c6fb270b) feat(take-back-your-tv): add an agent playbook for cleaning up a smart TV - Shubham Saboo
+
+
+##### File Content Changes
+
+**README.md** (Modified, +3 -2 lines):
+
+```diff
+- *   [📺 Take Back Your TV - Your Photos Instead of Ads](advanced_llm_apps/take-back-your-tv/) - Hand one file to a coding agent and it turns off the junk on an Android TV or Google TV, then replaces the ad-filled home screen with your own photos, a small clock, and your four apps
+- *Standalone web apps, creative tools, and browser extensions for everyday workflows.*
++ *   [📺 Take Back Your TV](advanced_llm_apps/take-back-your-tv/) - Give a coding agent one file and it swaps your smart TV's ad-filled home screen for your own photos
++ *Standalone web apps, creative tools, browser extensions, and agent playbooks for everyday workflows.*
++ *   [📺 Take Back Your TV - Your Photos Instead of Ads](advanced_llm_apps/take-back-your-tv/) - Hand one file to a coding agent and it turns off the junk on an Android TV or Google TV, then replaces the ad-filled home screen with your own photos, a small clock, and your four apps
+```
+
+
 
 #### [awesome-gpt4o-images](https://github.com/jamez-bondos/awesome-gpt4o-images)
 
