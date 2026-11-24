@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-11-23T05:53:17
+### 2026-11-24T08:31:27
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,20 +51,17 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [a51d937](https://github.com/punkpeye/awesome-mcp-servers/commit/a51d93735d8e8d2f08acf71b4b34a1162f230237) Lathe: Glama score badge - Joel Taddei
-- [feeb99c](https://github.com/punkpeye/awesome-mcp-servers/commit/feeb99c6a5e24183870d32ae4ad77c0bdfdded8f) Add Lathe, a DAW with its own MCP server - Joel Taddei
-- [e7416b4](https://github.com/punkpeye/awesome-mcp-servers/commit/e7416b463efdb31e956fabb1fbbe962b444c6956) Add scrapecrate/mcp-server - ScrapeCrate
+- [fcf0700](https://github.com/punkpeye/awesome-mcp-servers/commit/fcf0700423c5f5fdd709ed83df86c4a42aadc5e7) Update README.md - NEOMA P-CAM Enclave
+- [723309c](https://github.com/punkpeye/awesome-mcp-servers/commit/723309c57dce2bda3fba4a904517cfdc484b6206) Add luca-network/spr (Sealed Payment Record) - Qunlay1
 
 
 ##### File Content Changes
 
-**README.md** (Modified, +3 -1 lines):
+**README.md** (Modified, +2 -0 lines):
 
 ```diff
-- - [taddeimania/lathe](https://github.com/taddeimania/lathe) 🎖️ 🌊 🏠 🍎 🪟 🐧 - A free, open-source DAW with its own MCP server: read the session, play any bars, build tracks and plug-in chains, write MIDI in a compact note notation, mix with channel EQ and sends, set the song's keys, convert audio to MIDI and export audio, each change one undo step in the app.
-+ - [taddeimania/lathe](https://github.com/taddeimania/lathe) [![taddeimania/lathe MCP server](https://glama.ai/mcp/servers/taddeimania/lathe/badges/score.svg)](https://glama.ai/mcp/servers/taddeimania/lathe) 🎖️ 🌊 🏠 🍎 🪟 🐧 - A free, open-source DAW with its own MCP server: read the session, play any bars, build tracks and plug-in chains, write MIDI in a compact note notation, mix with channel EQ and sends, set the song's keys, convert audio to MIDI and export audio, each change one undo step in the app.
-+ - [taddeimania/lathe](https://github.com/taddeimania/lathe) 🎖️ 🌊 🏠 🍎 🪟 🐧 - A free, open-source DAW with its own MCP server: read the session, play any bars, build tracks and plug-in chains, write MIDI in a compact note notation, mix with channel EQ and sends, set the song's keys, convert audio to MIDI and export audio, each change one undo step in the app.
-+ - [scrapecrate/mcp-server](https://github.com/scrapecrate/mcp-server) [![scrapecrate/mcp-server MCP server](https://glama.ai/mcp/servers/scrapecrate/mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/scrapecrate/mcp-server) 🐍 ☁️ 🍎 🪟 🐧 - One API key for YouTube transcripts and metadata, Google Maps places and reviews, Trustpilot reviews and the Meta Ad Library, via the ScrapeCrate API.
++ - [neoma-pcam/pcam-live](https://github.com/neoma-pcam/pcam-live) [![neoma-pcam/pcam-live MCP server](https://glama.ai/mcp/servers/neoma-pcam/pcam-live/badges/score.svg)](https://glama.ai/mcp/servers/neoma-pcam/pcam-live) 🎖️ 🐍 ☁️ - Connects Frontier LLMs directly to a physical hardware enclave for sub-millisecond (0.85ms) non-linear physical equilibrium, mechanical resonance damping, and cryptographic PUF attestation via cloud.
++ - [luca-network/spr](https://github.com/luca-network/spr) [![luca-network/spr MCP server](https://glama.ai/mcp/servers/luca-network/spr/badges/score.svg)](https://glama.ai/mcp/servers/luca-network/spr) 📇 🏠 🍎 🪟 🐧 - Records each payment an AI agent makes as a signed record on your own machine: what it declared before paying, what it paid, and whether it stayed inside its limit. Anyone can check the records. `npx -y @luca-network/spr-mcp`
 ```
 
 
