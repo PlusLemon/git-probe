@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-11-24T08:31:27
+### 2026-11-25T07:05:42
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,17 +51,15 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [fcf0700](https://github.com/punkpeye/awesome-mcp-servers/commit/fcf0700423c5f5fdd709ed83df86c4a42aadc5e7) Update README.md - NEOMA P-CAM Enclave
-- [723309c](https://github.com/punkpeye/awesome-mcp-servers/commit/723309c57dce2bda3fba4a904517cfdc484b6206) Add luca-network/spr (Sealed Payment Record) - Qunlay1
+- [6cf48dd](https://github.com/punkpeye/awesome-mcp-servers/commit/6cf48dda227e208f3ff27c8a846ceb54ba318e8d) Add pecopeko/mcp-public-intel MCP server - peco
 
 
 ##### File Content Changes
 
-**README.md** (Modified, +2 -0 lines):
+**README.md** (Modified, +1 -0 lines):
 
 ```diff
-+ - [neoma-pcam/pcam-live](https://github.com/neoma-pcam/pcam-live) [![neoma-pcam/pcam-live MCP server](https://glama.ai/mcp/servers/neoma-pcam/pcam-live/badges/score.svg)](https://glama.ai/mcp/servers/neoma-pcam/pcam-live) 🎖️ 🐍 ☁️ - Connects Frontier LLMs directly to a physical hardware enclave for sub-millisecond (0.85ms) non-linear physical equilibrium, mechanical resonance damping, and cryptographic PUF attestation via cloud.
-+ - [luca-network/spr](https://github.com/luca-network/spr) [![luca-network/spr MCP server](https://glama.ai/mcp/servers/luca-network/spr/badges/score.svg)](https://glama.ai/mcp/servers/luca-network/spr) 📇 🏠 🍎 🪟 🐧 - Records each payment an AI agent makes as a signed record on your own machine: what it declared before paying, what it paid, and whether it stayed inside its limit. Anyone can check the records. `npx -y @luca-network/spr-mcp`
++ - [pecopeko/mcp-public-intel](https://github.com/pecopeko/mcp-public-intel) [![pecopeko/mcp-public-intel MCP server](https://glama.ai/mcp/servers/pecopeko/mcp-public-intel/badges/score.svg)](https://glama.ai/mcp/servers/pecopeko/mcp-public-intel) 🐍 ☁️ 🍎 🪟 🐧 - Zero-API-key public intelligence extraction across SEC EDGAR XBRL financials and Form D raises, Greenhouse/Lever/Ashby engineering job boards, Shopify catalogs, Substack full-text Markdown, and Podcasting 2.0 RSS transcripts.
 ```
 
 
