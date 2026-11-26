@@ -33,7 +33,7 @@ If you find this project helpful, please consider giving it a star ⭐️. Thank
 
 ## Latest Changes
 
-### 2026-11-25T07:05:42
+### 2026-11-26T06:57:04
 
 #### [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
@@ -51,7 +51,7 @@ No file changes detected.
 
 ##### Commit Changes
 
-- [6cf48dd](https://github.com/punkpeye/awesome-mcp-servers/commit/6cf48dda227e208f3ff27c8a846ceb54ba318e8d) Add pecopeko/mcp-public-intel MCP server - peco
+- [8ff29d7](https://github.com/punkpeye/awesome-mcp-servers/commit/8ff29d732e6027719961e0836aead4c14e2165ef) Add PrivaTools MCP server (ethereaglehq/privatools-mcp) - ethereaglehq
 
 
 ##### File Content Changes
@@ -59,7 +59,7 @@ No file changes detected.
 **README.md** (Modified, +1 -0 lines):
 
 ```diff
-+ - [pecopeko/mcp-public-intel](https://github.com/pecopeko/mcp-public-intel) [![pecopeko/mcp-public-intel MCP server](https://glama.ai/mcp/servers/pecopeko/mcp-public-intel/badges/score.svg)](https://glama.ai/mcp/servers/pecopeko/mcp-public-intel) 🐍 ☁️ 🍎 🪟 🐧 - Zero-API-key public intelligence extraction across SEC EDGAR XBRL financials and Form D raises, Greenhouse/Lever/Ashby engineering job boards, Shopify catalogs, Substack full-text Markdown, and Podcasting 2.0 RSS transcripts.
++ - [ethereaglehq/privatools-mcp](https://github.com/ethereaglehq/privatools-mcp) [![@privatools/mcp MCP server](https://glama.ai/mcp/servers/ethereaglehq/privatools-mcp/badges/score.svg)](https://glama.ai/mcp/servers/ethereaglehq/privatools-mcp) 📇 ☁️ 🍎 🪟 🐧 - Privacy-first file tools: 140+ stateless PDF, image, audio, video, OCR and document operations (compress, merge, split, convert, OCR, watermark and more) via the PrivaTools API, exposed through 6 progressive-discovery tools. Local stdio via `npx -y @privatools/mcp` (optional folder allow-list) or hosted at `https://api.privatools.me/mcp`; no account needed.
 ```
 
 
